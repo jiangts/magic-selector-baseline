@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html class=" js flexbox flexboxlegacy datauri" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   PHP: Hypertext Preprocessor
+  </title>
+  <link href="http://php.net/favicon.ico" rel="shortcut icon"/>
+  <link href="http://php.net/phpnetimprovedsearch.src" rel="search" title="Add PHP.net search" type="application/opensearchdescription+xml"/>
+  <link href="http://php.net/releases/feed.php" rel="alternate" title="PHP Release feed" type="application/atom+xml"/>
+  <link href="http://php.net/feed.atom" rel="alternate" title="PHP: Hypertext Preprocessor" type="application/atom+xml"/>
+  <link href="http://php.net/index.php" rel="canonical"/>
+  <link href="http://php.net/index" rel="shorturl"/>
+  <link href="http://php.net/index" hreflang="x-default" rel="alternate"/>
+  <link href="https://motif.gq/api/archive?uri=http%3A%2F%2Fphp.net%2Fcached.php%3Ft%3D1421837618%26f%3D%2Ffonts%2FFira%2Ffira.css&amp;accessed=1523341475807" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="https://motif.gq/api/archive?uri=http%3A%2F%2Fphp.net%2Fcached.php%3Ft%3D1421837618%26f%3D%2Ffonts%2FFont-Awesome%2Fcss%2Ffontello.css&amp;accessed=1523341475807" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="https://motif.gq/api/archive?uri=http%3A%2F%2Fphp.net%2Fcached.php%3Ft%3D1478800802%26f%3D%2Fstyles%2Ftheme-base.css&amp;accessed=1523341475807" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="https://motif.gq/api/archive?uri=http%3A%2F%2Fphp.net%2Fcached.php%3Ft%3D1521070803%26f%3D%2Fstyles%2Ftheme-medium.css&amp;accessed=1523341475807" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="https://motif.gq/api/archive?uri=http%3A%2F%2Fphp.net%2Fcached.php%3Ft%3D1429259403%26f%3D%2Fstyles%2Fhome.css&amp;accessed=1523341475807" media="screen" rel="stylesheet" type="text/css"/>
+  <!--[if lte IE 7]>
+ <link rel="stylesheet" type="text/css" href="http://php.net/styles/workarounds.ie7.css" media="screen">
+ <![endif]-->
+  <!--[if lte IE 8]>
+ <script type="text/javascript">
+  window.brokenIE = true;
+ </script>
+ <![endif]-->
+  <!--[if lte IE 9]>
+ <link rel="stylesheet" type="text/css" href="http://php.net/styles/workarounds.ie9.css" media="screen">
+ <![endif]-->
+  <!--[if IE]>
+ <script type="text/javascript" src="http://php.net/js/ext/html5.js"></script>
+ <![endif]-->
+  <base href="http://php.net/index.php"/>
+ </head>
+ <body class="home " style="">
+  <nav class="navbar navbar-fixed-top" data-xid="1" id="head-nav">
+   <div class="navbar-inner clearfix" data-xid="2">
+    <a class="brand" data-xid="3" href="/">
+     <img alt="php" data-xid="4" height="24" src="https://motif.gq/api/archive?uri=http%3A%2F%2Fphp.net%2Fimages%2Flogos%2Fphp-logo.svg&amp;accessed=1523341475807" width="48"/>
+    </a>
+    <div data-xid="5" id="mainmenu-toggle-overlay">
+    </div>
+    <input data-xid="6" id="mainmenu-toggle" type="checkbox"/>
+    <ul class="nav" data-xid="7">
+     <li class="" data-xid="8">
+      <a data-xid="9" href="/downloads">
+       Downloads
+      </a>
+     </li>
+     <li class="" data-xid="10">
+      <a data-xid="11" href="/docs.php">
+       Documentation
+      </a>
+     </li>
+     <li class="" data-xid="12">
+      <a data-xid="13" href="/get-involved">
+       Get Involved
+      </a>
+     </li>
+     <li class="" data-xid="14">
+      <a data-xid="15" href="/support">
+       Help
+      </a>
+     </li>
+    </ul>
+    <form action="/search.php" class="navbar-search" data-xid="16" id="topsearch">
+     <input data-xid="17" name="show" type="hidden" value="quickref"/>
+     <span class="twitter-typeahead" data-xid="18" style="position: relative; display: inline-block;">
+      <input autocomplete="off" class="tt-hint search-query" data-xid="19" disabled="" spellcheck="off" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);" type="text"/>
+      <input accesskey="s" autocomplete="off" class="search-query tt-query" data-xid="20" dir="auto" name="pattern" placeholder="Search" spellcheck="false" style="position: relative; vertical-align: top; background-color: transparent;" type="search"/>
+      <input data-xid="21" style="visibility: hidden; position: fixed" type="submit"/>
+      <span data-xid="22" style='position: absolute; left: -9999px; visibility: hidden; white-space: nowrap; font-family: "Fira Sans", "Source Sans Pro", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;'>
+      </span>
+      <span class="tt-dropdown-menu" data-xid="23" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;">
+      </span>
+     </span>
+    </form>
+   </div>
+   <div data-xid="24" id="flash-message">
+   </div>
+  </nav>
+  <nav data-xid="25" id="trick">
+   <div data-xid="26">
+    <dl data-xid="27">
+     <dt data-xid="28">
+      <a data-xid="29" href="/manual/en/getting-started.php">
+       Getting Started
+      </a>
+     </dt>
+     <dd data-xid="30">
+      <a data-xid="31" href="/manual/en/introduction.php">
+       Introduction
+      </a>
+     </dd>
+     <dd data-xid="32">
+      <a data-xid="33" href="/manual/en/tutorial.php">
+       A simple tutorial
+      </a>
+     </dd>
+     <dt data-xid="34">
+      <a data-xid="35" href="/manual/en/langref.php">
+       Language Reference
+      </a>
+     </dt>
+     <dd data-xid="36">
+      <a data-xid="37" href="/manual/en/language.basic-syntax.php">
+       Basic syntax
+      </a>
+     </dd>
+     <dd data-xid="38">
+      <a data-xid="39" href="/manual/en/language.types.php">
+       Types
+      </a>
+     </dd>
+     <dd data-xid="40">
+      <a data-xid="41" href="/manual/en/language.variables.php">
+       Variables
+      </a>
+     </dd>
+     <dd data-xid="42">
+      <a data-xid="43" href="/manual/en/language.constants.php">
+       Constants
+      </a>
+     </dd>
+     <dd data-xid="44">
+      <a data-xid="45" href="/manual/en/language.expressions.php">
+       Expressions
+      </a>
+     </dd>
+     <dd data-xid="46">
+      <a data-xid="47" href="/manual/en/language.operators.php">
+       Operators
+      </a>
+     </dd>
+     <dd data-xid="48">
+      <a data-xid="49" href="/manual/en/language.control-structures.php">
+       Control Structures
+      </a>
+     </dd>
+     <dd data-xid="50">
+      <a data-xid="51" href="/manual/en/language.functions.php">
+       Functions
+      </a>
+     </dd>
+     <dd data-xid="52">
+      <a data-xid="53" href="/manual/en/language.oop5.php">
+       Classes and Objects
+      </a>
+     </dd>
+     <dd data-xid="54">
+      <a data-xid="55" href="/manual/en/language.namespaces.php">
+       Namespaces
+      </a>
+     </dd>
+     <dd data-xid="56">
+      <a data-xid="57" href="/manual/en/language.errors.php">
+       Errors
+      </a>
+     </dd>
+     <dd data-xid="58">
+      <a data-xid="59" href="/manual/en/language.exceptions.php">
+       Exceptions
+      </a>
+     </dd>
+     <dd data-xid="60">
+      <a data-xid="61" href="/manual/en/language.generators.php">
+       Generators
+      </a>
+     </dd>
+     <dd data-xid="62">
+      <a data-xid="63" href="/manual/en/language.references.php">
+       References Explained
+      </a>
+     </dd>
+     <dd data-xid="64">
+      <a data-xid="65" href="/manual/en/reserved.variables.php">
+       Predefined Variables
+      </a>
+     </dd>
+     <dd data-xid="66">
+      <a data-xid="67" href="/manual/en/reserved.exceptions.php">
+       Predefined Exceptions
+      </a>
+     </dd>
+     <dd data-xid="68">
+      <a data-xid="69" href="/manual/en/reserved.interfaces.php">
+       Predefined Interfaces and Classes
+      </a>
+     </dd>
+     <dd data-xid="70">
+      <a data-xid="71" href="/manual/en/context.php">
+       Context options and parameters
+      </a>
+     </dd>
+     <dd data-xid="72">
+      <a data-xid="73" href="/manual/en/wrappers.php">
+       Supported Protocols and Wrappers
+      </a>
+     </dd>
+    </dl>
+    <dl data-xid="74">
+     <dt data-xid="75">
+      <a data-xid="76" href="/manual/en/security.php">
+       Security
+      </a>
+     </dt>
+     <dd data-xid="77">
+      <a data-xid="78" href="/manual/en/security.intro.php">
+       Introduction
+      </a>
+     </dd>
+     <dd data-xid="79">
+      <a data-xid="80" href="/manual/en/security.general.php">
+       General considerations
+      </a>
+     </dd>
+     <dd data-xid="81">
+      <a data-xid="82" href="/manual/en/security.cgi-bin.php">
+       Installed as CGI binary
+      </a>
+     </dd>
+     <dd data-xid="83">
+      <a data-xid="84" href="/manual/en/security.apache.php">
+       Installed as an Apache module
+      </a>
+     </dd>
+     <dd data-xid="85">
+      <a data-xid="86" href="/manual/en/security.sessions.php">
+       Session Security
+      </a>
+     </dd>
+     <dd data-xid="87">
+      <a data-xid="88" href="/manual/en/security.filesystem.php">
+       Filesystem Security
+      </a>
+     </dd>
+     <dd data-xid="89">
+      <a data-xid="90" href="/manual/en/security.database.php">
+       Database Security
+      </a>
+     </dd>
+     <dd data-xid="91">
+      <a data-xid="92" href="/manual/en/security.errors.php">
+       Error Reporting
+      </a>
+     </dd>
+     <dd data-xid="93">
+      <a data-xid="94" href="/manual/en/security.globals.php">
+       Using Register Globals
+      </a>
+     </dd>
+     <dd data-xid="95">
+      <a data-xid="96" href="/manual/en/security.variables.php">
+       User Submitted Data
+      </a>
+     </dd>
+     <dd data-xid="97">
+      <a data-xid="98" href="/manual/en/security.magicquotes.php">
+       Magic Quotes
+      </a>
+     </dd>
+     <dd data-xid="99">
+      <a data-xid="100" href="/manual/en/security.hiding.php">
+       Hiding PHP
+      </a>
+     </dd>
+     <dd data-xid="101">
+      <a data-xid="102" href="/manual/en/security.current.php">
+       Keeping Current
+      </a>
+     </dd>
+     <dt data-xid="103">
+      <a data-xid="104" href="/manual/en/features.php">
+       Features
+      </a>
+     </dt>
+     <dd data-xid="105">
+      <a data-xid="106" href="/manual/en/features.http-auth.php">
+       HTTP authentication with PHP
+      </a>
+     </dd>
+     <dd data-xid="107">
+      <a data-xid="108" href="/manual/en/features.cookies.php">
+       Cookies
+      </a>
+     </dd>
+     <dd data-xid="109">
+      <a data-xid="110" href="/manual/en/features.sessions.php">
+       Sessions
+      </a>
+     </dd>
+     <dd data-xid="111">
+      <a data-xid="112" href="/manual/en/features.xforms.php">
+       Dealing with XForms
+      </a>
+     </dd>
+     <dd data-xid="113">
+      <a data-xid="114" href="/manual/en/features.file-upload.php">
+       Handling file uploads
+      </a>
+     </dd>
+     <dd data-xid="115">
+      <a data-xid="116" href="/manual/en/features.remote-files.php">
+       Using remote files
+      </a>
+     </dd>
+     <dd data-xid="117">
+      <a data-xid="118" href="/manual/en/features.connection-handling.php">
+       Connection handling
+      </a>
+     </dd>
+     <dd data-xid="119">
+      <a data-xid="120" href="/manual/en/features.persistent-connections.php">
+       Persistent Database Connections
+      </a>
+     </dd>
+     <dd data-xid="121">
+      <a data-xid="122" href="/manual/en/features.safe-mode.php">
+       Safe Mode
+      </a>
+     </dd>
+     <dd data-xid="123">
+      <a data-xid="124" href="/manual/en/features.commandline.php">
+       Command line usage
+      </a>
+     </dd>
+     <dd data-xid="125">
+      <a data-xid="126" href="/manual/en/features.gc.php">
+       Garbage Collection
+      </a>
+     </dd>
+     <dd data-xid="127">
+      <a data-xid="128" href="/manual/en/features.dtrace.php">
+       DTrace Dynamic Tracing
+      </a>
+     </dd>
+    </dl>
+    <dl data-xid="129">
+     <dt data-xid="130">
+      <a data-xid="131" href="/manual/en/funcref.php">
+       Function Reference
+      </a>
+     </dt>
+     <dd data-xid="132">
+      <a data-xid="133" href="/manual/en/refs.basic.php.php">
+       Affecting PHP's Behaviour
+      </a>
+     </dd>
+     <dd data-xid="134">
+      <a data-xid="135" href="/manual/en/refs.utilspec.audio.php">
+       Audio Formats Manipulation
+      </a>
+     </dd>
+     <dd data-xid="136">
+      <a data-xid="137" href="/manual/en/refs.remote.auth.php">
+       Authentication Services
+      </a>
+     </dd>
+     <dd data-xid="138">
+      <a data-xid="139" href="/manual/en/refs.utilspec.cmdline.php">
+       Command Line Specific Extensions
+      </a>
+     </dd>
+     <dd data-xid="140">
+      <a data-xid="141" href="/manual/en/refs.compression.php">
+       Compression and Archive Extensions
+      </a>
+     </dd>
+     <dd data-xid="142">
+      <a data-xid="143" href="/manual/en/refs.creditcard.php">
+       Credit Card Processing
+      </a>
+     </dd>
+     <dd data-xid="144">
+      <a data-xid="145" href="/manual/en/refs.crypto.php">
+       Cryptography Extensions
+      </a>
+     </dd>
+     <dd data-xid="146">
+      <a data-xid="147" href="/manual/en/refs.database.php">
+       Database Extensions
+      </a>
+     </dd>
+     <dd data-xid="148">
+      <a data-xid="149" href="/manual/en/refs.calendar.php">
+       Date and Time Related Extensions
+      </a>
+     </dd>
+     <dd data-xid="150">
+      <a data-xid="151" href="/manual/en/refs.fileprocess.file.php">
+       File System Related Extensions
+      </a>
+     </dd>
+     <dd data-xid="152">
+      <a data-xid="153" href="/manual/en/refs.international.php">
+       Human Language and Character Encoding Support
+      </a>
+     </dd>
+     <dd data-xid="154">
+      <a data-xid="155" href="/manual/en/refs.utilspec.image.php">
+       Image Processing and Generation
+      </a>
+     </dd>
+     <dd data-xid="156">
+      <a data-xid="157" href="/manual/en/refs.remote.mail.php">
+       Mail Related Extensions
+      </a>
+     </dd>
+     <dd data-xid="158">
+      <a data-xid="159" href="/manual/en/refs.math.php">
+       Mathematical Extensions
+      </a>
+     </dd>
+     <dd data-xid="160">
+      <a data-xid="161" href="/manual/en/refs.utilspec.nontext.php">
+       Non-Text MIME Output
+      </a>
+     </dd>
+     <dd data-xid="162">
+      <a data-xid="163" href="/manual/en/refs.fileprocess.process.php">
+       Process Control Extensions
+      </a>
+     </dd>
+     <dd data-xid="164">
+      <a data-xid="165" href="/manual/en/refs.basic.other.php">
+       Other Basic Extensions
+      </a>
+     </dd>
+     <dd data-xid="166">
+      <a data-xid="167" href="/manual/en/refs.remote.other.php">
+       Other Services
+      </a>
+     </dd>
+     <dd data-xid="168">
+      <a data-xid="169" href="/manual/en/refs.search.php">
+       Search Engine Extensions
+      </a>
+     </dd>
+     <dd data-xid="170">
+      <a data-xid="171" href="/manual/en/refs.utilspec.server.php">
+       Server Specific Extensions
+      </a>
+     </dd>
+     <dd data-xid="172">
+      <a data-xid="173" href="/manual/en/refs.basic.session.php">
+       Session Extensions
+      </a>
+     </dd>
+     <dd data-xid="174">
+      <a data-xid="175" href="/manual/en/refs.basic.text.php">
+       Text Processing
+      </a>
+     </dd>
+     <dd data-xid="176">
+      <a data-xid="177" href="/manual/en/refs.basic.vartype.php">
+       Variable and Type Related Extensions
+      </a>
+     </dd>
+     <dd data-xid="178">
+      <a data-xid="179" href="/manual/en/refs.webservice.php">
+       Web Services
+      </a>
+     </dd>
+     <dd data-xid="180">
+      <a data-xid="181" href="/manual/en/refs.utilspec.windows.php">
+       Windows Only Extensions
+      </a>
+     </dd>
+     <dd data-xid="182">
+      <a data-xid="183" href="/manual/en/refs.xml.php">
+       XML Manipulation
+      </a>
+     </dd>
+     <dd data-xid="184">
+      <a data-xid="185" href="/manual/en/refs.ui.php">
+       GUI Extensions
+      </a>
+     </dd>
+    </dl>
+    <dl data-xid="186">
+     <dt data-xid="187">
+      Keyboard Shortcuts
+     </dt>
+     <dt data-xid="188">
+      ?
+     </dt>
+     <dd data-xid="189">
+      This help
+     </dd>
+     <dt data-xid="190">
+      j
+     </dt>
+     <dd data-xid="191">
+      Next menu item
+     </dd>
+     <dt data-xid="192">
+      k
+     </dt>
+     <dd data-xid="193">
+      Previous menu item
+     </dd>
+     <dt data-xid="194">
+      g p
+     </dt>
+     <dd data-xid="195">
+      Previous man page
+     </dd>
+     <dt data-xid="196">
+      g n
+     </dt>
+     <dd data-xid="197">
+      Next man page
+     </dd>
+     <dt data-xid="198">
+      G
+     </dt>
+     <dd data-xid="199">
+      Scroll to bottom
+     </dd>
+     <dt data-xid="200">
+      g g
+     </dt>
+     <dd data-xid="201">
+      Scroll to top
+     </dd>
+     <dt data-xid="202">
+      g h
+     </dt>
+     <dd data-xid="203">
+      Goto homepage
+     </dd>
+     <dt data-xid="204">
+      g s
+     </dt>
+     <dd data-xid="205">
+      Goto search
+      <br data-xid="206"/>
+      (current page)
+     </dd>
+     <dt data-xid="207">
+      /
+     </dt>
+     <dd data-xid="208">
+      Focus search box
+     </dd>
+    </dl>
+   </div>
+  </nav>
+  <div data-xid="209" id="goto">
+   <div class="search" data-xid="210">
+    <div class="text" data-xid="211">
+    </div>
+    <div class="results" data-xid="212">
+     <ul data-xid="213">
+     </ul>
+    </div>
+   </div>
+  </div>
+  <div class="clearfix" data-xid="214" id="intro">
+   <div class="container" data-xid="215">
+    <div class="row clearfix" data-xid="216">
+     <div class="blurb" data-xid="217">
+      <p data-xid="218">
+       PHP is a popular general-purpose scripting language that is especially suited to web development.
+      </p>
+      <p data-xid="219">
+       Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
+      </p>
+     </div>
+     <div class="download" data-xid="220">
+      <h3 data-xid="221">
+       Download
+      </h3>
+      <ul data-xid="222">
+       <li data-xid="223">
+        <a class="download-link" data-xid="224" href="/downloads.php#v5.6.35">
+         5.6.35
+        </a>
+        <span class="dot" data-xid="225">
+         ·
+        </span>
+        <a class="notes" data-xid="226" href="/ChangeLog-5.php#5.6.35">
+         Release Notes
+        </a>
+        <span class="dot" data-xid="227">
+         ·
+        </span>
+        <a class="notes" data-xid="228" href="/migration56">
+         Upgrading
+        </a>
+       </li>
+       <li data-xid="229">
+        <a class="download-link" data-xid="230" href="/downloads.php#v7.0.29">
+         7.0.29
+        </a>
+        <span class="dot" data-xid="231">
+         ·
+        </span>
+        <a class="notes" data-xid="232" href="/ChangeLog-7.php#7.0.29">
+         Release Notes
+        </a>
+        <span class="dot" data-xid="233">
+         ·
+        </span>
+        <a class="notes" data-xid="234" href="/migration70">
+         Upgrading
+        </a>
+       </li>
+       <li data-xid="235">
+        <a class="download-link" data-xid="236" href="/downloads.php#v7.1.16">
+         7.1.16
+        </a>
+        <span class="dot" data-xid="237">
+         ·
+        </span>
+        <a class="notes" data-xid="238" href="/ChangeLog-7.php#7.1.16">
+         Release Notes
+        </a>
+        <span class="dot" data-xid="239">
+         ·
+        </span>
+        <a class="notes" data-xid="240" href="/migration71">
+         Upgrading
+        </a>
+       </li>
+       <li data-xid="241">
+        <a class="download-link" data-xid="242" href="/downloads.php#v7.2.4">
+         7.2.4
+        </a>
+        <span class="dot" data-xid="243">
+         ·
+        </span>
+        <a class="notes" data-xid="244" href="/ChangeLog-7.php#7.2.4">
+         Release Notes
+        </a>
+        <span class="dot" data-xid="245">
+         ·
+        </span>
+        <a class="notes" data-xid="246" href="/migration72">
+         Upgrading
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="clearfix" data-xid="247" id="layout">
+   <section data-xid="248" id="layout-content">
+    <div class="home-content" data-xid="249">
+     <article class="newsentry" data-xid="250">
+      <header class="title" data-xid="251">
+       <time data-xid="252" datetime="2018-03-30T05:35:50+00:00">
+        30 Mar 2018
+       </time>
+       <h2 class="newstitle" data-xid="253">
+        <a data-xid="254" href="http://php.net/archive/2018.php#id2018-03-30-2" id="id2018-03-30-2">
+         PHP 7.1.16 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="255">
+       <div data-xid="256">
+        <p data-xid="257">
+         The PHP development team announces the immediate availability of PHP
+       7.1.16. This is a security fix release, containing one security fix and many bug fixes.
+     
+       All PHP 7.1 users are encouraged to upgrade to this version.
+        </p>
+        <p data-xid="258">
+         For source downloads of PHP 7.1.16 please visit our
+         <a data-xid="259" href="http://www.php.net/downloads.php">
+          downloads page
+         </a>
+         ,
+       Windows source and binaries can be found on
+         <a data-xid="260" href="http://windows.php.net/download/">
+          windows.php.net/download/
+         </a>
+         .
+       The list of changes is recorded in the
+         <a data-xid="261" href="http://www.php.net/ChangeLog-7.php#7.1.16">
+          ChangeLog
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="262">
+      <header class="title" data-xid="263">
+       <time data-xid="264" datetime="2018-03-29T16:26:07-07:00">
+        29 Mar 2018
+       </time>
+       <h2 class="newstitle" data-xid="265">
+        <a data-xid="266" href="http://php.net/archive/2018.php#id2018-03-29-3" id="id2018-03-29-3">
+         PHP 5.6.35 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="267">
+       <div data-xid="268">
+        <p data-xid="269">
+         The PHP development team announces the immediate availability of PHP
+     5.6.35. This is a security release. One security bug was fixed in
+     this release.
+
+     All PHP 5.6 users are encouraged to upgrade to this version.
+        </p>
+        <p data-xid="270">
+         For source downloads of PHP 5.6.35 please visit our
+         <a data-xid="271" href="http://www.php.net/downloads.php">
+          downloads page
+         </a>
+         ,
+     Windows source and binaries can be found on
+         <a data-xid="272" href="http://windows.php.net/download/">
+          windows.php.net/download/
+         </a>
+         .
+     The list of changes is recorded in the
+         <a data-xid="273" href="http://www.php.net/ChangeLog-5.php#5.6.35">
+          ChangeLog
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="274">
+      <header class="title" data-xid="275">
+       <time data-xid="276" datetime="2018-03-29T10:58:52+00:00">
+        29 Mar 2018
+       </time>
+       <h2 class="newstitle" data-xid="277">
+        <a data-xid="278" href="http://php.net/archive/2018.php#id2018-03-29-2" id="id2018-03-29-2">
+         PHP 7.2.4 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="279">
+       <div data-xid="280">
+        <p data-xid="281">
+         The PHP development team announces the immediate availability of PHP
+     7.2.4. This is a security release with also contains several minor bug fixes.
+        </p>
+        <p data-xid="282">
+         All PHP 7.2 users are encouraged to upgrade to this version.
+        </p>
+        <p data-xid="283">
+         For source downloads of PHP 7.2.4 please visit our
+         <a data-xid="284" href="http://www.php.net/downloads.php">
+          downloads page
+         </a>
+         ,
+     Windows source and binaries can be found on
+         <a data-xid="285" href="http://windows.php.net/download/">
+          windows.php.net/download/
+         </a>
+         .
+     The list of changes is recorded in the
+         <a data-xid="286" href="http://www.php.net/ChangeLog-7.php#7.2.4">
+          ChangeLog
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="287">
+      <header class="title" data-xid="288">
+       <time data-xid="289" datetime="2018-03-29T13:00:00+01:00">
+        29 Mar 2018
+       </time>
+       <h2 class="newstitle" data-xid="290">
+        <a data-xid="291" href="http://php.net/archive/2018.php#id2018-03-29-1" id="id2018-03-29-1">
+         PHP 7.0.29 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="292">
+       <div data-xid="293">
+        <p data-xid="294">
+         The PHP development team announces the immediate availability of PHP
+     7.0.29. This is a security release. One security bug was fixed in
+     this release.
+     
+     All PHP 7.0 users are encouraged to upgrade to this version.
+        </p>
+        <p data-xid="295">
+         For source downloads of PHP 7.0.29 please visit our
+         <a data-xid="296" href="http://www.php.net/downloads.php">
+          downloads page
+         </a>
+         ,
+     Windows source and binaries can be found on
+         <a data-xid="297" href="http://windows.php.net/download/">
+          windows.php.net/download/
+         </a>
+         .
+     The list of changes is recorded in the
+         <a data-xid="298" href="http://www.php.net/ChangeLog-7.php#7.0.29">
+          ChangeLog
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="299">
+      <header class="title" data-xid="300">
+       <time data-xid="301" datetime="2018-03-02T05:54:19+00:00">
+        02 Mar 2018
+       </time>
+       <h2 class="newstitle" data-xid="302">
+        <a data-xid="303" href="http://php.net/archive/2018.php#id2018-03-02-1" id="id2018-03-02-1">
+         PHP 7.1.15 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="304">
+       <div data-xid="305">
+        <p data-xid="306">
+         The PHP development team announces the immediate availability of PHP
+       7.1.15. This is a security fix release, containing one security fix and many bug fixes.
+     
+       All PHP 7.1 users are encouraged to upgrade to this version.
+        </p>
+        <p data-xid="307">
+         For source downloads of PHP 7.1.15 please visit our
+         <a data-xid="308" href="http://www.php.net/downloads.php">
+          downloads page
+         </a>
+         ,
+       Windows source and binaries can be found on
+         <a data-xid="309" href="http://windows.php.net/download/">
+          windows.php.net/download/
+         </a>
+         .
+       The list of changes is recorded in the
+         <a data-xid="310" href="http://www.php.net/ChangeLog-7.php#7.1.15">
+          ChangeLog
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="311">
+      <header class="title" data-xid="312">
+       <time data-xid="313" datetime="2018-03-01T15:48:47-08:00">
+        01 Mar 2018
+       </time>
+       <h2 class="newstitle" data-xid="314">
+        <a data-xid="315" href="http://php.net/archive/2018.php#id2018-03-01-3" id="id2018-03-01-3">
+         PHP 5.6.34 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="316">
+       <div data-xid="317">
+        <p data-xid="318">
+         The PHP development team announces the immediate availability of PHP
+     5.6.34. This is a security release. One security bug was fixed in
+     this release.
+
+     All PHP 5.6 users are encouraged to upgrade to this version.
+        </p>
+        <p data-xid="319">
+         For source downloads of PHP 5.6.34 please visit our
+         <a data-xid="320" href="http://www.php.net/downloads.php">
+          downloads page
+         </a>
+         ,
+     Windows source and binaries can be found on
+         <a data-xid="321" href="http://windows.php.net/download/">
+          windows.php.net/download/
+         </a>
+         .
+     The list of changes is recorded in the
+         <a data-xid="322" href="http://www.php.net/ChangeLog-5.php#5.6.34">
+          ChangeLog
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="323">
+      <header class="title" data-xid="324">
+       <time data-xid="325" datetime="2018-02-01T09:12:34+00:00">
+        01 Feb 2018
+       </time>
+       <h2 class="newstitle" data-xid="326">
+        <a data-xid="327" href="http://php.net/archive/2018.php#id2018-02-01-1" id="id2018-02-01-1">
+         PHP 7.2.2 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="328">
+       <div data-xid="329">
+        <p data-xid="330">
+         The PHP development team announces the immediate availability of PHP
+      7.2.2. This is a bugfix release, with several bug fixes included.
+        </p>
+        <p data-xid="331">
+         All PHP 7.2 users are encouraged to upgrade to this version.
+        </p>
+        <p data-xid="332">
+         For source downloads of PHP 7.2.2 please visit our
+         <a data-xid="333" href="http://www.php.net/downloads.php">
+          downloads page
+         </a>
+         ,
+      Windows source and binaries can be found on
+         <a data-xid="334" href="http://windows.php.net/download/">
+          windows.php.net/download/
+         </a>
+         .
+      The list of changes is recorded in the
+         <a data-xid="335" href="http://www.php.net/ChangeLog-7.php#7.2.2">
+          ChangeLog
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="336">
+      <header class="title" data-xid="337">
+       <time data-xid="338" datetime="2017-10-12T11:46:49+02:00">
+        12 Oct 2017
+       </time>
+       <h2 class="newstitle" data-xid="339">
+        <a data-xid="340" href="http://php.net/archive/2017.php#id2017-10-12-1" id="id2017-10-12-1">
+         PHP 7.2.0 Release Candidate 4 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="341">
+       <div data-xid="342">
+        <p data-xid="343">
+         The PHP development team announces the immediate availability of PHP 7.2.0 RC4.
+     This release is the fourth Release Candidate for 7.2.0.
+     All users of PHP are encouraged to test this version carefully, and report any bugs
+     and incompatibilities in the
+         <a data-xid="344" href="https://bugs.php.net/">
+          bug tracking system
+         </a>
+         .
+        </p>
+        <p data-xid="345">
+         <strong data-xid="346">
+          THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+         </strong>
+        </p>
+        <p data-xid="347">
+         For more information on the new features and other changes, you can read the
+         <a data-xid="348" href="https://github.com/php/php-src/blob/php-7.2.0RC4/NEWS">
+          NEWS
+         </a>
+         file,
+     or the
+         <a data-xid="349" href="https://github.com/php/php-src/blob/php-7.2.0RC4/UPGRADING">
+          UPGRADING
+         </a>
+         file for a complete list of upgrading notes. These files can also be found in the release archive.
+        </p>
+        <p data-xid="350">
+         For source downloads of PHP 7.2.0 Release Candidate 4 please visit the
+         <a data-xid="351" href="https://downloads.php.net/~remi/">
+          download
+         </a>
+         page,
+     Windows sources and binaries can be found at
+         <a data-xid="352" href="http://windows.php.net/qa/">
+          windows.php.net/qa/
+         </a>
+         .
+        </p>
+        <p data-xid="353">
+         The next Release Candidate will be announced on the 26th of October.
+     You can also read the full list of planned releases on
+         <a data-xid="354" href="https://wiki.php.net/todo/php72">
+          our wiki
+         </a>
+         .
+        </p>
+        <p data-xid="355">
+         Thank you for helping us make PHP better.
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="356">
+      <header class="title" data-xid="357">
+       <time data-xid="358" datetime="2017-09-28T12:58:56+02:00">
+        28 Sep 2017
+       </time>
+       <h2 class="newstitle" data-xid="359">
+        <a data-xid="360" href="http://php.net/archive/2017.php#id2017-09-28-2" id="id2017-09-28-2">
+         PHP 7.2.0 Release Candidate 3 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="361">
+       <div data-xid="362">
+        <p data-xid="363">
+         The PHP development team announces the immediate availability of PHP 7.2.0 RC3.
+     This release is the third Release Candidate for 7.2.0.
+     All users of PHP are encouraged to test this version carefully, and report any bugs
+     and incompatibilities in the
+         <a data-xid="364" href="https://bugs.php.net/">
+          bug tracking system
+         </a>
+         .
+        </p>
+        <p data-xid="365">
+         <strong data-xid="366">
+          THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+         </strong>
+        </p>
+        <p data-xid="367">
+         For more information on the new features and other changes, you can read the
+         <a data-xid="368" href="https://github.com/php/php-src/blob/php-7.2.0RC3/NEWS">
+          NEWS
+         </a>
+         file,
+     or the
+         <a data-xid="369" href="https://github.com/php/php-src/blob/php-7.2.0RC3/UPGRADING">
+          UPGRADING
+         </a>
+         file for a complete list of upgrading notes. These files can also be found in the release archive.
+        </p>
+        <p data-xid="370">
+         For source downloads of PHP 7.2.0 Release Candidate 3 please visit the
+         <a data-xid="371" href="https://downloads.php.net/~remi/">
+          download
+         </a>
+         page,
+     Windows sources and binaries can be found at
+         <a data-xid="372" href="http://windows.php.net/qa/">
+          windows.php.net/qa/
+         </a>
+         .
+        </p>
+        <p data-xid="373">
+         The next Release Candidate will be announced on the 12th of October.
+     You can also read the full list of planned releases on
+         <a data-xid="374" href="https://wiki.php.net/todo/php72">
+          our wiki
+         </a>
+         .
+        </p>
+        <p data-xid="375">
+         Thank you for helping us make PHP better.
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="376">
+      <header class="title" data-xid="377">
+       <time data-xid="378" datetime="2017-08-31T10:53:58+02:00">
+        31 Aug 2017
+       </time>
+       <h2 class="newstitle" data-xid="379">
+        <a data-xid="380" href="http://php.net/archive/2017.php#id2017-08-31-1" id="id2017-08-31-1">
+         PHP 7.2.0 Release Candidate 1 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="381">
+       <div data-xid="382">
+        <p data-xid="383">
+         The PHP development team announces the immediate availability of PHP 7.2.0 Release
+      Candidate 1. This release is the first Release Candidate for 7.2.0.
+      All users of PHP are encouraged to test this version carefully, and report any bugs
+      and incompatibilities in the
+         <a data-xid="384" href="https://bugs.php.net/">
+          bug tracking system
+         </a>
+         .
+        </p>
+        <p data-xid="385">
+         <strong data-xid="386">
+          THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+         </strong>
+        </p>
+        <p data-xid="387">
+         For more information on the new features and other changes, you can read the
+         <a data-xid="388" href="https://github.com/php/php-src/blob/php-7.2.0RC1/NEWS">
+          NEWS
+         </a>
+         file,
+      or the
+         <a data-xid="389" href="https://github.com/php/php-src/blob/php-7.2.0RC1/UPGRADING">
+          UPGRADING
+         </a>
+         file for a complete list of upgrading notes. These files can also be found in the release archive.
+        </p>
+        <p data-xid="390">
+         For source downloads of PHP 7.2.0 Release Candidate 1 please visit the
+         <a data-xid="391" href="https://downloads.php.net/~remi/">
+          download
+         </a>
+         page,
+      Windows sources and binaries can be found at
+         <a data-xid="392" href="http://windows.php.net/qa/">
+          windows.php.net/qa/
+         </a>
+         .
+        </p>
+        <p data-xid="393">
+         The second Release Candidate will be released on the 14th of September.
+      You can also read the full list of planned releases on
+         <a data-xid="394" href="https://wiki.php.net/todo/php72">
+          our wiki
+         </a>
+         .
+        </p>
+        <p data-xid="395">
+         Thank you for helping us make PHP better.
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="396">
+      <header class="title" data-xid="397">
+       <time data-xid="398" datetime="2017-08-17T10:17:44+02:00">
+        17 Aug 2017
+       </time>
+       <h2 class="newstitle" data-xid="399">
+        <a data-xid="400" href="http://php.net/archive/2017.php#id2017-08-17-1" id="id2017-08-17-1">
+         PHP 7.2.0 Beta 3 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="401">
+       <div data-xid="402">
+        <p data-xid="403">
+         The PHP development team announces the immediate availability of PHP 7.2.0 Beta 3.
+      This release is the third and final beta for 7.2.0. All users of PHP are encouraged
+      to test this version carefully, and report any bugs and incompatibilities in the
+         <a data-xid="404" href="https://bugs.php.net/">
+          bug tracking system
+         </a>
+         .
+        </p>
+        <p data-xid="405">
+         <strong data-xid="406">
+          THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+         </strong>
+        </p>
+        <p data-xid="407">
+         For more information on the new features and other changes, you can read the
+         <a data-xid="408" href="https://github.com/php/php-src/blob/php-7.2.0beta3/NEWS">
+          NEWS
+         </a>
+         file,
+      or the
+         <a data-xid="409" href="https://github.com/php/php-src/blob/php-7.2.0beta3/UPGRADING">
+          UPGRADING
+         </a>
+         file for a complete list of upgrading notes. These files can also be found in the release archive.
+        </p>
+        <p data-xid="410">
+         For source downloads of PHP 7.2.0 Beta 3 please visit the
+         <a data-xid="411" href="https://downloads.php.net/~remi/">
+          download
+         </a>
+         page,
+      Windows sources and binaries can be found at
+         <a data-xid="412" href="http://windows.php.net/qa/">
+          windows.php.net/qa/
+         </a>
+         .
+        </p>
+        <p data-xid="413">
+         The first Release Candidate will be released on the 31th of August.
+      You can also read the full list of planned releases on
+         <a data-xid="414" href="https://wiki.php.net/todo/php72">
+          our wiki
+         </a>
+         .
+        </p>
+        <p data-xid="415">
+         Thank you for helping us make PHP better.
+        </p>
+       </div>
+      </div>
+     </article>
+     <article class="newsentry" data-xid="416">
+      <header class="title" data-xid="417">
+       <time data-xid="418" datetime="2017-07-06T12:25:08+02:00">
+        06 Jul 2017
+       </time>
+       <h2 class="newstitle" data-xid="419">
+        <a data-xid="420" href="http://php.net/archive/2017.php#id2017-07-06-2" id="id2017-07-06-2">
+         PHP 7.2.0 Alpha 3 Released
+        </a>
+       </h2>
+      </header>
+      <div class="newscontent" data-xid="421">
+       <div data-xid="422">
+        <p data-xid="423">
+         The PHP development team announces the immediate availability of PHP 7.2.0 Alpha 3.
+     This release contains fixes and improvements relative to Alpha 2.
+     All users of PHP are encouraged to test this version carefully,
+     and report any bugs and incompatibilities in the
+         <a data-xid="424" href="https://bugs.php.net/">
+          bug tracking system
+         </a>
+         .
+        </p>
+        <p data-xid="425">
+         <strong data-xid="426">
+          THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!
+         </strong>
+        </p>
+        <p data-xid="427">
+         For information on new features and other changes, you can read the
+         <a data-xid="428" href="https://github.com/php/php-src/blob/php-7.2.0alpha3/NEWS">
+          NEWS
+         </a>
+         file,
+     or the
+         <a data-xid="429" href="https://github.com/php/php-src/blob/php-7.2.0alpha3/UPGRADING">
+          UPGRADING
+         </a>
+         file
+     for a complete list of upgrading notes. These files can also be found in the release archive.
+        </p>
+        <p data-xid="430">
+         For source downloads of PHP 7.2.0 Alpha 3 please visit the
+         <a data-xid="431" href="https://downloads.php.net/~remi/">
+          download
+         </a>
+         page,
+     Windows sources and binaries can be found on
+         <a data-xid="432" href="http://windows.php.net/qa/">
+          windows.php.net/qa/
+         </a>
+         .
+        </p>
+        <p data-xid="433">
+         The first beta will be released on the 20th of July. You can also read the full list of planned releases on our
+         <a data-xid="434" href="https://wiki.php.net/todo/php72#timetable">
+          wiki
+         </a>
+         .
+        </p>
+        <p data-xid="435">
+         Thank you for helping us make PHP better.
+        </p>
+       </div>
+      </div>
+     </article>
+     <p class="archive" data-xid="436">
+      <a data-xid="437" href="/archive/">
+       Older News Entries
+      </a>
+     </p>
+    </div>
+   </section>
+   <!-- layout-content -->
+   <aside class="tips" data-xid="438">
+    <div class="inner" data-xid="439">
+     <div class="panel" data-xid="440">
+      <a class="headline" data-xid="441" href="/conferences" title="Upcoming conferences">
+       Upcoming conferences
+      </a>
+      <div class="body" data-xid="442">
+       <ul data-xid="443">
+        <li data-xid="444">
+         <a data-xid="445" href="http://php.net/conferences/index.php#id2018-03-30-1" title="The 6th Annual China PHP Conference">
+          The 6th Annual China PHP Conference
+         </a>
+        </li>
+        <li data-xid="446">
+         <a data-xid="447" href="http://php.net/conferences/index.php#id2018-03-13-1" title="Darkmira Tour PHP 2018">
+          Darkmira Tour PHP 2018
+         </a>
+        </li>
+        <li data-xid="448">
+         <a data-xid="449" href="http://php.net/conferences/index.php#id2018-03-01-4" title="PHPDetroit Conference 2018">
+          PHPDetroit Conference 2018
+         </a>
+        </li>
+        <li data-xid="450">
+         <a data-xid="451" href="http://php.net/conferences/index.php#id2018-02-26-1" title="CakeFest 2018 Nashville, The Official CakePHP Conference">
+          CakeFest 2018 Nashville, The Official CakePHP Conference
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="panel" data-xid="452">
+      <a class="headline" data-xid="453" href="/conferences" title="Conferences calling for papers">
+       Conferences calling for papers
+      </a>
+      <div class="body" data-xid="454">
+       <ul data-xid="455">
+        <li data-xid="456">
+         <a data-xid="457" href="http://php.net/conferences/index.php#id2018-02-22-1" title="Northeast PHP 2018 Boston">
+          Northeast PHP 2018 Boston
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <p class="panel" data-xid="458">
+      <a data-xid="459" href="/cal.php">
+       User Group Events
+      </a>
+     </p>
+     <p class="panel" data-xid="460">
+      <a data-xid="461" href="/thanks.php">
+       Special Thanks
+      </a>
+     </p>
+     <p class="panel social-media" data-xid="462">
+      <span class="headline" data-xid="463">
+       Social media
+      </span>
+     </p>
+     <div class="body" data-xid="464">
+      <ul data-xid="465">
+       <li data-xid="466">
+        <a data-xid="467" href="https://twitter.com/official_php">
+         <i class="icon-twitter" data-xid="468">
+         </i>
+         @official_php
+        </a>
+       </li>
+      </ul>
+     </div>
+     <p data-xid="469">
+     </p>
+    </div>
+   </aside>
+  </div>
+  <!-- layout -->
+  <footer data-xid="470">
+   <div class="container footer-content" data-xid="471">
+    <div class="row-fluid" data-xid="472">
+     <ul class="footmenu" data-xid="473">
+      <li data-xid="474">
+       <a data-xid="475" href="/copyright.php">
+        Copyright © 2001-2018 The PHP Group
+       </a>
+      </li>
+      <li data-xid="476">
+       <a data-xid="477" href="/my.php">
+        My PHP.net
+       </a>
+      </li>
+      <li data-xid="478">
+       <a data-xid="479" href="/contact.php">
+        Contact
+       </a>
+      </li>
+      <li data-xid="480">
+       <a data-xid="481" href="/sites.php">
+        Other PHP.net sites
+       </a>
+      </li>
+      <li data-xid="482">
+       <a data-xid="483" href="/mirrors.php">
+        Mirror sites
+       </a>
+      </li>
+      <li data-xid="484">
+       <a data-xid="485" href="/privacy.php">
+        Privacy policy
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </footer>
+  <div class="elephpants" data-xid="486">
+   <div class="images" data-xid="487">
+   </div>
+  </div>
+  <!-- External and third party libraries. -->
+  <a data-xid="488" href="javascript:;" id="toTop">
+   <span data-xid="489" id="toTopHover">
+   </span>
+   <img alt="To Top" data-xid="490" height="40" src="https://motif.gq/api/archive?uri=http%3A%2F%2Fphp.net%2Fimages%2Fto-top%402x.png&amp;accessed=1523341475807" width="40"/>
+  </a>
+ </body>
+</html>

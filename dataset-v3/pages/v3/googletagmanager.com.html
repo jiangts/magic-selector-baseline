@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html class="google-js mmfb js flexbox canvas webgl no-touch geolocation websockets backgroundsize cssanimations csstransforms csstransforms3d csstransitions video audio localstorage sessionstorage svg inlinesvg webaudio cookies bgsizecover fileinput getusermedia boxsizing no-lowbandwidth" dir="ltr" lang="en" style="">
+ <head>
+  <style type="text/css">
+   @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}
+  </style>
+  <meta charset="utf-8"/>
+  <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport"/>
+  <title>
+   Tag Management Solutions for Web and Mobile - Google Tag Manager
+  </title>
+  <meta content="Google Tag Manager helps make tag management simple, easy and reliable by allowing marketers and webmasters to deploy website tags all in one place." name="description"/>
+  <link href="https://motif.gq/api/archive?uri=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%3A300%2C400%2C500%2C700%26lang%3Den&amp;accessed=1523340919805" rel="stylesheet"/>
+  <link href="https://motif.gq/api/archive?uri=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BSlab%3A300%2C400%2C500%26lang%3Den&amp;accessed=1523340919805" rel="stylesheet"/>
+  <link href="https://motif.gq/api/archive?uri=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DProduct%2BSans%3A400%26lang%3Den&amp;accessed=1523340919805" rel="stylesheet"/>
+  <link href="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fanalytics%2Fcss%2Ftag-manager.min.css&amp;accessed=1523340919805" rel="stylesheet"/>
+  <link href="//www.google.com/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://www.google.com/analytics/tag-manager/" rel="canonical"/>
+  <style type="text/css">
+   iframe.c2 {display:none;visibility:hidden}
+    svg.c1 {enable-background:new 0 0 23 15;}
+  </style>
+  <style type="text/css">
+   #cookieBar {
+  background-color: #5a5a5a;
+  border: none;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  margin: 0;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+#cookieBar .cookieBarInner {
+  padding: 10px 15px;
+}
+#cookieBar .cookieBarText, #cookieBar .cookieBarButtons {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.8;
+  margin-right: 10px;
+}
+@media (max-width: 720px) #cookieBar .cookieBarText {
+  display: block;
+  margin-bottom: 5px;
+}
+#cookieBar .cookieBarButton:first-child {
+  margin-right: 5px;
+}
+#cookieBar .cookieBarButton {
+  background-color: #303030;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 19px;
+  padding: 4px 8px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+  </style>
+ </head>
+ <body class="ng-scope" data-ng-app="rs.analytics.tagmanager">
+  <header class="header contains-cta ng-isolate-scope" data-rs-header="" data-xid="1" role="banner">
+   <div class="upper-header" data-xid="2">
+    <h1 class="product-logo has-product" data-xid="3">
+     <a data-g-action="Logo" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="4" href="../../analytics/">
+      <img alt="Google" data-xid="5" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fimages%2Fbranding%2Fgooglelogo%2F1x%2Fgooglelogo_color_116x41dp.png&amp;accessed=1523340919805" srcset="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_116x41dp.png 2x"/>
+      <span class="site-name" data-xid="6">
+       Analytics Solutions
+      </span>
+     </a>
+     <a data-g-action="Logo" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="7" href="../../analytics/tag-manager/">
+      <span class="site-name site-name-product" data-xid="8">
+       Tag
+          Manager
+      </span>
+     </a>
+    </h1>
+    <div class="nav-dropdown-wrapper ng-scope" data-rs-popupmenu="" data-xid="9">
+     <a class="nav-dropdown-trigger partners-link-desktop" data-g-action="Partners" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="10" href="https://www.google.com/analytics/partner-services/">
+      <span data-xid="11">
+       Partners
+      </span>
+     </a>
+     <a class="nav-dropdown-trigger support-link-desktop" data-g-action="Support" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="12" href="https://www.google.com/analytics/services-support">
+      <span data-xid="13">
+       Support
+      </span>
+     </a>
+     <a class="nav-dropdown-trigger" data-g-action="Sign In Menu" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="14" ng-click="dropdownExpanded = !dropdownExpanded">
+      <span data-xid="15">
+       Sign
+          in
+      </span>
+      <svg class="icon-arrow-drop-down" data-xid="16" enable-background="new 0 0 36 36" height="28px" space="preserve" version="1.1" viewBox="0 0 36 36" width="28px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+       <path d="M10.5 15l7.5 7.5 7.5-7.5z" data-xid="17">
+       </path>
+       <path d="M0 0h36v36H0z" data-xid="18" fill="none">
+       </path>
+      </svg>
+      <img alt="drop down arrow icon" class="icon-arrow-drop-down" data-xid="19" height="28" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-drop-down.png&amp;accessed=1523340919805" width="28"/>
+     </a>
+     <div class="nav-dropdown" data-xid="20" ng-class="{'nav-dropdown-expanded': dropdownExpanded}">
+      <a class="nav-dropdown-close" data-xid="21" ng-click="dropdownExpanded = false">
+       <svg class="icon-arrow-drop-down" data-xid="22" enable-background="new 0 0 36 36" height="28px" space="preserve" version="1.1" viewBox="0 0 36 36" width="28px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+        <path d="M10.5 15l7.5 7.5 7.5-7.5z" data-xid="23">
+        </path>
+        <path d="M0 0h36v36H0z" data-xid="24" fill="none">
+        </path>
+       </svg>
+       <img alt="drop down arrow icon" class="icon-arrow-drop-down" data-xid="25" height="28" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-drop-down.png&amp;accessed=1523340919805" width="28"/>
+      </a>
+      <ul data-xid="26">
+       <li class="nav-dropdown-close-mobile" data-xid="27">
+        <a data-xid="28" ng-click="dropdownExpanded = false">
+         Sign in
+         <svg class="icon-arrow-drop-down" data-xid="29" enable-background="new 0 0 36 36" height="28px" space="preserve" version="1.1" viewBox="0 0 36 36" width="28px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M10.5 15l7.5 7.5 7.5-7.5z" data-xid="30">
+          </path>
+          <path d="M0 0h36v36H0z" data-xid="31" fill="none">
+          </path>
+         </svg>
+         <img alt="drop down arrow icon" class="icon-arrow-drop-down" data-xid="32" height="28" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-drop-down.png&amp;accessed=1523340919805" width="28"/>
+        </a>
+       </li>
+       <li data-xid="33">
+        <a data-g-action="Analytics Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="34" href="https://analytics.google.com/analytics/web/" target="_blank">
+         Analytics
+        </a>
+       </li>
+       <li data-xid="35">
+        <a data-g-action="Tag Manager Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="36" href="https://tagmanager.google.com/?hl=en" target="_blank">
+         Tag Manager
+        </a>
+       </li>
+       <li data-xid="37">
+        <a data-g-action="Optimize Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="38" href="https://optimize.google.com/" target="_blank">
+         Optimize
+        </a>
+       </li>
+       <li data-xid="39">
+        <a data-g-action="Data Studio Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="40" href="https://datastudio.google.com/?hl=en" target="_blank">
+         Data Studio
+        </a>
+       </li>
+       <li data-xid="41">
+        <a data-g-action="Surveys Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="42" href="https://surveys.google.com/" target="_blank">
+         Surveys
+        </a>
+       </li>
+       <li data-xid="43">
+        <a data-g-action="Attribution Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="44" href="https://attribution.google.com/" target="_blank">
+         Attribution
+        </a>
+       </li>
+       <li data-xid="45">
+        <a data-g-action="Audience Center Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="46" href="https://audiencecenter.google.com/" target="_blank">
+         Audience Center
+        </a>
+       </li>
+       <li data-xid="47">
+        <a data-g-action="Analytics 360 Suite Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="48" href="https://360suite.google.com/" target="_blank">
+         Analytics 360 Suite
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="cta cta-wrapper" data-xid="49">
+     <a class="cta-signup" data-g-action="Sign Up For Free" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="50" href="https://tagmanager.google.com/?hl=en" target="_blank">
+      Sign Up For Free
+     </a>
+    </div>
+   </div>
+   <nav class="main-navigation contains-sub-nav contains-double-cta" data-xid="51">
+    <h1 data-xid="52">
+     Tag Manager
+    </h1>
+    <ul class="nav-no-padding" data-xid="53">
+     <li data-xid="54">
+      <a data-g-action="Analytics" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="55" href="../../analytics/analytics/">
+       Analytics
+      </a>
+     </li>
+     <li class="active" data-xid="56">
+      <a data-g-action="Tag Manager" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="57" href="../../analytics/tag-manager/">
+       Tag Manager
+      </a>
+      <ul class="sub-nav" data-xid="58">
+       <li class="active" data-g-action="Tag Manager: Overview" data-g-event="Tag Manager: Overview" data-g-label="Tag Manager Sub-Nav" data-xid="59">
+        <a data-xid="60" href="../../analytics/tag-manager/">
+         Overview
+        </a>
+       </li>
+       <li data-g-action="Tag Manager: Capabilities" data-g-event="Tag Manager: Overview" data-g-label="Tag Manager Sub-Nav" data-xid="61">
+        <a data-xid="62" href="../../analytics/tag-manager/capabilities/">
+         Capabilities
+        </a>
+       </li>
+       <li data-g-action="Tag Manager: Features" data-g-event="Tag Manager: Overview" data-g-label="Tag Manager Sub-Nav" data-xid="63">
+        <a data-xid="64" href="../../analytics/tag-manager/features/">
+         Features
+        </a>
+       </li>
+       <li data-g-action="Tag Manager: Compare" data-g-event="Tag Manager: Overview" data-g-label="Tag Manager Sub-Nav" data-xid="65">
+        <a data-xid="66" href="../../analytics/tag-manager/compare/">
+         Compare
+        </a>
+       </li>
+       <li data-g-action="Tag Manager: Success Stories" data-g-event="Tag Manager: Overview" data-g-label="Tag Manager Sub-Nav" data-xid="67">
+        <a data-xid="68" href="../../analytics/success-stories/#?product_filters=tag-manager">
+         Success
+                Stories
+        </a>
+       </li>
+       <li data-g-action="Tag Manager: Resources" data-g-event="Tag Manager: Overview" data-g-label="Tag Manager Sub-Nav" data-xid="69">
+        <a data-xid="70" href="../../analytics/resources/#?type_filters=tag-management">
+         Resources
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li data-xid="71">
+      <a data-g-action="Optimize" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="72" href="../../analytics/optimize/">
+       Optimize
+      </a>
+     </li>
+     <li data-xid="73">
+      <a data-g-action="Data Studio" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="74" href="../../analytics/data-studio/">
+       Data Studio
+      </a>
+     </li>
+     <li data-xid="75">
+      <a data-g-action="Surveys" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="76" href="../../analytics/surveys/">
+       Surveys
+      </a>
+     </li>
+     <li data-xid="77">
+      <a data-g-action="Attribution" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="78" href="../../analytics/attribution/">
+       Attribution
+      </a>
+     </li>
+     <li data-xid="79">
+      <a data-g-action="Audience Center" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="80" href="../../analytics/audience-center/">
+       Audience Center
+      </a>
+     </li>
+     <li data-xid="81">
+      <a data-g-action="360 Suite" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="82" href="../../analytics/360-suite/">
+       Analytics 360 Suite
+      </a>
+     </li>
+     <li class="partners-link-mobile" data-xid="83">
+      <a class="partners-link" data-g-action="Partners" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="84" href="/analytics/partner-services">
+       Partners
+      </a>
+     </li>
+     <li class="support-link-mobile" data-xid="85">
+      <a class="support-link" data-g-action="Support" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="86" href="/analytics/services-support">
+       Support
+      </a>
+     </li>
+    </ul>
+    <div class="nav-dropdown-wrapper ng-scope" data-rs-popupmenu="" data-xid="87">
+     <a class="nav-dropdown-trigger partners-link-desktop" data-g-action="Partners" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="88" href="https://www.google.com/analytics/partner-services/">
+      <span data-xid="89">
+       Partners
+      </span>
+     </a>
+     <a class="nav-dropdown-trigger support-link-desktop" data-g-action="Support" data-g-event="Tag Manager: Overview" data-g-label="Global Nav" data-xid="90" href="https://www.google.com/analytics/services-support">
+      <span data-xid="91">
+       Support
+      </span>
+     </a>
+     <a class="nav-dropdown-trigger" data-g-action="Sign In Menu" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="92" ng-click="dropdownExpanded = !dropdownExpanded">
+      <span data-xid="93">
+       Sign
+          in
+      </span>
+      <svg class="icon-arrow-drop-down" data-xid="94" enable-background="new 0 0 36 36" height="28px" space="preserve" version="1.1" viewBox="0 0 36 36" width="28px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+       <path d="M10.5 15l7.5 7.5 7.5-7.5z" data-xid="95">
+       </path>
+       <path d="M0 0h36v36H0z" data-xid="96" fill="none">
+       </path>
+      </svg>
+      <img alt="drop down arrow icon" class="icon-arrow-drop-down" data-xid="97" height="28" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-drop-down.png&amp;accessed=1523340919805" width="28"/>
+     </a>
+     <div class="nav-dropdown" data-xid="98" ng-class="{'nav-dropdown-expanded': dropdownExpanded}">
+      <a class="nav-dropdown-close" data-xid="99" ng-click="dropdownExpanded = false">
+       <svg class="icon-arrow-drop-down" data-xid="100" enable-background="new 0 0 36 36" height="28px" space="preserve" version="1.1" viewBox="0 0 36 36" width="28px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+        <path d="M10.5 15l7.5 7.5 7.5-7.5z" data-xid="101">
+        </path>
+        <path d="M0 0h36v36H0z" data-xid="102" fill="none">
+        </path>
+       </svg>
+       <img alt="drop down arrow icon" class="icon-arrow-drop-down" data-xid="103" height="28" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-drop-down.png&amp;accessed=1523340919805" width="28"/>
+      </a>
+      <ul data-xid="104">
+       <li class="nav-dropdown-close-mobile" data-xid="105">
+        <a data-xid="106" ng-click="dropdownExpanded = false">
+         Sign in
+         <svg class="icon-arrow-drop-down" data-xid="107" enable-background="new 0 0 36 36" height="28px" space="preserve" version="1.1" viewBox="0 0 36 36" width="28px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M10.5 15l7.5 7.5 7.5-7.5z" data-xid="108">
+          </path>
+          <path d="M0 0h36v36H0z" data-xid="109" fill="none">
+          </path>
+         </svg>
+         <img alt="drop down arrow icon" class="icon-arrow-drop-down" data-xid="110" height="28" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-drop-down.png&amp;accessed=1523340919805" width="28"/>
+        </a>
+       </li>
+       <li data-xid="111">
+        <a data-g-action="Analytics Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="112" href="https://analytics.google.com/analytics/web/" target="_blank">
+         Analytics
+        </a>
+       </li>
+       <li data-xid="113">
+        <a data-g-action="Tag Manager Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="114" href="https://tagmanager.google.com/?hl=en" target="_blank">
+         Tag Manager
+        </a>
+       </li>
+       <li data-xid="115">
+        <a data-g-action="Optimize Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="116" href="https://optimize.google.com/" target="_blank">
+         Optimize
+        </a>
+       </li>
+       <li data-xid="117">
+        <a data-g-action="Data Studio Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="118" href="https://datastudio.google.com/?hl=en" target="_blank">
+         Data Studio
+        </a>
+       </li>
+       <li data-xid="119">
+        <a data-g-action="Surveys Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="120" href="https://surveys.google.com/" target="_blank">
+         Surveys
+        </a>
+       </li>
+       <li data-xid="121">
+        <a data-g-action="Attribution Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="122" href="https://attribution.google.com/" target="_blank">
+         Attribution
+        </a>
+       </li>
+       <li data-xid="123">
+        <a data-g-action="Audience Center Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="124" href="https://audiencecenter.google.com/" target="_blank">
+         Audience Center
+        </a>
+       </li>
+       <li data-xid="125">
+        <a data-g-action="Analytics 360 Suite Sign In" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="126" href="https://360suite.google.com/" target="_blank">
+         Analytics 360 Suite
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="cta cta-wrapper" data-xid="127">
+     <a class="cta-signup" data-g-action="Sign Up For Free" data-g-event="Tag Manager: Overview" data-g-label="Global Nav CTA" data-xid="128" href="https://tagmanager.google.com/?hl=en" target="_blank">
+      Sign Up For Free
+     </a>
+    </div>
+   </nav>
+   <button aria-label="toggle nav" class="nav-toggle-button" data-xid="129">
+    <span class="icon-menu-els" data-xid="130">
+     <span class="menu-bar" data-xid="131">
+     </span>
+     <span class="menu-bar" data-xid="132">
+     </span>
+     <span class="menu-bar" data-xid="133">
+     </span>
+    </span>
+   </button>
+  </header>
+  <div class="main" data-xid="134" role="main">
+   <section class="section section-hero section-overview-hero" data-xid="135">
+    <div class="site-width" data-xid="136">
+     <div class="cols-row" data-xid="137">
+      <div class="section-hero-copy col-5" data-xid="138">
+       <h1 data-xid="139">
+        Tags at your service.
+       </h1>
+       <p class="font-large" data-xid="140">
+        Marketers want tag management that’s simple, reliable, and integrates easily with
+                existing systems. That’s what Google Tag Manager delivers. You’ll launch programs
+                faster, so you can make swifter decisions.
+       </p>
+       <p data-xid="141">
+        <a class="button cta-main" data-g-action="Sign Up For Free" data-g-event="Tag Manager: Overview" data-g-label="Canvas CTA" data-xid="142" href="https://tagmanager.google.com/?hl=en" target="_blank">
+         Sign Up For Free
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="section-hero-media section-hero-media-right" data-xid="143">
+     <div class="hero-image" data-xid="144">
+     </div>
+    </div>
+    <a class="fab fab-bottom-center google-yellow gweb-smoothscroll-control" data-g-action="Click To Scroll" data-g-event="Tag Manager: Overview" data-g-label="Canvas" data-xid="145" href="#quotation">
+     <svg class="icon-fab-scroll" data-xid="146" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+      <polygon data-xid="147" points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9">
+      </polygon>
+     </svg>
+     <img alt="scroll icon" class="icon-fab-scroll" data-xid="148" height="14" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-fab-scroll.png&amp;accessed=1523340919805" width="14"/>
+    </a>
+   </section>
+   <section class="section section-dark section-quote blue quotation" data-xid="149" id="quotation">
+    <div class="site-width" data-xid="150">
+     <blockquote data-xid="151">
+      “In the fast-paced world of digital analytics and sophisticated marketing programs,
+            Google Tag Manager is a serious game-changer that provides the kind of competitive edge
+            our clients need.”
+     </blockquote>
+     <cite class="font-medium" data-xid="152">
+      <strong data-xid="153">
+       Caleb Whitmore
+      </strong>
+      , Founder &amp;
+          Chairman, Analytics Pros
+     </cite>
+    </div>
+   </section>
+   <section class="section section-capabilities section-overview-capabilities" data-xid="154">
+    <div class="site-width" data-xid="155">
+     <h4 class="section-sub-heading border-deep-teal" data-xid="156">
+      Capabilities
+     </h4>
+     <div class="capabilities-list" data-xid="157">
+      <div class="cols-row" data-xid="158">
+       <div class="vertical-offset col-5" data-xid="159">
+        <div class="capabilities-icon" data-xid="160">
+         <svg class="icon-tab" data-xid="161" enable-background="new 0 0 32 32" height="32px" space="preserve" version="1.1" viewBox="0 0 32 32" width="32px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M15.5,4l-0.1-1.2c-0.1-1,1.2-1.6,1.9-0.9l14.3,14.2c0.6,0.5,0.4,1.5-0.3,1.8l-0.5,0.2 c-0.4,0.2-0.9,0.1-1.3-0.2L15.5,4L15.5,4z M17.9,20.3l3.8,8.2c0.3,0.6,0,1.2-0.5,1.5l-0.6,0.3c-0.6,0.3-1.2,0-1.5-0.5l-3.4-7.2 c-0.3-0.6,0-1.2,0.5-1.5L17.9,20.3L17.9,20.3z M24.9,20.3l3.8,8.2c0.3,0.6,0,1.2-0.5,1.5l-0.6,0.3c-0.6,0.3-1.2,0-1.5-0.5l-3.4-7.2 c-0.3-0.6,0-1.2,0.5-1.5L24.9,20.3L24.9,20.3z M10.9,20.4l3.8,8.1c0.3,0.6,0,1.2-0.5,1.5l-0.6,0.3c-0.6,0.3-1.2,0-1.5-0.5l-3.8-8.1 L8,21.7l-4.7,2.2c-0.7,0.3-1.5-0.1-1.6-0.9L0,2.9c-0.1-1,1.2-1.6,1.9-0.9l14.3,14.2c0.6,0.5,0.4,1.5-0.3,1.8l-4.7,2.2L10.9,20.4 L10.9,20.4z M7.8,4L7.7,2.9C7.6,1.8,8.9,1.2,9.6,2l14.3,14.2c0.6,0.5,0.4,1.5-0.3,1.8l-0.5,0.2c-0.4,0.2-0.9,0.1-1.3-0.2L7.8,4 L7.8,4z" data-xid="162">
+          </path>
+         </svg>
+         <img alt="cursor icon" class="icon-tab" data-xid="163" height="32" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-ui-agility.png&amp;accessed=1523340919805" width="32"/>
+        </div>
+        <h3 data-xid="164">
+         Increase your agility.
+        </h3>
+        <p data-xid="165">
+         Add and update your own tags for conversion tracking, site analytics,
+                  remarketing, and more.
+        </p>
+       </div>
+       <div class="vertical-offset col-5 col-offset-1" data-xid="166">
+        <div class="capabilities-icon" data-xid="167">
+         <svg class="icon-tab" data-xid="168" enable-background="new 0 0 32 32" height="32px" space="preserve" version="1.1" viewBox="0 0 32 32" width="32px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M17.4,11.5c0.2,0.1,0.5-0.1,0.5-0.3c0.1-0.2-0.1-0.5-0.3-0.5c-2.6-0.7-5.5,0-7.4,1.9c-0.2,0.2-0.2,0.5,0,0.6 c0.1,0.1,0.2,0.1,0.3,0.1s0.2,0,0.3-0.1C12.6,11.5,15.1,10.8,17.4,11.5z" data-xid="169">
+          </path>
+          <path d="M17.3,5V2.7h2.7c0.7,0,1.3-0.6,1.3-1.3S20.8,0,20.1,0h-8.1c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3h2.7V5 C7.8,5.6,2.4,11.4,2.4,18.4C2.4,25.9,8.5,32,16,32c7.5,0,13.6-6.1,13.6-13.6C29.6,11.4,24.2,5.6,17.3,5z M16,29.3 c-6,0-10.9-4.9-10.9-10.9S10,7.6,16,7.6c6,0,10.9,4.9,10.9,10.9S22,29.3,16,29.3z" data-xid="170">
+          </path>
+          <path d="M20.2,11.9l-5.6,5.6c-0.5,0.5-0.5,1.4,0,1.9c0.3,0.3,0.6,0.4,0.9,0.4c0.3,0,0.7-0.1,0.9-0.4l5.6-5.6c0.5-0.5,0.5-1.4,0-1.9 S20.7,11.4,20.2,11.9z" data-xid="171">
+          </path>
+         </svg>
+         <img alt="timer icon" class="icon-tab" data-xid="172" height="32" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-ui-timer.png&amp;accessed=1523340919805" width="32"/>
+        </div>
+        <h3 data-xid="173">
+         Quickly deploy Google and third-party tags.
+        </h3>
+        <p data-xid="174">
+         Tag Manager supports all Google and third-party tags.
+        </p>
+       </div>
+       <div class="vertical-offset col-5" data-xid="175">
+        <div class="capabilities-icon" data-xid="176">
+         <svg class="icon-tab" data-xid="177" enable-background="new 0 0 32 32" height="32px" space="preserve" version="1.1" viewBox="0 0 32 32" width="32px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16s16-7.2,16-16S24.8,0,16,0z M6.9,11.4c0.1-0.2,1.4-1.7,3.8-1.7s3.6,1.5,3.8,1.7 c0.5,0.7,0.4,1.6-0.2,2.1c-0.3,0.2-0.6,0.3-1,0.3c-0.4,0-0.9-0.2-1.2-0.6c0,0-0.5-0.6-1.4-0.6c-0.9,0-1.4,0.6-1.4,0.6 c-0.5,0.7-1.5,0.7-2.1,0.2C6.4,13,6.3,12,6.9,11.4z M25.2,21.1c-1.4,2.8-5,4.7-9.2,4.7c-4.1,0-7.7-1.8-9.2-4.7 c-0.4-0.8-0.1-1.7,0.7-2.1c0.7-0.4,1.7-0.1,2.1,0.7c0.9,1.8,3.6,3,6.5,3s5.6-1.2,6.5-3c0.4-0.8,1.3-1.1,2.1-0.7 C25.3,19.5,25.6,20.4,25.2,21.1z M24.9,13.5c-0.3,0.2-0.6,0.3-1,0.3c-0.4,0-0.9-0.2-1.2-0.6c0,0-0.5-0.6-1.4-0.6 c-0.9,0-1.4,0.6-1.4,0.6c-0.5,0.6-1.5,0.7-2.2,0.2C17.1,13,17,12,17.6,11.4c0.1-0.2,1.4-1.7,3.8-1.7c2.3,0,3.6,1.5,3.8,1.7 C25.7,12,25.6,13,24.9,13.5z" data-xid="178">
+          </path>
+         </svg>
+         <img alt="happy face icon" class="icon-tab" data-xid="179" height="32" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-ui-happyface.png&amp;accessed=1523340919805" width="32"/>
+        </div>
+        <h3 data-xid="180">
+         Put your mind at ease.
+        </h3>
+        <p data-xid="181">
+         Error checking, security features, and speedy tag loading ensure that all your
+                  tags work.
+        </p>
+       </div>
+       <div class="vertical-offset col-5 col-offset-1" data-xid="182">
+        <div class="capabilities-icon" data-xid="183">
+         <svg class="icon-tab" data-xid="184" enable-background="new 0 0 32 32" height="32px" space="preserve" version="1.1" viewBox="0 0 32 32" width="32px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16s16-7.2,16-16S24.8,0,16,0z M3.9,16c0-0.8,0.1-1.5,0.2-2.2L9.3,19 c-0.3,0.6-0.5,1.4-0.5,2.1c0,2.5,2.1,4.6,4.6,4.6c0.4,0,0.7,0,1-0.1V28C8.5,27.2,3.9,22.1,3.9,16z M23.9,25.2V25 c0-1.4-1.1-2.5-2.5-2.5h-1.2v-3.9c0-1.3-1-2.3-2.3-2.3H9.9v-3.1h2c1.4,0,2.5-1.1,2.5-2.5V8.5h3.2c1.4,0,2.5-1.1,2.5-2.5V4.6 c4.7,1.7,8,6.1,8,11.4C28.1,19.7,26.5,22.9,23.9,25.2z" data-xid="185">
+          </path>
+         </svg>
+         <img alt="globe icon" class="icon-tab" data-xid="186" height="32" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-ui-globe.png&amp;accessed=1523340919805" width="32"/>
+        </div>
+        <h3 data-xid="187">
+         Collaborate across the enterprise.
+        </h3>
+        <p data-xid="188">
+         Tag Manager improves collaboration across your business. Features like
+                  workspaces, granular access controls, and support for multi-environment testing
+                  mean that marketing and IT can work together efficiently.
+        </p>
+       </div>
+      </div>
+      <p class="vertical-offset" data-xid="189">
+       <a class="link-more" data-g-action="Learn More" data-g-event="Tag Manager: Overview" data-g-label="Capabilities" data-xid="190" href="/analytics/tag-manager/capabilities/">
+        Learn more
+        <svg class="icon-arrow-more" data-xid="191" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+         <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z" data-xid="192">
+         </path>
+        </svg>
+       </a>
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section section-business-size light-gray" data-xid="193">
+    <div class="site-width" data-xid="194">
+     <div class="cols-row" data-xid="195">
+      <div class="col-6" data-xid="196">
+       <div class="cols-row" data-xid="197">
+        <div class="col-12" data-xid="198">
+         <h4 class="section-sub-heading border-blue" data-xid="199">
+          For businesses of all sizes
+         </h4>
+         <h2 data-xid="200">
+          Solutions for businesses big and small.
+         </h2>
+         <p class="font-large" data-xid="201">
+          Google Tag Manager offers simple, yet powerful tag management solutions to help
+                    small businesses and large enterprises launch programs faster.
+         </p>
+        </div>
+       </div>
+       <div class="hidden-s section-image-s vertical-offset" data-xid="202">
+        <picture data-xid="203">
+         <source data-xid="204" media="(min-width: 768px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>
+         <img alt="" data-xid="205" srcset="../../analytics/images/tag-manager/overview/business-size_m_1x.png, ../../analytics/images/tag-manager/overview/business-size_m_2x.png 2x"/>
+        </picture>
+       </div>
+       <div class="cols-row cards vertical-offset" data-xid="206">
+        <div class="card card-related custom-cta col-6 col-m-6" data-xid="207">
+         <a class="card-inner" data-g-action="Sign Up For Free" data-g-event="Tag Manager: Overview" data-g-label="For Businesses Of All Sizes: Tag Manager CTA" data-xid="208" href="https://tagmanager.google.com/?hl=en#/admin/accounts/create" target="_blank">
+          <picture data-xid="209">
+           <source data-xid="210" media="(min-width: 768px)" srcset="../../analytics/images/icons/tagmanager_1x.png, ../../analytics/images/icons/tagmanager_2x.png 2x"/>
+           <img alt="" class="product-logo" data-xid="211" srcset="../../analytics/images/icons/tagmanager_m_1x.png, ../../analytics/images/icons/tagmanager_m_2x.png 2x"/>
+          </picture>
+          <h3 data-xid="212">
+           Google
+           <br data-xid="213"/>
+           Tag Manager
+          </h3>
+          <p class="last" data-xid="214">
+           Easily update website tags for your small or medium-sized business.
+          </p>
+          <span class="link-more" data-xid="215">
+           <span class="link-more-label" data-xid="216">
+            Sign Up For Free
+           </span>
+           <svg class="icon-arrow-related" data-xid="217" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+            <polygon data-xid="218" points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+            </polygon>
+           </svg>
+           <img alt="related arrow icon" class="icon-arrow-related" data-xid="219" height="14" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-related.png&amp;accessed=1523340919805" width="14"/>
+          </span>
+         </a>
+        </div>
+        <div class="card card-related custom-cta col-6 col-m-6 col-mobile-vertical-offset" data-xid="220">
+         <a class="card-inner" data-g-action="Talk To Sales" data-g-event="Tag Manager: Overview" data-g-label="For Businesses Of All Sizes: Tag Manager 360 CTA" data-xid="221" href="/analytics/contact-us/">
+          <img alt="Google Analytics 360 Suite icon" class="product-logo" data-xid="222" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-product-analytics-360-suite-64.png&amp;accessed=1523340919805"/>
+          <h3 data-xid="223">
+           Google Tag Manager 360
+          </h3>
+          <p class="last" data-xid="224">
+           Enjoy features made for large businesses along with enterprise-level support.
+          </p>
+          <span class="link-more" data-xid="225">
+           <span class="link-more-label" data-xid="226">
+            Talk To Sales
+           </span>
+           <svg class="icon-arrow-related" data-xid="227" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+            <polygon data-xid="228" points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+            </polygon>
+           </svg>
+           <img alt="related arrow icon" class="icon-arrow-related" data-xid="229" height="14" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-related.png&amp;accessed=1523340919805" width="14"/>
+          </span>
+         </a>
+        </div>
+       </div>
+       <p class="vertical-offset" data-xid="230">
+        <a class="link-more" data-g-action="Compare Versions" data-g-event="Tag Manager: Overview" data-g-label="For Businesses Of All Sizes" data-xid="231" href="/analytics/tag-manager/compare/">
+         Compare versions
+         <svg class="icon-arrow-more" data-xid="232" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z" data-xid="233">
+          </path>
+         </svg>
+        </a>
+       </p>
+      </div>
+      <div class="hidden-xs col-5 section-image device-animation-right ng-isolate-scope" data-rs-trigger="" data-xid="234">
+       <picture data-xid="235">
+        <source data-xid="236" media="(min-width: 768px)" srcset="../../analytics/images/tag-manager/overview/business-size_1x.png, ../../analytics/images/tag-manager/overview/business-size_2x.png 2x"/>
+        <img alt="" class="" data-xid="237" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>
+       </picture>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section section-overview-tag-support" data-xid="238">
+    <div class="site-width" data-xid="239">
+     <div class="cols-row" data-xid="240">
+      <div class="hidden-xs col-5 section-image" data-xid="241">
+       <picture data-xid="242">
+        <source data-xid="243" media="(min-width: 768px)" srcset="../../analytics/images/tag-manager/overview/tag-support_1x.png, ../../analytics/images/tag-manager/overview/tag-support_2x.png 2x"/>
+        <img alt="" data-xid="244" srcset="../../analytics/images/tag-manager/overview/tag-support_m_1x.png, ../../analytics/images/tag-manager/overview/tag-support_m_2x.png 2x"/>
+       </picture>
+      </div>
+      <div class="col-7" data-xid="245">
+       <h4 class="section-sub-heading border-yellow" data-xid="246">
+        Tag Support
+       </h4>
+       <h2 data-xid="247">
+        Plays nicely with others.
+       </h2>
+       <p class="font-large" data-xid="248">
+        Tag Manager supports all tags and has easy-to-use turnkey templates for a wide
+                range of Google and
+        <a data-g-action="Third-Party Tags" data-g-event="Tag Manager: Overview" data-g-label="Tag Support" data-xid="249" href="https://support.google.com/tagmanager/answer/6106924?hl=en" target="_blank">
+         third-party tags
+        </a>
+        — for web and mobile apps. Marketers can add or
+                change their own tags as needed and a campaign can be underway with just a few
+                clicks. Don’t see a tag listed? You can add it immediately as a custom tag.
+       </p>
+       <p class="font-large" data-xid="250">
+        Are you a tag vendor?
+        <br data-xid="251"/>
+        Sign up for our
+        <a data-g-action="Vendor Tag Template Program" data-g-event="Tag Manager: Overview" data-g-label="Tag Support" data-xid="252" href="https://developers.google.com/tag-manager/program/" target="_blank">
+         vendor tag
+                template program
+        </a>
+        .
+       </p>
+       <p data-xid="253">
+        <a class="link-more" data-g-action="See All Capabilities" data-g-event="Tag Manager: Overview" data-g-label="Tag Support" data-xid="254" href="/analytics/tag-manager/capabilities/">
+         See all capabilities
+         <svg class="icon-arrow-more" data-xid="255" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z" data-xid="256">
+          </path>
+         </svg>
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="hidden-s section-image-s vertical-offset" data-xid="257">
+      <picture data-xid="258">
+       <source data-xid="259" media="(min-width: 768px)" srcset="../../analytics/images/tag-manager/overview/tag-support_1x.png, ../../analytics/images/tag-manager/overview/tag-support_2x.png 2x"/>
+       <img alt="" data-xid="260" srcset="../../analytics/images/tag-manager/overview/tag-support_m_1x.png, ../../analytics/images/tag-manager/overview/tag-support_m_2x.png 2x"/>
+      </picture>
+     </div>
+    </div>
+   </section>
+   <section class="section section-overview-integrations section-dark blue-dark" data-xid="261">
+    <div class="site-width" data-xid="262">
+     <div class="cols-row" data-xid="263">
+      <div class="col-7" data-xid="264">
+       <h4 class="section-sub-heading border-green" data-xid="265">
+        Integrations
+       </h4>
+       <h2 data-xid="266">
+        Built for mobile apps.
+       </h2>
+       <p class="font-large" data-xid="267">
+        Google Tag Manager works with
+        <a data-g-action="Firebase" data-g-event="Tag Manager: Overview" data-g-label="Integrations" data-xid="268" href="https://firebase.google.com/?utm_campaign=Firebase_featureoverview_awareness_analytics_en_05-18-16_&amp;utm_source=Firebase&amp;utm_medium=ads" target="_blank">
+         Firebase
+        </a>
+        , Google's platform for mobile developers, to make it
+                easier than ever for marketing and development teams to work together.
+       </p>
+       <p class="font-large" data-xid="269">
+        With Firebase, developers only need to instrument their app once. Then, using the
+                easy-to-use Tag Manager web interface, marketers can modify and route in-app events
+                to various measurement solutions within Google and to partners like Kochava, Tune,
+                Adjust, Appsflyer, and Apsalar. Updates in Tag Manager are sent directly to your
+                installed apps, allowing teams to update their measurement setup on the fly.
+       </p>
+       <p data-xid="270">
+        <a class="link-more" data-g-action="Learn More" data-g-event="Tag Manager: Overview" data-g-label="Integrations" data-xid="271" href="https://firebase.google.com/?utm_campaign=Firebase_featureoverview_awareness_analytics_en_05-18-16_&amp;utm_source=Firebase&amp;utm_medium=ads" target="_blank">
+         Learn more
+         <svg class="icon-arrow-more" data-xid="272" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z" data-xid="273">
+          </path>
+         </svg>
+        </a>
+       </p>
+      </div>
+      <div class="hidden-xs col-4 col-offset-1 section-image device-animation-bottom ng-isolate-scope" data-rs-trigger="" data-xid="274">
+       <picture data-xid="275">
+        <source data-xid="276" media="(min-width: 768px)" srcset="../../analytics/images/tag-manager/overview/integrations_1x.png, ../../analytics/images/tag-manager/overview/integrations_2x.png 2x"/>
+        <img alt="" data-xid="277" srcset="../../analytics/images/tag-manager/overview/integrations_m_1x.png, ../../analytics/images/tag-manager/overview/integrations_m_2x.png 2x"/>
+       </picture>
+      </div>
+     </div>
+     <div class="hidden-s section-image-s vertical-offset" data-xid="278">
+      <picture data-xid="279">
+       <source data-xid="280" media="(min-width: 768px)" srcset="../../analytics/images/tag-manager/overview/integrations_1x.png, ../../analytics/images/tag-manager/overview/integrations_2x.png 2x"/>
+       <img alt="" data-xid="281" srcset="../../analytics/images/tag-manager/overview/integrations_m_1x.png, ../../analytics/images/tag-manager/overview/integrations_m_2x.png 2x"/>
+      </picture>
+     </div>
+    </div>
+   </section>
+   <section class="section section-suite section-hero light-gray" data-xid="282">
+    <div class="site-width" data-xid="283">
+     <div class="cols-row" data-xid="284">
+      <div class="section-hero-copy col-7 col-offset-5" data-xid="285">
+       <h4 class="section-sub-heading border-blue" data-xid="286">
+        The 360 suite advantage
+       </h4>
+       <h2 data-xid="287">
+        Seven measurement solutions. One powerful package.
+       </h2>
+       <p class="font-large" data-xid="288">
+        The Google Analytics 360 Suite combines enterprise analytics, tagging, site
+                optimization, data visualization, market research, attribution, and audience
+                management into a powerful measurement solution for your business. Designed to
+                deliver a seamless user experience, cross-product data integration helps your
+                enterprise gain useful insights and get better results every day.
+       </p>
+       <p class="font-large" data-xid="289">
+        If you need assistance, dedicated support and services ensure that help is there
+                when you need it.
+       </p>
+       <p data-xid="290">
+        <a class="button cta-main" data-g-action="Sign Up For Free" data-g-event="Tag Manager: Overview" data-g-label="The 360 Advantage CTA" data-xid="291" href="https://tagmanager.google.com/?hl=en">
+         Sign Up For Free
+        </a>
+        <a class="link-more" data-g-action="Learn More" data-g-event="Tag Manager: Overview" data-g-label="The 360 Advantage" data-xid="292" href="../../analytics/360-suite/">
+         Learn more
+         <svg class="icon-arrow-more" data-xid="293" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z" data-xid="294">
+          </path>
+         </svg>
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="section-hero-media" data-xid="295">
+     <div class="hero-image overview-suite-image" data-xid="296">
+     </div>
+    </div>
+   </section>
+   <section class="section section-dark section-success-overview google-red" data-xid="297">
+    <div class="site-width" data-xid="298">
+     <h4 class="section-sub-heading border-yellow" data-xid="299">
+      Success Stories
+     </h4>
+     <h2 data-xid="300">
+      Our Customers
+     </h2>
+     <div class="cols-row cards-row" data-xid="301">
+      <div class="col-6 col-m-4 card card-success" data-xid="302" id="">
+       <div class="card-inner" data-xid="303">
+        <div class="card-success-logo card-logo" data-xid="304">
+         <img alt="AIDA Cruises" data-xid="305" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fservices.google.com%2Ffh%2Ffiles%2Fmisc%2Faida_logo.png&amp;accessed=1523340919805"/>
+        </div>
+        <div class="card-success-content" data-xid="306">
+         <h3 data-xid="307">
+          AIDA Cruises
+         </h3>
+         <p data-xid="308">
+          AIDA Cruises prepares for growth with Analytics 360 and Tag Manager 360.
+         </p>
+        </div>
+        <a class="link-more" data-g-action="View PDF" data-g-event="Tag Manager: Overview" data-g-label="Success Story: AIDA Cruises" data-g-ssindustry="Travel and Leisure" data-g-ssproduct="Analytics, Tag Manager" data-xid="309" href="https://services.google.com/fh/files/misc/ga360_aidacruises_case_study_v5.pdf" target="success_pdfs">
+         <svg class="icon-pdf" data-xid="310" enable-background="new 0 0 32 32" height="24px" space="preserve" version="1.1" viewBox="0 0 32 32" width="24px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M19.6,18.3c-1.3-1.4-2.7-3.5-3.7-5.5c1-4.1,0.3-4.9,0.1-5.2c-0.2-0.3-0.6-0.5-0.9-0.5c-0.2,0-0.3,0-0.5,0.1 c-0.4,0.1-0.7,0.4-0.9,0.9c-0.5,1.2,0.2,3.3,0.9,4.8c-0.6,2.5-1.7,5.4-2.8,7.8C9,22,7.6,23.2,7.4,24.4c0,0.4,0.1,1.1,0.8,1.6 c0.2,0.2,0.5,0.2,0.7,0.2c0.6,0,1.3-0.5,2-1.5c0.5-0.8,1.1-1.8,1.7-3.1c1.9-0.8,4.4-1.6,6.4-2.1c1.1,1.1,2.2,1.7,3.1,1.7 c0.7,0,1.2-0.3,1.6-0.9s0.5-1.1,0.3-1.6c-0.3-0.5-1-0.8-2.1-0.8C21.4,18.1,20.6,18.1,19.6,18.3z M9,25.1c-0.3-0.3-0.3-0.4-0.3-0.5 c0-0.4,0.7-1.1,2.2-2C9.8,24.8,9.1,25.1,9,25.1z M14.8,8.6c0-0.1,0.1-0.2,0.2-0.2h0.1c0.1,0.2,0.2,0.8,0,2.4 C14.8,9.9,14.6,9,14.8,8.6z M13.5,20.1c0.7-1.8,1.4-3.7,1.9-5.5c0.8,1.5,1.8,2.9,2.8,4C16.7,19,15,19.5,13.5,20.1z M22.9,19.7 c-0.2,0.3-0.4,0.4-0.6,0.4c-0.4,0-0.9-0.2-1.5-0.7c0.5-0.1,0.9-0.1,1.3-0.1c0.6,0,0.9,0.1,1,0.1C23,19.5,23,19.6,22.9,19.7z" data-xid="311">
+          </path>
+          <path d="M28.9,7.2c0-0.2-0.1-0.5-0.2-0.7l-6.3-6.3C22.1,0,21.8,0,21.4,0l0,0H6.7c-2,0-3.6,1.6-3.6,3.6v24.8c0,2,1.6,3.6,3.6,3.6 h18.6c2,0,3.6-1.6,3.6-3.6V7.2L28.9,7.2z M26.8,7.2h-3.3c-1,0-1.8,0-1.8-1.8L21.5,2L26.8,7.2z M27.1,28.4c0,1-0.8,1.8-1.8,1.8H6.7 c-1,0-1.8-0.8-1.8-1.8V3.6c0-1,0.8-1.8,1.8-1.8h13l0.1,3.6C19.8,9,22.5,9,23.4,9h3.7L27.1,28.4L27.1,28.4z" data-xid="312">
+          </path>
+         </svg>
+         <img alt="pdf icon" class="icon-pdf" data-xid="313" height="24" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-pdf.png&amp;accessed=1523340919805" width="24"/>
+         View PDF
+        </a>
+       </div>
+      </div>
+      <div class="col-6 col-m-4 card card-success" data-xid="314" id="">
+       <div class="card-inner" data-xid="315">
+        <div class="card-success-logo card-logo" data-xid="316">
+         <img alt="Domino’s" data-xid="317" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fanalytics%2Fimages%2Fshared%2Fsuccess%2FDominos_240.png&amp;accessed=1523340919805"/>
+        </div>
+        <div class="card-success-content" data-xid="318">
+         <h3 data-xid="319">
+          Domino’s
+         </h3>
+         <p data-xid="320">
+          Domino’s increases monthly revenue by 6% with Analytics 360 and Tag Manager
+                    360.
+         </p>
+        </div>
+        <a class="link-more" data-g-action="View PDF" data-g-event="Tag Manager: Overview" data-g-label="Success Story: Domino’s" data-g-ssindustry="Food &amp; Beverage" data-g-ssproduct="Analytics, Tag Manager" data-xid="321" href="https://services.google.com/fh/files/misc/ga360_dominos_case_study_v3.pdf" target="success_pdfs">
+         <svg class="icon-pdf" data-xid="322" enable-background="new 0 0 32 32" height="24px" space="preserve" version="1.1" viewBox="0 0 32 32" width="24px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M19.6,18.3c-1.3-1.4-2.7-3.5-3.7-5.5c1-4.1,0.3-4.9,0.1-5.2c-0.2-0.3-0.6-0.5-0.9-0.5c-0.2,0-0.3,0-0.5,0.1 c-0.4,0.1-0.7,0.4-0.9,0.9c-0.5,1.2,0.2,3.3,0.9,4.8c-0.6,2.5-1.7,5.4-2.8,7.8C9,22,7.6,23.2,7.4,24.4c0,0.4,0.1,1.1,0.8,1.6 c0.2,0.2,0.5,0.2,0.7,0.2c0.6,0,1.3-0.5,2-1.5c0.5-0.8,1.1-1.8,1.7-3.1c1.9-0.8,4.4-1.6,6.4-2.1c1.1,1.1,2.2,1.7,3.1,1.7 c0.7,0,1.2-0.3,1.6-0.9s0.5-1.1,0.3-1.6c-0.3-0.5-1-0.8-2.1-0.8C21.4,18.1,20.6,18.1,19.6,18.3z M9,25.1c-0.3-0.3-0.3-0.4-0.3-0.5 c0-0.4,0.7-1.1,2.2-2C9.8,24.8,9.1,25.1,9,25.1z M14.8,8.6c0-0.1,0.1-0.2,0.2-0.2h0.1c0.1,0.2,0.2,0.8,0,2.4 C14.8,9.9,14.6,9,14.8,8.6z M13.5,20.1c0.7-1.8,1.4-3.7,1.9-5.5c0.8,1.5,1.8,2.9,2.8,4C16.7,19,15,19.5,13.5,20.1z M22.9,19.7 c-0.2,0.3-0.4,0.4-0.6,0.4c-0.4,0-0.9-0.2-1.5-0.7c0.5-0.1,0.9-0.1,1.3-0.1c0.6,0,0.9,0.1,1,0.1C23,19.5,23,19.6,22.9,19.7z" data-xid="323">
+          </path>
+          <path d="M28.9,7.2c0-0.2-0.1-0.5-0.2-0.7l-6.3-6.3C22.1,0,21.8,0,21.4,0l0,0H6.7c-2,0-3.6,1.6-3.6,3.6v24.8c0,2,1.6,3.6,3.6,3.6 h18.6c2,0,3.6-1.6,3.6-3.6V7.2L28.9,7.2z M26.8,7.2h-3.3c-1,0-1.8,0-1.8-1.8L21.5,2L26.8,7.2z M27.1,28.4c0,1-0.8,1.8-1.8,1.8H6.7 c-1,0-1.8-0.8-1.8-1.8V3.6c0-1,0.8-1.8,1.8-1.8h13l0.1,3.6C19.8,9,22.5,9,23.4,9h3.7L27.1,28.4L27.1,28.4z" data-xid="324">
+          </path>
+         </svg>
+         <img alt="pdf icon" class="icon-pdf" data-xid="325" height="24" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-pdf.png&amp;accessed=1523340919805" width="24"/>
+         View PDF
+        </a>
+       </div>
+      </div>
+      <div class="col-6 col-m-4 card card-success" data-xid="326" id="">
+       <div class="card-inner" data-xid="327">
+        <div class="card-success-logo card-logo" data-xid="328">
+         <img alt="Novartis" data-xid="329" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fanalytics%2Fimages%2Fshared%2Fsuccess%2FNovartis_240.png&amp;accessed=1523340919805"/>
+        </div>
+        <div class="card-success-content" data-xid="330">
+         <h3 data-xid="331">
+          Novartis
+         </h3>
+         <p data-xid="332">
+          Novartis implements Google Analytics 360 and Tag Manager 360 on a global scale
+                    to improve customer experience.
+         </p>
+        </div>
+        <a class="link-more" data-g-action="View PDF" data-g-event="Tag Manager: Overview" data-g-label="Success Story: Novartis" data-g-ssindustry="Pharma &amp; Healthcare" data-g-ssproduct="Analytics, Tag Manager" data-xid="333" href="https://services.google.com/fh/files/misc/gtm360_novartis_case_study_v2.pdf" target="success_pdfs">
+         <svg class="icon-pdf" data-xid="334" enable-background="new 0 0 32 32" height="24px" space="preserve" version="1.1" viewBox="0 0 32 32" width="24px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M19.6,18.3c-1.3-1.4-2.7-3.5-3.7-5.5c1-4.1,0.3-4.9,0.1-5.2c-0.2-0.3-0.6-0.5-0.9-0.5c-0.2,0-0.3,0-0.5,0.1 c-0.4,0.1-0.7,0.4-0.9,0.9c-0.5,1.2,0.2,3.3,0.9,4.8c-0.6,2.5-1.7,5.4-2.8,7.8C9,22,7.6,23.2,7.4,24.4c0,0.4,0.1,1.1,0.8,1.6 c0.2,0.2,0.5,0.2,0.7,0.2c0.6,0,1.3-0.5,2-1.5c0.5-0.8,1.1-1.8,1.7-3.1c1.9-0.8,4.4-1.6,6.4-2.1c1.1,1.1,2.2,1.7,3.1,1.7 c0.7,0,1.2-0.3,1.6-0.9s0.5-1.1,0.3-1.6c-0.3-0.5-1-0.8-2.1-0.8C21.4,18.1,20.6,18.1,19.6,18.3z M9,25.1c-0.3-0.3-0.3-0.4-0.3-0.5 c0-0.4,0.7-1.1,2.2-2C9.8,24.8,9.1,25.1,9,25.1z M14.8,8.6c0-0.1,0.1-0.2,0.2-0.2h0.1c0.1,0.2,0.2,0.8,0,2.4 C14.8,9.9,14.6,9,14.8,8.6z M13.5,20.1c0.7-1.8,1.4-3.7,1.9-5.5c0.8,1.5,1.8,2.9,2.8,4C16.7,19,15,19.5,13.5,20.1z M22.9,19.7 c-0.2,0.3-0.4,0.4-0.6,0.4c-0.4,0-0.9-0.2-1.5-0.7c0.5-0.1,0.9-0.1,1.3-0.1c0.6,0,0.9,0.1,1,0.1C23,19.5,23,19.6,22.9,19.7z" data-xid="335">
+          </path>
+          <path d="M28.9,7.2c0-0.2-0.1-0.5-0.2-0.7l-6.3-6.3C22.1,0,21.8,0,21.4,0l0,0H6.7c-2,0-3.6,1.6-3.6,3.6v24.8c0,2,1.6,3.6,3.6,3.6 h18.6c2,0,3.6-1.6,3.6-3.6V7.2L28.9,7.2z M26.8,7.2h-3.3c-1,0-1.8,0-1.8-1.8L21.5,2L26.8,7.2z M27.1,28.4c0,1-0.8,1.8-1.8,1.8H6.7 c-1,0-1.8-0.8-1.8-1.8V3.6c0-1,0.8-1.8,1.8-1.8h13l0.1,3.6C19.8,9,22.5,9,23.4,9h3.7L27.1,28.4L27.1,28.4z" data-xid="336">
+          </path>
+         </svg>
+         <img alt="pdf icon" class="icon-pdf" data-xid="337" height="24" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-pdf.png&amp;accessed=1523340919805" width="24"/>
+         View PDF
+        </a>
+       </div>
+      </div>
+     </div>
+     <p class="success-stories-all" data-xid="338">
+      <a class="link-more" data-g-action="See All Success Stories" data-g-event="Tag Manager: Overview" data-g-label="Success Stories" data-xid="339" href="/analytics/success-stories/?product=tag-manager">
+       See all Success Stories
+       <svg class="icon-arrow-more" data-xid="340" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+        <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z" data-xid="341">
+        </path>
+       </svg>
+      </a>
+     </p>
+    </div>
+   </section>
+   <section class="section light-gray featuredcontent-list" data-xid="342">
+    <div class="site-width" data-xid="343">
+     <h4 class="section-sub-heading border-blue" data-xid="344">
+      Featured Resources
+     </h4>
+     <div class="cols-row" data-xid="345">
+      <a class="glue-filter-result col-6 col-m-4 card card-featuredcontent ng-isolate-scope" data-g-action="Report" data-g-event="Tag Manager: Overview" data-g-frtopic="Measurement Strategy" data-g-frtype="Report" data-g-label="Resource: The data-driven marketer’s playbook: Building an integrated data strategy." data-xid="346" href="/analytics/resources/report-enterprise-playbook-integrated-marketing-data-strategy.html">
+       <div class="card-inner" data-xid="347">
+        <div class="doctype-container" data-xid="348">
+         <span class="doctype doctype-report" data-xid="349">
+          <svg data-xid="350" enable-background="new 0 0 24 24" height="24px" space="preserve" version="1.1" viewBox="0 0 24 24" width="24px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+           <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z" data-xid="351">
+           </path>
+          </svg>
+          <img alt="report icon" data-xid="352" height="24" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-content-copy.png&amp;accessed=1523340919805" width="24"/>
+         </span>
+         <h4 class="doctype-report-title" data-xid="353">
+          Report
+         </h4>
+        </div>
+        <p class="topic" data-xid="354">
+         Measurement Strategy
+        </p>
+        <h3 data-xid="355">
+         The data-driven marketer’s playbook: Building an integrated data strategy.
+        </h3>
+        <p data-xid="356">
+         Leading enterprise marketers are adopting integrated data strategies to make the
+                most of a rising tide of customer data. We talk to the leaders and look at the
+                results of an Econsultancy/Google report.
+        </p>
+        <svg class="icon-arrow-related" data-xid="357" enable-background="new 0 0 32 32" height="16px" space="preserve" version="1.1" viewBox="0 0 32 32" width="16px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+         <polygon data-xid="358" points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+         </polygon>
+        </svg>
+        <img alt="related arrow icon" class="icon-arrow-related" data-xid="359" height="16" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-related.png&amp;accessed=1523340919805" width="16"/>
+       </div>
+      </a>
+      <a class="glue-filter-result col-6 col-m-4 card card-featuredcontent ng-isolate-scope" data-g-action="Product Overview" data-g-event="Tag Manager: Overview" data-g-frtopic="Tag Management" data-g-frtype="Product Overview" data-g-label="Resource: Focus on your marketing, not your tags." data-xid="360" href="/analytics/resources/product-overview-tag-manager-360.html">
+       <div class="card-inner" data-xid="361">
+        <div class="doctype-container" data-xid="362">
+         <span class="doctype doctype-overview" data-xid="363">
+          <svg data-xid="364" enable-background="new 0 0 32 32" height="24px" space="preserve" version="1.1" viewBox="0 0 32 32" width="24px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+           <path d="M24.2,21.6 M25.2,24.7l4.3,4.4c0.3,0.3,0.7,0.4,1.1,0.4c0.4,0,0.8-0.1,1.1-0.4c0.6-0.6,0.6-1.5,0-2.1l-4.3-4.4l0,0 c1.2-1.7,2-3.8,2-6c0-4.4-2.8-8.2-6.8-9.6V2.3c0-0.7-0.6-1.3-1.3-1.3H1.3C0.6,1,0,1.6,0,2.3v27.3C0,30.4,0.6,31,1.3,31h19.8 c0.7,0,1.3-0.6,1.3-1.3v-3.6C23.4,25.8,24.3,25.3,25.2,24.7 M24.2,21.6 M19.8,28.3H2.7V3.7h17.2v2.8c-0.2,0-0.4,0-0.6,0 c-1.7,0-3.3,0.5-4.8,1.2H5.3v2h6.6c-0.7,0.8-1.3,1.7-1.8,2.7H5.3v2h4.1c-0.2,0.7-0.2,1.5-0.2,2.2c0,0.1,0,0.3,0,0.4H5.3v2h4.2 c0.2,0.9,0.6,1.8,1.1,2.7H5.3v2h6.8c1.8,1.8,4.3,3,7.1,3c0.2,0,0.4,0,0.6,0V28.3z M22.5,22.8c-0.8,0.4-1.7,0.7-2.6,0.8 c-0.2,0-0.4,0-0.6,0c-0.5,0-0.9,0-1.3-0.1c-1.4-0.3-2.6-0.9-3.5-1.9C13.6,20.9,13,20,12.6,19c-0.2-0.6-0.4-1.3-0.4-2 c0-0.1,0-0.3,0-0.4c0-0.8,0.1-1.5,0.4-2.2c0.2-0.7,0.6-1.4,1-2c1-1.3,2.3-2.3,3.9-2.7c0,0,1.3-0.2,1.7-0.2c0.2,0,0.4,0,0.6,0 c0.9,0.1,1.8,0.4,2.6,0.8c2.3,1.2,3.8,3.6,3.8,6.3S24.7,21.6,22.5,22.8z" data-xid="365">
+           </path>
+          </svg>
+          <img alt="overview icon" data-xid="366" height="24" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-doctype-overview.png&amp;accessed=1523340919805" width="24"/>
+         </span>
+         <h4 class="doctype-productoverview-title" data-xid="367">
+          Product Overview
+         </h4>
+        </div>
+        <p class="topic" data-xid="368">
+         Tag Management
+        </p>
+        <h3 data-xid="369">
+         Focus on your marketing, not your tags.
+        </h3>
+        <p data-xid="370">
+         Learn more about how Tag Manager 360 helps you eliminate the headache of updating
+                tags with streamlined and accurate tag management.
+        </p>
+        <svg class="icon-arrow-related" data-xid="371" enable-background="new 0 0 32 32" height="16px" space="preserve" version="1.1" viewBox="0 0 32 32" width="16px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+         <polygon data-xid="372" points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+         </polygon>
+        </svg>
+        <img alt="related arrow icon" class="icon-arrow-related" data-xid="373" height="16" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-related.png&amp;accessed=1523340919805" width="16"/>
+       </div>
+      </a>
+      <a class="glue-filter-result col-6 col-m-4 card card-featuredcontent ng-isolate-scope" data-g-action="Article" data-g-event="Tag Manager: Overview" data-g-frtopic="Measurement Strategy" data-g-frtype="Article" data-g-label="Resource: Convert the most valuable customers." data-xid="374" href="/analytics/resources/gms-convert.html">
+       <div class="card-inner" data-xid="375">
+        <div class="doctype-container" data-xid="376">
+         <span class="doctype doctype-article" data-xid="377">
+          <svg data-xid="378" enable-background="new 0 0 32 32" height="24px" space="preserve" version="1.1" viewBox="0 0 32 32" width="24px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+           <path d="M28.5,4.1H13.9H8.8c-1.9,0-3.5,1.6-3.5,3.5v0H3.5c-1.2,0-2.3,0.6-2.9,1.6C0.2,9.7,0,10.4,0,11.1v0v10.7 c0,3.7,1.7,6.2,5.8,6.2h22.7c1.9,0,3.5-1.6,3.5-3.5V7.6C32,5.6,30.4,4.1,28.5,4.1z M3.8,24.1c-0.8,0-1.5-0.7-1.5-1.5V11 c0.1-0.5,0.6-0.9,1.1-0.9h1.9v2.6H3.9v1.6h1.4v2H3.9v1.6h1.4v2H3.9v1.6h1.4v1.1C5.3,23.4,4.6,24.1,3.8,24.1z M29.8,23.3L29.8,23.3 c0,1.4-1.1,2.5-2.5,2.5l0,0H5.9c1.3-0.1,2.4-1.2,2.4-2.5l0-15.6c0-0.6,0.5-1.1,1.1-1.1h19.2c0.6,0,1.1,0.5,1.1,1.1L29.8,23.3z" data-xid="379">
+           </path>
+           <rect data-xid="380" height="9.6" width="7.3" x="10.6" y="8.8">
+           </rect>
+           <rect data-xid="381" height="1.5" width="7.3" x="20.2" y="8.7">
+           </rect>
+           <rect data-xid="382" height="1.5" width="7.3" x="20.2" y="12.8">
+           </rect>
+           <rect data-xid="383" height="1.5" width="7.3" x="20.2" y="17">
+           </rect>
+           <rect data-xid="384" height="1.5" width="17" x="10.5" y="21.1">
+           </rect>
+          </svg>
+          <img alt="article icon" data-xid="385" height="24" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-doctype-article.png&amp;accessed=1523340919805" width="24"/>
+         </span>
+         <h4 class="doctype-article-title" data-xid="386">
+          Article
+         </h4>
+        </div>
+        <p class="topic" data-xid="387">
+         Measurement Strategy
+        </p>
+        <h3 data-xid="388">
+         Convert the most valuable customers.
+        </h3>
+        <p data-xid="389">
+         How valuable is a new customer conversion to your business? Attribution can reveal
+                a customer's true value, so you invest in converting the right ones.
+        </p>
+        <svg class="icon-arrow-related" data-xid="390" enable-background="new 0 0 32 32" height="16px" space="preserve" version="1.1" viewBox="0 0 32 32" width="16px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+         <polygon data-xid="391" points="16,0 13.2,2.8 24.3,14 0,14 0,18 24.3,18 13.2,29.2 16,32 32,16">
+         </polygon>
+        </svg>
+        <img alt="related arrow icon" class="icon-arrow-related" data-xid="392" height="16" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-arrow-related.png&amp;accessed=1523340919805" width="16"/>
+       </div>
+      </a>
+     </div>
+     <div class="cols-row cta" data-xid="393">
+      <a class="link-more" data-g-action="See All Resources" data-g-event="Tag Manager: Overview" data-g-label="Featured Resources" data-xid="394" href="/analytics/resources/?topic=tag-management">
+       See All Resources
+       <svg class="icon-arrow-more" data-xid="395" enable-background="new 0 0 32 32" height="14px" space="preserve" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+        <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z" data-xid="396">
+        </path>
+       </svg>
+      </a>
+     </div>
+    </div>
+   </section>
+  </div>
+  <footer class="footer" data-xid="397" id="footer" role="contentinfo">
+   <div class="cookie-bar-container" data-xid="398">
+    <div data-xid="399" id="cookieBar">
+     <div class="cookieBarInner" data-xid="400">
+      <span class="cookieBarText" data-xid="401">
+       Google serves cookies to analyse traffic to this site. Information about your use of our site is shared with Google for that purpose.
+      </span>
+      <span class="cookieBarButtons" data-xid="402">
+       <a class="cookieBarButton cookieBarMoreButton" data-xid="403" href="https://www.google.com/policies/technologies/cookies/" target="_blank">
+        See details
+       </a>
+       <a class="cookieBarButton cookieBarConsentButton" data-xid="404" href="#">
+        OK, got it
+       </a>
+      </span>
+     </div>
+    </div>
+   </div>
+   <div class="site-width" data-xid="405">
+    <div class="footer-upper cols-row" data-xid="406">
+     <div class="footer-social col-6" data-xid="407">
+      <dl data-xid="408">
+       <dt data-xid="409">
+        Follow us on:
+       </dt>
+       <dd data-xid="410">
+        <a data-g-action="Follow Us" data-g-event="Tag Manager: Overview" data-g-label="GPlus" data-xid="411" href="https://plus.google.com/+GoogleAnalytics/" rel="noopener nofollow" target="_blank" title="Google+">
+         <svg class="icon-footer-gplus c1" data-xid="412" height="20px" space="preserve" version="1.1" viewBox="0 0 23 15" width="30px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <polygon data-xid="413" points="23,6 21,6 21,4 19,4 19,6 17,6 17,8 19,8 19,10 21,10 21,8 23,8">
+          </polygon>
+          <path d="M11.8,8.9c-0.1,1.3-1.3,3.4-4.3,3.4c-2.6,0-4.6-2.1-4.6-4.7S5,2.9,7.5,2.9c1.5,0,2.4,0.6,3,1.1 l0,0l2-2c-1.3-1.2-3-2-5-2C3.4,0.1,0,3.5,0,7.6s3.4,7.5,7.5,7.5c4.3,0,7.2-3,7.2-7.3c0-0.6-0.1-1.1-0.2-1.5h-7V9L11.8,8.9L11.8,8.9 z" data-xid="414">
+          </path>
+         </svg>
+         <img alt="Google+" class="icon-footer-gplus" data-xid="415" height="20" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-footer-gplus.png&amp;accessed=1523340919805" width="20"/>
+        </a>
+       </dd>
+       <dd data-xid="416">
+        <a data-g-action="Follow Us" data-g-event="Tag Manager: Overview" data-g-label="Blogger" data-xid="417" href="https://analytics.googleblog.com/" rel="noopener" target="_blank" title="Blogger">
+         <svg class="icon-footer-blogger" data-xid="418" enable-background="new 0 0 32 32" height="20px" space="preserve" version="1.1" viewBox="0 0 32 32" width="20px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M28.8,0H3.2C1.4,0,0,1.4,0,3.2l0,25.6C0,30.6,1.4,32,3.2,32h25.6c1.8,0,3.2-1.4,3.2-3.2V3.2 C32,1.4,30.6,0,28.8,0 M22.4,11.2v1.6c0,0.9,0.7,1.6,1.6,1.6c0.9,0,1.6,0.7,1.6,1.6v4.8c0,2.7-2.1,4.8-4.8,4.8h-9.6 c-2.7,0-4.8-2.1-4.8-4.8V9.6c0-2.6,2.1-4.8,4.8-4.8h6.4c2.7,0,4.8,2.2,4.8,4.8V11.2z M12.7,12.8h4.2c0.9,0,1.6-0.7,1.6-1.6 s-0.7-1.6-1.6-1.6h-4.2c-0.9,0-1.6,0.7-1.6,1.6S11.8,12.8,12.7,12.8 M19.2,17.6h-6.5c-0.9,0-1.6,0.7-1.6,1.6c0,0.9,0.7,1.6,1.6,1.6 h6.5c0.9,0,1.6-0.7,1.6-1.6C20.8,18.3,20.1,17.6,19.2,17.6" data-xid="419">
+          </path>
+         </svg>
+         <img alt="Blogger" class="icon-footer-blogger" data-xid="420" height="20" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-footer-blogger.png&amp;accessed=1523340919805" width="20"/>
+        </a>
+       </dd>
+       <dd data-xid="421">
+        <a data-g-action="Follow Us" data-g-event="Tag Manager: Overview" data-g-label="Linkedin" data-xid="422" href="https://www.linkedin.com/company/google-analytics" rel="noopener nofollow" target="_blank" title="Linkedin">
+         <svg class="icon-footer-linkedin" data-xid="423" enable-background="new 0 0 36 36" height="20px" space="preserve" version="1.1" viewBox="0 0 36 36" width="20px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M33.334,0.001H2.655C1.19,0.001,0,1.163,0,2.595v30.809c0,1.434,1.19,2.598,2.655,2.598h30.679 c1.468,0,2.667-1.164,2.667-2.598V2.595C36.001,1.163,34.802,0.001,33.334,0.001z M10.68,30.677H5.335V13.498h5.345V30.677z M8.009,11.148c-1.716,0-3.098-1.387-3.098-3.097c0-1.707,1.382-3.095,3.098-3.095c1.708,0,3.095,1.388,3.095,3.095 C11.104,9.761,9.717,11.148,8.009,11.148z M30.675,30.677H25.34v-8.354c0-1.992-0.038-4.556-2.774-4.556 c-2.779,0-3.203,2.17-3.203,4.411v8.498h-5.333V13.498h5.118v2.347h0.073c0.712-1.351,2.455-2.775,5.053-2.775 c5.402,0,6.401,3.557,6.401,8.184V30.677z" data-xid="424">
+          </path>
+         </svg>
+         <img alt="Linkedin" class="icon-footer-linkedin" data-xid="425" height="20" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-footer-linkedin.png&amp;accessed=1523340919805" width="20"/>
+        </a>
+       </dd>
+       <dd data-xid="426">
+        <a data-g-action="Follow Us" data-g-event="Tag Manager: Overview" data-g-label="Twitter" data-xid="427" href="https://twitter.com/googleanalytics" rel="noopener nofollow" target="_blank" title="Twitter">
+         <svg class="icon-footer-twitter" data-xid="428" enable-background="new 0 0 32 32" height="20px" space="preserve" version="1.1" viewBox="0 0 32 32" width="20px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M28.8,0H3.2C1.4,0,0,1.4,0,3.2l0,25.6C0,30.6,1.4,32,3.2,32h25.6c1.8,0,3.2-1.4,3.2-3.2V3.2 C32,1.4,30.6,0,28.8,0z M25.1,11.7c-0.1,7.4-4.8,12.5-11.9,12.8c-2.9,0.1-5-0.8-6.9-2c2.2,0.3,4.8-0.5,6.2-1.7 c-2.1-0.2-3.4-1.3-3.9-3c0.6,0.1,1.2,0.1,1.8,0c-1.9-0.6-3.3-1.8-3.3-4.3C7.7,13.7,8.3,13.9,9,14c-1.4-0.8-2.5-3.8-1.3-5.7 c2.1,2.3,4.7,4.2,8.8,4.5c-1-4.5,4.9-6.9,7.4-3.9c1.1-0.2,1.9-0.6,2.7-1c-0.3,1-1,1.8-1.8,2.4c0.9-0.1,1.6-0.3,2.3-0.7 C26.8,10.3,25.9,11.1,25.1,11.7z" data-xid="429">
+          </path>
+         </svg>
+         <img alt="Twitter" class="icon-footer-twitter" data-xid="430" height="20" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-footer-twitter.png&amp;accessed=1523340919805" width="20"/>
+        </a>
+       </dd>
+       <dd data-xid="431">
+        <a data-g-action="Follow Us" data-g-event="Tag Manager: Overview" data-g-label="Youtube" data-xid="432" href="https://www.youtube.com/user/googleanalytics" rel="noopener" target="_blank" title="YouTube">
+         <svg class="icon-footer-youtube" data-xid="433" enable-background="new 0 0 32 32" height="20px" space="preserve" version="1.1" viewBox="0 0 32 32" width="20px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path d="M28.8,3.8c-1-0.3-6.9-0.6-12.8-0.6c-5.9,0-11.8,0.3-12.8,0.6C0.7,4.6,0,10.2,0,16s0.7,11.4,3.2,12.2c1,0.3,6.9,0.6,12.8,0.6 c5.9,0,11.8-0.3,12.8-0.6C31.3,27.4,32,21.8,32,16S31.3,4.7,28.8,3.8 M12.8,22.4V9.6l8.8,6.4L12.8,22.4z" data-xid="434">
+          </path>
+         </svg>
+         <img alt="YouTube" class="icon-footer-youtube" data-xid="435" height="20" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-footer-youtube.png&amp;accessed=1523340919805" width="20"/>
+        </a>
+       </dd>
+      </dl>
+     </div>
+     <div class="footer-meta-links col-6" data-xid="436">
+      <ul data-xid="437">
+       <li data-xid="438">
+        <a data-xid="439" href="https://www.google.com/appsstatus#hl=en">
+         Apps Status Dashboard
+        </a>
+       </li>
+       <li data-xid="440">
+        <a data-xid="441" href="https://support.google.com/analytics/answer/7108387" target="_blank">
+         Terms
+                of Service
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <nav class="footer-nav cols-row" data-xid="442">
+     <dl class="col-3" data-xid="443">
+      <dt data-xid="444">
+       Learning &amp; Support
+      </dt>
+      <dd data-xid="445">
+       <a data-xid="446" href="https://support.google.com/analytics/go/analytics_solutions" rel="noopener" target="_blank">
+        Help Center
+       </a>
+      </dd>
+      <dd data-xid="447">
+       <a data-xid="448" href="https://www.en.advertisercommunity.com/t5/Google-Analytics/ct-p/Google_Analytics" rel="noopener" target="_blank">
+        User Forum
+       </a>
+      </dd>
+      <dd data-xid="449">
+       <a data-xid="450" href="https://analytics.google.com/analytics/gallery/#landing/start/" rel="noopener" target="_blank">
+        Solutions Gallery
+       </a>
+      </dd>
+      <dd data-xid="451">
+       <a data-xid="452" href="https://analytics.googleblog.com/" rel="noopener" target="_blank">
+        Analytics
+              Solution Blog
+       </a>
+      </dd>
+      <dd data-xid="453">
+       <a data-xid="454" href="https://analyticsacademy.withgoogle.com/" rel="noopener" target="_blank">
+        Analytics Academy
+       </a>
+      </dd>
+      <dd data-xid="455">
+       <a data-xid="456" href="https://www.google.com/analytics/partners/search/apps" rel="noopener" target="_blank">
+        Partner Gallery
+       </a>
+      </dd>
+     </dl>
+     <dl class="col-3" data-xid="457">
+      <dt data-xid="458">
+       Developers
+      </dt>
+      <dd data-xid="459">
+       <a data-xid="460" href="https://developers.google.com/analytics/?hl=en" rel="noopener" target="_blank">
+        Analytics Developer Site
+       </a>
+      </dd>
+      <dd data-xid="461">
+       <a data-xid="462" href="https://developers.google.com/tag-manager/?hl=en" rel="noopener" target="_blank">
+        Tag Manager Developer Site
+       </a>
+      </dd>
+      <dd data-xid="463">
+       <a data-xid="464" href="https://developers.google.com/surveys/?hl=en" rel="noopener" target="_blank">
+        Surveys Developer Site
+       </a>
+      </dd>
+     </dl>
+     <dl class="col-3" data-xid="465">
+      <dt data-xid="466">
+       Related Products
+      </dt>
+      <dd data-xid="467">
+       <a data-xid="468" href="https://adwords.google.com/home/?subid=ww-ww-et-g-aw-a-rs_ga_solutions_1-!o2" rel="noopener" target="_blank">
+        AdWords
+       </a>
+      </dd>
+      <dd data-xid="469">
+       <a data-xid="470" href="https://www.doubleclickbygoogle.com/" rel="noopener" target="_blank">
+        DoubleClick
+       </a>
+      </dd>
+      <dd data-xid="471">
+       <a data-xid="472" href="https://www.google.com/adsense/start/?subid=ww-ww-et-analytics-site&amp;utm_source=internal&amp;utm_medium=et&amp;utm_campaign=analytics-site" rel="noopener" target="_blank">
+        AdSense
+       </a>
+      </dd>
+      <dd data-xid="473">
+       <a data-xid="474" href="https://www.google.com/admob/?subid=ww-ww-et-analytics-site&amp;utm_source=internal&amp;utm_medium=et&amp;utm_campaign=analytics-site" rel="noopener" target="_blank">
+        AdMob
+       </a>
+      </dd>
+      <dd data-xid="475">
+       <a data-xid="476" href="https://cloud.google.com/bigquery/?hl=en" rel="noopener" target="_blank">
+        BigQuery
+       </a>
+      </dd>
+     </dl>
+     <dl class="col-3" data-xid="477">
+      <dt data-xid="478">
+       More from Google
+      </dt>
+      <dd data-xid="479">
+       <a data-xid="480" href="https://www.google.com/services/?subid=ww-ww-et-g-aw-a-rs_ga_solutions_2-!o2" rel="noopener" target="_blank">
+        Business Solutions
+       </a>
+      </dd>
+      <dd data-xid="481">
+       <a data-xid="482" href="https://cloud.google.com/?utm_source=analytics&amp;utm_medium=et&amp;utm_campaign=analytics-footer" rel="noopener" target="_blank">
+        Google Cloud Platform
+       </a>
+      </dd>
+      <dd data-xid="483">
+       <a data-xid="484" href="https://gsuite.google.com/?utm_source=analytics&amp;utm_medium=et&amp;utm_campaign=analytics-footer" rel="noopener" target="_blank">
+        G Suite
+       </a>
+      </dd>
+      <dd data-xid="485">
+       <a data-xid="486" href="https://www.google.com/cloud/?utm_source=analytics&amp;utm_medium=et&amp;utm_campaign=analytics-footer" rel="noopener" target="_blank">
+        Google Cloud
+       </a>
+      </dd>
+      <dd data-xid="487">
+       <a data-xid="488" href="https://www.thinkwithgoogle.com/topics/measurement.html" rel="noopener" target="_blank">
+        Think with Google
+       </a>
+      </dd>
+      <dd data-xid="489">
+       <a data-xid="490" href="https://testmysite.thinkwithgoogle.com/?utm_source=ga&amp;utm_medium=referral&amp;utm_content=ww-ww-ga" rel="noopener" target="_blank">
+        Test My Site
+       </a>
+      </dd>
+     </dl>
+    </nav>
+    <div class="footer-lower cols-row" data-xid="491">
+     <div class="footer-meta-links col-9" data-xid="492">
+      <ul data-xid="493">
+       <li data-xid="494">
+        <a data-xid="495" href="https://support.google.com/analytics/?hl=en#topic=3544906">
+         <svg class="icon-footer-help" data-xid="496" enable-background="new 0 0 32 32" height="20px" space="preserve" version="1.1" viewBox="0 0 32 32" width="20px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+          <path clip-rule="evenodd" d="M16 0C7.2 0 0 7.2 0 16c0 3 .9 5.9 2.3 8.3L0 32l7.7-2.3C10.2 31.1 13 32 16 32c8.8 0 16-7.2 16-16S24.8 0 16 0zm1.3 24.6c-.3.3-.7.5-1.2.5s-1-.2-1.2-.5c-.3-.3-.4-.7-.4-1.1 0-.2 0-.4.1-.6.1-.2.2-.4.3-.5.1-.1.3-.3.5-.3.2-.1.4-.1.7-.1.3 0 .5 0 .7.1.2.1.4.2.5.3.1.1.3.3.3.5.1.2.1.4.1.6 0 .5-.1.8-.4 1.1zm3.8-11.4c-.2.5-.4.9-.6 1.3l-.9 1.2c-.3.4-.7.8-1 1.1-.4.4-.7.9-.9 1.4-.2.5-.2.8-.3 1.8h-2.8c0-1 0-1.2.1-1.6.1-.4.2-1 .3-1.3.2-.3.4-.7.6-1 .2-.3.6-.7.9-1 .2-.3.5-.5.7-.7.2-.2.4-.5.6-.7.2-.3.3-.5.4-.8.1-.3.1-.6.1-1 0-.8-.2-1.4-.6-1.8-.4-.4-1-.6-1.7-.6-.3 0-.6.1-.9.1-.3.1-.5.2-.8.4s-.4.6-.5.8c-.1.3-.2 1.2-.2 1.2h-3c0-2 .2-1.6.4-2.2.3-.6.7-1.2 1.1-1.6.5-.4 1-.7 1.7-.9.8-.3 1.5-.4 2.2-.4.8 0 1.6.1 2.2.3.7.2 1.2.5 1.7.9s.8.9 1 1.5c.2.6.4 1.3.4 2.1 0 .6-.1 1.1-.2 1.5z" data-xid="497" fill-rule="evenodd">
+          </path>
+         </svg>
+         <img alt="Help" class="icon-footer-help" data-xid="498" height="20" src="https://motif.gq/api/archive?uri=https%3A%2F%2Fwww.google.com%2Fads%2Fimages%2Ficons%2Ficon-footer-help.png&amp;accessed=1523340919805" width="20"/>
+         Help
+        </a>
+       </li>
+       <li data-xid="499">
+        <a data-xid="500" href="//www.google.com">
+         Google
+        </a>
+       </li>
+       <li data-xid="501">
+        <a data-xid="502" href="//www.google.com/intl/en/policies/privacy/">
+         Privacy
+        </a>
+       </li>
+       <li data-xid="503">
+        <a data-xid="504" href="//www.google.com/intl/en/policies/terms/">
+         Terms
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footer-locale-switcher col-3" data-xid="505">
+      <label class="visually-hidden" data-xid="506" for="footer-locales">
+       <span data-xid="507">
+        Change language or
+            region:
+       </span>
+      </label>
+      <select class="footer-locales" data-xid="508" id="footer-locales" onchange="var href=this[this.selectedIndex].value;if(href!=''){window.location.href=href};">
+       <option data-xid="509" value="//www.google.com/intl/id/analytics/">
+        Bahasa Indonesia
+       </option>
+       <option data-xid="510" value="//www.google.com/intl/ca/analytics/">
+        Català
+       </option>
+       <option data-xid="511" value="//www.google.com/intl/cs/analytics/">
+        Čeština
+       </option>
+       <option data-xid="512" value="//www.google.com/intl/da/analytics/">
+        Dansk
+       </option>
+       <option data-xid="513" value="//www.google.com/intl/de/analytics/">
+        Deutsch
+       </option>
+       <option data-xid="514" selected="" value="//www.google.com/intl/en/analytics/">
+        English
+       </option>
+       <option data-xid="515" value="//www.google.co.uk/intl/en/analytics/">
+        English – United Kingdom
+       </option>
+       <option data-xid="516" value="//www.google.com/intl/es/analytics/">
+        Español
+       </option>
+       <option data-xid="517" value="//www.google.com/intl/tl/analytics/">
+        Filipino
+       </option>
+       <option data-xid="518" value="//www.google.com/intl/fr/analytics/">
+        Français
+       </option>
+       <option data-xid="519" value="//www.google.com/intl/it/analytics/">
+        Italiano
+       </option>
+       <option data-xid="520" value="//www.google.com/intl/lt/analytics/">
+        Lietuvių
+       </option>
+       <option data-xid="521" value="//www.google.com/intl/hu/analytics/">
+        Magyar
+       </option>
+       <option data-xid="522" value="//www.google.com/intl/nl/analytics/">
+        Nederlands
+       </option>
+       <option data-xid="523" value="//www.google.com/intl/no/analytics/">
+        Norsk
+       </option>
+       <option data-xid="524" value="//www.google.com/intl/pl/analytics/">
+        Polski
+       </option>
+       <option data-xid="525" value="//www.google.com/intl/pt-BR/analytics/">
+        Português (Brasil)
+       </option>
+       <option data-xid="526" value="//www.google.com/intl/pt-PT/analytics/">
+        Português (Portugal)
+       </option>
+       <option data-xid="527" value="//www.google.com/intl/sk/analytics/">
+        Slovenčina
+       </option>
+       <option data-xid="528" value="//www.google.com/intl/fi/analytics/">
+        Suomi
+       </option>
+       <option data-xid="529" value="//www.google.com/intl/sv/analytics/">
+        Svenska
+       </option>
+       <option data-xid="530" value="//www.google.com/intl/vi/analytics/">
+        Tiếng Việt
+       </option>
+       <option data-xid="531" value="//www.google.com/intl/tr/analytics/">
+        Türkçe
+       </option>
+       <option data-xid="532" value="//www.google.com/intl/el/analytics/">
+        Ελληνικά
+       </option>
+       <option data-xid="533" value="//www.google.com/intl/bg/analytics/">
+        Български
+       </option>
+       <option data-xid="534" value="//www.google.com/intl/ru/analytics/">
+        Русский
+       </option>
+       <option data-xid="535" value="//www.google.com/intl/th/analytics/">
+        ไทย
+       </option>
+       <option data-xid="536" value="//www.google.com/intl/ko/analytics/">
+        한국어
+       </option>
+       <option data-xid="537" value="//www.google.com/intl/zh-CN/analytics/">
+        中文（简体中文）
+       </option>
+       <option data-xid="538" value="//www.google.com/intl/zh-TW/analytics/">
+        中文（繁體中文）
+       </option>
+       <option data-xid="539" value="//www.google.com/intl/ja/analytics/">
+        日本語
+       </option>
+      </select>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <noscript data-xid="540">
+   &amp;lt;iframe class="c2" height=
+    "0" src="//www.googletagmanager.com/ns.html?id=GTM-KLXF7H" width="0"&amp;gt;&amp;lt;/iframe&amp;gt;
+  </noscript>
+ </body>
+</html>

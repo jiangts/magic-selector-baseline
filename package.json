@@ -1,0 +1,17 @@
+{
+  "name": "baseline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "selector.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "elasticlunr": "^0.9.5",
+    "porter-stemmer": "^0.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
