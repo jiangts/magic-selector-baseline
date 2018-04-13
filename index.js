@@ -4,6 +4,15 @@ const fs = require('fs');
 const stemmer = require('porter-stemmer').stemmer
 
 
+// const DATA_FILE = 'dataset-v3/dataset.jsonl'
+// const OUTPUT_FILE = 'dataset-v3/results.jsonl'
+// const PAGE_PATH = p => 'dataset-v3/pages/v3/'+p+'.html'
+
+const DATA_FILE = 'dataset/data/v3.jsonl'
+const OUTPUT_FILE = 'dataset/results.jsonl'
+const PAGE_PATH = p => 'dataset/pages/v3/'+p+'.html'
+
+
 var baseline = function(text, html) {
   // TODO check for containment
 
@@ -42,12 +51,12 @@ var baseline = function(text, html) {
         score += 5 * Math.min(query[k], doc[k])
       }
     }
-    var doc = tokenize(o.heavyattrs)
-    for (var k in query) {
-      if (k in doc) {
-        score += 5 * Math.min(query[k], doc[k])
-      }
-    }
+    // var doc = tokenize(o.heavyattrs)
+    // for (var k in query) {
+    //   if (k in doc) {
+    //     score += 5 * Math.min(query[k], doc[k])
+    //   }
+    // }
     var doc = tokenize(o.attrs)
     for (var k in query) {
       if (k in doc) {
@@ -59,7 +68,7 @@ var baseline = function(text, html) {
   }
 
   var whitelistElements = ['a', 'span', 'button']
-  var blacklistElements = ['p']
+  var blacklistElements = ['p'/*, 'div'*/]
   var $ = cheerio.load(html)
   return $('body :not(script)')
     .filter((i, elem) => {
@@ -70,20 +79,21 @@ var baseline = function(text, html) {
       var attrs = []
       var heavyattrs = []
       for (var nm in el.attribs) {
-        if(nm.includes('title')
-          || nm.includes('tooltip')
-          || nm.includes('label')
-          || nm === ('class')) {
-          heavyattrs.push(el.attribs[nm]);
-        }
+        // if(nm.includes('title')
+        //   || nm.includes('tooltip')
+        //   || nm.includes('label')
+        //   || nm === ('class')) {
+        //   heavyattrs.push(el.attribs[nm]);
+        // }
         attrs.push(el.attribs[nm])
       }
       el = $(el)
       return {
         attrs: attrs.join(','),
-        heavyattrs: heavyattrs.join(','),
+        // heavyattrs: heavyattrs.join(','),
         text: el.text().trim(),
-        xid: el.attr('data-xid')
+        xid: el.attr('data-xid'),
+        el: el
       }
     })
     .get()
@@ -94,7 +104,7 @@ var baseline = function(text, html) {
     .map(o => o.xid)
 }
 
-var dataset = fs.readFileSync('dataset-v3/dataset.jsonl').toString().split('\n')
+var dataset = fs.readFileSync(DATA_FILE).toString().split('\n')
   .map(s=>{
     try {
       return JSON.parse(s)
@@ -103,20 +113,23 @@ var dataset = fs.readFileSync('dataset-v3/dataset.jsonl').toString().split('\n')
     }
   })
   .filter(s=>!!s)
-//.slice(0,20)
 
 
 var results = dataset
   .map(o=>{
-    var file = fs.readFileSync('dataset-v3/pages/v3/'+o.webpage+'.html')
+    var file = fs.readFileSync(PAGE_PATH(o.webpage))
     // var match = baseline(o.phrase, file).slice(0,5).indexOf(''+o.xid) >= 0
-    var match = baseline(o.phrase, file)[0] === (''+o.xid)
+    var prediction = baseline(o.phrase, file)[0]
+    var match = prediction === (''+o.xid)
     console.log(match)
-    return match
+    o.prediction = prediction
+    return o
   })
 
-var correct = results.reduce((s, n) => s+=n, 0)
+var correct = results.reduce((s, n) => s+=(''+n.xid === n.prediction), 0)
 var total = results.length
 
 console.log('correct:', correct, '\ntotal:',total, '\naccuracy', correct/total);
+
+fs.writeFileSync(OUTPUT_FILE, results.map(o=>JSON.stringify(o)).join('\n'))
 

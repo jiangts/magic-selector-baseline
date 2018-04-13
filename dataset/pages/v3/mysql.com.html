@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html class="svg js" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <!--[if IE ]>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <![endif]-->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="en" name="Language"/>
+  <title>
+   MySQL
+  </title>
+  <link href="https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fcss%2Fmain-20170712.min.css&amp;accessed=1523398476708" media="all" rel="stylesheet"/>
+  <link href="https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fcss%2Fpage-20170712.min.css&amp;accessed=1523398476708" media="all" rel="stylesheet"/>
+  <link href="https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fcss%2Fprint-20170712.min.css&amp;accessed=1523398476708" media="print" rel="stylesheet"/>
+  <style>
+   #fp-banner1 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb1280-mysql-cloud-service-back.jpg&accessed=1523398476708") repeat-x top; }
+            #fp-banner-image1 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb1280-mysql-cloud-service.en.jpg&accessed=1523398476708") no-repeat; }
+            #fp-banner-image1 .link-960 { left: 451px; top: 183px; width: 176px; height: 42px; }
+            #fp-banner-image1 .link-640 { left: 300px; top: 122px; width: 117px; height: 28px; }
+            #fp-banner-image1 .link-320 { left: 85px; top: 258px; width: 134px; height: 32px; }
+                    #fp-banner2 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb1280-grey-gradient-background.jpg&accessed=1523398476708") repeat-x top; }
+            #fp-banner-image2 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb1280-mysql-innodb-cluster.en.jpg&accessed=1523398476708") no-repeat; }
+            #fp-banner-image2 .link-960 { left: 724px; top: 225px; width: 155px; height: 42px; }
+            #fp-banner-image2 .link-640 { left: 482px; top: 150px; width: 103px; height: 28px; }
+            #fp-banner-image2 .link-320 { left: 96px; top: 262px; width: 133px; height: 31px; }
+                    #fp-banner3 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb1280-grey-gradient-background.jpg&accessed=1523398476708") repeat-x top; }
+            #fp-banner-image3 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb1280-mysql-mem-4.en.jpg&accessed=1523398476708") no-repeat; }
+            #fp-banner-image3 .link-960 { left: 547px; top: 226px; width: 156px; height: 42px; }
+            #fp-banner-image3 .link-640 { left: 364px; top: 151px; width: 104px; height: 28px; }
+            #fp-banner-image3 .link-320 { left: 102px; top: 268px; width: 114px; height: 32px; }
+                    #fp-banner4 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb1280-grey-gradient-background.jpg&accessed=1523398476708") repeat-x top; }
+            #fp-banner-image4 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb1280-mysql-gov.en.jpg&accessed=1523398476708") no-repeat; }
+            #fp-banner-image4 .link-960 { left: 407px; top: 184px; width: 154px; height: 42px; }
+            #fp-banner-image4 .link-640 { left: 271px; top: 123px; width: 103px; height: 28px; }
+            #fp-banner-image4 .link-320 { left: 102px; top: 268px; width: 115px; height: 31px; }
+                    @media
+            only screen and (-webkit-min-device-pixel-ratio: 1.25),
+            only screen and (   min--moz-device-pixel-ratio: 1.25),
+            only screen and (     -o-min-device-pixel-ratio: 5/4),
+            only screen and (        min-device-pixel-ratio: 1.25),
+            only screen and (                min-resolution: 120dpi),
+            only screen and (                min-resolution: 1.25dppx) {
+                        #fp-banner1 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb2560-mysql-cloud-service-back.jpg&accessed=1523398476708") repeat-x top; }
+                #fp-banner-image1 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb2560-mysql-cloud-service.en.jpg&accessed=1523398476708") no-repeat; }
+                        #fp-banner2 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb2560-grey-gradient-background.jpg&accessed=1523398476708") repeat-x top; }
+                #fp-banner-image2 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb2560-mysql-innodb-cluster.en.jpg&accessed=1523398476708") no-repeat; }
+                        #fp-banner3 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb2560-grey-gradient-background.jpg&accessed=1523398476708") repeat-x top; }
+                #fp-banner-image3 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb2560-mysql-mem-4.en.jpg&accessed=1523398476708") no-repeat; }
+                        #fp-banner4 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb2560-grey-gradient-background.jpg&accessed=1523398476708") repeat-x top; }
+                #fp-banner-image4 { background:url("https://motif.gq/api/archive?uri=https%3A%2F%2Flabs.mysql.com%2Fcommon%2Fthemes%2Fsakila%2Fbanners%2Fb2560-mysql-gov.en.jpg&accessed=1523398476708") no-repeat; }
+  </style>
+  <link href="/mysql.rss" rel="alternate" title="RSS feed" type="application/rss+xml"/>
+  <link href="https://www.mysql.com/" hreflang="en" rel="alternate"/>
+  <link href="https://www.mysql.com/de/" hreflang="de" rel="alternate"/>
+  <link href="https://www.mysql.com/fr/" hreflang="fr" rel="alternate"/>
+  <link href="https://www.mysql.com/it/" hreflang="it" rel="alternate"/>
+  <link href="https://www.mysql.com/jp/" hreflang="ja" rel="alternate"/>
+  <link href="https://www.mysql.com/cn/" hreflang="zh" rel="alternate"/>
+  <link href="https://labs.mysql.com/common/themes/sakila/favicon.ico" rel="shortcut icon"/>
+  <!--[if lt IE 9]>
+        <script src="https://labs.mysql.com/common/js/polyfills/html5shiv-printshiv-3.7.2.min.js"></script>
+        <script src="https://labs.mysql.com/common/js/polyfills/respond-1.4.2.min.js"></script>
+    <![endif]-->
+ </head>
+ <body class="no-sidebar full-page www en" style="padding-top: 0px;">
+  <div class="page-wrapper" data-xid="1">
+   <header data-xid="2">
+    <a data-xid="3" href="https://www.mysql.com/" id="l1-home-link" title="MySQL">
+    </a>
+    <div data-xid="4" id="l1-nav-container">
+     <div data-xid="5" id="l1-line1">
+      <div data-xid="6" id="l1-auth-links">
+       <a data-xid="7" href="https://www.mysql.com/about/contact/">
+        <b data-xid="8">
+         Contact MySQL
+        </b>
+       </a>
+       <span data-xid="9" id="l1-contact-separator">
+        |
+       </span>
+       <span data-xid="10" id="l1-contact-separator-br">
+        <br data-xid="11"/>
+       </span>
+       <a data-xid="12" href="https://www.mysql.com/auth/login/?dest=https%3A%2F%2Fwww.mysql.com%2F">
+        Login
+       </a>
+       |
+       <a data-xid="13" href="https://www.mysql.com/auth/register/">
+        Register
+       </a>
+      </div>
+      <div data-xid="14" id="l1-lhs">
+       <div data-xid="15" id="l1-slogan">
+        The world's most popular open source database
+       </div>
+       <div data-xid="16" id="l1-search-box">
+        <form action="https://www.oracle.com/search/results" data-xid="17" id="l1-search-form" method="get">
+         <input data-xid="18" name="cat" type="hidden" value="mysql"/>
+         <input data-xid="19" name="Ntk" type="hidden" value="SI-ALL5"/>
+         <input class="icon-search" data-xid="20" id="l1-search-input" name="Ntt" placeholder="Search" type="search"/>
+        </form>
+       </div>
+      </div>
+     </div>
+     <div data-xid="21" id="l1-line2">
+      <div class="social-icons" data-xid="22">
+       <a data-xid="23" href="http://www.facebook.com/mysql" title="Join us on Facebook">
+        <span class="icon-facebook" data-xid="24">
+        </span>
+       </a>
+       <a data-xid="25" href="https://twitter.com/#!/mysql" title="Follow us on Twitter">
+        <span class="icon-twitter" data-xid="26">
+        </span>
+       </a>
+       <a data-xid="27" href="https://www.linkedin.com/company-beta/165081/" title="Follow us on LinkedIn">
+        <span class="icon-linkedin" data-xid="28">
+        </span>
+       </a>
+       <a data-xid="29" href="https://plus.google.com/+mysql" title="Join Google+ to follow MySQL">
+        <span class="icon-google-plus" data-xid="30">
+        </span>
+       </a>
+       <a data-xid="31" href="http://www.youtube.com/mysqlchannel" title="Visit our YouTube channel">
+        <span class="icon-youtube" data-xid="32">
+        </span>
+       </a>
+      </div>
+      <ul data-xid="33" id="l1-nav">
+       <li class="active" data-xid="34">
+        <a data-xid="35" href="/">
+         <!-- <span class="icon-sakila"></span>  -->
+         MySQL.com
+        </a>
+       </li>
+       <li data-xid="36">
+        <a data-xid="37" href="/downloads/">
+         <!-- <span class="icon-download-thin"></span>  -->
+         Downloads
+        </a>
+       </li>
+       <li data-xid="38">
+        <a data-xid="39" href="https://dev.mysql.com/doc/">
+         <!-- <span class="icon-books"></span>  -->
+         Documentation
+        </a>
+       </li>
+       <li data-xid="40">
+        <a data-xid="41" href="https://dev.mysql.com/">
+         <!-- <span class="icon-code"></span>  -->
+         Developer Zone
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div data-xid="42" id="sub-header">
+     <div data-xid="43" id="l2-nav-container">
+      <div data-xid="44" id="l2-nav-toggle">
+       <span class="icon-three-bars" data-xid="45">
+       </span>
+      </div>
+      <a class="button nav-button-3" data-xid="46" href="https://dev.mysql.com/">
+       <span class="icon-code" data-xid="47">
+       </span>
+       Developer Zone
+      </a>
+      <a class="button nav-button-2" data-xid="48" href="https://dev.mysql.com/doc/">
+       <span class="icon-books" data-xid="49">
+       </span>
+       Documentation
+      </a>
+      <a class="button nav-button-1" data-xid="50" href="/downloads/">
+       <span class="icon-download-thin" data-xid="51">
+       </span>
+       Downloads
+      </a>
+      <div data-xid="52" id="l2-search-toggle">
+       <span class="icon-search" data-xid="53">
+       </span>
+      </div>
+      <div data-xid="54" id="l2-site-icon">
+       <span class="icon-sakila" data-xid="55">
+       </span>
+      </div>
+      <div data-xid="56" id="l1-section-title">
+       <span data-xid="57" id="l1-section-label">
+        <a data-xid="58" href="/">
+         MySQL.com
+        </a>
+       </span>
+      </div>
+      <nav data-xid="59">
+       <ul data-xid="60" id="l2-nav">
+        <li class="" data-xid="61">
+         <a data-xid="62" href="/products/">
+          Products
+         </a>
+        </li>
+        <li class="" data-xid="63">
+         <a data-xid="64" href="/cloud/">
+          Cloud
+         </a>
+        </li>
+        <li class="" data-xid="65">
+         <a data-xid="66" href="/services/">
+          Services
+         </a>
+        </li>
+        <li class="" data-xid="67">
+         <a data-xid="68" href="/partners/">
+          Partners
+         </a>
+        </li>
+        <li class="" data-xid="69">
+         <a data-xid="70" href="/customers/">
+          Customers
+         </a>
+        </li>
+        <li class="" data-xid="71">
+         <a data-xid="72" href="/why-mysql/">
+          Why MySQL?
+         </a>
+        </li>
+        <li class="" data-xid="73">
+         <a data-xid="74" href="/news-and-events/events/">
+          News &amp; Events
+         </a>
+        </li>
+        <li class=" last" data-xid="75">
+         <a data-xid="76" href="/buy-mysql/">
+          How to Buy
+         </a>
+        </li>
+        <li class="other-section" data-xid="77">
+         <a data-xid="78" href="/downloads/">
+          Downloads
+         </a>
+        </li>
+        <li class="other-section" data-xid="79">
+         <a data-xid="80" href="https://dev.mysql.com/doc/">
+          Documentation
+         </a>
+        </li>
+        <li class="other-section" data-xid="81">
+         <a data-xid="82" href="https://dev.mysql.com/">
+          Developer Zone
+         </a>
+        </li>
+       </ul>
+      </nav>
+     </div>
+     <div data-xid="83" id="l3-search-container">
+     </div>
+     <div data-xid="84" id="top-orange">
+      <span data-xid="85" id="section-nav">
+       Section Menu:
+      </span>
+     </div>
+    </div>
+   </header>
+   <div data-xid="86" id="page">
+    <div data-xid="87" id="main" role="main">
+     <div data-xid="88" id="banners">
+      <div class="fp-banner current" data-xid="89" id="fp-banner1">
+       <div class="fp-banner-image" data-xid="90" id="fp-banner-image1">
+        <a class="fp-banner-link link-960" data-xid="91" href="/cloud/">
+        </a>
+        <a class="fp-banner-link link-640 hidden" data-xid="92" href="/cloud/">
+        </a>
+        <a class="fp-banner-link link-320 hidden" data-xid="93" href="/cloud/">
+        </a>
+       </div>
+      </div>
+      <div class="fp-banner hidden" data-xid="94" id="fp-banner2">
+       <div class="fp-banner-image" data-xid="95" id="fp-banner-image2">
+        <a class="fp-banner-link link-960" data-xid="96" href="/products/enterprise/high_availability.html">
+        </a>
+        <a class="fp-banner-link link-640 hidden" data-xid="97" href="/products/enterprise/high_availability.html">
+        </a>
+        <a class="fp-banner-link link-320 hidden" data-xid="98" href="/products/enterprise/high_availability.html">
+        </a>
+       </div>
+      </div>
+      <div class="fp-banner hidden" data-xid="99" id="fp-banner3">
+       <div class="fp-banner-image" data-xid="100" id="fp-banner-image3">
+        <a class="fp-banner-link link-960" data-xid="101" href="/products/enterprise/monitor.html">
+        </a>
+        <a class="fp-banner-link link-640 hidden" data-xid="102" href="/products/enterprise/monitor.html">
+        </a>
+        <a class="fp-banner-link link-320 hidden" data-xid="103" href="/products/enterprise/monitor.html">
+        </a>
+       </div>
+      </div>
+      <div class="fp-banner hidden" data-xid="104" id="fp-banner4">
+       <div class="fp-banner-image" data-xid="105" id="fp-banner-image4">
+        <a class="fp-banner-link link-960" data-xid="106" href="/industry/government/">
+        </a>
+        <a class="fp-banner-link link-640 hidden" data-xid="107" href="/industry/government/">
+        </a>
+        <a class="fp-banner-link link-320 hidden" data-xid="108" href="/industry/government/">
+        </a>
+       </div>
+      </div>
+      <div class="fp-banner-dots" data-xid="109">
+       <div class="fp-banner-dots-center" data-xid="110">
+        <span class="fp-banner-dots-left" data-xid="111">
+        </span>
+        <a class="on" data-xid="112" href="" id="fp-dot1">
+        </a>
+        <a data-xid="113" href="" id="fp-dot2">
+        </a>
+        <a data-xid="114" href="" id="fp-dot3">
+        </a>
+        <a data-xid="115" href="" id="fp-dot4">
+        </a>
+        <span class="fp-banner-dots-right" data-xid="116">
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="con pad-normal" data-xid="117" id="fp-products">
+      <div class="rw" data-xid="118">
+       <div class="col-1-of-2 pad-tb-slight" data-xid="119">
+        <div class="fp-product-icon" data-xid="120">
+         <div data-xid="121" id="fp-product-icon-enterpise">
+         </div>
+        </div>
+        <div class="fp-product" data-xid="122">
+         <h2 data-xid="123">
+          <a data-xid="124" href="/products/enterprise/">
+           MySQL Enterprise Edition
+          </a>
+         </h2>
+         <p data-xid="125">
+          The most comprehensive set of advanced features, management tools and technical support to achieve the highest levels of MySQL scalability, security, reliability, and uptime.
+          <br data-xid="126"/>
+          <a data-xid="127" href="/products/enterprise/">
+           Learn More »
+          </a>
+         </p>
+        </div>
+       </div>
+       <div class="col-1-of-2 pad-tb-slight" data-xid="128">
+        <div class="fp-product-icon" data-xid="129">
+         <div data-xid="130" id="fp-product-icon-cloud">
+         </div>
+        </div>
+        <div class="fp-product" data-xid="131">
+         <h2 data-xid="132">
+          <a data-xid="133" href="/cloud/">
+           Oracle MySQL Cloud Service
+          </a>
+         </h2>
+         <p data-xid="134">
+          Built on MySQL Enterprise Edition and powered by the Oracle Cloud, Oracle MySQL Cloud Service provides a simple, automated, integrated and enterprise ready MySQL cloud service, enabling organizations to increase business agility and reduce costs.
+          <br data-xid="135"/>
+          <a data-xid="136" href="/cloud/">
+           Learn More »
+          </a>
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="rw pad-b-slight" data-xid="137">
+       <div class="col-1-of-2 pad-tb-slight" data-xid="138">
+        <div class="fp-product-icon" data-xid="139">
+         <div data-xid="140" id="fp-product-icon-cluster">
+         </div>
+        </div>
+        <div class="fp-product" data-xid="141">
+         <h2 data-xid="142">
+          <a data-xid="143" href="/products/cluster/">
+           MySQL Cluster CGE
+          </a>
+         </h2>
+         <p data-xid="144">
+          MySQL Cluster enables users to meet the database challenges of next generation web, cloud, and communications services with uncompromising scalability, uptime and agility.
+          <br data-xid="145"/>
+          <a data-xid="146" href="/products/cluster/">
+           Learn More »
+          </a>
+         </p>
+        </div>
+       </div>
+       <div class="col-1-of-2 pad-tb-slight" data-xid="147">
+        <div class="fp-product-icon" data-xid="148">
+         <div data-xid="149" id="fp-product-icon-embedded">
+         </div>
+        </div>
+        <div class="fp-product" data-xid="150">
+         <h2 data-xid="151">
+          <a data-xid="152" href="/oem/">
+           MySQL for OEM/ISV
+          </a>
+         </h2>
+         <p data-xid="153">
+          Over 2000 ISVs, OEMs, and VARs rely on MySQL as their products' embedded database to make their applications, hardware and appliances more competitive, bring them to market faster, and lower their cost of goods sold.
+          <br data-xid="154"/>
+          <a data-xid="155" href="/oem/">
+           Learn More »
+          </a>
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="con pad-lr-heavy pad-tb-slight dark-blue" data-xid="156" id="fp-content-app">
+      <div class="rw" data-xid="157">
+       <div class="col-1-of-2 pad-slight" data-xid="158">
+        <h2 data-xid="159">
+         <span class="icon-laptop" data-xid="160">
+         </span>
+         Free Webinars
+        </h2>
+        <ul data-xid="161">
+         <li data-xid="162">
+          <a data-xid="163" href="/news-and-events/web-seminars/whats-new-in-mysql-8-0/">
+           What's New in MySQL 8.0
+          </a>
+          <br data-xid="164"/>
+          Thursday, April 19, 2018
+         </li>
+         <li data-xid="165">
+          <a data-xid="166" href="/news-and-events/web-seminars/discover-mysql-cloud-service-on-oracle-cloud-platform/">
+           Discover MySQL Cloud Service on Oracle Cloud Platform
+          </a>
+          <br data-xid="167"/>
+          On Demand
+         </li>
+         <li data-xid="168">
+          <a data-xid="169" href="/news-and-events/web-seminars/be-a-database-hero-with-innodb-cluster/">
+           Be a Database Hero with InnoDB Cluster
+          </a>
+          <br data-xid="170"/>
+          On Demand
+         </li>
+         <li data-xid="171" style="list-style-image: none; list-style-type: none;">
+          <a data-xid="172" href="/news-and-events/web-seminars/">
+           More »
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="col-1-of-2 pad-slight" data-xid="173">
+        <h2 data-xid="174">
+         <span class="icon-files" data-xid="175">
+         </span>
+         White Papers
+        </h2>
+        <ul data-xid="176">
+         <li data-xid="177">
+          <a data-xid="178" href="/why-mysql/white-papers/constellation-research-report-enterprise-class-mysql-meets-oracle-cloud/">
+           Constellation Research Report: Enterprise-Class MySQL Meets Oracle Cloud
+          </a>
+         </li>
+         <li data-xid="179">
+          <a data-xid="180" href="/why-mysql/white-papers/mysql-enterprise-edition-gdpr/">
+           MySQL Enterprise Edition and EU General Data Protection Regulation (GDPR)
+          </a>
+         </li>
+         <li data-xid="181">
+          <a data-xid="182" href="/why-mysql/white-papers/whats-new-mysql-5-7/">
+           What’s New in MySQL 5.7
+          </a>
+         </li>
+         <li data-xid="183">
+          <a data-xid="184" href="/why-mysql/white-papers/mysql-guide-open-source-government/">
+           Guide to MySQL in Government
+          </a>
+         </li>
+         <li data-xid="185">
+          <a data-xid="186" href="/why-mysql/white-papers/mysql-guide-to-high-availability-solutions/">
+           Guide to MySQL High Availability
+          </a>
+         </li>
+         <li data-xid="187" style="list-style-image: none; list-style-type: none;">
+          <a data-xid="188" href="/why-mysql/white-papers/">
+           More »
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="fp-logo-container" data-xid="189">
+      <div data-xid="190" id="fp-logos">
+       Some of our customers
+       <br data-xid="191"/>
+       <br data-xid="192"/>
+       <div data-xid="193" style="max-height: 270px; overflow: hidden; font-size: 10%;">
+        <a class="fp-logo-youtube" data-xid="194" href="/customers/view/?id=750">
+        </a>
+        <a class="fp-logo-paypal" data-xid="195" href="/customers/view/?id=1223">
+        </a>
+        <a class="fp-logo-google" data-xid="196" href="/customers/view/?id=555">
+        </a>
+        <a class="fp-logo-facebook" data-xid="197" href="/customers/view/?id=757">
+        </a>
+        <a class="fp-logo-twitter" data-xid="198" href="/customers/view/?id=951">
+        </a>
+        <a class="fp-logo-ebay" data-xid="199" href="/customers/view/?id=961">
+        </a>
+        <a class="fp-logo-cisco" data-xid="200" href="/customers/">
+        </a>
+        <a class="fp-logo-linkedin" data-xid="201" href="/customers/view/?id=975">
+        </a>
+        <a class="fp-logo-uber" data-xid="202" href="/customers/view/?id=1269">
+        </a>
+        <a class="fp-logo-tesla" data-xid="203" href="/customers/view/?id=1288">
+        </a>
+        <a class="fp-logo-netflix" data-xid="204" href="/customers/view/?id=1276">
+        </a>
+        <a class="fp-logo-github" data-xid="205" href="/customers/view/?id=1265">
+        </a>
+        <a class="fp-logo-walmart" data-xid="206" href="/customers/">
+        </a>
+        <a class="fp-logo-booking" data-xid="207" href="/customers/view/?id=901">
+        </a>
+        <a class="fp-logo-zappos" data-xid="208" href="/customers/view/?id=892">
+        </a>
+        <a class="fp-logo-hm" data-xid="209" href="/customers/">
+        </a>
+        <a class="fp-logo-flipkart" data-xid="210" href="/customers/view/?id=1268">
+        </a>
+        <a class="fp-logo-paytm" data-xid="211" href="/customers/view/?id=1283">
+        </a>
+        <a class="fp-logo-alibaba" data-xid="212" href="/customers/view/?id=1289">
+        </a>
+        <a class="fp-logo-wechat" data-xid="213" href="/customers/view/?id=1287">
+        </a>
+        <a class="fp-logo-tencent" data-xid="214" href="/customers/view/?id=1282">
+        </a>
+        <a class="fp-logo-taobao" data-xid="215" href="/customers/view/?id=1290">
+        </a>
+        <a class="fp-logo-airbnb" data-xid="216" href="/customers/view/?id=1271">
+        </a>
+        <a class="fp-logo-alcatel-lucent" data-xid="217" href="/customers/view/?id=566">
+        </a>
+       </div>
+      </div>
+      <br class="clear" data-xid="218"/>
+     </div>
+    </div>
+   </div>
+   <footer data-xid="219">
+    <div data-xid="220" id="footer-bottom">
+     <div class="footer-contact" data-xid="221">
+      <div data-xid="222" id="footer-contact-icon">
+       <span class="icon-call-phone" data-xid="223">
+       </span>
+      </div>
+      <div data-xid="224" id="footer-contact-numbers">
+       <strong data-xid="225">
+        Contact MySQL Sales
+       </strong>
+       <br data-xid="226"/>
+       USA/Canada: +1-866-221-0634  
+                    (
+       <a data-xid="227" href="https://www.mysql.com/about/contact/phone/">
+        More Countries »
+       </a>
+       )
+      </div>
+      <div data-xid="228" id="footer-contact-copyright">
+       <a data-xid="229" href="http://www.oracle.com/">
+        <span class="oracle-logo" data-xid="230">
+        </span>
+       </a>
+       © 2018, Oracle Corporation and/or its affiliates
+      </div>
+     </div>
+     <div class="social-icons" data-xid="231">
+      <a data-xid="232" href="http://www.facebook.com/mysql" title="Join us on Facebook">
+       <span class="icon-facebook-square" data-xid="233">
+       </span>
+      </a>
+      <a data-xid="234" href="https://twitter.com/#!/mysql" title="Follow us on Twitter">
+       <span class="icon-twitter-square" data-xid="235">
+       </span>
+      </a>
+      <a data-xid="236" href="https://www.linkedin.com/company-beta/165081/" title="Follow us on LinkedIn">
+       <span class="icon-linkedin-square" data-xid="237">
+       </span>
+      </a>
+      <a data-xid="238" href="https://plus.google.com/+mysql" title="Join Google+ to follow MySQL">
+       <span class="icon-google-plus-square" data-xid="239">
+       </span>
+      </a>
+      <a data-xid="240" href="http://www.youtube.com/mysqlchannel" title="Visit our YouTube channel">
+       <span class="icon-youtube-square" data-xid="241">
+       </span>
+      </a>
+     </div>
+     <br class="clear" data-xid="242"/>
+    </div>
+    <div data-xid="243" id="footer-links">
+     <div data-xid="244" id="footer-nav">
+     </div>
+     <div class="links" data-xid="245">
+      <ul data-xid="246">
+       <li class="top" data-xid="247">
+        <a data-xid="248" href="https://www.mysql.com/products/">
+         Products
+        </a>
+       </li>
+       <li data-xid="249">
+        <a data-xid="250" href="https://www.mysql.com/cloud/">
+         Oracle MySQL Cloud Service
+        </a>
+       </li>
+       <li data-xid="251">
+        <a data-xid="252" href="https://www.mysql.com/products/enterprise/">
+         MySQL Enterprise Edition
+        </a>
+       </li>
+       <li data-xid="253">
+        <a data-xid="254" href="https://www.mysql.com/products/standard/">
+         MySQL Standard Edition
+        </a>
+       </li>
+       <li data-xid="255">
+        <a data-xid="256" href="https://www.mysql.com/products/classic/">
+         MySQL Classic Edition
+        </a>
+       </li>
+       <li data-xid="257">
+        <a data-xid="258" href="https://www.mysql.com/products/cluster/">
+         MySQL Cluster CGE
+        </a>
+       </li>
+       <li data-xid="259">
+        <a data-xid="260" href="https://www.mysql.com/oem/">
+         MySQL Embedded (OEM/ISV)
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="links" data-xid="261">
+      <ul data-xid="262">
+       <li class="top" data-xid="263">
+        <a data-xid="264" href="https://www.mysql.com/services/">
+         Services
+        </a>
+       </li>
+       <li data-xid="265">
+        <a data-xid="266" href="https://www.mysql.com/training/">
+         Training
+        </a>
+       </li>
+       <li data-xid="267">
+        <a data-xid="268" href="https://www.mysql.com/certification/">
+         Certification
+        </a>
+       </li>
+       <li data-xid="269">
+        <a data-xid="270" href="https://www.mysql.com/consulting/">
+         Consulting
+        </a>
+       </li>
+       <li data-xid="271">
+        <a data-xid="272" href="https://www.mysql.com/support/">
+         Support
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="links" data-xid="273">
+      <ul data-xid="274">
+       <li class="top" data-xid="275">
+        <a data-xid="276" href="https://dev.mysql.com/downloads/">
+         Downloads
+        </a>
+       </li>
+       <li data-xid="277">
+        <a data-xid="278" href="https://dev.mysql.com/downloads/mysql/">
+         MySQL Community Server
+        </a>
+       </li>
+       <li data-xid="279">
+        <a data-xid="280" href="https://dev.mysql.com/downloads/cluster/">
+         MySQL NDB Cluster
+        </a>
+       </li>
+       <li data-xid="281">
+        <a data-xid="282" href="https://dev.mysql.com/downloads/shell/">
+         MySQL Shell
+        </a>
+       </li>
+       <li data-xid="283">
+        <a data-xid="284" href="https://dev.mysql.com/downloads/router/">
+         MySQL Router
+        </a>
+       </li>
+       <li data-xid="285">
+        <a data-xid="286" href="https://dev.mysql.com/downloads/workbench/">
+         MySQL Workbench
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="links" data-xid="287">
+      <ul data-xid="288">
+       <li class="top" data-xid="289">
+        <a data-xid="290" href="https://dev.mysql.com/doc/">
+         Documentation
+        </a>
+       </li>
+       <li data-xid="291">
+        <a data-xid="292" href="https://dev.mysql.com/doc/refman/en/">
+         MySQL Reference Manual
+        </a>
+       </li>
+       <li data-xid="293">
+        <a data-xid="294" href="https://dev.mysql.com/doc/workbench/en/">
+         MySQL Workbench
+        </a>
+       </li>
+       <li data-xid="295">
+        <a data-xid="296" href="https://dev.mysql.com/doc/index-cluster.html">
+         MySQL NDB Cluster
+        </a>
+       </li>
+       <li data-xid="297">
+        <a data-xid="298" href="https://dev.mysql.com/doc/index-connectors.html">
+         MySQL Connectors
+        </a>
+       </li>
+       <li data-xid="299">
+        <a data-xid="300" href="https://dev.mysql.com/doc/#topic">
+         Topic Guides
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="links" data-xid="301">
+      <ul data-xid="302">
+       <li class="top" data-xid="303">
+        <a data-xid="304" href="https://www.mysql.com/about/">
+         About MySQL
+        </a>
+       </li>
+       <li data-xid="305">
+        <a data-xid="306" href="https://www.mysql.com/about/contact/">
+         Contact Us
+        </a>
+       </li>
+       <li data-xid="307">
+        <a data-xid="308" href="https://www.mysql.com/buy-mysql/">
+         How to Buy
+        </a>
+       </li>
+       <li data-xid="309">
+        <a data-xid="310" href="https://www.mysql.com/partners/">
+         Partners
+        </a>
+       </li>
+       <li data-xid="311">
+        <a data-xid="312" href="https://www.mysql.com/about/jobs/">
+         Job Opportunities
+        </a>
+       </li>
+       <li data-xid="313">
+        <a data-xid="314" href="https://www.mysql.com/sitemap.html">
+         Site Map
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div data-xid="315" id="footer-langs">
+      <span class="icon-earth" data-xid="316">
+      </span>
+      English  
+            (
+      <a data-localize-url="no" data-xid="317" href="https://www.mysql.com/de/">
+       Deutsch
+      </a>
+      |
+      <a data-localize-url="no" data-xid="318" href="https://www.mysql.com/fr/">
+       Français
+      </a>
+      |
+      <a data-localize-url="no" data-xid="319" href="https://www.mysql.com/it/">
+       Italiana
+      </a>
+      |
+      <a data-localize-url="no" data-xid="320" href="https://www.mysql.com/jp/">
+       日本
+      </a>
+      |
+      <a data-localize-url="no" data-xid="321" href="https://www.mysql.com/cn/">
+       中文
+      </a>
+      )
+     </div>
+     <div data-xid="322" id="footer-logo">
+      <a data-xid="323" href="http://www.oracle.com/">
+       <span class="oracle-logo" data-xid="324">
+       </span>
+      </a>
+      © 2018, Oracle Corporation and/or its affiliates
+      <div class="footer-legal-links" data-xid="325">
+       <a data-xid="326" href="https://www.mysql.com/about/legal/">
+        Legal Policies
+       </a>
+       |
+       <a data-xid="327" href="http://www.oracle.com/us/legal/privacy/index.htm">
+        Your Privacy Rights
+       </a>
+       |
+       <a data-xid="328" href="http://www.oracle.com/us/legal/terms/index.html">
+        Terms of Use
+       </a>
+       |
+       <a data-xid="329" href="http://www.oracle.com/us/legal/third-party-trademarks/index.html">
+        Trademark Policy
+       </a>
+       |
+       <a data-xid="330" href="http://www.oracle.com/technetwork/community/oca-486395.html">
+        Contributor Agreement
+       </a>
+       |
+       <div consent="null" data-xid="331" id="teconsent" style="display: inline-block">
+        <a data-xid="332" id="icon-id08171699046818721" lang="en" role="button" style="cursor: pointer;" tabindex="0">
+         Cookie Preferences
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+</html>

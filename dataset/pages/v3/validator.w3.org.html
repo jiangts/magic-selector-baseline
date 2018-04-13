@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   The W3C Markup Validation Service
+  </title>
+  <link href="mailto:www-validator@w3.org" rel="help"/>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="./" rel="start" title="Home Page"/>
+  <link href="https://motif.gq/api/archive?uri=http%3A%2F%2Fvalidator.w3.org%2Fstyle%2Fbase&amp;accessed=1523341614429" media="all" rel="stylesheet" type="text/css"/>
+  <meta content="HTML, HyperText Markup Language, Validation,
+      W3C Markup Validation Service" name="keywords"/>
+  <meta content="W3C's easy-to-use
+      markup validation service, based on SGML and XML parsers." name="description"/>
+  <link href="http://www.w3.org/QA/Tools/validator-whatsnew.atom" rel="alternate" type="application/atom+xml"/>
+  <style type="text/css">
+   #w3c-include { display: table; width: 100%; box-sizing: border-box; margin: 1em 0 0 0; padding: 0; }
+.w3c-include { display: table-row; padding-bottom: 1em; }
+.w3c-include > p { display: table-cell; vertical-align: middle; text-align: center; padding-bottom: 1em; }
+.w3c-include > p:first-of-type { padding-right: 1em; width: 20%; padding-left: 2em; }
+.w3c-include > p:last-of-type { padding-right: 2em;}
+.w3c-include-sponsor-img { margin-left: 1em; }
+.FlattrButton { float: right; margin-right: 1em }
+  </style>
+ </head>
+ <body>
+  <div data-xid="1" id="banner">
+   <h1 data-xid="2" id="title">
+    <a data-xid="3" href="http://www.w3.org/">
+     <img alt="W3C Logo" data-xid="4" height="61" id="logo" src="https://motif.gq/api/archive?uri=http%3A%2F%2Fvalidator.w3.org%2Fimages%2Fw3c.png&amp;accessed=1523341614429" width="110"/>
+    </a>
+    <a data-xid="5" href="./">
+     <span data-xid="6">
+      Markup Validation Service
+     </span>
+    </a>
+   </h1>
+   <p data-xid="7" id="tagline">
+    Check the markup (HTML, XHTML, …) of Web documents
+   </p>
+  </div>
+  <div data-xid="8" id="frontforms">
+   <ul data-xid="9" id="tabset_tabs">
+    <li class="selected" data-xid="10">
+     <a data-xid="11" href="#validate_by_uri">
+      <span data-xid="12">
+       Validate by
+      </span>
+      URI
+     </a>
+    </li>
+    <li class="" data-xid="13">
+     <a data-xid="14" href="#validate_by_upload">
+      <span data-xid="15">
+       Validate by
+      </span>
+      File Upload
+     </a>
+    </li>
+    <li class="" data-xid="16">
+     <a data-xid="17" href="#validate_by_input">
+      <span data-xid="18">
+       Validate by
+      </span>
+      Direct Input
+     </a>
+    </li>
+   </ul>
+   <div data-xid="19" id="fields">
+    <fieldset class="tabset_content front" data-xid="20" id="validate-by-uri" style="display: block; visibility: visible; zoom: 1; opacity: 1;">
+     <legend class="tabset_label" data-xid="21">
+      Validate by URI
+     </legend>
+     <form action="check" data-xid="22" method="get">
+      <p class="instructions" data-xid="23">
+       Validate a document online:
+      </p>
+      <p data-xid="24">
+       <label data-xid="25" for="uri" title="Address of page to Validate">
+        Address:
+       </label>
+       <input data-xid="26" id="uri" name="uri" size="45" type="text"/>
+      </p>
+      <fieldset class="moreoptions" data-xid="27" id="extra_opt_uri">
+       <legend class="toggletext" data-xid="28">
+        <a data-xid="29" href="#validate_by_uri+with_options">
+         More Options
+        </a>
+       </legend>
+       <div data-xid="30" style="margin: 0px; position: static; overflow: hidden; height: 0px;">
+        <div class="options" data-xid="31" style="margin: -184px 0px 0px;">
+         <table data-xid="32">
+          <tbody data-xid="33">
+           <tr data-xid="34">
+            <th data-xid="35">
+             <label data-xid="36" for="uri-charset">
+              Character Encoding
+             </label>
+            </th>
+            <td data-xid="37">
+             <select data-xid="38" id="uri-charset" name="charset">
+              <option data-xid="39" selected="selected" value="(detect automatically)">
+               (detect automatically)
+              </option>
+              <option data-xid="40" value="utf-8">
+               utf-8 (Unicode, worldwide)
+              </option>
+              <option data-xid="41" value="utf-16">
+               utf-16 (Unicode, worldwide)
+              </option>
+              <option data-xid="42" value="iso-8859-1">
+               iso-8859-1 (Western Europe)
+              </option>
+              <option data-xid="43" value="iso-8859-2">
+               iso-8859-2 (Central Europe)
+              </option>
+              <option data-xid="44" value="iso-8859-3">
+               iso-8859-3 (Southern Europe)
+              </option>
+              <option data-xid="45" value="iso-8859-4">
+               iso-8859-4 (North European)
+              </option>
+              <option data-xid="46" value="iso-8859-5">
+               iso-8859-5 (Cyrillic)
+              </option>
+              <option data-xid="47" value="iso-8859-6-i">
+               iso-8859-6-i (Arabic)
+              </option>
+              <option data-xid="48" value="iso-8859-7">
+               iso-8859-7 (Greek)
+              </option>
+              <option data-xid="49" value="iso-8859-8">
+               iso-8859-8 (Hebrew, visual)
+              </option>
+              <option data-xid="50" value="iso-8859-8-i">
+               iso-8859-8-i (Hebrew, logical)
+              </option>
+              <option data-xid="51" value="iso-8859-9">
+               iso-8859-9 (Turkish)
+              </option>
+              <option data-xid="52" value="iso-8859-10">
+               iso-8859-10 (Latin 6)
+              </option>
+              <option data-xid="53" value="iso-8859-11">
+               iso-8859-11 (Latin/Thai)
+              </option>
+              <option data-xid="54" value="iso-8859-13">
+               iso-8859-13 (Latin 7, Baltic Rim)
+              </option>
+              <option data-xid="55" value="iso-8859-14">
+               iso-8859-14 (Latin 8, Celtic)
+              </option>
+              <option data-xid="56" value="iso-8859-15">
+               iso-8859-15 (Latin 9)
+              </option>
+              <option data-xid="57" value="iso-8859-16">
+               iso-8859-16 (Latin 10)
+              </option>
+              <option data-xid="58" value="us-ascii">
+               us-ascii (basic English)
+              </option>
+              <option data-xid="59" value="euc-jp">
+               euc-jp (Japanese, Unix)
+              </option>
+              <option data-xid="60" value="shift_jis">
+               shift_jis (Japanese, Win/Mac)
+              </option>
+              <option data-xid="61" value="iso-2022-jp">
+               iso-2022-jp (Japanese, email)
+              </option>
+              <option data-xid="62" value="euc-kr">
+               euc-kr (Korean)
+              </option>
+              <option data-xid="63" value="ksc_5601">
+               ksc_5601 (Korean)
+              </option>
+              <option data-xid="64" value="gb2312">
+               gb2312 (Chinese, simplified)
+              </option>
+              <option data-xid="65" value="gb18030">
+               gb18030 (Chinese, simplified)
+              </option>
+              <option data-xid="66" value="big5">
+               big5 (Chinese, traditional)
+              </option>
+              <option data-xid="67" value="big5-HKSCS">
+               Big5-HKSCS (Chinese, Hong Kong)
+              </option>
+              <option data-xid="68" value="tis-620">
+               tis-620 (Thai)
+              </option>
+              <option data-xid="69" value="koi8-r">
+               koi8-r (Russian)
+              </option>
+              <option data-xid="70" value="koi8-u">
+               koi8-u (Ukrainian)
+              </option>
+              <option data-xid="71" value="iso-ir-111">
+               iso-ir-111 (Cyrillic KOI-8)
+              </option>
+              <option data-xid="72" value="macintosh">
+               macintosh (MacRoman)
+              </option>
+              <option data-xid="73" value="windows-1250">
+               windows-1250 (Central Europe)
+              </option>
+              <option data-xid="74" value="windows-1251">
+               windows-1251 (Cyrillic)
+              </option>
+              <option data-xid="75" value="windows-1252">
+               windows-1252 (Western Europe)
+              </option>
+              <option data-xid="76" value="windows-1253">
+               windows-1253 (Greek)
+              </option>
+              <option data-xid="77" value="windows-1254">
+               windows-1254 (Turkish)
+              </option>
+              <option data-xid="78" value="windows-1255">
+               windows-1255 (Hebrew)
+              </option>
+              <option data-xid="79" value="windows-1256">
+               windows-1256 (Arabic)
+              </option>
+              <option data-xid="80" value="windows-1257">
+               windows-1257 (Baltic Rim)
+              </option>
+             </select>
+            </td>
+            <td data-xid="81">
+             <input data-xid="82" id="uri-fbc" name="fbc" type="checkbox" value="1"/>
+             <label data-xid="83" for="uri-fbc" title="Use selected Character encoding only if missing in the document">
+              Only if missing
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="84">
+            <th data-xid="85">
+             <label data-xid="86" for="uri-doctype">
+              Document Type
+             </label>
+            </th>
+            <td data-xid="87">
+             <select data-xid="88" id="uri-doctype" name="doctype">
+              <option data-xid="89" selected="selected" value="Inline">
+               (detect automatically)
+              </option>
+              <option data-xid="90" value="HTML5">
+               HTML5 (experimental)
+              </option>
+              <option data-xid="91" value="XHTML 1.0 Strict">
+               XHTML 1.0 Strict
+              </option>
+              <option data-xid="92" value="XHTML 1.0 Transitional">
+               XHTML 1.0 Transitional
+              </option>
+              <option data-xid="93" value="XHTML 1.0 Frameset">
+               XHTML 1.0 Frameset
+              </option>
+              <option data-xid="94" value="HTML 4.01 Strict">
+               HTML 4.01 Strict
+              </option>
+              <option data-xid="95" value="HTML 4.01 Transitional">
+               HTML 4.01 Transitional
+              </option>
+              <option data-xid="96" value="HTML 4.01 Frameset">
+               HTML 4.01 Frameset
+              </option>
+              <option data-xid="97" value="HTML 4.01 + RDFa 1.1">
+               HTML 4.01 + RDFa 1.1
+              </option>
+              <option data-xid="98" value="HTML 3.2">
+               HTML 3.2
+              </option>
+              <option data-xid="99" value="HTML 2.0">
+               HTML 2.0
+              </option>
+              <option data-xid="100" value='ISO/IEC 15445:2000 ("ISO HTML")'>
+               ISO/IEC 15445:2000 ("ISO HTML")
+              </option>
+              <option data-xid="101" value="XHTML 1.1">
+               XHTML 1.1
+              </option>
+              <option data-xid="102" value="XHTML + RDFa">
+               XHTML + RDFa
+              </option>
+              <option data-xid="103" value="XHTML Basic 1.0">
+               XHTML Basic 1.0
+              </option>
+              <option data-xid="104" value="XHTML Basic 1.1">
+               XHTML Basic 1.1
+              </option>
+              <option data-xid="105" value="XHTML Mobile Profile 1.2">
+               XHTML Mobile Profile 1.2
+              </option>
+              <option data-xid="106" value="XHTML-Print 1.0">
+               XHTML-Print 1.0
+              </option>
+              <option data-xid="107" value="XHTML 1.1 plus MathML 2.0">
+               XHTML 1.1 plus MathML 2.0
+              </option>
+              <option data-xid="108" value="XHTML 1.1 plus MathML 2.0 plus SVG 1.1">
+               XHTML 1.1 plus MathML 2.0 plus SVG 1.1
+              </option>
+              <option data-xid="109" value="MathML 2.0">
+               MathML 2.0
+              </option>
+              <option data-xid="110" value="SVG 1.0">
+               SVG 1.0
+              </option>
+              <option data-xid="111" value="SVG 1.1">
+               SVG 1.1
+              </option>
+              <option data-xid="112" value="SVG 1.1 Tiny">
+               SVG 1.1 Tiny
+              </option>
+              <option data-xid="113" value="SVG 1.1 Basic">
+               SVG 1.1 Basic
+              </option>
+              <option data-xid="114" value="SMIL 1.0">
+               SMIL 1.0
+              </option>
+              <option data-xid="115" value="SMIL 2.0">
+               SMIL 2.0
+              </option>
+             </select>
+            </td>
+            <td data-xid="116">
+             <label data-xid="117" for="uri-fbd">
+              <input data-xid="118" id="uri-fbd" name="fbd" title="Use selected Document Type only if missing in the document" type="checkbox" value="1"/>
+              Only if missing
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="119">
+            <td colspan="3" data-xid="120">
+             <input checked="checked" data-xid="121" id="urigroup_no" name="group" type="radio" value="0"/>
+             <label data-xid="122" for="urigroup_no">
+              List Messages Sequentially
+             </label>
+             <input data-xid="123" id="urigroup_yes" name="group" type="radio" value="1"/>
+             <label data-xid="124" for="urigroup_yes">
+              Group Error Messages by Type
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="125">
+            <td data-xid="126">
+             <input data-xid="127" id="uri-ss" name="ss" type="checkbox" value="1"/>
+             <label data-xid="128" for="uri-ss" title="Show Page Source">
+              Show Source
+             </label>
+            </td>
+            <td colspan="2" data-xid="129">
+             <input data-xid="130" id="uri-st" name="st" type="checkbox" value="1"/>
+             <label data-xid="131" for="uri-st">
+              Clean up Markup with HTML-Tidy
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="132">
+            <td data-xid="133">
+             <input data-xid="134" id="uri-outline" name="outline" type="checkbox" value="1"/>
+             <label data-xid="135" for="uri-outline" title="Show an Outline of the document">
+              Show Outline
+             </label>
+            </td>
+            <td data-xid="136">
+             <input data-xid="137" id="uri-No200" name="No200" type="checkbox" value="1"/>
+             <label data-xid="138" for="uri-No200" title="Validate also pages for which the HTTP status code indicates an error">
+              Validate error pages
+             </label>
+            </td>
+            <td data-xid="139">
+             <input data-xid="140" id="uri-verbose" name="verbose" type="checkbox" value="1"/>
+             <label data-xid="141" for="uri-verbose" title="Verbose Output">
+              Verbose Output
+             </label>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </fieldset>
+      <p class="submit_button" data-xid="142">
+       <input data-xid="143" style="display: none;" title="Submit for validation" type="submit" value="Check"/>
+       <a class="submit" data-xid="144" href="#">
+        Check
+       </a>
+      </p>
+     </form>
+    </fieldset>
+    <fieldset class="tabset_content front" data-xid="145" id="validate-by-upload" style="display: none;">
+     <legend class="tabset_label" data-xid="146">
+      Validate by File Upload
+     </legend>
+     <form action="check" data-xid="147" enctype="multipart/form-data" method="post">
+      <p class="instructions" data-xid="148">
+       Upload a document for validation:
+      </p>
+      <p data-xid="149">
+       <label data-xid="150" for="uploaded_file" title="Choose a Local File to Upload and Validate">
+        File:
+       </label>
+       <input data-xid="151" id="uploaded_file" name="uploaded_file" size="30" type="file"/>
+      </p>
+      <fieldset class="moreoptions" data-xid="152" id="extra_opt_upload">
+       <legend class="toggletext" data-xid="153">
+        <a data-xid="154" href="#validate_by_upload+with_options">
+         More Options
+        </a>
+       </legend>
+       <div data-xid="155" style="margin: 0px; position: static; overflow: hidden;">
+        <div class="options" data-xid="156" style="margin: 0px;">
+         <table data-xid="157">
+          <tbody data-xid="158">
+           <tr data-xid="159">
+            <th data-xid="160">
+             <label data-xid="161" for="upload-charset">
+              Character Encoding
+             </label>
+            </th>
+            <td data-xid="162">
+             <select data-xid="163" id="upload-charset" name="charset">
+              <option data-xid="164" selected="selected" value="(detect automatically)">
+               (detect automatically)
+              </option>
+              <option data-xid="165" value="utf-8">
+               utf-8 (Unicode, worldwide)
+              </option>
+              <option data-xid="166" value="utf-16">
+               utf-16 (Unicode, worldwide)
+              </option>
+              <option data-xid="167" value="iso-8859-1">
+               iso-8859-1 (Western Europe)
+              </option>
+              <option data-xid="168" value="iso-8859-2">
+               iso-8859-2 (Central Europe)
+              </option>
+              <option data-xid="169" value="iso-8859-3">
+               iso-8859-3 (Southern Europe)
+              </option>
+              <option data-xid="170" value="iso-8859-4">
+               iso-8859-4 (North European)
+              </option>
+              <option data-xid="171" value="iso-8859-5">
+               iso-8859-5 (Cyrillic)
+              </option>
+              <option data-xid="172" value="iso-8859-6-i">
+               iso-8859-6-i (Arabic)
+              </option>
+              <option data-xid="173" value="iso-8859-7">
+               iso-8859-7 (Greek)
+              </option>
+              <option data-xid="174" value="iso-8859-8">
+               iso-8859-8 (Hebrew, visual)
+              </option>
+              <option data-xid="175" value="iso-8859-8-i">
+               iso-8859-8-i (Hebrew, logical)
+              </option>
+              <option data-xid="176" value="iso-8859-9">
+               iso-8859-9 (Turkish)
+              </option>
+              <option data-xid="177" value="iso-8859-10">
+               iso-8859-10 (Latin 6)
+              </option>
+              <option data-xid="178" value="iso-8859-11">
+               iso-8859-11 (Latin/Thai)
+              </option>
+              <option data-xid="179" value="iso-8859-13">
+               iso-8859-13 (Latin 7, Baltic Rim)
+              </option>
+              <option data-xid="180" value="iso-8859-14">
+               iso-8859-14 (Latin 8, Celtic)
+              </option>
+              <option data-xid="181" value="iso-8859-15">
+               iso-8859-15 (Latin 9)
+              </option>
+              <option data-xid="182" value="iso-8859-16">
+               iso-8859-16 (Latin 10)
+              </option>
+              <option data-xid="183" value="us-ascii">
+               us-ascii (basic English)
+              </option>
+              <option data-xid="184" value="euc-jp">
+               euc-jp (Japanese, Unix)
+              </option>
+              <option data-xid="185" value="shift_jis">
+               shift_jis (Japanese, Win/Mac)
+              </option>
+              <option data-xid="186" value="iso-2022-jp">
+               iso-2022-jp (Japanese, email)
+              </option>
+              <option data-xid="187" value="euc-kr">
+               euc-kr (Korean)
+              </option>
+              <option data-xid="188" value="ksc_5601">
+               ksc_5601 (Korean)
+              </option>
+              <option data-xid="189" value="gb2312">
+               gb2312 (Chinese, simplified)
+              </option>
+              <option data-xid="190" value="gb18030">
+               gb18030 (Chinese, simplified)
+              </option>
+              <option data-xid="191" value="big5">
+               big5 (Chinese, traditional)
+              </option>
+              <option data-xid="192" value="big5-HKSCS">
+               Big5-HKSCS (Chinese, Hong Kong)
+              </option>
+              <option data-xid="193" value="tis-620">
+               tis-620 (Thai)
+              </option>
+              <option data-xid="194" value="koi8-r">
+               koi8-r (Russian)
+              </option>
+              <option data-xid="195" value="koi8-u">
+               koi8-u (Ukrainian)
+              </option>
+              <option data-xid="196" value="iso-ir-111">
+               iso-ir-111 (Cyrillic KOI-8)
+              </option>
+              <option data-xid="197" value="macintosh">
+               macintosh (MacRoman)
+              </option>
+              <option data-xid="198" value="windows-1250">
+               windows-1250 (Central Europe)
+              </option>
+              <option data-xid="199" value="windows-1251">
+               windows-1251 (Cyrillic)
+              </option>
+              <option data-xid="200" value="windows-1252">
+               windows-1252 (Western Europe)
+              </option>
+              <option data-xid="201" value="windows-1253">
+               windows-1253 (Greek)
+              </option>
+              <option data-xid="202" value="windows-1254">
+               windows-1254 (Turkish)
+              </option>
+              <option data-xid="203" value="windows-1255">
+               windows-1255 (Hebrew)
+              </option>
+              <option data-xid="204" value="windows-1256">
+               windows-1256 (Arabic)
+              </option>
+              <option data-xid="205" value="windows-1257">
+               windows-1257 (Baltic Rim)
+              </option>
+             </select>
+            </td>
+            <td data-xid="206">
+             <input data-xid="207" id="upload-fbc" name="fbc" type="checkbox" value="1"/>
+             <label data-xid="208" for="upload-fbc" title="Use selected Character encoding only if missing in the document">
+              Only if missing
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="209">
+            <th data-xid="210">
+             <label data-xid="211" for="upload-doctype">
+              Document Type
+             </label>
+            </th>
+            <td data-xid="212">
+             <select data-xid="213" id="upload-doctype" name="doctype">
+              <option data-xid="214" selected="selected" value="Inline">
+               (detect automatically)
+              </option>
+              <option data-xid="215" value="HTML5">
+               HTML5 (experimental)
+              </option>
+              <option data-xid="216" value="XHTML 1.0 Strict">
+               XHTML 1.0 Strict
+              </option>
+              <option data-xid="217" value="XHTML 1.0 Transitional">
+               XHTML 1.0 Transitional
+              </option>
+              <option data-xid="218" value="XHTML 1.0 Frameset">
+               XHTML 1.0 Frameset
+              </option>
+              <option data-xid="219" value="HTML 4.01 Strict">
+               HTML 4.01 Strict
+              </option>
+              <option data-xid="220" value="HTML 4.01 Transitional">
+               HTML 4.01 Transitional
+              </option>
+              <option data-xid="221" value="HTML 4.01 Frameset">
+               HTML 4.01 Frameset
+              </option>
+              <option data-xid="222" value="HTML 4.01 + RDFa 1.1">
+               HTML 4.01 + RDFa 1.1
+              </option>
+              <option data-xid="223" value="HTML 3.2">
+               HTML 3.2
+              </option>
+              <option data-xid="224" value="HTML 2.0">
+               HTML 2.0
+              </option>
+              <option data-xid="225" value='ISO/IEC 15445:2000 ("ISO HTML")'>
+               ISO/IEC 15445:2000 ("ISO HTML")
+              </option>
+              <option data-xid="226" value="XHTML 1.1">
+               XHTML 1.1
+              </option>
+              <option data-xid="227" value="XHTML + RDFa">
+               XHTML + RDFa
+              </option>
+              <option data-xid="228" value="XHTML Basic 1.0">
+               XHTML Basic 1.0
+              </option>
+              <option data-xid="229" value="XHTML Basic 1.1">
+               XHTML Basic 1.1
+              </option>
+              <option data-xid="230" value="XHTML Mobile Profile 1.2">
+               XHTML Mobile Profile 1.2
+              </option>
+              <option data-xid="231" value="XHTML-Print 1.0">
+               XHTML-Print 1.0
+              </option>
+              <option data-xid="232" value="XHTML 1.1 plus MathML 2.0">
+               XHTML 1.1 plus MathML 2.0
+              </option>
+              <option data-xid="233" value="XHTML 1.1 plus MathML 2.0 plus SVG 1.1">
+               XHTML 1.1 plus MathML 2.0 plus SVG 1.1
+              </option>
+              <option data-xid="234" value="MathML 2.0">
+               MathML 2.0
+              </option>
+              <option data-xid="235" value="SVG 1.0">
+               SVG 1.0
+              </option>
+              <option data-xid="236" value="SVG 1.1">
+               SVG 1.1
+              </option>
+              <option data-xid="237" value="SVG 1.1 Tiny">
+               SVG 1.1 Tiny
+              </option>
+              <option data-xid="238" value="SVG 1.1 Basic">
+               SVG 1.1 Basic
+              </option>
+              <option data-xid="239" value="SMIL 1.0">
+               SMIL 1.0
+              </option>
+              <option data-xid="240" value="SMIL 2.0">
+               SMIL 2.0
+              </option>
+             </select>
+            </td>
+            <td data-xid="241">
+             <label data-xid="242" for="upload-fbd">
+              <input data-xid="243" id="upload-fbd" name="fbd" title="Use selected Document Type only if missing in the document" type="checkbox" value="1"/>
+              Only if missing
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="244">
+            <td colspan="3" data-xid="245">
+             <input checked="checked" data-xid="246" id="uploadgroup_no" name="group" type="radio" value="0"/>
+             <label data-xid="247" for="uploadgroup_no">
+              List Messages Sequentially
+             </label>
+             <input data-xid="248" id="uploadgroup_yes" name="group" type="radio" value="1"/>
+             <label data-xid="249" for="uploadgroup_yes">
+              Group Error Messages by Type
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="250">
+            <td data-xid="251">
+             <input data-xid="252" id="upload-ss" name="ss" type="checkbox" value="1"/>
+             <label data-xid="253" for="upload-ss" title="Show Page Source">
+              Show Source
+             </label>
+            </td>
+            <td colspan="2" data-xid="254">
+             <input data-xid="255" id="upload-st" name="st" type="checkbox" value="1"/>
+             <label data-xid="256" for="upload-st">
+              Clean up Markup with HTML-Tidy
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="257">
+            <td data-xid="258">
+             <input data-xid="259" id="upload-outline" name="outline" type="checkbox" value="1"/>
+             <label data-xid="260" for="upload-outline" title="Show an Outline of the document">
+              Show Outline
+             </label>
+            </td>
+            <td data-xid="261">
+             <input data-xid="262" id="upload-No200" name="No200" type="checkbox" value="1"/>
+             <label data-xid="263" for="upload-No200" title="Validate also pages for which the HTTP status code indicates an error">
+              Validate error pages
+             </label>
+            </td>
+            <td data-xid="264">
+             <input data-xid="265" id="upload-verbose" name="verbose" type="checkbox" value="1"/>
+             <label data-xid="266" for="upload-verbose" title="Verbose Output">
+              Verbose Output
+             </label>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </fieldset>
+      <!-- invisible -->
+      <p class="submit_button" data-xid="267">
+       <input data-xid="268" style="display: none;" title="Submit for validation" type="submit" value="Check"/>
+       <a class="submit" data-xid="269" href="#">
+        Check
+       </a>
+      </p>
+     </form>
+     <p data-xid="270">
+      <strong data-xid="271">
+       Note
+      </strong>
+      : file upload may not work with Internet
+                Explorer on some versions of Windows XP Service Pack 2, see our
+      <a data-xid="272" href="http://www.w3.org/QA/2005/01/Validator-IE_WinXP_SP2">
+       information page
+      </a>
+      on the W3C QA Website.
+     </p>
+    </fieldset>
+    <fieldset class="tabset_content front" data-xid="273" id="validate-by-input" style="display: none;">
+     <legend class="tabset_label" data-xid="274">
+      Validate by direct input
+     </legend>
+     <form action="check" data-xid="275" enctype="multipart/form-data" method="post">
+      <p class="instructions" data-xid="276">
+       <label data-xid="277" for="fragment" title="Paste a complete (HTML) Document here">
+        Enter the Markup to validate
+       </label>
+       :
+       <br data-xid="278"/>
+       <textarea cols="80" data-xid="279" id="fragment" name="fragment" rows="12"></textarea>
+       <!--  <br /><label for="parsemodel">Treat as:</label>
+                                <select id="parsemodel" name="parsemodel">
+                                        <option value="sgml">HTML</option>
+                                        <option value="xml">XML (and XHTML)</option>
+                                </select> -->
+      </p>
+      <fieldset class="moreoptions" data-xid="280" id="extra_opt_direct">
+       <legend class="toggletext" data-xid="281">
+        <a data-xid="282" href="#validate_by_input+with_options">
+         More Options
+        </a>
+       </legend>
+       <div data-xid="283" style="margin: 0px; position: static; overflow: hidden;">
+        <div class="options" data-xid="284" style="margin: 0px;">
+         <table data-xid="285">
+          <tbody data-xid="286">
+           <tr data-xid="287">
+            <th colspan="3" data-xid="288">
+             <input checked="checked" data-xid="289" id="direct_prefill_no" name="prefill" type="radio" value="0"/>
+             <label data-xid="290" for="direct_prefill_no">
+              Validate Full Document
+             </label>
+            </th>
+           </tr>
+           <tr class="subchoice" data-xid="291" id="choice_full">
+            <th class="subchoice_head" data-xid="292">
+             <label data-xid="293" for="direct-doctype">
+              Use Doctype:
+             </label>
+            </th>
+            <td data-xid="294">
+             <select data-xid="295" id="direct-doctype" name="doctype">
+              <option data-xid="296" selected="selected" value="Inline">
+               (detect automatically)
+              </option>
+              <option data-xid="297" value="HTML5">
+               HTML5 (experimental)
+              </option>
+              <option data-xid="298" value="XHTML 1.0 Strict">
+               XHTML 1.0 Strict
+              </option>
+              <option data-xid="299" value="XHTML 1.0 Transitional">
+               XHTML 1.0 Transitional
+              </option>
+              <option data-xid="300" value="XHTML 1.0 Frameset">
+               XHTML 1.0 Frameset
+              </option>
+              <option data-xid="301" value="HTML 4.01 Strict">
+               HTML 4.01 Strict
+              </option>
+              <option data-xid="302" value="HTML 4.01 Transitional">
+               HTML 4.01 Transitional
+              </option>
+              <option data-xid="303" value="HTML 4.01 Frameset">
+               HTML 4.01 Frameset
+              </option>
+              <option data-xid="304" value="HTML 4.01 + RDFa 1.1">
+               HTML 4.01 + RDFa 1.1
+              </option>
+              <option data-xid="305" value="HTML 3.2">
+               HTML 3.2
+              </option>
+              <option data-xid="306" value="HTML 2.0">
+               HTML 2.0
+              </option>
+              <option data-xid="307" value='ISO/IEC 15445:2000 ("ISO HTML")'>
+               ISO/IEC 15445:2000 ("ISO HTML")
+              </option>
+              <option data-xid="308" value="XHTML 1.1">
+               XHTML 1.1
+              </option>
+              <option data-xid="309" value="XHTML + RDFa">
+               XHTML + RDFa
+              </option>
+              <option data-xid="310" value="XHTML Basic 1.0">
+               XHTML Basic 1.0
+              </option>
+              <option data-xid="311" value="XHTML Basic 1.1">
+               XHTML Basic 1.1
+              </option>
+              <option data-xid="312" value="XHTML Mobile Profile 1.2">
+               XHTML Mobile Profile 1.2
+              </option>
+              <option data-xid="313" value="XHTML-Print 1.0">
+               XHTML-Print 1.0
+              </option>
+              <option data-xid="314" value="XHTML 1.1 plus MathML 2.0">
+               XHTML 1.1 plus MathML 2.0
+              </option>
+              <option data-xid="315" value="XHTML 1.1 plus MathML 2.0 plus SVG 1.1">
+               XHTML 1.1 plus MathML 2.0 plus SVG 1.1
+              </option>
+              <option data-xid="316" value="MathML 2.0">
+               MathML 2.0
+              </option>
+              <option data-xid="317" value="SVG 1.0">
+               SVG 1.0
+              </option>
+              <option data-xid="318" value="SVG 1.1">
+               SVG 1.1
+              </option>
+              <option data-xid="319" value="SVG 1.1 Tiny">
+               SVG 1.1 Tiny
+              </option>
+              <option data-xid="320" value="SVG 1.1 Basic">
+               SVG 1.1 Basic
+              </option>
+              <option data-xid="321" value="SMIL 1.0">
+               SMIL 1.0
+              </option>
+              <option data-xid="322" value="SMIL 2.0">
+               SMIL 2.0
+              </option>
+             </select>
+            </td>
+            <td data-xid="323">
+             <input data-xid="324" id="direct-fbd" name="fbd" type="checkbox" value="1"/>
+             <label data-xid="325" for="direct-fbd">
+              Only if Doctype is missing
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="326">
+            <th colspan="3" data-xid="327">
+             <input data-xid="328" id="direct_prefill_yes" name="prefill" type="radio" value="1"/>
+             <label data-xid="329" for="direct_prefill_yes">
+              Validate HTML fragment
+             </label>
+            </th>
+           </tr>
+           <tr class="subchoice" data-xid="330" id="choice_frag">
+            <th class="subchoice_head" data-xid="331">
+             Use Doctype:
+            </th>
+            <td colspan="2" data-xid="332">
+             <input checked="checked" data-xid="333" id="directfill_doctype_html401" name="prefill_doctype" type="radio" value="html401"/>
+             <label data-xid="334" for="directfill_doctype_html401">
+              HTML 4.01
+             </label>
+             <input data-xid="335" id="directfill_doctype_xhtml10" name="prefill_doctype" type="radio" value="xhtml10"/>
+             <label data-xid="336" for="directfill_doctype_xhtml10">
+              XHTML 1.0
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="337">
+            <td colspan="3" data-xid="338">
+             <input checked="checked" data-xid="339" id="directgroup_no" name="group" type="radio" value="0"/>
+             <label data-xid="340" for="directgroup_no">
+              List Messages Sequentially
+             </label>
+             <input data-xid="341" id="directgroup_yes" name="group" type="radio" value="1"/>
+             <label data-xid="342" for="directgroup_yes">
+              Group Error Messages by Type
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="343">
+            <td data-xid="344">
+             <input data-xid="345" id="direct-ss" name="ss" type="checkbox" value="1"/>
+             <label data-xid="346" for="direct-ss" title="Show Page Source">
+              Show Source
+             </label>
+            </td>
+            <td colspan="2" data-xid="347">
+             <input data-xid="348" id="direct-st" name="st" type="checkbox" value="1"/>
+             <label data-xid="349" for="direct-st">
+              Clean up Markup with HTML-Tidy
+             </label>
+            </td>
+           </tr>
+           <tr data-xid="350">
+            <td data-xid="351">
+             <input data-xid="352" id="direct-outline" name="outline" type="checkbox" value="1"/>
+             <label data-xid="353" for="direct-outline" title="Show an Outline of the document">
+              Show Outline
+             </label>
+            </td>
+            <td data-xid="354">
+             <input data-xid="355" id="direct-No200" name="No200" type="checkbox" value="1"/>
+             <label data-xid="356" for="direct-No200" title="Validate also pages for which the HTTP status code indicates an error">
+              Validate error pages
+             </label>
+            </td>
+            <td data-xid="357">
+             <input data-xid="358" id="direct-verbose" name="verbose" type="checkbox" value="1"/>
+             <label data-xid="359" for="direct-verbose" title="Verbose Output">
+              Verbose Output
+             </label>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </fieldset>
+      <p class="submit_button" data-xid="360">
+       <input data-xid="361" style="display: none;" title="Submit for validation" type="submit" value="Check"/>
+       <a class="submit" data-xid="362" href="#">
+        Check
+       </a>
+      </p>
+     </form>
+    </fieldset>
+   </div>
+   <!-- fields -->
+  </div>
+  <!-- frontforms -->
+  <div class="intro" data-xid="363">
+   <p data-xid="364">
+    This validator checks the
+    <a data-xid="365" href="docs/help.html#validation_basics" title="What is markup validation?">
+     markup validity
+    </a>
+    of Web documents in HTML, XHTML, SMIL, MathML, etc.
+        If you wish to validate specific content such as
+    <a data-xid="366" href="https://validator.w3.org/feed/" title="Feed validator, hosted at W3C">
+     RSS/Atom feeds
+    </a>
+    or
+    <a data-xid="367" href="http://jigsaw.w3.org/css-validator/" title="W3C CSS Validation Service">
+     CSS stylesheets
+    </a>
+    ,
+    <a data-xid="368" href="https://validator.w3.org/mobile/" title="MobileOK Checker">
+     MobileOK content
+    </a>
+    ,
+        or to
+    <a data-xid="369" href="https://validator.w3.org/checklink" title="W3C Link Checker">
+     find broken links
+    </a>
+    , 
+ there are
+    <a data-xid="370" href="http://www.w3.org/QA/Tools/">
+     other validators and tools
+    </a>
+    available.
+ 		As an alternative you can also try our
+    <a data-xid="371" href="https://validator.w3.org/nu">
+     non-DTD-based validator
+    </a>
+    .
+   </p>
+  </div>
+  <div data-xid="372" dir="ltr" id="w3c-include" lang="en">
+   <div class="w3c-include" data-xid="373" id="w3c-include-validator-donation">
+    <p data-xid="374">
+     <a class="w3c-include-validator-donation-img" data-xid="375" href="http://www.hp.com" title="HP">
+      <img alt="HP logo" class="w3c-include-sponsor-img" data-xid="376" height="80" src="https://motif.gq/api/archive?uri=http%3A%2F%2Fwww.w3.org%2FQA%2FTools%2Flogos_sup%2Fhp_logo.jpg&amp;accessed=1523341614429"/>
+     </a>
+    </p>
+    <p data-xid="377">
+     <iframe allowtransparency="true" border="0" class="FlattrButton" data-xid="378" frameborder="0" height="62" marginheight="0" marginwidth="0" scrolling="no" src="" title="Flattr" width="55">
+     </iframe>
+     <span data-xid="379">
+      The W3C validators are hosted on server technology donated by HP, and supported by community donations.
+     </span>
+     <br data-xid="380"/>
+     <span data-xid="381">
+      <a data-xid="382" href="//www.w3.org/QA/Tools/Donate">
+       Donate
+      </a>
+      and help us build better tools for a better web.
+     </span>
+    </p>
+   </div>
+  </div>
+  <ul class="navbar" data-xid="383" id="menu">
+   <li data-xid="384">
+    <a accesskey="1" data-xid="385" href="./" title="Go to the Home Page for The W3C Markup Validation Service">
+     Home
+    </a>
+    <span data-xid="386">
+     |
+    </span>
+   </li>
+   <li data-xid="387">
+    <a data-xid="388" href="./about.html" title="Information About this Service">
+     About...
+    </a>
+    <span data-xid="389">
+     |
+    </span>
+   </li>
+   <li data-xid="390">
+    <a data-xid="391" href="./whatsnew.html" title="The changes made to this service recently">
+     News
+    </a>
+    <span data-xid="392">
+     |
+    </span>
+   </li>
+   <li data-xid="393">
+    <a accesskey="3" data-xid="394" href="./docs/" title="Documentation for this Service">
+     Docs
+    </a>
+    <span data-xid="395">
+     |
+    </span>
+   </li>
+   <li data-xid="396">
+    <a data-xid="397" href="./docs/help.html" title="Help and answers to frequently asked questions">
+     Help &amp;
+     <abbr data-xid="398" title="Frequently Asked Questions">
+      FAQ
+     </abbr>
+    </a>
+    <span data-xid="399">
+     |
+    </span>
+   </li>
+   <li data-xid="400">
+    <a accesskey="4" data-xid="401" href="./feedback.html" title="How to provide feedback on this service">
+     Feedback
+    </a>
+   </li>
+   <li data-xid="402">
+    <a data-xid="403" href="./contribute.html" title="How to contribute to the validator project">
+     Contribute
+    </a>
+   </li>
+  </ul>
+  <div data-xid="404" id="footer">
+   <p data-xid="405" id="activity_logos">
+    <a data-xid="406" href="http://www.w3.org/Status" title="W3C's Open Source, bringing you free Web quality tools and more">
+     <img alt="W3C" data-xid="407" height="47" src="https://motif.gq/api/archive?uri=http%3A%2F%2Fwww.w3.org%2FIcons%2FWWW%2Fw3c_home_nb&amp;accessed=1523341614429" width="72"/>
+     <img alt="Open-Source" data-xid="408" height="48" src="https://motif.gq/api/archive?uri=http%3A%2F%2Fvalidator.w3.org%2Fimages%2Fopensource-55x48.png&amp;accessed=1523341614429" title="We are building certified Open Source/Free Software. - see www.opensource.org" width="55"/>
+    </a>
+   </p>
+   <p data-xid="409" id="support_logo">
+    <a data-xid="410" href="http://www.w3.org/QA/Tools/Donate">
+     <img alt="I heart Validator logo" data-xid="411" height="15" src="https://motif.gq/api/archive?uri=http%3A%2F%2Fwww.w3.org%2FQA%2FTools%2FI_heart_validator&amp;accessed=1523341614429" title=" Validators Donation Program" width="80"/>
+    </a>
+   </p>
+   <p data-xid="412" id="version_info">
+    This service runs the W3C Markup Validator,
+    <a data-xid="413" href="./whatsnew.html#v14">
+     <abbr data-xid="414" title="version">
+      v
+     </abbr>
+     1.3+hg
+    </a>
+    .
+   </p>
+   <p class="copyright" data-xid="415">
+    <a data-xid="416" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright" rel="license">
+     Copyright
+    </a>
+    © 1994-2013
+    <a data-xid="417" href="http://www.w3.org/">
+     <abbr data-xid="418" title="World Wide Web Consortium">
+      W3C
+     </abbr>
+    </a>
+    ®
+
+		(
+    <a data-xid="419" href="http://www.csail.mit.edu/">
+     <abbr data-xid="420" title="Massachusetts Institute of Technology">
+      MIT
+     </abbr>
+    </a>
+    ,
+    <a data-xid="421" href="http://www.ercim.eu/">
+     <abbr data-xid="422" title="European Research Consortium for Informatics and Mathematics">
+      ERCIM
+     </abbr>
+    </a>
+    ,
+    <a data-xid="423" href="http://www.keio.ac.jp/">
+     Keio
+    </a>
+    ,
+    <a data-xid="424" href="http://ev.buaa.edu.cn/">
+     Beihang
+    </a>
+    ),
+		All Rights Reserved.
+		W3C
+    <a data-xid="425" href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">
+     liability
+    </a>
+    ,
+    <a data-xid="426" href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">
+     trademark
+    </a>
+    ,
+    <a data-xid="427" href="http://www.w3.org/Consortium/Legal/copyright-documents" rel="license">
+     document use
+    </a>
+    and
+    <a data-xid="428" href="http://www.w3.org/Consortium/Legal/copyright-software" rel="license">
+     software licensing
+    </a>
+    rules apply. Your interactions with this site are in accordance
+		with our
+    <a data-xid="429" href="http://www.w3.org/Consortium/Legal/privacy-statement#Public">
+     public
+    </a>
+    and
+    <a data-xid="430" href="http://www.w3.org/Consortium/Legal/privacy-statement#Members">
+     Member
+    </a>
+    privacy
+		statements.
+   </p>
+  </div>
+ </body>
+</html>

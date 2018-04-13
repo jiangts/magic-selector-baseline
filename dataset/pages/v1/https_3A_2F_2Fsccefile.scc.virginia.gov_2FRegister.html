@@ -1,0 +1,1950 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>
+New Account Registration
+</title>
+<link href="https://sccefile.scc.virginia.gov/Styles/css?v=3bTU47ifqefOf-0OCzI0jvPfWnfFTqOhW7FgVbbpNDc1" rel="stylesheet"/>
+<style type="text/css">
+.displayField select {
+width: 300px;
+}
+#contentcolumn {
+margin-right: 30px;
+}
+.innertubeCenterCol {
+width: 850px;
+}
+</style>
+</head>
+<body>
+<style data-xid="1">
+#notify {
+background-color: #FFFFCC;
+width: 100%;
+min-width: 1142px;
+text-align: center;
+/*        height: 2.5em;*/
+height: auto;
+display: none;
+padding-top: 1em;
+z-index: 200;
+}
+table#msg {
+margin-left: auto;
+margin-right: auto;
+}
+</style>
+<div data-xid="2" id="notify" style="display: block;">
+<table border="0" data-xid="3" id="msg">
+<tbody data-xid="4">
+<tr data-xid="5" style="background-color:#EBEBEB">
+<td data-xid="6" style="padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size: 90%; color: #000000; text-align:center;">
+Alert to business entities regarding mailings from VIRGINIA COUNCIL FOR CORPORATIONS or U.S. BUSINESS SERVICES is available from the Bulletin Archive link of the Clerk's Office website.
+</td>
+</tr>
+<tr data-xid="7" style="background-color:#EBEBEB">
+<td data-xid="8" style="padding: 5px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold; font-size: 90%; color: #000000; text-align:center;">
+Due to payment vendor site maintenance, SCC eFile will be unable to accept transactions requiring payment on Friday, March 23, from 12:00 a.m. to 4:00 a.m.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div data-xid="9" id="maincontainer">
+<div data-xid="10" id="topsection">
+<div class="innertube" data-xid="11">
+<div data-xid="12" id="siteLogo">
+<a data-xid="13" href="http://www.scc.virginia.gov">
+</a>
+</div>
+<div class="sccBuilding" data-xid="14">
+<img alt="SCC Tyler Building drawing" data-xid="15" height="100" src="https://sccefile.scc.virginia.gov/Images/tyler_building_drawing.jpg" width="84"/>
+</div>
+<div data-xid="16" id="tiptopNavLinks">
+<!-- don't reduce margin for IE6 - bug doubles margin in float when margin is same side as float -->
+<a data-xid="17" href="http://www.scc.virginia.gov/index.aspx" title="Home page link">
+Home
+</a>
+|
+<a data-xid="18" href="http://www.scc.virginia.gov/site_map.aspx" title="Site Map link">
+Site Map
+</a>
+|
+<a data-xid="19" href="http://www.scc.virginia.gov/comm/index.aspx" title="About SCC link">
+About
+SCC
+</a>
+|
+<a data-xid="20" href="http://www.scc.virginia.gov/contact.aspx" title="Contact SCC link">
+Contact SCC
+</a>
+|
+<a data-xid="21" href="http://www.scc.virginia.gov/privacy.aspx" title="Privacy Policy link">
+Privacy Policy
+</a>
+</div>
+</div>
+</div>
+<div data-xid="22" id="searchbread">
+<div class="breadCrumb" data-xid="23">
+<a data-xid="24" href="/">
+SCC eFile
+</a>
+&gt;
+Account Registration
+</div>
+<div class="accountsQuickLink" data-xid="25">
+<a data-xid="26" href="" id="quick-links-login-link" title="Login">
+Login
+</a>
+|
+<a data-xid="27" href="/Register">
+Create an Account
+</a>
+</div>
+<style data-xid="28" type="text/css">
+.accountsQuickLink
+{
+float: right;
+margin-right: 20px; 
+margin-bottom: 5px;
+margin-top: 3px;
+}
+.accountsQuickLink label
+{
+font-size: 0.875em;
+}
+.accountsQuickLink input[type=text]
+{
+background-color: LightGoldenrodYellow;
+}
+</style>
+</div>
+<div data-xid="29" style="clear: both;">
+</div>
+<div data-xid="30" dir="ltr" id="contentwrapper">
+<div data-xid="31" id="leftcolumn">
+<div class="logo-container" data-xid="32" id="logo">
+<a data-xid="33" href="/">
+<img align="middle" alt="scc_efile_logo" border="0" data-xid="34" src="https://sccefile.scc.virginia.gov/Images/ecomm_logo.jpg"/>
+</a>
+</div>
+<div class="innertubeLeft" data-xid="35">
+<div class="accordionMenu ui-accordion ui-widget ui-helper-reset ui-accordion-icons" data-xid="36" id="mainMenu" role="tablist">
+<h3 aria-expanded="true" class="menuheader ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" data-xid="37" role="tab" tabindex="0">
+<span class="ui-icon ui-icon-triangle-1-s" data-xid="38">
+</span>
+SCC eFile
+</h3>
+<div class="categoryitems ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" data-xid="39" role="tabpanel">
+<ul data-xid="40">
+<li data-xid="41">
+<a data-xid="42" href="/">
+SCC eFile Home Page
+</a>
+</li>
+<li data-xid="43">
+<a data-xid="44" href="/NameAvailability">
+Check Name Distinguishability
+</a>
+</li>
+<li data-xid="45">
+<a data-xid="46" href="/Find/Business">
+Business Entity Search
+</a>
+</li>
+<li data-xid="47">
+<a data-xid="48" href="/Verify/Certificate">
+Certificate Verification
+</a>
+</li>
+<li data-xid="49">
+<a data-xid="50" href="http://www.scc.virginia.gov/clk/faq.aspx" target="_blank">
+FAQs
+</a>
+</li>
+<li data-xid="51">
+<a data-xid="52" href="/ContactUs">
+Contact Us
+</a>
+</li>
+<li data-xid="53">
+<a data-xid="54" href="http://www.surveymonkey.com/s.aspx?sm=PeGQSQzY_2b8QkZ04ynpHnmA_3d_3d" target="_blank">
+Give Us Feedback
+</a>
+</li>
+</ul>
+</div>
+<h3 aria-expanded="false" class="menuheader ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" data-xid="55" role="tab" tabindex="-1">
+<span class="ui-icon ui-icon-triangle-1-e" data-xid="56">
+</span>
+Business Entities
+</h3>
+<div class="categoryitems ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" data-xid="57" role="tabpanel" style="display: none;">
+<ul data-xid="58">
+<li data-xid="59">
+<a data-xid="60" href="http://www.scc.virginia.gov/clk/bussrch.aspx">
+Entity Search
+</a>
+</li>
+<li data-xid="61">
+<a data-xid="62" href="http://www.scc.virginia.gov/clk/formfee.aspx">
+Forms and Fees
+</a>
+</li>
+<li data-xid="63">
+<a data-xid="64" href="http://www.scc.virginia.gov/clk/expsvc.aspx">
+Expedited Services
+</a>
+</li>
+<li data-xid="65">
+<a data-xid="66" href="http://www.scc.virginia.gov/clk/annual.aspx">
+Corporate Annual Reports
+</a>
+</li>
+<li data-xid="67">
+<a data-xid="68" href="http://www.scc.virginia.gov/clk/begin.aspx">
+Entity Formation
+</a>
+</li>
+<li data-xid="69">
+<a data-xid="70" href="http://www.scc.virginia.gov/clk/rein.aspx">
+Reinstatements
+</a>
+</li>
+<li data-xid="71">
+<a data-xid="72" href="http://www.scc.virginia.gov/clk/copy.aspx">
+Copies/Certificates
+</a>
+</li>
+</ul>
+</div>
+<h3 aria-expanded="false" class="menuheader ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" data-xid="73" role="tab" tabindex="-1">
+<span class="ui-icon ui-icon-triangle-1-e" data-xid="74">
+</span>
+UCC or Tax Liens
+</h3>
+<div class="categoryitems ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" data-xid="75" role="tabpanel" style="display: none;">
+<ul data-xid="76">
+<li data-xid="77">
+<a data-xid="78" href="http://www.scc.virginia.gov/clk/uccsrch.aspx">
+UCC/Tax Lien Search
+</a>
+</li>
+<li data-xid="79">
+<a data-xid="80" href="http://www.scc.virginia.gov/clk/uccfile.aspx">
+UCC Forms and Fees
+</a>
+</li>
+<li data-xid="81">
+<a data-xid="82" href="http://www.scc.virginia.gov/clk/uccrules.aspx">
+Rules and Guidelines
+</a>
+</li>
+<li data-xid="83">
+<a data-xid="84" href="http://www.scc.virginia.gov/clk/fed.aspx">
+Federal Tax Liens
+</a>
+</li>
+<li data-xid="85">
+<a data-xid="86" href="http://www.scc.virginia.gov/clk/ufcopy.aspx">
+Copies/Certificates
+</a>
+</li>
+</ul>
+</div>
+<h3 aria-expanded="false" class="menuheader ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" data-xid="87" role="tab" tabindex="-1">
+<span class="ui-icon ui-icon-triangle-1-e" data-xid="88">
+</span>
+Court Services
+</h3>
+<div class="categoryitems ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" data-xid="89" role="tabpanel" style="display: none;">
+<ul data-xid="90">
+<li data-xid="91">
+<a data-xid="92" href="http://www.scc.virginia.gov/clk/casefile.aspx">
+Case Information
+</a>
+</li>
+<li data-xid="93">
+<a data-xid="94" href="http://www.scc.virginia.gov/clk/casefile.aspx">
+Electronic Filing
+</a>
+</li>
+<li data-xid="95">
+<a data-xid="96" href="http://www.scc.virginia.gov/clk/case.aspx">
+Document Control Center
+</a>
+</li>
+<li data-xid="97">
+<a data-xid="98" href="http://www.scc.virginia.gov/clk/case.aspx">
+Public Witnesses
+</a>
+</li>
+<li data-xid="99">
+<a data-xid="100" href="http://www.scc.virginia.gov/clk/case.aspx">
+Copies/Certificates
+</a>
+</li>
+</ul>
+</div>
+<h3 aria-expanded="false" class="menuheader ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" data-xid="101" role="tab" tabindex="-1">
+<span class="ui-icon ui-icon-triangle-1-e" data-xid="102">
+</span>
+Additional Services
+</h3>
+<div class="categoryitems ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" data-xid="103" role="tabpanel" style="display: none;">
+<ul data-xid="104">
+<li data-xid="105">
+<a data-xid="106" href="http://www.scc.virginia.gov/clk/purch.aspx">
+Download Database
+</a>
+</li>
+<li data-xid="107">
+<a data-xid="108" href="http://www.scc.virginia.gov/clk/music.aspx">
+Music Associations
+</a>
+</li>
+<li data-xid="109">
+<a data-xid="110" href="http://www.scc.virginia.gov/clk/garn.aspx">
+Garnishment Designees
+</a>
+</li>
+<li data-xid="111">
+<a data-xid="112" href="http://www.scc.virginia.gov/clk/svcproc.aspx">
+Service of Process
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div data-xid="113" id="contentcolumn">
+<div class="headerAndHelp" data-xid="114">
+<div class="welcome-scc" data-xid="115">
+SCC eFile
+</div>
+<div data-xid="116" id="titleAndHelp">
+<div class="welcome-scc" data-xid="117" id="titleText">
+New User Account Creation
+<div class="welcome-scc" data-xid="118">
+</div>
+</div>
+<div data-xid="119" id="helpSpan">
+<img alt="Help" class="helpImg" data-xid="120" src="https://sccefile.scc.virginia.gov/Images/Help3.bmp"/>
+<a class="pageHelp" data-xid="121" href="http://www.scc.virginia.gov/ecHelp.aspx#
+acct_create
+" id="helpLink" target="_blank">
+Help
+</a>
+</div>
+</div>
+</div>
+<div class="innertubeCenterCol" data-xid="122">
+<form action="/Register" data-xid="123" method="post">
+<fieldset data-xid="124">
+<legend data-xid="125">
+Account Information
+</legend>
+<div class="displayLayout" data-xid="126">
+<div class="displayLabel" data-xid="127">
+<label data-xid="128" for="FirstName">
+First Name
+</label>
+:
+</div>
+<div class="displayField" data-xid="129">
+<input class="text-box single-line" data-val="true" data-val-length="First Name cannot exceed 50 characters." data-val-length-max="50" data-val-noalphanumeric="Not a valid Name." data-val-noalphanumeric-pattern="^(.+[0-9]+.)|([0-9].)|(.[0-9])*$" data-val-required="First Name is required." data-val-ssncheck="Cannot contain SSN." data-val-ssncheck-pattern="^(?!.*(\D|^)((?!000)(?!588)(?!666)(\d\W*){9})($|\D))" data-xid="130" id="FirstName" name="FirstName" type="text" value=""/>
+<span data-xid="131" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true" data-xid="132">
+</span>
+</div>
+<div data-xid="133" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="134">
+<div class="displayLabel" data-xid="135">
+<label data-xid="136" for="LastName">
+Last Name
+</label>
+:
+</div>
+<div class="displayField" data-xid="137">
+<input class="text-box single-line" data-val="true" data-val-length="Last Name cannot exceed 50 characters." data-val-length-max="50" data-val-noalphanumeric="Not a valid Name." data-val-noalphanumeric-pattern="^(.+[0-9]+.)|([0-9].)|(.[0-9])*$" data-val-required="Last Name is required." data-val-ssncheck="Cannot contain SSN." data-val-ssncheck-pattern="^(?!.*(\D|^)((?!000)(?!588)(?!666)(\d\W*){9})($|\D))" data-xid="138" id="LastName" name="LastName" type="text" value=""/>
+<span data-xid="139" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true" data-xid="140">
+</span>
+</div>
+<div data-xid="141" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="142">
+<div class="displayLabel" data-xid="143">
+<label data-xid="144" for="FirmName">
+Firm Name
+</label>
+:
+</div>
+<div class="displayField" data-xid="145">
+<input class="text-box single-line" data-val="true" data-val-length="Firm Name cannot exceed 100 characters." data-val-length-max="100" data-xid="146" id="FirmName" name="FirmName" type="text" value=""/>
+<span data-xid="147" style="color: red">
+</span>
+<span class="field-validation-valid" data-valmsg-for="FirmName" data-valmsg-replace="true" data-xid="148">
+</span>
+</div>
+<div data-xid="149" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="150">
+<div class="displayLabel" data-xid="151">
+<label data-xid="152" for="Address1">
+Address1
+</label>
+:
+</div>
+<div class="displayField" data-xid="153">
+<input class="text-box single-line" data-val="true" data-val-addressnotsameasclerksofficeaddress="The Commission&amp;#39;s address is not a valid registered office address." data-val-addressnotsameasclerksofficeaddress-address1fieldid="Address1" data-val-addressnotsameasclerksofficeaddress-address2fieldid="Address2" data-val-addressnotsameasclerksofficeaddress-cityfieldid="City" data-val-addressnotsameasclerksofficeaddress-pattern="^((?!1300 (?:(\b([E|e]+[A|a]+[S|s]+[T|t])\b|\b[E|e]\b\.?)) (((?:\b[M|m]+[A|a]+[I|i]+[N|n]\b) (?:(\b([S|s]+[T|t]+[R|r]+[E|e]+[E|e]+[T|t])\b|\b[S|s]+[T|t]\b\.?))(?:\s\w*)*,)|((?:\b[M|m]+[A|a]+[I|i]+[N|n]\b)(?:\s\w*)*,))(?:.)* (?:\b[R|r]+[I|i]+[C|c]+[H|h]+[M|m]+[O|o]+[N|n]+[D|d]\b), VA).)*$" data-val-addressnotsameasclerksofficeaddress-statefieldid="State" data-val-cannotcontainnotapplicable="Address cannot contain Not Applicable" data-val-cannotcontainnotapplicable-pattern="^(?!.*(?:(\b[Nn][Oo][Tt]\s?[Aa][Pp][Pp][Ll][Ii][Cc][Aa][Bb][Ll][Ee])|(\b[Nn](\/?)[Aa]))\b).*$" data-val-length="Address1 cannot exceed 100 characters." data-val-length-max="100" data-val-required="Address1 is required." data-val-ssncheck="Cannot contain SSN." data-val-ssncheck-pattern="^(?!.*(\D|^)((?!000)(?!588)(?!666)(\d\W*){9})($|\D))" data-xid="154" id="Address1" name="Address1" type="text" value=""/>
+<span data-xid="155" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="Address1" data-valmsg-replace="true" data-xid="156">
+</span>
+</div>
+<div data-xid="157" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="158">
+<div class="displayLabel" data-xid="159">
+<label data-xid="160" for="Address2">
+Address2
+</label>
+:
+</div>
+<div class="displayField" data-xid="161">
+<input class="text-box single-line" data-val="true" data-val-addressnotsameasclerksofficeaddress="The Commission&amp;#39;s address is not a valid registered office address." data-val-addressnotsameasclerksofficeaddress-address1fieldid="Address1" data-val-addressnotsameasclerksofficeaddress-address2fieldid="Address2" data-val-addressnotsameasclerksofficeaddress-cityfieldid="City" data-val-addressnotsameasclerksofficeaddress-pattern="^((?!1300 (?:(\b([E|e]+[A|a]+[S|s]+[T|t])\b|\b[E|e]\b\.?)) (((?:\b[M|m]+[A|a]+[I|i]+[N|n]\b) (?:(\b([S|s]+[T|t]+[R|r]+[E|e]+[E|e]+[T|t])\b|\b[S|s]+[T|t]\b\.?))(?:\s\w*)*,)|((?:\b[M|m]+[A|a]+[I|i]+[N|n]\b)(?:\s\w*)*,))(?:.)* (?:\b[R|r]+[I|i]+[C|c]+[H|h]+[M|m]+[O|o]+[N|n]+[D|d]\b), VA).)*$" data-val-addressnotsameasclerksofficeaddress-statefieldid="State" data-val-cannotcontainnotapplicable="Address cannot contain Not Applicable" data-val-cannotcontainnotapplicable-pattern="^(?!.*(?:(\b[Nn][Oo][Tt]\s?[Aa][Pp][Pp][Ll][Ii][Cc][Aa][Bb][Ll][Ee])|(\b[Nn](\/?)[Aa]))\b).*$" data-val-length="Address2 cannot exceed 100 characters." data-val-length-max="100" data-val-notseperatemailingaddress="You may not enter a separate mailing address in this line." data-val-notseperatemailingaddress-pattern="^((?!(?:\b[V|v]+[I|i]+[R|r]+[G|g]+[I|i]+[N|n]+[I|i]+[A|a]\b|\b[V|v]+[A\a])\b \d{5}).)*$" data-val-ssncheck="Cannot contain SSN." data-val-ssncheck-pattern="^(?!.*(\D|^)((?!000)(?!588)(?!666)(\d\W*){9})($|\D))" data-xid="162" id="Address2" name="Address2" type="text" value=""/>
+<span data-xid="163" style="color: red">
+</span>
+<span class="field-validation-valid" data-valmsg-for="Address2" data-valmsg-replace="true" data-xid="164">
+</span>
+</div>
+<div data-xid="165" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="166">
+<div class="displayLabel" data-xid="167">
+<label data-xid="168" for="City">
+City/Town
+</label>
+:
+</div>
+<div class="displayField" data-xid="169">
+<input class="text-box single-line" data-val="true" data-val-addressnotsameasclerksofficeaddress="The Commission&amp;#39;s address is not a valid registered office address." data-val-addressnotsameasclerksofficeaddress-address1fieldid="Address1" data-val-addressnotsameasclerksofficeaddress-address2fieldid="Address2" data-val-addressnotsameasclerksofficeaddress-cityfieldid="City" data-val-addressnotsameasclerksofficeaddress-pattern="^((?!1300 (?:(\b([E|e]+[A|a]+[S|s]+[T|t])\b|\b[E|e]\b\.?)) (((?:\b[M|m]+[A|a]+[I|i]+[N|n]\b) (?:(\b([S|s]+[T|t]+[R|r]+[E|e]+[E|e]+[T|t])\b|\b[S|s]+[T|t]\b\.?))(?:\s\w*)*,)|((?:\b[M|m]+[A|a]+[I|i]+[N|n]\b)(?:\s\w*)*,))(?:.)* (?:\b[R|r]+[I|i]+[C|c]+[H|h]+[M|m]+[O|o]+[N|n]+[D|d]\b), VA).)*$" data-val-addressnotsameasclerksofficeaddress-statefieldid="State" data-val-cannotcontainnotapplicable="Address cannot contain Not Applicable" data-val-cannotcontainnotapplicable-pattern="^(?!.*(?:(\b[Nn][Oo][Tt]\s?[Aa][Pp][Pp][Ll][Ii][Cc][Aa][Bb][Ll][Ee])|(\b[Nn](\/?)[Aa]))\b).*$" data-val-length="City/Town cannot exceed 100 characters." data-val-length-max="100" data-val-required="City/Town is required." data-val-ssncheck="Cannot contain SSN." data-val-ssncheck-pattern="^(?!.*(\D|^)((?!000)(?!588)(?!666)(\d\W*){9})($|\D))" data-xid="170" id="City" name="City" type="text" value=""/>
+<span data-xid="171" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true" data-xid="172">
+</span>
+</div>
+<div data-xid="173" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="174">
+<div class="displayLabel" data-xid="175">
+<label data-xid="176" for="Country">
+Country
+</label>
+:
+</div>
+<div class="displayFieldWide" data-xid="177">
+<select data-val="true" data-val-required="Country is required." data-xid="178" id="Country" name="Country">
+<option data-xid="179" value="">
+Select a Country
+</option>
+<option data-xid="180" value="AF">
+Afghanistan
+</option>
+<option data-xid="181" value="AL">
+Albania
+</option>
+<option data-xid="182" value="DZ">
+Algeria
+</option>
+<option data-xid="183" value="AS">
+American Samoa
+</option>
+<option data-xid="184" value="AD">
+Andorra
+</option>
+<option data-xid="185" value="AO">
+Angola
+</option>
+<option data-xid="186" value="AI">
+Anguilla
+</option>
+<option data-xid="187" value="AQ">
+Antarctica
+</option>
+<option data-xid="188" value="AG">
+Antigua &amp; Barbuda
+</option>
+<option data-xid="189" value="AR">
+Argentina
+</option>
+<option data-xid="190" value="AM">
+Armenia
+</option>
+<option data-xid="191" value="AW">
+Aruba
+</option>
+<option data-xid="192" value="AU">
+Australia
+</option>
+<option data-xid="193" value="AT">
+Austria
+</option>
+<option data-xid="194" value="AZ">
+Azerbaijan
+</option>
+<option data-xid="195" value="BS">
+Bahamas
+</option>
+<option data-xid="196" value="BH">
+Bahrain
+</option>
+<option data-xid="197" value="BD">
+Bangladesh
+</option>
+<option data-xid="198" value="BB">
+Barbados
+</option>
+<option data-xid="199" value="BY">
+Belarus
+</option>
+<option data-xid="200" value="BE">
+Belgium
+</option>
+<option data-xid="201" value="BZ">
+Belize
+</option>
+<option data-xid="202" value="BJ">
+Benin
+</option>
+<option data-xid="203" value="BM">
+Bermuda
+</option>
+<option data-xid="204" value="BT">
+Bhutan
+</option>
+<option data-xid="205" value="BO">
+Bolivia
+</option>
+<option data-xid="206" value="BA">
+Bosnia And Herzegovina
+</option>
+<option data-xid="207" value="BW">
+Botswana
+</option>
+<option data-xid="208" value="BV">
+Bouvet Island
+</option>
+<option data-xid="209" value="BR">
+Brazil
+</option>
+<option data-xid="210" value="IO">
+British Indian Ocean Territory
+</option>
+<option data-xid="211" value="BN">
+Brunei Darussalam
+</option>
+<option data-xid="212" value="BG">
+Bulgaria
+</option>
+<option data-xid="213" value="BF">
+Burkina Faso
+</option>
+<option data-xid="214" value="BI">
+Burundi
+</option>
+<option data-xid="215" value="KH">
+Cambodia
+</option>
+<option data-xid="216" value="CM">
+Cameroon
+</option>
+<option data-xid="217" value="CA">
+Canada
+</option>
+<option data-xid="218" value="CV">
+Cape Verde
+</option>
+<option data-xid="219" value="KY">
+Cayman Islands
+</option>
+<option data-xid="220" value="CF">
+Central African Republic
+</option>
+<option data-xid="221" value="TD">
+Chad
+</option>
+<option data-xid="222" value="CL">
+Chile
+</option>
+<option data-xid="223" value="CN">
+China
+</option>
+<option data-xid="224" value="CX">
+Christmas Island
+</option>
+<option data-xid="225" value="CC">
+Cocos (Keeling) Islands
+</option>
+<option data-xid="226" value="CO">
+Colombia
+</option>
+<option data-xid="227" value="KM">
+Comoros
+</option>
+<option data-xid="228" value="CD">
+Congo
+</option>
+<option data-xid="229" value="CG">
+Congo, The Democratic Republic Of
+</option>
+<option data-xid="230" value="CK">
+Cook Islands
+</option>
+<option data-xid="231" value="CR">
+Costa Rica
+</option>
+<option data-xid="232" value="CI">
+Cote D'ivoire (Ivory Coast)
+</option>
+<option data-xid="233" value="HR">
+Croatia
+</option>
+<option data-xid="234" value="CU">
+Cuba
+</option>
+<option data-xid="235" value="CY">
+Cyprus
+</option>
+<option data-xid="236" value="CZ">
+Czech Republic
+</option>
+<option data-xid="237" value="DK">
+Denmark
+</option>
+<option data-xid="238" value="DJ">
+Djibouti
+</option>
+<option data-xid="239" value="DM">
+Dominica
+</option>
+<option data-xid="240" value="DO">
+Dominican Republic
+</option>
+<option data-xid="241" value="TP">
+East Timor
+</option>
+<option data-xid="242" value="EC">
+Ecuador
+</option>
+<option data-xid="243" value="EG">
+Egypt
+</option>
+<option data-xid="244" value="SV">
+El Salvador
+</option>
+<option data-xid="245" value="GQ">
+Equatorial Guinea
+</option>
+<option data-xid="246" value="ER">
+Eritrea
+</option>
+<option data-xid="247" value="EE">
+Estonia
+</option>
+<option data-xid="248" value="ET">
+Ethiopia
+</option>
+<option data-xid="249" value="FK">
+Falkland Islands (Malvinas)
+</option>
+<option data-xid="250" value="FO">
+Faroe Islands
+</option>
+<option data-xid="251" value="FJ">
+Fiji
+</option>
+<option data-xid="252" value="FI">
+Finland
+</option>
+<option data-xid="253" value="FR">
+France
+</option>
+<option data-xid="254" value="FX">
+France, Metropolitan
+</option>
+<option data-xid="255" value="GF">
+French Guiana
+</option>
+<option data-xid="256" value="PF">
+French Polynesia
+</option>
+<option data-xid="257" value="TF">
+French Southern Territories
+</option>
+<option data-xid="258" value="GA">
+Gabon
+</option>
+<option data-xid="259" value="GM">
+Gambia
+</option>
+<option data-xid="260" value="GE">
+Georgia
+</option>
+<option data-xid="261" value="DE">
+Germany
+</option>
+<option data-xid="262" value="GH">
+Ghana
+</option>
+<option data-xid="263" value="GI">
+Gibraltar
+</option>
+<option data-xid="264" value="GR">
+Greece
+</option>
+<option data-xid="265" value="GL">
+Greenland
+</option>
+<option data-xid="266" value="GD">
+Grenada
+</option>
+<option data-xid="267" value="GP">
+Guadeloupe
+</option>
+<option data-xid="268" value="GU">
+Guam
+</option>
+<option data-xid="269" value="GT">
+Guatemala
+</option>
+<option data-xid="270" value="GN">
+Guinea
+</option>
+<option data-xid="271" value="GW">
+Guinea-Bissau
+</option>
+<option data-xid="272" value="GY">
+Guyana
+</option>
+<option data-xid="273" value="HT">
+Haiti
+</option>
+<option data-xid="274" value="HM">
+Heard And Mcdonald Islands
+</option>
+<option data-xid="275" value="HN">
+Honduras
+</option>
+<option data-xid="276" value="HK">
+Hong Kong
+</option>
+<option data-xid="277" value="HU">
+Hungary
+</option>
+<option data-xid="278" value="IS">
+Iceland
+</option>
+<option data-xid="279" value="IN">
+India
+</option>
+<option data-xid="280" value="ID">
+Indonesia
+</option>
+<option data-xid="281" value="IQ">
+Iraq
+</option>
+<option data-xid="282" value="IE">
+Ireland
+</option>
+<option data-xid="283" value="IR">
+Islamic Republic Of Iran
+</option>
+<option data-xid="284" value="IL">
+Israel
+</option>
+<option data-xid="285" value="IT">
+Italy
+</option>
+<option data-xid="286" value="JM">
+Jamaica
+</option>
+<option data-xid="287" value="JP">
+Japan
+</option>
+<option data-xid="288" value="JO">
+Jordan
+</option>
+<option data-xid="289" value="KZ">
+Kazakhstan
+</option>
+<option data-xid="290" value="KE">
+Kenya
+</option>
+<option data-xid="291" value="KI">
+Kiribati
+</option>
+<option data-xid="292" value="KP">
+Korea, Democratic People's Republic Of
+</option>
+<option data-xid="293" value="KR">
+Korea, Republic Of
+</option>
+<option data-xid="294" value="KW">
+Kuwait
+</option>
+<option data-xid="295" value="KG">
+Kyrgyzstan
+</option>
+<option data-xid="296" value="LA">
+Lao People's Democratic Republic
+</option>
+<option data-xid="297" value="LV">
+Latvia
+</option>
+<option data-xid="298" value="LB">
+Lebanon
+</option>
+<option data-xid="299" value="LS">
+Lesotho
+</option>
+<option data-xid="300" value="LR">
+Liberia
+</option>
+<option data-xid="301" value="LY">
+Libyan Arab Jamahiriya
+</option>
+<option data-xid="302" value="LI">
+Liechtenstein
+</option>
+<option data-xid="303" value="LT">
+Lithuania
+</option>
+<option data-xid="304" value="LU">
+Luxembourg
+</option>
+<option data-xid="305" value="MO">
+Macau
+</option>
+<option data-xid="306" value="MK">
+Macedonia, The Former Yugoslav Republic Of
+</option>
+<option data-xid="307" value="MG">
+Madagascar
+</option>
+<option data-xid="308" value="MW">
+Malawi
+</option>
+<option data-xid="309" value="MY">
+Malaysia
+</option>
+<option data-xid="310" value="MV">
+Maldives
+</option>
+<option data-xid="311" value="ML">
+Mali
+</option>
+<option data-xid="312" value="MT">
+Malta
+</option>
+<option data-xid="313" value="MH">
+Marshall Islands
+</option>
+<option data-xid="314" value="MQ">
+Martinique
+</option>
+<option data-xid="315" value="MR">
+Mauritania
+</option>
+<option data-xid="316" value="MU">
+Mauritius
+</option>
+<option data-xid="317" value="YT">
+Mayotte
+</option>
+<option data-xid="318" value="MX">
+Mexico
+</option>
+<option data-xid="319" value="FM">
+Micronesia
+</option>
+<option data-xid="320" value="MD">
+Moldova, Republic Of
+</option>
+<option data-xid="321" value="MC">
+Monaco
+</option>
+<option data-xid="322" value="MN">
+Mongolia
+</option>
+<option data-xid="323" value="MS">
+Monserrat
+</option>
+<option data-xid="324" value="MA">
+Morocco
+</option>
+<option data-xid="325" value="MZ">
+Mozambique
+</option>
+<option data-xid="326" value="MM">
+Myanmar
+</option>
+<option data-xid="327" value="NA">
+Namibia
+</option>
+<option data-xid="328" value="NR">
+Nauru
+</option>
+<option data-xid="329" value="NP">
+Nepal
+</option>
+<option data-xid="330" value="NL">
+Netherlands
+</option>
+<option data-xid="331" value="AN">
+Netherlands Antilles
+</option>
+<option data-xid="332" value="NC">
+New Caledonia
+</option>
+<option data-xid="333" value="NZ">
+New Zealand
+</option>
+<option data-xid="334" value="NI">
+Nicaragua
+</option>
+<option data-xid="335" value="NE">
+Niger
+</option>
+<option data-xid="336" value="NG">
+Nigeria
+</option>
+<option data-xid="337" value="NU">
+Niue
+</option>
+<option data-xid="338" value="NF">
+Norfolk Island
+</option>
+<option data-xid="339" value="MP">
+Northern Mariana Islands
+</option>
+<option data-xid="340" value="NO">
+Norway
+</option>
+<option data-xid="341" value="OM">
+Oman
+</option>
+<option data-xid="342" value="PK">
+Pakistan
+</option>
+<option data-xid="343" value="PW">
+Palau
+</option>
+<option data-xid="344" value="PA">
+Panama
+</option>
+<option data-xid="345" value="PG">
+Papua New Guinea
+</option>
+<option data-xid="346" value="PY">
+Paraguay
+</option>
+<option data-xid="347" value="PE">
+Peru
+</option>
+<option data-xid="348" value="PH">
+Philippines
+</option>
+<option data-xid="349" value="PN">
+Pitcairn
+</option>
+<option data-xid="350" value="PL">
+Poland
+</option>
+<option data-xid="351" value="PT">
+Portugal
+</option>
+<option data-xid="352" value="PR">
+Puerto Rico
+</option>
+<option data-xid="353" value="QA">
+Qatar
+</option>
+<option data-xid="354" value="RE">
+Reunion
+</option>
+<option data-xid="355" value="RO">
+Romania
+</option>
+<option data-xid="356" value="RU">
+Russian Federation
+</option>
+<option data-xid="357" value="RW">
+Rwanda
+</option>
+<option data-xid="358" value="LC">
+Saint Lucia
+</option>
+<option data-xid="359" value="VC">
+Saint Vincent &amp; The Grenadines
+</option>
+<option data-xid="360" value="WS">
+Samoa
+</option>
+<option data-xid="361" value="SM">
+San Marino
+</option>
+<option data-xid="362" value="ST">
+Sao Tome &amp; Principe
+</option>
+<option data-xid="363" value="SA">
+Saudi Arabia
+</option>
+<option data-xid="364" value="SN">
+Senegal
+</option>
+<option data-xid="365" value="SC">
+Seychelles
+</option>
+<option data-xid="366" value="SL">
+Sierra Leone
+</option>
+<option data-xid="367" value="SG">
+Singapore
+</option>
+<option data-xid="368" value="SK">
+Slovakia
+</option>
+<option data-xid="369" value="SI">
+Slovenia
+</option>
+<option data-xid="370" value="SB">
+Solomon Islands
+</option>
+<option data-xid="371" value="SO">
+Somalia
+</option>
+<option data-xid="372" value="ZA">
+South Africa
+</option>
+<option data-xid="373" value="GS">
+South Georgia And The South Sandwich Islands
+</option>
+<option data-xid="374" value="ES">
+Spain
+</option>
+<option data-xid="375" value="LK">
+Sri Lanka
+</option>
+<option data-xid="376" value="SH">
+St. Helena
+</option>
+<option data-xid="377" value="KN">
+St. Kitts And Nevis
+</option>
+<option data-xid="378" value="PM">
+St. Pierre And Miquelon
+</option>
+<option data-xid="379" value="SD">
+Sudan
+</option>
+<option data-xid="380" value="SR">
+Suriname
+</option>
+<option data-xid="381" value="SJ">
+Svalbard &amp; Jan Mayen Islands
+</option>
+<option data-xid="382" value="SZ">
+Swaziland
+</option>
+<option data-xid="383" value="SE">
+Sweden
+</option>
+<option data-xid="384" value="CH">
+Switzerland
+</option>
+<option data-xid="385" value="SY">
+Syrian Arab Republic
+</option>
+<option data-xid="386" value="TW">
+Taiwan
+</option>
+<option data-xid="387" value="TJ">
+Tajikistan
+</option>
+<option data-xid="388" value="TZ">
+Tanzania, United Republic Of
+</option>
+<option data-xid="389" value="TH">
+Thailand
+</option>
+<option data-xid="390" value="TG">
+Togo
+</option>
+<option data-xid="391" value="TK">
+Tokelau
+</option>
+<option data-xid="392" value="TO">
+Tonga
+</option>
+<option data-xid="393" value="TT">
+Trinidad &amp; Tobago
+</option>
+<option data-xid="394" value="TN">
+Tunisia
+</option>
+<option data-xid="395" value="TR">
+Turkey
+</option>
+<option data-xid="396" value="TM">
+Turkmenistan
+</option>
+<option data-xid="397" value="TC">
+Turks &amp; Caicos Islands
+</option>
+<option data-xid="398" value="TV">
+Tuvalu
+</option>
+<option data-xid="399" value="UG">
+Uganda
+</option>
+<option data-xid="400" value="UA">
+Ukraine
+</option>
+<option data-xid="401" value="AE">
+United Arab Emirates
+</option>
+<option data-xid="402" value="GB">
+United Kingdom (Great Britain)
+</option>
+<option data-xid="403" value="UM">
+United States Minor Outlying Islands
+</option>
+<option data-xid="404" selected="selected" value="US">
+United States of America
+</option>
+<option data-xid="405" value="ZZ">
+Unknown Or Unspecified Country
+</option>
+<option data-xid="406" value="UY">
+Uruguay
+</option>
+<option data-xid="407" value="UZ">
+Uzbekistan
+</option>
+<option data-xid="408" value="VU">
+Vanuatu
+</option>
+<option data-xid="409" value="VA">
+Vatican City State (Holy See)
+</option>
+<option data-xid="410" value="VE">
+Venezuela
+</option>
+<option data-xid="411" value="VN">
+Viet Nam
+</option>
+<option data-xid="412" value="VG">
+Virgin Islands (British)
+</option>
+<option data-xid="413" value="VI">
+Virgin Islands (U.S.)
+</option>
+<option data-xid="414" value="WF">
+Wallis &amp; Futuna Islands
+</option>
+<option data-xid="415" value="EH">
+Western Sahara
+</option>
+<option data-xid="416" value="YE">
+Yemen
+</option>
+<option data-xid="417" value="YU">
+Yugoslavia
+</option>
+<option data-xid="418" value="ZR">
+Zaire
+</option>
+<option data-xid="419" value="ZM">
+Zambia
+</option>
+<option data-xid="420" value="ZW">
+Zimbabwe
+</option>
+</select>
+<span data-xid="421" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="Country" data-valmsg-replace="true" data-xid="422">
+</span>
+</div>
+<div data-xid="423" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="424">
+<div class="displayLabel" data-xid="425">
+<label data-xid="426" for="State">
+State:
+</label>
+</div>
+<div class="displayField" data-xid="427">
+<select data-val="true" data-val-required="State is required." data-xid="428" id="State" name="State">
+<option data-xid="429" value="">
+Select a State
+</option>
+<option data-xid="430" value="AL">
+Alabama
+</option>
+<option data-xid="431" value="AK">
+Alaska
+</option>
+<option data-xid="432" value="AZ">
+Arizona
+</option>
+<option data-xid="433" value="AR">
+Arkansas
+</option>
+<option data-xid="434" value="CA">
+California
+</option>
+<option data-xid="435" value="CO">
+Colorado
+</option>
+<option data-xid="436" value="CT">
+Connecticut
+</option>
+<option data-xid="437" value="DE">
+Delaware
+</option>
+<option data-xid="438" value="FL">
+Florida
+</option>
+<option data-xid="439" value="GA">
+Georgia
+</option>
+<option data-xid="440" value="HI">
+Hawaii
+</option>
+<option data-xid="441" value="ID">
+Idaho
+</option>
+<option data-xid="442" value="IL">
+Illinois
+</option>
+<option data-xid="443" value="IN">
+Indiana
+</option>
+<option data-xid="444" value="IA">
+Iowa
+</option>
+<option data-xid="445" value="KS">
+Kansas
+</option>
+<option data-xid="446" value="KY">
+Kentucky
+</option>
+<option data-xid="447" value="LA">
+Louisiana
+</option>
+<option data-xid="448" value="ME">
+Maine
+</option>
+<option data-xid="449" value="MD">
+Maryland
+</option>
+<option data-xid="450" value="MA">
+Massachusetts
+</option>
+<option data-xid="451" value="MI">
+Michigan
+</option>
+<option data-xid="452" value="MN">
+Minnesota
+</option>
+<option data-xid="453" value="MS">
+Mississippi
+</option>
+<option data-xid="454" value="MO">
+Missouri
+</option>
+<option data-xid="455" value="MT">
+Montana
+</option>
+<option data-xid="456" value="NE">
+Nebraska
+</option>
+<option data-xid="457" value="NV">
+Nevada
+</option>
+<option data-xid="458" value="NH">
+New Hampshire
+</option>
+<option data-xid="459" value="NJ">
+New Jersey
+</option>
+<option data-xid="460" value="NM">
+New Mexico
+</option>
+<option data-xid="461" value="NY">
+New York
+</option>
+<option data-xid="462" value="FN">
+Non US
+</option>
+<option data-xid="463" value="NC">
+North Carolina
+</option>
+<option data-xid="464" value="ND">
+North Dakota
+</option>
+<option data-xid="465" value="OH">
+Ohio
+</option>
+<option data-xid="466" value="OK">
+Oklahoma
+</option>
+<option data-xid="467" value="OR">
+Oregon
+</option>
+<option data-xid="468" value="PA">
+Pennsylvania
+</option>
+<option data-xid="469" value="RI">
+Rhode Island
+</option>
+<option data-xid="470" value="SC">
+South Carolina
+</option>
+<option data-xid="471" value="SD">
+South Dakota
+</option>
+<option data-xid="472" value="TN">
+Tennessee
+</option>
+<option data-xid="473" value="TX">
+Texas
+</option>
+<option data-xid="474" value="UT">
+Utah
+</option>
+<option data-xid="475" value="VT">
+Vermont
+</option>
+<option data-xid="476" selected="selected" value="VA">
+Virginia
+</option>
+<option data-xid="477" value="WA">
+Washington
+</option>
+<option data-xid="478" value="DC">
+Washington, D.C.
+</option>
+<option data-xid="479" value="WV">
+West Virginia
+</option>
+<option data-xid="480" value="WI">
+Wisconsin
+</option>
+<option data-xid="481" value="WY">
+Wyoming
+</option>
+</select>
+<span data-xid="482" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="State" data-valmsg-replace="true" data-xid="483">
+</span>
+</div>
+<div data-xid="484" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="485">
+<div class="displayLabel" data-xid="486">
+<label data-xid="487" for="ZipCode">
+Zip Code
+</label>
+:
+</div>
+<div class="displayField" data-xid="488">
+<input data-val="true" data-val-postalcode="Not a valid Zip Code." data-val-postalcode-countrypropertyid="Country" data-val-required="Zip Code is required." data-xid="489" id="ZipCode" name="ZipCode" type="text" value=""/>
+<span data-xid="490" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="ZipCode" data-valmsg-replace="true" data-xid="491">
+</span>
+</div>
+<div data-xid="492" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="493">
+<div class="displayLabel" data-xid="494">
+<label data-xid="495" for="PhoneNumber">
+Phone Number
+</label>
+:
+</div>
+<div class="displayField" data-xid="496">
+<input class="text-box single-line" data-val="true" data-val-countrybasedphonenumber="Not a valid Phone Number." data-val-countrybasedphonenumber-countrypropertyid="Country" data-val-required="Phone Number is required." data-xid="497" id="PhoneNumber" name="PhoneNumber" type="text" value=""/>
+<span data-xid="498" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true" data-xid="499">
+</span>
+</div>
+<div data-xid="500" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="501">
+<div class="displayLabel" data-xid="502">
+<label data-xid="503" for="Email">
+Email
+</label>
+:
+</div>
+<div class="displayField" data-xid="504">
+<input class="text-box single-line" data-val="true" data-val-email="Not a valid email." data-val-remote="Email address already exists in SCC eFile. Login to access your account." data-val-remote-additionalfields="*.Email" data-val-remote-url="/Accounts/AccountValidation/IsUserNameAvailable" data-val-required="Email is required." data-xid="505" id="Email" name="Email" type="text" value=""/>
+<span data-xid="506" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true" data-xid="507">
+</span>
+</div>
+<div data-xid="508" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="509">
+<div class="displayLabel" data-xid="510">
+<label data-xid="511" for="ConfirmEmail">
+Confirm Email
+</label>
+:
+</div>
+<div class="displayField" data-xid="512">
+<input class="text-box single-line" data-val="true" data-val-email="Not a valid email." data-val-equalto="Email and Confirm Email do not match." data-val-equalto-other="*.Email" data-val-required="Confirm Email is required." data-xid="513" id="ConfirmEmail" name="ConfirmEmail" type="text" value=""/>
+<span data-xid="514" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="ConfirmEmail" data-valmsg-replace="true" data-xid="515">
+</span>
+</div>
+<div data-xid="516" style="clear: both;">
+</div>
+</div>
+<div data-xid="517" style="padding-left:290px;font-size:x-small;">
+SCC eFile (Support@scc.virginia.gov) will send a confirmation message to this email address to finalize your account setup.
+</div>
+<div class="displayLayout" data-xid="518">
+<div class="displayLabel" data-xid="519">
+<label data-xid="520" for="Password">
+Password
+</label>
+:
+</div>
+<div class="displayField" data-xid="521">
+<input class="text-box single-line password" data-val="true" data-val-password="Password must contain one upper case letter, one lowercase letter, one number and should be 8 - 12 character long." data-val-required="Password is required." data-xid="522" id="Password" name="Password" type="password" value=""/>
+<span data-xid="523" style="color: red;">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true" data-xid="524">
+</span>
+</div>
+<div data-xid="525" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="526">
+<div class="displayLabel" data-xid="527">
+<label data-xid="528" for="ConfirmPassword">
+Confirm Password
+</label>
+:
+</div>
+<div class="displayField" data-xid="529">
+<input class="text-box single-line password" data-val="true" data-val-equalto="Password and Confirm Password do not match." data-val-equalto-other="*.Password" data-val-password="Password must contain one upper case letter, one lowercase letter, one number and should be 8 - 12 character long." data-val-required="Confirm Password is required." data-xid="530" id="ConfirmPassword" name="ConfirmPassword" type="password" value=""/>
+<span data-xid="531" style="color: red;">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true" data-xid="532">
+</span>
+</div>
+<div data-xid="533" style="clear: both;">
+</div>
+</div>
+<div data-xid="534" style="padding-left:290px;font-size:x-small;">
+Password must contain at least one uppercase letter, one lowercase letter, one number, and be 8 - 12 characters in length.
+</div>
+<div class="displayLayout" data-xid="535">
+<div class="displayLabel" data-xid="536">
+<label data-xid="537" for="PasswordQuestion1">
+Security Question 1
+</label>
+:
+</div>
+<div class="displayField" data-xid="538">
+<select data-val="true" data-val-required="The Security Question 1 field is required." data-xid="539" id="PasswordQuestion1" name="PasswordQuestion1">
+<option data-xid="540" value="What is your mothers maiden name?">
+What is your mothers maiden name?
+</option>
+<option data-xid="541" value="What was the name of your first pet?">
+What was the name of your first pet?
+</option>
+<option data-xid="542" value="What is the name of the town you were born in?">
+What is the name of the town you were born in?
+</option>
+<option data-xid="543" value="In what year did you graduate high school?">
+In what year did you graduate high school?
+</option>
+</select>
+<span data-xid="544" style="color: red;">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="PasswordQuestion1" data-valmsg-replace="true" data-xid="545">
+</span>
+</div>
+<div data-xid="546" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="547">
+<div class="displayLabel" data-xid="548">
+<label data-xid="549" for="PasswordAnswer1">
+Security Answer 1
+</label>
+:
+</div>
+<div class="displayField" data-xid="550">
+<input class="text-box single-line" data-val="true" data-val-required="Security Answer 1 is required." data-val-ssncheck="Cannot contain SSN." data-val-ssncheck-pattern="^(?!.*(\D|^)((?!000)(?!588)(?!666)(\d\W*){9})($|\D))" data-xid="551" id="PasswordAnswer1" name="PasswordAnswer1" type="text" value=""/>
+<span data-xid="552" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="PasswordAnswer1" data-valmsg-replace="true" data-xid="553">
+</span>
+</div>
+<div data-xid="554" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="555">
+<div class="displayLabel" data-xid="556">
+<label data-xid="557" for="PasswordQuestion2">
+Security Question 2
+</label>
+:
+</div>
+<div class="displayField" data-xid="558">
+<select data-val="true" data-val-required="The Security Question 2 field is required." data-xid="559" id="PasswordQuestion2" name="PasswordQuestion2">
+<option data-xid="560" value="What is your favorite sport?">
+What is your favorite sport?
+</option>
+<option data-xid="561" value="What is your favorite music?">
+What is your favorite music?
+</option>
+<option data-xid="562" value="What is your favorite color?">
+What is your favorite color?
+</option>
+<option data-xid="563" value="What is your favorite number?">
+What is your favorite number?
+</option>
+</select>
+<span data-xid="564" style="color: red;">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="PasswordQuestion2" data-valmsg-replace="true" data-xid="565">
+</span>
+</div>
+<div data-xid="566" style="clear: both;">
+</div>
+</div>
+<div class="displayLayout" data-xid="567">
+<div class="displayLabel" data-xid="568">
+<label data-xid="569" for="PasswordAnswer2">
+Security Answer 2
+</label>
+:
+</div>
+<div class="displayField" data-xid="570">
+<input class="text-box single-line" data-val="true" data-val-required="Security Answer 2 is required." data-val-ssncheck="Cannot contain SSN." data-val-ssncheck-pattern="^(?!.*(\D|^)((?!000)(?!588)(?!666)(\d\W*){9})($|\D))" data-xid="571" id="PasswordAnswer2" name="PasswordAnswer2" type="text" value=""/>
+<span data-xid="572" style="color: red">
+*
+</span>
+<span class="field-validation-valid" data-valmsg-for="PasswordAnswer2" data-valmsg-replace="true" data-xid="573">
+</span>
+</div>
+<div data-xid="574" style="clear: both;">
+</div>
+</div>
+<span class="notes" data-xid="575" style="padding-left:290px;">
+Security answers are case sensitive.
+</span>
+</fieldset>
+<div data-xid="576" style="margin-bottom:5px">
+<div data-xid="577" style="float: left;">
+<div data-xid="578" style="float: left; width: 200px;">
+<b data-xid="579" style="padding-right: 30px;">
+Email Notification
+</b>
+<input checked="checked" data-val="true" data-val-required="The Is Email Notification field is required." data-xid="580" id="IsEmailNotification" name="IsEmailNotification" type="checkbox" value="true"/>
+<input data-xid="581" name="IsEmailNotification" type="hidden" value="false"/>
+</div>
+<div data-xid="582" style="float: left; width: 600px;">
+I wish to receive email notifications for new entities formed by me
+in SCC eFile when online filings or payments are completed by other account holders.
+</div>
+</div>
+<div data-xid="583" style="clear: both;">
+</div>
+<div data-xid="584" style="padding-left: 200px; padding-top: 5px;">
+Relationship with business:
+</div>
+<div data-xid="585" style="padding-left: 250px;">
+<div data-xid="586">
+<input checked="checked" data-val="true" data-val-requirediff="Please specify a business relationship." data-val-requirediff-dependentproperty="IsEmailNotification" data-val-requirediff-dependentpropertyvalue="true" data-val-requirediff-matchallvalues="true" data-xid="587" id="BusinessRelationshipSelection" name="BusinessRelationshipSelection" type="radio" value="A"/>
+Authorized business representative
+</div>
+<div data-xid="588">
+<input data-xid="589" id="BusinessRelationshipSelection" name="BusinessRelationshipSelection" type="radio" value="R"/>
+Registered Agent
+</div>
+</div>
+</div>
+<span class="field-validation-valid" data-valmsg-for="BusinessRelationshipSelection" data-valmsg-replace="true" data-xid="590">
+</span>
+<span class="field-validation-valid" data-valmsg-for="TermsAndCondition" data-valmsg-replace="true" data-xid="591">
+</span>
+<div data-xid="592" style="margin-bottom:5px">
+<span data-xid="593" style="color: red;">
+*
+</span>
+<input data-val="true" data-val-boolrequried="Accept the Terms and Conditions." data-val-boolrequried-boolvalue="true" data-val-required="The Terms And Condition field is required." data-xid="594" id="TermsAndCondition" name="TermsAndCondition" type="checkbox" value="false"/>
+<input data-xid="595" name="TermsAndCondition" type="hidden" value="false"/>
+<span data-xid="596">
+I have read and accept the SCC eFile System
+<a data-xid="597" href="http://www.scc.virginia.gov/ecTerms.aspx" target="_blank">
+Terms and Conditions
+</a>
+.
+</span>
+</div>
+<br data-xid="598"/>
+<div data-xid="599">
+Please enter the words you see in the box, in order and separated by a space. Doing so helps prevent automated programs from abusing this service.  If the text is not identifiable click the refresh button in the box to display a new set of words.
+</div>
+<div data-xid="600" style="padding-left:20%">
+<br data-xid="601"/>
+<div class="errormessage" data-xid="602">
+<span class="field-validation-error" data-xid="603" id="ReCatchaRequriedValidationMsg">
+</span>
+<span class="field-validation-valid" data-valmsg-for="ReCaptcha" data-valmsg-replace="true" data-xid="604">
+</span>
+</div>
+<div data-xid="605" style="float:left;text-align:right;padding-right:5px;">
+<div class="g-recaptcha" data-sitekey="6Ld5MUMUAAAAACpg2sBlozSaXsTqM3JdpiZPZPWu" data-xid="606">
+<div data-xid="607" style="width: 304px; height: 78px;">
+<div data-xid="608">
+<iframe data-xid="609" frameborder="0" height="78" role="presentation" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" scrolling="no" src="" width="304">
+</iframe>
+</div>
+<textarea class="g-recaptcha-response" data-xid="610" id="g-recaptcha-response" name="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea>
+</div>
+</div>
+</div>
+<div data-xid="611" style="float:left;color:Red; text-align:left; padding-top:50px;padding-left:20px;">
+*
+</div>
+</div>
+<div data-xid="612" style="clear: both;">
+</div>
+<span class="field-validation-valid" data-valmsg-for="RegisterError" data-valmsg-replace="true" data-xid="613">
+</span>
+<div class="editButton" data-xid="614">
+<input class="ui-state-default ui-corner-all button-global" data-xid="615" id="cancel" type="button" value="Cancel"/>
+<input class="ui-state-default ui-corner-all button-global" data-xid="616" type="submit" value="Submit"/>
+</div>
+<input data-xid="617" name="as_fid" type="hidden" value="68a62d9379884e4138a5f4da482e826b70e78340"/>
+</form>
+</div>
+<div class="screenId" data-xid="618" style="float: left;">
+<span data-xid="619">
+Screen ID:
+e0700
+</span>
+</div>
+</div>
+</div>
+<div data-xid="620" id="footer">
+<div align="center" data-xid="621">
+Need additional information? Contact
+<a data-xid="622" href="mailto:sccinfo@scc.virginia.gov">
+sccinfo@scc.virginia.gov
+</a>
+Website questions? Contact:
+<a data-xid="623" href="mailto:webmaster@scc.virginia.gov">
+webmaster@scc.virginia.gov
+</a>
+<br data-xid="624"/>
+We provide external links throughout our site.
+<img data-xid="625" src="https://sccefile.scc.virginia.gov/Images/footer_icons/external_links.gif"/>
+<br data-xid="626"/>
+<img alt="adobe icon" data-xid="627" src="https://sccefile.scc.virginia.gov/Images/footer_icons/icon_acrobat.png"/>
+<a data-xid="628" href="http://www.adobe.com/products/acrobat/readstep2.html">
+PDF(.pdf) Reader
+</a>
+<img alt="excel icon" data-xid="629" src="https://sccefile.scc.virginia.gov/Images/footer_icons/icon_excel.png"/>
+<a data-xid="630" href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=1cd6acf9-ce06-4e1c-8dcf-f33f669dbc3a">
+Excel (.xls) Viewer
+</a>
+<img alt="powepoint icon" data-xid="631" src="https://sccefile.scc.virginia.gov/Images/footer_icons/icon_powerpoint.png"/>
+<a data-xid="632" href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=048dc840-14e1-467d-8dca-19d2a8fd7485">
+PowerPoint (.ppt) Viewer
+</a>
+<img alt="word icon" data-xid="633" src="https://sccefile.scc.virginia.gov/Images/footer_icons/icon_word.png"/>
+<a data-xid="634" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=3657ce88-7cfa-457a-9aec-f4f827f20cac&amp;displaylang=en">
+Word (.doc) Viewer
+</a>
+</div>
+<div align="center" data-xid="635" id="divVersion">
+Build #: 1.0.0.31267
+</div>
+</div>
+</div>
+<div aria-labelledby="ui-dialog-title-timeoutMain" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" data-xid="636" role="dialog" style="display: none; z-index: 1000; outline: 0px; position: relative;" tabindex="-1">
+<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" data-xid="637">
+<span class="ui-dialog-title" data-xid="638" id="ui-dialog-title-timeoutMain">
+Timeout Alert
+</span>
+<a class="ui-dialog-titlebar-close ui-corner-all" data-xid="639" href="#" role="button">
+<span class="ui-icon ui-icon-closethick" data-xid="640">
+close
+</span>
+</a>
+</div>
+<div class="ui-dialog-content ui-widget-content" data-xid="641" id="timeoutMain" style="">
+<p data-xid="642">
+<span class="ui-icon ui-icon-alert" data-xid="643" style="float: left; margin: 1px 10px 30px 0;">
+</span>
+For your safety and protection, your SCC eFile session is about to expire.
+</p>
+<p data-xid="644" style="height: 18px;">
+If you wish to continue your session. Please click the
+<b data-xid="645">
+OK
+</b>
+button.
+</p>
+<div data-xid="646" style="height: 18px; padding-top: 10px;">
+Logging out in:
+<div data-xid="647" id="divCountDown" style="font-size: 20px;">
+60
+</div>
+seconds
+</div>
+</div>
+<div class="ui-resizable-handle ui-resizable-n" data-xid="648">
+</div>
+<div class="ui-resizable-handle ui-resizable-e" data-xid="649">
+</div>
+<div class="ui-resizable-handle ui-resizable-s" data-xid="650">
+</div>
+<div class="ui-resizable-handle ui-resizable-w" data-xid="651">
+</div>
+<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" data-xid="652" style="z-index: 1001;">
+</div>
+<div class="ui-resizable-handle ui-resizable-sw" data-xid="653" style="z-index: 1002;">
+</div>
+<div class="ui-resizable-handle ui-resizable-ne" data-xid="654" style="z-index: 1003;">
+</div>
+<div class="ui-resizable-handle ui-resizable-nw" data-xid="655" style="z-index: 1004;">
+</div>
+<div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix" data-xid="656">
+<div class="ui-dialog-buttonset" data-xid="657">
+<button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" data-xid="658" role="button">
+<span class="ui-button-text" data-xid="659">
+Ok
+</span>
+</button>
+</div>
+</div>
+</div>
+<div aria-labelledby="ui-dialog-title-quick-links-login-panel" class="ui-dialog ui-widget ui-widget-content ui-corner-all " data-xid="660" role="dialog" style="display: none; z-index: 1000; outline: 0px; position: fixed; height: auto; width: 280px;" tabindex="-1">
+<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" data-xid="661">
+<span class="ui-dialog-title" data-xid="662" id="ui-dialog-title-quick-links-login-panel">
+Log In
+</span>
+<a class="ui-dialog-titlebar-close ui-corner-all" data-xid="663" href="#" role="button">
+<span class="ui-icon ui-icon-closethick" data-xid="664">
+close
+</span>
+</a>
+</div>
+<div class="ui-dialog-content ui-widget-content" data-xid="665" id="quick-links-login-panel" style="width: auto; min-height: 15px; height: auto;">
+<div class="validation-summary-errors" data-xid="666" id="quick-links-error-message">
+</div>
+<div data-xid="667" id="quick-login">
+<div data-xid="668">
+<div data-xid="669">
+<strong data-xid="670">
+Email Address
+</strong>
+</div>
+<input data-xid="671" id="quick-links-user-name" type="text"/>
+</div>
+<div data-xid="672">
+<div data-xid="673">
+<strong data-xid="674">
+Password
+</strong>
+</div>
+<input autocomplete="off" data-xid="675" id="quick-links-password" style="font-family: Verdana" type="password"/>
+</div>
+<div data-xid="676">
+<a data-xid="677" href="/ForgotPassword">
+Forgot Password?
+</a>
+</div>
+</div>
+</div>
+<div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix" data-xid="678">
+<div class="ui-dialog-buttonset" data-xid="679">
+<button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" data-xid="680" id="quick-links-login-submit" role="button">
+<span class="ui-button-text" data-xid="681">
+Log In
+</span>
+</button>
+<button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" data-xid="682" id="quick-links-login-cancel" role="button">
+<span class="ui-button-text" data-xid="683">
+Cancel
+</span>
+</button>
+</div>
+</div>
+</div>
+<div aria-labelledby="ui-dialog-title-incompleteProfile-prompt" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-dialog-centered" data-xid="684" role="dialog" style="display: none; z-index: 2000; outline: 0px;" tabindex="-1">
+<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" data-xid="685">
+<span class="ui-dialog-title" data-xid="686" id="ui-dialog-title-incompleteProfile-prompt">
+Account Update Required
+</span>
+<a class="ui-dialog-titlebar-close ui-corner-all" data-xid="687" href="#" role="button">
+<span class="ui-icon ui-icon-closethick" data-xid="688">
+close
+</span>
+</a>
+</div>
+<div align="center" class="ui-dialog-content ui-widget-content" data-xid="689" id="incompleteProfile-prompt">
+<p data-xid="690">
+SCC eFile requires updates to your account to continue.
+<br data-xid="691"/>
+Once you have completed the updates, you will be returned to your transaction.
+</p>
+</div>
+<div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix" data-xid="692">
+<div class="ui-dialog-buttonset" data-xid="693">
+<button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" data-xid="694" role="button">
+<span class="ui-button-text" data-xid="695">
+Continue
+</span>
+</button>
+</div>
+</div>
+</div>
+<div aria-labelledby="ui-dialog-title-incompleteProfile-prompt" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-dialog-centered" data-xid="696" role="dialog" style="display: none; z-index: 2000; outline: 0px;" tabindex="-1">
+<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" data-xid="697">
+<span class="ui-dialog-title" data-xid="698" id="ui-dialog-title-incompleteProfile-prompt">
+Account Update Required
+</span>
+<a class="ui-dialog-titlebar-close ui-corner-all" data-xid="699" href="#" role="button">
+<span class="ui-icon ui-icon-closethick" data-xid="700">
+close
+</span>
+</a>
+</div>
+<div align="center" class="ui-dialog-content ui-widget-content" data-xid="701" id="incompleteProfile-prompt">
+<p data-xid="702">
+SCC eFile requires updates to your account to continue.
+<br data-xid="703"/>
+Once you have completed the updates, you will be returned to your transaction.
+</p>
+</div>
+<div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix" data-xid="704">
+<div class="ui-dialog-buttonset" data-xid="705">
+<button aria-disabled="false" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" data-xid="706" role="button">
+<span class="ui-button-text" data-xid="707">
+Continue
+</span>
+</button>
+</div>
+</div>
+</div>
+<div aria-labelledby="ui-dialog-title-quick-login-or-register" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-dialog-centered" data-xid="708" role="dialog" style="display: none; z-index: 1000; outline: 0px;" tabindex="-1">
+<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" data-xid="709">
+<span class="ui-dialog-title" data-xid="710" id="ui-dialog-title-quick-login-or-register">
+This action requires a login.
+</span>
+<a class="ui-dialog-titlebar-close ui-corner-all" data-xid="711" href="#" role="button">
+<span class="ui-icon ui-icon-closethick" data-xid="712">
+close
+</span>
+</a>
+</div>
+<div class="ui-dialog-content ui-widget-content" data-xid="713" id="quick-login-or-register" style="">
+<div class="validation-summary-errors" data-xid="714" id="quick-login-error-message">
+</div>
+<div data-xid="715" id="quick-login">
+<div data-xid="716">
+<div data-xid="717">
+<strong data-xid="718">
+Email Address
+</strong>
+</div>
+<input data-xid="719" id="quick-login-user-name" type="text"/>
+</div>
+<div data-xid="720">
+<div data-xid="721">
+<strong data-xid="722">
+Password
+</strong>
+</div>
+<input autocomplete="off" data-xid="723" id="quick-login-password" style="font-family: Verdana" type="password"/>
+</div>
+<div data-xid="724">
+<a data-xid="725" href="/ForgotPassword">
+Forgot Password?
+</a>
+</div>
+<br data-xid="726"/>
+<div data-xid="727">
+<a data-xid="728" href="/Register">
+Create an Account
+</a>
+</div>
+</div>
+</div>
+</div>
+<div data-xid="729" style="background-color: #fff; border: 1px solid #ccc; box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); position: absolute; left: 0px; top: -10000px; transition: visibility 0s linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000;">
+<div data-xid="730" style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: #fff; opacity: 0.05;  filter: alpha(opacity=5)">
+</div>
+<div class="g-recaptcha-bubble-arrow" data-xid="731" style="border: 11px solid transparent; width: 0; height: 0; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
+</div>
+<div class="g-recaptcha-bubble-arrow" data-xid="732" style="border: 10px solid transparent; width: 0; height: 0; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
+</div>
+<div data-xid="733" style="z-index: 2000000000; position: relative;">
+<iframe data-xid="734" frameborder="0" name="kcwvddpbk5eh" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" scrolling="no" src="" style="width: 100%; height: 100%;" title="recaptcha challenge">
+</iframe>
+</div>
+</div>
+</body>
+</html>
