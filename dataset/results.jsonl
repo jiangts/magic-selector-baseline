@@ -1,13 +1,13 @@
 {"assignmentId":"31LVTDXBL849UF6S0DPBXSBXJ2RLRE","phrase":"navigate to the brand page","version":"v3","webpage":"about.com","xid":14,"prediction":"196"}
 {"assignmentId":"3PQ8K71NHYE0ZFT71BEZTO6CPM4AAD","phrase":"read news stories","version":"v3","webpage":"about.com","xid":18,"prediction":"18"}
-{"assignmentId":"3PQ8K71NHYE0ZFT71BEZTO6CPM4AAD","phrase":"see who works there","version":"v3","webpage":"about.com","xid":20}
-{"assignmentId":"31LVTDXBL849UF6S0DPBXSBXJ2RLRE","phrase":"click on careers","version":"v3","webpage":"about.com","xid":22}
+{"assignmentId":"3PQ8K71NHYE0ZFT71BEZTO6CPM4AAD","phrase":"see who works there","version":"v3","webpage":"about.com","xid":20,"prediction":"16"}
+{"assignmentId":"31LVTDXBL849UF6S0DPBXSBXJ2RLRE","phrase":"click on careers","version":"v3","webpage":"about.com","xid":22,"prediction":"231"}
 {"assignmentId":"3PQ8K71NHYE0ZFT71BEZTO6CPM4AAD","phrase":"see if I can get a job","version":"v3","webpage":"about.com","xid":22,"prediction":"181"}
 {"assignmentId":"3PXX5PX6LYS5IPYZ7PEVOZQI74QBAA","phrase":"go to the career section","version":"v3","webpage":"about.com","xid":22,"prediction":"196"}
 {"assignmentId":"31LVTDXBL849UF6S0DPBXSBXJ2RLRE","phrase":"play a video","version":"v3","webpage":"about.com","xid":39,"prediction":"53"}
-{"assignmentId":"3PXX5PX6LYS5IPYZ7PEVOZQI74QBAA","phrase":"Click on the video","version":"v3","webpage":"about.com","xid":39,"prediction":"181"}
+{"assignmentId":"3PXX5PX6LYS5IPYZ7PEVOZQI74QBAA","phrase":"Click on the video","version":"v3","webpage":"about.com","xid":39,"prediction":"231"}
 {"assignmentId":"31LVTDXBL849UF6S0DPBXSBXJ2RLRE","phrase":"read about tips to spruce up your home","version":"v3","webpage":"about.com","xid":49,"prediction":"186"}
-{"assignmentId":"3PXX5PX6LYS5IPYZ7PEVOZQI74QBAA","phrase":"Click on the first article","version":"v3","webpage":"about.com","xid":50,"prediction":"196"}
+{"assignmentId":"3PXX5PX6LYS5IPYZ7PEVOZQI74QBAA","phrase":"Click on the first article","version":"v3","webpage":"about.com","xid":50,"prediction":"231"}
 {"assignmentId":"31LVTDXBL849UF6S0DPBXSBXJ2RLRE","phrase":"read the all press page","version":"v3","webpage":"about.com","xid":225,"prediction":"269"}
 {"assignmentId":"3PXX5PX6LYS5IPYZ7PEVOZQI74QBAA","phrase":"Look for the about section","version":"v3","webpage":"about.com","xid":237,"prediction":"237"}
 {"assignmentId":"3PXX5PX6LYS5IPYZ7PEVOZQI74QBAA","phrase":"find the contact information","version":"v3","webpage":"about.com","xid":261,"prediction":"129"}
@@ -49,43 +49,43 @@
 {"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP19Q1J","phrase":"change delivery location","version":"v3","webpage":"amazon.com","xid":135,"prediction":"1321"}
 {"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R9ZW8I","phrase":"change to spanish","version":"v3","webpage":"amazon.com","xid":143,"prediction":"1150"}
 {"assignmentId":"3483FV8BEFDA7AM0YJ4871LSH7F26L","phrase":"Go to the login button","version":"v3","webpage":"amazon.com","xid":149,"prediction":"33"}
-{"assignmentId":"3483FV8BEFDA7AM0YJ4871LSH7F26L","phrase":"Find my orders and click on it","version":"v3","webpage":"amazon.com","xid":156,"prediction":"1169"}
+{"assignmentId":"3483FV8BEFDA7AM0YJ4871LSH7F26L","phrase":"Find my orders and click on it","version":"v3","webpage":"amazon.com","xid":156,"prediction":"154"}
 {"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R9ZW8I","phrase":"see what's coming","version":"v3","webpage":"amazon.com","xid":156,"prediction":"453"}
 {"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP19Q1J","phrase":"look up my recent orders","version":"v3","webpage":"amazon.com","xid":156,"prediction":"1118"}
 {"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP19Q1J","phrase":"look at amazon prime","version":"v3","webpage":"amazon.com","xid":159,"prediction":"751"}
 {"assignmentId":"3483FV8BEFDA7AM0YJ4871LSH7F26L","phrase":"Find the cart and click on it","version":"v3","webpage":"amazon.com","xid":162,"prediction":"232"}
 {"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R9ZW8I","phrase":"put in a gift code","version":"v3","webpage":"amazon.com","xid":177,"prediction":"177"}
-{"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP19Q1J","phrase":"go check my gift card balance","version":"v3","webpage":"amazon.com","xid":177,"prediction":"1200"}
-{"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R9ZW8I","phrase":"check my wish list","version":"v3","webpage":"amazon.com","xid":178,"prediction":"695"}
+{"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP19Q1J","phrase":"go check my gift card balance","version":"v3","webpage":"amazon.com","xid":177,"prediction":"177"}
+{"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R9ZW8I","phrase":"check my wish list","version":"v3","webpage":"amazon.com","xid":178,"prediction":"148"}
 {"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP19Q1J","phrase":"see recommended deals","version":"v3","webpage":"amazon.com","xid":279,"prediction":"277"}
-{"assignmentId":"3AUQQEL7U6NOQQYNK482058C11H0VJ","phrase":"click on menu","version":"v3","webpage":"amazonaws.com","xid":7,"prediction":"2271"}
+{"assignmentId":"3AUQQEL7U6NOQQYNK482058C11H0VJ","phrase":"click on menu","version":"v3","webpage":"amazonaws.com","xid":7,"prediction":"1427"}
 {"assignmentId":"3OXV7EAXLFKZSSIJ2JIDQBQKNLD63Y","phrase":"talk to a sales associate","version":"v3","webpage":"amazonaws.com","xid":14,"prediction":"5425"}
-{"assignmentId":"3AUQQEL7U6NOQQYNK482058C11H0VJ","phrase":"go to products","version":"v3","webpage":"amazonaws.com","xid":16,"prediction":"16"}
+{"assignmentId":"3AUQQEL7U6NOQQYNK482058C11H0VJ","phrase":"go to products","version":"v3","webpage":"amazonaws.com","xid":16,"prediction":"4108"}
 {"assignmentId":"3OXV7EAXLFKZSSIJ2JIDQBQKNLD63Y","phrase":"compare pricing","version":"v3","webpage":"amazonaws.com","xid":21,"prediction":"21"}
-{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8BNW0V","phrase":"find out how much it costs","version":"v3","webpage":"amazonaws.com","xid":21,"prediction":"1528"}
-{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8BNW0V","phrase":"learn from the beginning","version":"v3","webpage":"amazonaws.com","xid":23,"prediction":"424"}
+{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8BNW0V","phrase":"find out how much it costs","version":"v3","webpage":"amazonaws.com","xid":21,"prediction":"1529"}
+{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8BNW0V","phrase":"learn from the beginning","version":"v3","webpage":"amazonaws.com","xid":23,"prediction":"423"}
 {"assignmentId":"3OXV7EAXLFKZSSIJ2JIDQBQKNLD63Y","phrase":"read documentation","version":"v3","webpage":"amazonaws.com","xid":25,"prediction":"25"}
-{"assignmentId":"3AUQQEL7U6NOQQYNK482058C11H0VJ","phrase":"click on create account","version":"v3","webpage":"amazonaws.com","xid":49,"prediction":"5474"}
+{"assignmentId":"3AUQQEL7U6NOQQYNK482058C11H0VJ","phrase":"click on create account","version":"v3","webpage":"amazonaws.com","xid":49,"prediction":"1427"}
 {"assignmentId":"3OXV7EAXLFKZSSIJ2JIDQBQKNLD63Y","phrase":"make an account","version":"v3","webpage":"amazonaws.com","xid":49,"prediction":"49"}
-{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8BNW0V","phrase":"start access","version":"v3","webpage":"amazonaws.com","xid":49,"prediction":"248"}
+{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8BNW0V","phrase":"start access","version":"v3","webpage":"amazonaws.com","xid":49,"prediction":"23"}
 {"assignmentId":"3AUQQEL7U6NOQQYNK482058C11H0VJ","phrase":"go to my account","version":"v3","webpage":"amazonaws.com","xid":51,"prediction":"51"}
-{"assignmentId":"3OXV7EAXLFKZSSIJ2JIDQBQKNLD63Y","phrase":"change language","version":"v3","webpage":"amazonaws.com","xid":53,"prediction":"1225"}
-{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8BNW0V","phrase":"change languages","version":"v3","webpage":"amazonaws.com","xid":53}
+{"assignmentId":"3OXV7EAXLFKZSSIJ2JIDQBQKNLD63Y","phrase":"change language","version":"v3","webpage":"amazonaws.com","xid":53,"prediction":"1056"}
+{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8BNW0V","phrase":"change languages","version":"v3","webpage":"amazonaws.com","xid":53,"prediction":"1056"}
 {"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8BNW0V","phrase":"see other slides","version":"v3","webpage":"amazonaws.com","xid":3480,"prediction":"4451"}
 {"assignmentId":"3AUQQEL7U6NOQQYNK482058C11H0VJ","phrase":"go to contact us","version":"v3","webpage":"amazonaws.com","xid":5645,"prediction":"5645"}
-{"assignmentId":"34PGFRQONP587LZEWMN44C6M7JOJWI","phrase":"Click Notify my to get alerts","version":"v3","webpage":"aol.com","xid":11,"prediction":"1402"}
+{"assignmentId":"34PGFRQONP587LZEWMN44C6M7JOJWI","phrase":"Click Notify my to get alerts","version":"v3","webpage":"aol.com","xid":11,"prediction":"2637"}
 {"assignmentId":"34PGFRQONP587LZEWMN44C6M7JOJWI","phrase":"Search for an article","version":"v3","webpage":"aol.com","xid":39,"prediction":"1104"}
 {"assignmentId":"379J5II41PAKLB1NE75BYLCE44OELZ","phrase":"search for Tiger Woods","version":"v3","webpage":"aol.com","xid":39,"prediction":"1093"}
 {"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IJY4E3","phrase":"look for local stories","version":"v3","webpage":"aol.com","xid":122,"prediction":"1289"}
-{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IJY4E3","phrase":"read about favorite tv stars","version":"v3","webpage":"aol.com","xid":161,"prediction":"2486"}
-{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IJY4E3","phrase":"read about money","version":"v3","webpage":"aol.com","xid":179,"prediction":"1506"}
+{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IJY4E3","phrase":"read about favorite tv stars","version":"v3","webpage":"aol.com","xid":161,"prediction":"1430"}
+{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IJY4E3","phrase":"read about money","version":"v3","webpage":"aol.com","xid":179,"prediction":"1676"}
 {"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IJY4E3","phrase":"play some games","version":"v3","webpage":"aol.com","xid":240,"prediction":"95"}
 {"assignmentId":"34PGFRQONP587LZEWMN44C6M7JOJWI","phrase":"Click through slider","version":"v3","webpage":"aol.com","xid":1016,"prediction":"1871"}
-{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IJY4E3","phrase":"laugh at trump","version":"v3","webpage":"aol.com","xid":1023,"prediction":"1542"}
+{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IJY4E3","phrase":"laugh at trump","version":"v3","webpage":"aol.com","xid":1023,"prediction":"1065"}
 {"assignmentId":"379J5II41PAKLB1NE75BYLCE44OELZ","phrase":"open article about the simpsons","version":"v3","webpage":"aol.com","xid":2155,"prediction":"2143"}
 {"assignmentId":"379J5II41PAKLB1NE75BYLCE44OELZ","phrase":"see winter wonderland gallery","version":"v3","webpage":"aol.com","xid":2217,"prediction":"2212"}
-{"assignmentId":"379J5II41PAKLB1NE75BYLCE44OELZ","phrase":"click on donald trump image","version":"v3","webpage":"aol.com","xid":2789,"prediction":"1592"}
-{"assignmentId":"34PGFRQONP587LZEWMN44C6M7JOJWI","phrase":"Enter email address","version":"v3","webpage":"aol.com","xid":3145,"prediction":"122"}
+{"assignmentId":"379J5II41PAKLB1NE75BYLCE44OELZ","phrase":"click on donald trump image","version":"v3","webpage":"aol.com","xid":2789,"prediction":"1676"}
+{"assignmentId":"34PGFRQONP587LZEWMN44C6M7JOJWI","phrase":"Enter email address","version":"v3","webpage":"aol.com","xid":3145,"prediction":"2137"}
 {"assignmentId":"379J5II41PAKLB1NE75BYLCE44OELZ","phrase":"subscribe with email anonymous@on.the.net","version":"v3","webpage":"aol.com","xid":3145,"prediction":"1251"}
 {"assignmentId":"34PGFRQONP587LZEWMN44C6M7JOJWI","phrase":"Click Subscribe","version":"v3","webpage":"aol.com","xid":3146,"prediction":"2764"}
 {"assignmentId":"37W3JXSD672Y2AUDIMO7EZLAKO0YWW","phrase":"go to the home page","version":"v3","webpage":"apache.org","xid":14,"prediction":"211"}
@@ -95,7 +95,7 @@
 {"assignmentId":"37W3JXSD672Y2AUDIMO7EZLAKO0YWW","phrase":"Go to the download option","version":"v3","webpage":"apache.org","xid":69,"prediction":"211"}
 {"assignmentId":"3G5F9DBFOQRZ1Q4JICFN6X7TNIJHV2","phrase":"go to downloads page","version":"v3","webpage":"apache.org","xid":69,"prediction":"231"}
 {"assignmentId":"339ANSOTR6WLHALRPQJ140XR7YTKIG","phrase":"\"In search box, type software\"","version":"v3","webpage":"apache.org","xid":103,"prediction":"348"}
-{"assignmentId":"37W3JXSD672Y2AUDIMO7EZLAKO0YWW","phrase":"In the search box type project","version":"v3","webpage":"apache.org","xid":103,"prediction":"252"}
+{"assignmentId":"37W3JXSD672Y2AUDIMO7EZLAKO0YWW","phrase":"In the search box type project","version":"v3","webpage":"apache.org","xid":103,"prediction":"348"}
 {"assignmentId":"3G5F9DBFOQRZ1Q4JICFN6X7TNIJHV2","phrase":"select search field","version":"v3","webpage":"apache.org","xid":103,"prediction":"348"}
 {"assignmentId":"37W3JXSD672Y2AUDIMO7EZLAKO0YWW","phrase":"click on the search button","version":"v3","webpage":"apache.org","xid":109,"prediction":"213"}
 {"assignmentId":"3G5F9DBFOQRZ1Q4JICFN6X7TNIJHV2","phrase":"submit search","version":"v3","webpage":"apache.org","xid":109,"prediction":"348"}
@@ -106,14 +106,14 @@
 {"assignmentId":"3S4AW7T80CC2T94UP1TYPZ0NRGZL47","phrase":"look for something","version":"v3","webpage":"archive.org","xid":20,"prediction":"1036"}
 {"assignmentId":"3V0Z7YWSIZUVM011ZRCGJT1RYZ0V2X","phrase":"type into the search box, chocolate","version":"v3","webpage":"archive.org","xid":20,"prediction":"689"}
 {"assignmentId":"378XPAWRUD7F5XC5DZ6CAMUV2M0IA0","phrase":"In the search box type entertainment","version":"v3","webpage":"archive.org","xid":292,"prediction":"768"}
-{"assignmentId":"378XPAWRUD7F5XC5DZ6CAMUV2M0IA0","phrase":"Find the upload button","version":"v3","webpage":"archive.org","xid":311,"prediction":"533"}
+{"assignmentId":"378XPAWRUD7F5XC5DZ6CAMUV2M0IA0","phrase":"Find the upload button","version":"v3","webpage":"archive.org","xid":311,"prediction":"1195"}
 {"assignmentId":"3V0Z7YWSIZUVM011ZRCGJT1RYZ0V2X","phrase":"go to my account","version":"v3","webpage":"archive.org","xid":315,"prediction":"61"}
 {"assignmentId":"378XPAWRUD7F5XC5DZ6CAMUV2M0IA0","phrase":"Look for the sign in option","version":"v3","webpage":"archive.org","xid":317,"prediction":"1076"}
 {"assignmentId":"3V0Z7YWSIZUVM011ZRCGJT1RYZ0V2X","phrase":"sign in","version":"v3","webpage":"archive.org","xid":317,"prediction":"884"}
 {"assignmentId":"378XPAWRUD7F5XC5DZ6CAMUV2M0IA0","phrase":"Find the about section","version":"v3","webpage":"archive.org","xid":320,"prediction":"1195"}
 {"assignmentId":"3S4AW7T80CC2T94UP1TYPZ0NRGZL47","phrase":"find out who this is","version":"v3","webpage":"archive.org","xid":322,"prediction":"1154"}
 {"assignmentId":"3S4AW7T80CC2T94UP1TYPZ0NRGZL47","phrase":"read updates","version":"v3","webpage":"archive.org","xid":324,"prediction":"1154"}
-{"assignmentId":"3V0Z7YWSIZUVM011ZRCGJT1RYZ0V2X","phrase":"click on help","version":"v3","webpage":"archive.org","xid":328,"prediction":"533"}
+{"assignmentId":"3V0Z7YWSIZUVM011ZRCGJT1RYZ0V2X","phrase":"click on help","version":"v3","webpage":"archive.org","xid":328,"prediction":"729"}
 {"assignmentId":"3S4AW7T80CC2T94UP1TYPZ0NRGZL47","phrase":"check for something specific","version":"v3","webpage":"archive.org","xid":437,"prediction":"768"}
 {"assignmentId":"378XPAWRUD7F5XC5DZ6CAMUV2M0IA0","phrase":"Click on the second annoucement","version":"v3","webpage":"archive.org","xid":451,"prediction":"847"}
 {"assignmentId":"3S4AW7T80CC2T94UP1TYPZ0NRGZL47","phrase":"read news","version":"v3","webpage":"archive.org","xid":455,"prediction":"100"}
@@ -140,11 +140,11 @@
 {"assignmentId":"3X4JMASXCN39HC0HFNH2ZTE5YA50BJ","phrase":"get in my account","version":"v3","webpage":"bbc.co.uk","xid":26,"prediction":"955"}
 {"assignmentId":"3X4JMASXCN39HC0HFNH2ZTE5YA50BJ","phrase":"change to a different section","version":"v3","webpage":"bbc.co.uk","xid":97,"prediction":"339"}
 {"assignmentId":"31JLPPHS2VOPHYON2F477BCB8L8O36","phrase":"select search field","version":"v3","webpage":"bbc.co.uk","xid":104,"prediction":"100"}
-{"assignmentId":"3HPZF4IVNNNPOCO81VO625E7S8JYCO","phrase":"In the search option type Syria","version":"v3","webpage":"bbc.co.uk","xid":104,"prediction":"105"}
+{"assignmentId":"3HPZF4IVNNNPOCO81VO625E7S8JYCO","phrase":"In the search option type Syria","version":"v3","webpage":"bbc.co.uk","xid":104,"prediction":"201"}
 {"assignmentId":"3X4JMASXCN39HC0HFNH2ZTE5YA50BJ","phrase":"look for a specific story","version":"v3","webpage":"bbc.co.uk","xid":104,"prediction":"342"}
 {"assignmentId":"31JLPPHS2VOPHYON2F477BCB8L8O36","phrase":"submit search","version":"v3","webpage":"bbc.co.uk","xid":105,"prediction":"100"}
 {"assignmentId":"3HPZF4IVNNNPOCO81VO625E7S8JYCO","phrase":"Click on the search button","version":"v3","webpage":"bbc.co.uk","xid":105,"prediction":"105"}
-{"assignmentId":"3HPZF4IVNNNPOCO81VO625E7S8JYCO","phrase":"Find the first article on the page","version":"v3","webpage":"bbc.co.uk","xid":124,"prediction":"934"}
+{"assignmentId":"3HPZF4IVNNNPOCO81VO625E7S8JYCO","phrase":"Find the first article on the page","version":"v3","webpage":"bbc.co.uk","xid":124,"prediction":"592"}
 {"assignmentId":"3X4JMASXCN39HC0HFNH2ZTE5YA50BJ","phrase":"read a story about the president","version":"v3","webpage":"bbc.co.uk","xid":124,"prediction":"1222"}
 {"assignmentId":"31JLPPHS2VOPHYON2F477BCB8L8O36","phrase":"read terms of use","version":"v3","webpage":"bbc.co.uk","xid":1201,"prediction":"1201"}
 {"assignmentId":"31JLPPHS2VOPHYON2F477BCB8L8O36","phrase":"read privacy policy","version":"v3","webpage":"bbc.co.uk","xid":1205,"prediction":"1205"}
@@ -163,12 +163,12 @@
 {"assignmentId":"3TPWUS5F8AVLZ7T8MU6IH8TRH8SCWS","phrase":"What are the top stories in sport right now?","version":"v3","webpage":"bbc.com","xid":225,"prediction":"536"}
 {"assignmentId":"3Z7ISHFUH1PNHZ80G5AKEQRQ8JBZ8Z","phrase":"change weather location","version":"v3","webpage":"bbc.com","xid":274,"prediction":"47"}
 {"assignmentId":"3TPWUS5F8AVLZ7T8MU6IH8TRH8SCWS","phrase":"Can you give me the BBC in Spanish - yo quiero practicar mi espanol.","version":"v3","webpage":"bbc.com","xid":1026,"prediction":"105"}
-{"assignmentId":"3SBEHTYCWOXG1FA8T5KSD8C25CYYIJ","phrase":"click on bing","version":"v3","webpage":"bing.com","xid":10,"prediction":"160"}
+{"assignmentId":"3SBEHTYCWOXG1FA8T5KSD8C25CYYIJ","phrase":"click on bing","version":"v3","webpage":"bing.com","xid":10,"prediction":"61"}
 {"assignmentId":"3B2X28YI3X94VNMWHCXJ8UOWBCM6BJ","phrase":"write in command box: president trump","version":"v3","webpage":"bing.com","xid":16,"prediction":"94"}
 {"assignmentId":"3SBEHTYCWOXG1FA8T5KSD8C25CYYIJ","phrase":"in the search box, type plants","version":"v3","webpage":"bing.com","xid":16,"prediction":"94"}
 {"assignmentId":"3YW4XOSQKRFOK0U5BX2XIOP3SMD1UX","phrase":"Search articles","version":"v3","webpage":"bing.com","xid":16,"prediction":"16"}
 {"assignmentId":"3B2X28YI3X94VNMWHCXJ8UOWBCM6BJ","phrase":"click search","version":"v3","webpage":"bing.com","xid":17,"prediction":"16"}
-{"assignmentId":"3SBEHTYCWOXG1FA8T5KSD8C25CYYIJ","phrase":"click on search","version":"v3","webpage":"bing.com","xid":17,"prediction":"157"}
+{"assignmentId":"3SBEHTYCWOXG1FA8T5KSD8C25CYYIJ","phrase":"click on search","version":"v3","webpage":"bing.com","xid":17,"prediction":"61"}
 {"assignmentId":"3B2X28YI3X94VNMWHCXJ8UOWBCM6BJ","phrase":"click on images","version":"v3","webpage":"bing.com","xid":27,"prediction":"27"}
 {"assignmentId":"3SBEHTYCWOXG1FA8T5KSD8C25CYYIJ","phrase":"click on images","version":"v3","webpage":"bing.com","xid":27,"prediction":"27"}
 {"assignmentId":"3YW4XOSQKRFOK0U5BX2XIOP3SMD1UX","phrase":"Click images","version":"v3","webpage":"bing.com","xid":27,"prediction":"27"}
@@ -203,7 +203,7 @@
 {"assignmentId":"3NLZY2D53QJ9IERSNY0BS21SN7BQLM","phrase":"visit the help center","version":"v3","webpage":"blogger.com","xid":152,"prediction":"152"}
 {"assignmentId":"3ZSY5X72NY5H009PD553P9FREZNROC","phrase":"Find the support section","version":"v3","webpage":"blogger.com","xid":152}
 {"assignmentId":"3NLZY2D53QJ9IERSNY0BS21SN7BQLM","phrase":"visit the help forum","version":"v3","webpage":"blogger.com","xid":154,"prediction":"154"}
-{"assignmentId":"3TK8OJTYM2FRE7271PNSF69K9AWVPQ","phrase":"watch tutorial videos","version":"v3","webpage":"blogger.com","xid":156}
+{"assignmentId":"3TK8OJTYM2FRE7271PNSF69K9AWVPQ","phrase":"watch tutorial videos","version":"v3","webpage":"blogger.com","xid":156,"prediction":"156"}
 {"assignmentId":"3NLZY2D53QJ9IERSNY0BS21SN7BQLM","phrase":"visit the developer forum","version":"v3","webpage":"blogger.com","xid":170,"prediction":"170"}
 {"assignmentId":"3TK8OJTYM2FRE7271PNSF69K9AWVPQ","phrase":"read terms","version":"v3","webpage":"blogger.com","xid":175,"prediction":"175"}
 {"assignmentId":"3ZSY5X72NY5H009PD553P9FREZNROC","phrase":"Click on the privacy policy","version":"v3","webpage":"blogger.com","xid":177,"prediction":"177"}
@@ -228,19 +228,19 @@
 {"assignmentId":"3UN61F00HXJVSQ378Q94G3F0XCRR5W","phrase":"view menu","version":"v3","webpage":"bloomberg.com","xid":286,"prediction":"432"}
 {"assignmentId":"3RXPCZQMQQ55FITARSDGE9OCJNC1GT","phrase":"Click on the homepage","version":"v3","webpage":"bloomberg.com","xid":288,"prediction":"512"}
 {"assignmentId":"39GXDJN2OU868F3QF8LHTKEUK85V8V","phrase":"set my location","version":"v3","webpage":"bloomberg.com","xid":297,"prediction":"890"}
-{"assignmentId":"39GXDJN2OU868F3QF8LHTKEUK85V8V","phrase":"get in my account","version":"v3","webpage":"bloomberg.com","xid":496,"prediction":"1432"}
+{"assignmentId":"39GXDJN2OU868F3QF8LHTKEUK85V8V","phrase":"get in my account","version":"v3","webpage":"bloomberg.com","xid":496,"prediction":"1454"}
 {"assignmentId":"3RXPCZQMQQ55FITARSDGE9OCJNC1GT","phrase":"find the login button","version":"v3","webpage":"bloomberg.com","xid":496,"prediction":"1454"}
 {"assignmentId":"3RXPCZQMQQ55FITARSDGE9OCJNC1GT","phrase":"Click on the search button","version":"v3","webpage":"bloomberg.com","xid":516,"prediction":"512"}
 {"assignmentId":"3UN61F00HXJVSQ378Q94G3F0XCRR5W","phrase":"search website","version":"v3","webpage":"bloomberg.com","xid":516,"prediction":"1527"}
 {"assignmentId":"3UN61F00HXJVSQ378Q94G3F0XCRR5W","phrase":"read top story","version":"v3","webpage":"bloomberg.com","xid":629,"prediction":"902"}
-{"assignmentId":"39GXDJN2OU868F3QF8LHTKEUK85V8V","phrase":"read about facebook","version":"v3","webpage":"bloomberg.com","xid":643,"prediction":"937"}
+{"assignmentId":"39GXDJN2OU868F3QF8LHTKEUK85V8V","phrase":"read about facebook","version":"v3","webpage":"bloomberg.com","xid":643,"prediction":"927"}
 {"assignmentId":"3RXPCZQMQQ55FITARSDGE9OCJNC1GT","phrase":"click on the first video","version":"v3","webpage":"bloomberg.com","xid":643,"prediction":"512"}
 {"assignmentId":"3UN61F00HXJVSQ378Q94G3F0XCRR5W","phrase":"select top trending article","version":"v3","webpage":"bloomberg.com","xid":807,"prediction":"902"}
-{"assignmentId":"3RXPCZQMQQ55FITARSDGE9OCJNC1GT","phrase":"click on the first news article","version":"v3","webpage":"bloomberg.com","xid":1047,"prediction":"512"}
+{"assignmentId":"3RXPCZQMQQ55FITARSDGE9OCJNC1GT","phrase":"click on the first news article","version":"v3","webpage":"bloomberg.com","xid":1047,"prediction":"820"}
 {"assignmentId":"3UN61F00HXJVSQ378Q94G3F0XCRR5W","phrase":"view privacy policy","version":"v3","webpage":"bloomberg.com","xid":1520,"prediction":"1520"}
 {"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9TI3146","phrase":"go to the home page","version":"v3","webpage":"businessinsider.com","xid":16,"prediction":"210"}
 {"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47SETM1","phrase":"go to the tech page","version":"v3","webpage":"businessinsider.com","xid":20,"prediction":"251"}
-{"assignmentId":"3MYYFCXHJ41M7HQTEAWIC7VFV7M4G9","phrase":"view technology section","version":"v3","webpage":"businessinsider.com","xid":20,"prediction":"523"}
+{"assignmentId":"3MYYFCXHJ41M7HQTEAWIC7VFV7M4G9","phrase":"view technology section","version":"v3","webpage":"businessinsider.com","xid":20,"prediction":"309"}
 {"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9TI3146","phrase":"learn about computers","version":"v3","webpage":"businessinsider.com","xid":20,"prediction":"171"}
 {"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9TI3146","phrase":"learn about money","version":"v3","webpage":"businessinsider.com","xid":22,"prediction":"171"}
 {"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9TI3146","phrase":"learn about government","version":"v3","webpage":"businessinsider.com","xid":24,"prediction":"171"}
@@ -250,15 +250,15 @@
 {"assignmentId":"3MYYFCXHJ41M7HQTEAWIC7VFV7M4G9","phrase":"search website","version":"v3","webpage":"businessinsider.com","xid":51,"prediction":"50"}
 {"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9TI3146","phrase":"search","version":"v3","webpage":"businessinsider.com","xid":51,"prediction":"50"}
 {"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47SETM1","phrase":"click on the globe icon","version":"v3","webpage":"businessinsider.com","xid":68,"prediction":"61"}
-{"assignmentId":"3MYYFCXHJ41M7HQTEAWIC7VFV7M4G9","phrase":"view top story","version":"v3","webpage":"businessinsider.com","xid":152}
-{"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47SETM1","phrase":"click on a story in the list","version":"v3","webpage":"businessinsider.com","xid":210,"prediction":"571"}
+{"assignmentId":"3MYYFCXHJ41M7HQTEAWIC7VFV7M4G9","phrase":"view top story","version":"v3","webpage":"businessinsider.com","xid":152,"prediction":"309"}
+{"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47SETM1","phrase":"click on a story in the list","version":"v3","webpage":"businessinsider.com","xid":210,"prediction":"234"}
 {"assignmentId":"3MYYFCXHJ41M7HQTEAWIC7VFV7M4G9","phrase":"sign up for newsletter","version":"v3","webpage":"businessinsider.com","xid":500,"prediction":"500"}
 {"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJF2OK5","phrase":"Change Language to Spanish","version":"v3","webpage":"cdc.gov","xid":12,"prediction":"424"}
 {"assignmentId":"3QIYRE09Y4BBPAAWEWQB4TX9KZXN1M","phrase":"read in spanish","version":"v3","webpage":"cdc.gov","xid":12,"prediction":"286"}
 {"assignmentId":"340UGXU9DZV46CA3IBMMPCWJHZXVUB","phrase":"Go to the homepage","version":"v3","webpage":"cdc.gov","xid":16,"prediction":"477"}
 {"assignmentId":"340UGXU9DZV46CA3IBMMPCWJHZXVUB","phrase":"click on the search button","version":"v3","webpage":"cdc.gov","xid":36,"prediction":"41"}
 {"assignmentId":"340UGXU9DZV46CA3IBMMPCWJHZXVUB","phrase":"In the search field type medicine","version":"v3","webpage":"cdc.gov","xid":40,"prediction":"130"}
-{"assignmentId":"3QIYRE09Y4BBPAAWEWQB4TX9KZXN1M","phrase":"read about traveling","version":"v3","webpage":"cdc.gov","xid":226,"prediction":"580"}
+{"assignmentId":"3QIYRE09Y4BBPAAWEWQB4TX9KZXN1M","phrase":"read about traveling","version":"v3","webpage":"cdc.gov","xid":226,"prediction":"813"}
 {"assignmentId":"3QIYRE09Y4BBPAAWEWQB4TX9KZXN1M","phrase":"learn about what to do in a hurricane","version":"v3","webpage":"cdc.gov","xid":265,"prediction":"181"}
 {"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJF2OK5","phrase":"View more CDC topics","version":"v3","webpage":"cdc.gov","xid":308,"prediction":"308"}
 {"assignmentId":"3QIYRE09Y4BBPAAWEWQB4TX9KZXN1M","phrase":"see facebook page","version":"v3","webpage":"cdc.gov","xid":380,"prediction":"378"}
@@ -268,30 +268,30 @@
 {"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJF2OK5","phrase":"View Privacy Policy","version":"v3","webpage":"cdc.gov","xid":824,"prediction":"826"}
 {"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJF2OK5","phrase":"Change Language to Japanese","version":"v3","webpage":"cdc.gov","xid":874,"prediction":"424"}
 {"assignmentId":"340UGXU9DZV46CA3IBMMPCWJHZXVUB","phrase":"Find the contact information","version":"v3","webpage":"cdc.gov","xid":885,"prediction":"239"}
-{"assignmentId":"34T446B1C18SRHSNTNDXADKNG3E0CF","phrase":"Click on Reviews.","version":"v3","webpage":"cnet.com","xid":140,"prediction":"140"}
+{"assignmentId":"34T446B1C18SRHSNTNDXADKNG3E0CF","phrase":"Click on Reviews.","version":"v3","webpage":"cnet.com","xid":140,"prediction":"928"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2I01JYC","phrase":"Can you pull up the latest CNet reviews?","version":"v3","webpage":"cnet.com","xid":140,"prediction":"819"}
-{"assignmentId":"3QY7M81QH8GOSQ4V6ZF4DB7ITQSK7B","phrase":"see other videos","version":"v3","webpage":"cnet.com","xid":232,"prediction":"1023"}
+{"assignmentId":"3QY7M81QH8GOSQ4V6ZF4DB7ITQSK7B","phrase":"see other videos","version":"v3","webpage":"cnet.com","xid":232,"prediction":"232"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2I01JYC","phrase":"What's the top how-to story on CNet right now?","version":"v3","webpage":"cnet.com","xid":267,"prediction":"819"}
-{"assignmentId":"3QY7M81QH8GOSQ4V6ZF4DB7ITQSK7B","phrase":"learn about autos","version":"v3","webpage":"cnet.com","xid":340,"prediction":"1534"}
+{"assignmentId":"3QY7M81QH8GOSQ4V6ZF4DB7ITQSK7B","phrase":"learn about autos","version":"v3","webpage":"cnet.com","xid":340,"prediction":"357"}
 {"assignmentId":"3QY7M81QH8GOSQ4V6ZF4DB7ITQSK7B","phrase":"get the app","version":"v3","webpage":"cnet.com","xid":433,"prediction":"1533"}
 {"assignmentId":"34T446B1C18SRHSNTNDXADKNG3E0CF","phrase":"Type The Mindy Project in the search bar.","version":"v3","webpage":"cnet.com","xid":435,"prediction":"1392"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2I01JYC","phrase":"Search for Samsung Galaxy product reviews within CNet.","version":"v3","webpage":"cnet.com","xid":435,"prediction":"1415"}
-{"assignmentId":"34T446B1C18SRHSNTNDXADKNG3E0CF","phrase":"Click on Sign In.","version":"v3","webpage":"cnet.com","xid":443,"prediction":"443"}
+{"assignmentId":"34T446B1C18SRHSNTNDXADKNG3E0CF","phrase":"Click on Sign In.","version":"v3","webpage":"cnet.com","xid":443,"prediction":"792"}
 {"assignmentId":"3QY7M81QH8GOSQ4V6ZF4DB7ITQSK7B","phrase":"start an account","version":"v3","webpage":"cnet.com","xid":443,"prediction":"1332"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2I01JYC","phrase":"Log me into my Cnet account.","version":"v3","webpage":"cnet.com","xid":443,"prediction":"1332"}
 {"assignmentId":"3QY7M81QH8GOSQ4V6ZF4DB7ITQSK7B","phrase":"watch live","version":"v3","webpage":"cnet.com","xid":496,"prediction":"819"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2I01JYC","phrase":"Take me to the top new story on CNet.","version":"v3","webpage":"cnet.com","xid":496,"prediction":"729"}
 {"assignmentId":"34T446B1C18SRHSNTNDXADKNG3E0CF","phrase":"Click on Top Stories.","version":"v3","webpage":"cnet.com","xid":544,"prediction":"239"}
-{"assignmentId":"34T446B1C18SRHSNTNDXADKNG3E0CF","phrase":"Click on Top Videos.","version":"v3","webpage":"cnet.com","xid":1029,"prediction":"729"}
+{"assignmentId":"34T446B1C18SRHSNTNDXADKNG3E0CF","phrase":"Click on Top Videos.","version":"v3","webpage":"cnet.com","xid":1029,"prediction":"1068"}
 {"assignmentId":"3I3WADAZ9RYSVDBRGYS0M8AVMHXO5U","phrase":"Look for the homepage","version":"v3","webpage":"cnn.com","xid":26,"prediction":"1204"}
 {"assignmentId":"3PM8NZGV8ZA4I88H1H3Z3WWFUHRQXG","phrase":"Click on the website's home page.","version":"v3","webpage":"cnn.com","xid":27,"prediction":"506"}
 {"assignmentId":"3PPTZCWALRETN38W2ZRK0HCQ2HNQZB","phrase":"read US News","version":"v3","webpage":"cnn.com","xid":34,"prediction":"668"}
 {"assignmentId":"3PPTZCWALRETN38W2ZRK0HCQ2HNQZB","phrase":"read World News","version":"v3","webpage":"cnn.com","xid":35,"prediction":"668"}
-{"assignmentId":"3PPTZCWALRETN38W2ZRK0HCQ2HNQZB","phrase":"read about technology news","version":"v3","webpage":"cnn.com","xid":41,"prediction":"1500"}
+{"assignmentId":"3PPTZCWALRETN38W2ZRK0HCQ2HNQZB","phrase":"read about technology news","version":"v3","webpage":"cnn.com","xid":41,"prediction":"731"}
 {"assignmentId":"3PPTZCWALRETN38W2ZRK0HCQ2HNQZB","phrase":"catch up on sports","version":"v3","webpage":"cnn.com","xid":44,"prediction":"774"}
 {"assignmentId":"3PPTZCWALRETN38W2ZRK0HCQ2HNQZB","phrase":"watch live tv feed","version":"v3","webpage":"cnn.com","xid":47,"prediction":"47"}
 {"assignmentId":"3PM8NZGV8ZA4I88H1H3Z3WWFUHRQXG","phrase":"Click the second option from the drop down menu.","version":"v3","webpage":"cnn.com","xid":72,"prediction":"872"}
-{"assignmentId":"3I3WADAZ9RYSVDBRGYS0M8AVMHXO5U","phrase":"Click on the most current news article","version":"v3","webpage":"cnn.com","xid":414,"prediction":"1155"}
+{"assignmentId":"3I3WADAZ9RYSVDBRGYS0M8AVMHXO5U","phrase":"Click on the most current news article","version":"v3","webpage":"cnn.com","xid":414,"prediction":"994"}
 {"assignmentId":"3PM8NZGV8ZA4I88H1H3Z3WWFUHRQXG","phrase":"Click the third top story.","version":"v3","webpage":"cnn.com","xid":524,"prediction":"856"}
 {"assignmentId":"3PM8NZGV8ZA4I88H1H3Z3WWFUHRQXG","phrase":"Go to the politics section of the website.","version":"v3","webpage":"cnn.com","xid":989,"prediction":"994"}
 {"assignmentId":"3I3WADAZ9RYSVDBRGYS0M8AVMHXO5U","phrase":"Find the Entertainment section","version":"v3","webpage":"cnn.com","xid":1071,"prediction":"1098"}
@@ -325,7 +325,7 @@
 {"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEMLJPN","phrase":"Find how to donate","version":"v3","webpage":"creativecommons.org2","xid":129,"prediction":"220"}
 {"assignmentId":"37U1UTWH9WGEF8M96OG7SNPRZTF8RK","phrase":"Click learn more","version":"v3","webpage":"creativecommons.org2","xid":148,"prediction":"148"}
 {"assignmentId":"37U1UTWH9WGEF8M96OG7SNPRZTF8RK","phrase":"Learn about CC","version":"v3","webpage":"creativecommons.org2","xid":166,"prediction":"166"}
-{"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEMLJPN","phrase":"See if they have event listings","version":"v3","webpage":"creativecommons.org2","xid":185,"prediction":"254"}
+{"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEMLJPN","phrase":"See if they have event listings","version":"v3","webpage":"creativecommons.org2","xid":185,"prediction":"185"}
 {"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEMLJPN","phrase":"Click on the about section","version":"v3","webpage":"creativecommons.org2","xid":203,"prediction":"183"}
 {"assignmentId":"37U1UTWH9WGEF8M96OG7SNPRZTF8RK","phrase":"Donate $50","version":"v3","webpage":"creativecommons.org2","xid":230,"prediction":"129"}
 {"assignmentId":"3BV8HQ2ZZXVZCDH4BYXNDJ4QT3F6AK","phrase":"Go to the homepage","version":"v3","webpage":"debian.org","xid":5,"prediction":"118"}
@@ -346,23 +346,23 @@
 {"assignmentId":"354GIDR5ZC08XPX7H7KDFCIM7EH00M","phrase":"Click on the homepage","version":"v3","webpage":"digg.com","xid":9,"prediction":"2437"}
 {"assignmentId":"3BWI6RSP7H3L6QCLAD41FGUD9TW7EE","phrase":"go to the home page","version":"v3","webpage":"digg.com","xid":23,"prediction":"192"}
 {"assignmentId":"3BWI6RSP7H3L6QCLAD41FGUD9TW7EE","phrase":"watch something","version":"v3","webpage":"digg.com","xid":25,"prediction":"2729"}
-{"assignmentId":"3COPXFW7XC6DYW8V2L9LDXY3TKYKPI","phrase":"View Store","version":"v3","webpage":"digg.com","xid":38,"prediction":"737"}
-{"assignmentId":"3BWI6RSP7H3L6QCLAD41FGUD9TW7EE","phrase":"look for interesting articles","version":"v3","webpage":"digg.com","xid":54,"prediction":"677"}
+{"assignmentId":"3COPXFW7XC6DYW8V2L9LDXY3TKYKPI","phrase":"View Store","version":"v3","webpage":"digg.com","xid":38,"prediction":"2769"}
+{"assignmentId":"3BWI6RSP7H3L6QCLAD41FGUD9TW7EE","phrase":"look for interesting articles","version":"v3","webpage":"digg.com","xid":54,"prediction":"1125"}
 {"assignmentId":"3COPXFW7XC6DYW8V2L9LDXY3TKYKPI","phrase":"Search Website","version":"v3","webpage":"digg.com","xid":54,"prediction":"12"}
 {"assignmentId":"354GIDR5ZC08XPX7H7KDFCIM7EH00M","phrase":"Find the search field","version":"v3","webpage":"digg.com","xid":59,"prediction":"1890"}
 {"assignmentId":"354GIDR5ZC08XPX7H7KDFCIM7EH00M","phrase":"Look for a login button","version":"v3","webpage":"digg.com","xid":65,"prediction":"1625"}
 {"assignmentId":"3COPXFW7XC6DYW8V2L9LDXY3TKYKPI","phrase":"Log In","version":"v3","webpage":"digg.com","xid":65,"prediction":"2179"}
 {"assignmentId":"3COPXFW7XC6DYW8V2L9LDXY3TKYKPI","phrase":"Register for Website","version":"v3","webpage":"digg.com","xid":65,"prediction":"677"}
-{"assignmentId":"3BWI6RSP7H3L6QCLAD41FGUD9TW7EE","phrase":"read something long","version":"v3","webpage":"digg.com","xid":74,"prediction":"3253"}
+{"assignmentId":"3BWI6RSP7H3L6QCLAD41FGUD9TW7EE","phrase":"read something long","version":"v3","webpage":"digg.com","xid":74,"prediction":"934"}
 {"assignmentId":"3BWI6RSP7H3L6QCLAD41FGUD9TW7EE","phrase":"learn about science","version":"v3","webpage":"digg.com","xid":75,"prediction":"75"}
-{"assignmentId":"354GIDR5ZC08XPX7H7KDFCIM7EH00M","phrase":"Click on the first article on the site","version":"v3","webpage":"digg.com","xid":92,"prediction":"335"}
-{"assignmentId":"3COPXFW7XC6DYW8V2L9LDXY3TKYKPI","phrase":"View Top Story","version":"v3","webpage":"digg.com","xid":92,"prediction":"866"}
+{"assignmentId":"354GIDR5ZC08XPX7H7KDFCIM7EH00M","phrase":"Click on the first article on the site","version":"v3","webpage":"digg.com","xid":92,"prediction":"2031"}
+{"assignmentId":"3COPXFW7XC6DYW8V2L9LDXY3TKYKPI","phrase":"View Top Story","version":"v3","webpage":"digg.com","xid":92,"prediction":"2583"}
 {"assignmentId":"354GIDR5ZC08XPX7H7KDFCIM7EH00M","phrase":"Find the about section","version":"v3","webpage":"digg.com","xid":3487,"prediction":"3245"}
 {"assignmentId":"3YWRV122CTT6V0EQAIBCXYCB6TNU8G","phrase":"read about drive","version":"v3","webpage":"drive.google.com","xid":13,"prediction":"119"}
 {"assignmentId":"3RU7GD8VPPNBMFL37UIN4JPDA64PSH","phrase":"Find the pricing link","version":"v3","webpage":"drive.google.com","xid":17,"prediction":"17"}
 {"assignmentId":"3YWRV122CTT6V0EQAIBCXYCB6TNU8G","phrase":"see pricing plans","version":"v3","webpage":"drive.google.com","xid":17,"prediction":"17"}
 {"assignmentId":"3YWRV122CTT6V0EQAIBCXYCB6TNU8G","phrase":"get drive","version":"v3","webpage":"drive.google.com","xid":19,"prediction":"119"}
-{"assignmentId":"3YWRV122CTT6V0EQAIBCXYCB6TNU8G","phrase":"read about business uses","version":"v3","webpage":"drive.google.com","xid":21,"prediction":"247"}
+{"assignmentId":"3YWRV122CTT6V0EQAIBCXYCB6TNU8G","phrase":"read about business uses","version":"v3","webpage":"drive.google.com","xid":21,"prediction":"1"}
 {"assignmentId":"3YWRV122CTT6V0EQAIBCXYCB6TNU8G","phrase":"go to support","version":"v3","webpage":"drive.google.com","xid":23,"prediction":"89"}
 {"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB9200DW9","phrase":"Go to Google drive","version":"v3","webpage":"drive.google.com","xid":39,"prediction":"39"}
 {"assignmentId":"3RU7GD8VPPNBMFL37UIN4JPDA64PSH","phrase":"Go to the drive","version":"v3","webpage":"drive.google.com","xid":39,"prediction":"25"}
@@ -389,26 +389,26 @@
 {"assignmentId":"3IQ1VMJRYUEMUWJ2950ZXTVSJV99A2","phrase":"Find the Facebook link","version":"v3","webpage":"dropbox.com","xid":312,"prediction":"312"}
 {"assignmentId":"3TYCR1GOTDDIW6SJAUJOJVDWSB2LZJ","phrase":"Open the website's YouTube channel.","version":"v3","webpage":"dropbox.com","xid":318,"prediction":"318"}
 {"assignmentId":"3LS2AMNW5GKHOZUP0QG3KJ5MILUQOZ","phrase":"Go to the homepage","version":"v3","webpage":"ebay.com","xid":27,"prediction":"723"}
-{"assignmentId":"39GAF6DQWSUOXFJ5GNC2EARM62ZV1B","phrase":"Select Department","version":"v3","webpage":"ebay.com","xid":30}
-{"assignmentId":"39GAF6DQWSUOXFJ5GNC2EARM62ZV1B","phrase":"Search for item","version":"v3","webpage":"ebay.com","xid":162,"prediction":"1340"}
-{"assignmentId":"3LS2AMNW5GKHOZUP0QG3KJ5MILUQOZ","phrase":"In the search field type watch","version":"v3","webpage":"ebay.com","xid":162,"prediction":"1049"}
-{"assignmentId":"3LS2AMNW5GKHOZUP0QG3KJ5MILUQOZ","phrase":"Click on the search button","version":"v3","webpage":"ebay.com","xid":203,"prediction":"1350"}
+{"assignmentId":"39GAF6DQWSUOXFJ5GNC2EARM62ZV1B","phrase":"Select Department","version":"v3","webpage":"ebay.com","xid":30,"prediction":"51"}
+{"assignmentId":"39GAF6DQWSUOXFJ5GNC2EARM62ZV1B","phrase":"Search for item","version":"v3","webpage":"ebay.com","xid":162,"prediction":"244"}
+{"assignmentId":"3LS2AMNW5GKHOZUP0QG3KJ5MILUQOZ","phrase":"In the search field type watch","version":"v3","webpage":"ebay.com","xid":162,"prediction":"347"}
+{"assignmentId":"3LS2AMNW5GKHOZUP0QG3KJ5MILUQOZ","phrase":"Click on the search button","version":"v3","webpage":"ebay.com","xid":203,"prediction":"1203"}
 {"assignmentId":"3LS2AMNW5GKHOZUP0QG3KJ5MILUQOZ","phrase":"Find the log in button","version":"v3","webpage":"ebay.com","xid":210,"prediction":"210"}
-{"assignmentId":"3IFS6Q0HJJDJ5TYZUZS3VMO1O0GISL","phrase":"get a good deal","version":"v3","webpage":"ebay.com","xid":214,"prediction":"1440"}
+{"assignmentId":"3IFS6Q0HJJDJ5TYZUZS3VMO1O0GISL","phrase":"get a good deal","version":"v3","webpage":"ebay.com","xid":214,"prediction":"667"}
 {"assignmentId":"3IFS6Q0HJJDJ5TYZUZS3VMO1O0GISL","phrase":"get a gift certificate","version":"v3","webpage":"ebay.com","xid":216,"prediction":"1440"}
 {"assignmentId":"3IFS6Q0HJJDJ5TYZUZS3VMO1O0GISL","phrase":"get support","version":"v3","webpage":"ebay.com","xid":218,"prediction":"1440"}
-{"assignmentId":"3IFS6Q0HJJDJ5TYZUZS3VMO1O0GISL","phrase":"sell something","version":"v3","webpage":"ebay.com","xid":224,"prediction":"1608"}
+{"assignmentId":"3IFS6Q0HJJDJ5TYZUZS3VMO1O0GISL","phrase":"sell something","version":"v3","webpage":"ebay.com","xid":224,"prediction":"1610"}
 {"assignmentId":"39GAF6DQWSUOXFJ5GNC2EARM62ZV1B","phrase":"Log in to website","version":"v3","webpage":"ebay.com","xid":227,"prediction":"210"}
 {"assignmentId":"3IFS6Q0HJJDJ5TYZUZS3VMO1O0GISL","phrase":"check my account","version":"v3","webpage":"ebay.com","xid":227,"prediction":"227"}
-{"assignmentId":"3LS2AMNW5GKHOZUP0QG3KJ5MILUQOZ","phrase":"Click on my cart","version":"v3","webpage":"ebay.com","xid":258,"prediction":"227"}
+{"assignmentId":"3LS2AMNW5GKHOZUP0QG3KJ5MILUQOZ","phrase":"Click on my cart","version":"v3","webpage":"ebay.com","xid":258,"prediction":"1122"}
 {"assignmentId":"39GAF6DQWSUOXFJ5GNC2EARM62ZV1B","phrase":"Browse Deals","version":"v3","webpage":"ebay.com","xid":767,"prediction":"673"}
-{"assignmentId":"39GAF6DQWSUOXFJ5GNC2EARM62ZV1B","phrase":"Sell on Ebay","version":"v3","webpage":"ebay.com","xid":1610,"prediction":"1350"}
+{"assignmentId":"39GAF6DQWSUOXFJ5GNC2EARM62ZV1B","phrase":"Sell on Ebay","version":"v3","webpage":"ebay.com","xid":1610,"prediction":"1122"}
 {"assignmentId":"3OONKJ5DKDDUKTS0H8JDPUANWLUBO9","phrase":"see what's happening","version":"v3","webpage":"eventbrite.com","xid":33,"prediction":"450"}
 {"assignmentId":"3OONKJ5DKDDUKTS0H8JDPUANWLUBO9","phrase":"get support","version":"v3","webpage":"eventbrite.com","xid":48,"prediction":"602"}
 {"assignmentId":"36NEMU28XG7Y8T5ZZJ0WK4Y3BMWMWK","phrase":"Find the sign in option","version":"v3","webpage":"eventbrite.com","xid":70,"prediction":"410"}
 {"assignmentId":"3OONKJ5DKDDUKTS0H8JDPUANWLUBO9","phrase":"get into my account","version":"v3","webpage":"eventbrite.com","xid":70,"prediction":"53"}
-{"assignmentId":"3OONKJ5DKDDUKTS0H8JDPUANWLUBO9","phrase":"start a new event","version":"v3","webpage":"eventbrite.com","xid":72,"prediction":"298"}
-{"assignmentId":"3DZQRBDBSM94FQGG9WLGRGMC5IJS3V","phrase":"Search for event","version":"v3","webpage":"eventbrite.com","xid":102,"prediction":"347"}
+{"assignmentId":"3OONKJ5DKDDUKTS0H8JDPUANWLUBO9","phrase":"start a new event","version":"v3","webpage":"eventbrite.com","xid":72,"prediction":"589"}
+{"assignmentId":"3DZQRBDBSM94FQGG9WLGRGMC5IJS3V","phrase":"Search for event","version":"v3","webpage":"eventbrite.com","xid":102,"prediction":"535"}
 {"assignmentId":"3DZQRBDBSM94FQGG9WLGRGMC5IJS3V","phrase":"Select Town","version":"v3","webpage":"eventbrite.com","xid":106,"prediction":"110"}
 {"assignmentId":"3OONKJ5DKDDUKTS0H8JDPUANWLUBO9","phrase":"search events for a location","version":"v3","webpage":"eventbrite.com","xid":106,"prediction":"132"}
 {"assignmentId":"36NEMU28XG7Y8T5ZZJ0WK4Y3BMWMWK","phrase":"Click on the search button","version":"v3","webpage":"eventbrite.com","xid":121,"prediction":"389"}
@@ -418,7 +418,7 @@
 {"assignmentId":"3DZQRBDBSM94FQGG9WLGRGMC5IJS3V","phrase":"Select Parties","version":"v3","webpage":"eventbrite.com","xid":492,"prediction":"487"}
 {"assignmentId":"3DZQRBDBSM94FQGG9WLGRGMC5IJS3V","phrase":"Contact Site","version":"v3","webpage":"eventbrite.com","xid":602,"prediction":"55"}
 {"assignmentId":"36NEMU28XG7Y8T5ZZJ0WK4Y3BMWMWK","phrase":"Look for the social media link for Facebook","version":"v3","webpage":"eventbrite.com","xid":611,"prediction":"347"}
-{"assignmentId":"3JRJSWSMQIF357BY811B2ZIX4J13EG","phrase":"Go to the home page","version":"v3","webpage":"facebook.com","xid":32,"prediction":"469"}
+{"assignmentId":"3JRJSWSMQIF357BY811B2ZIX4J13EG","phrase":"Go to the home page","version":"v3","webpage":"facebook.com","xid":32,"prediction":"393"}
 {"assignmentId":"3JRJSWSMQIF357BY811B2ZIX4J13EG","phrase":"Type password in the box","version":"v3","webpage":"facebook.com","xid":48,"prediction":"83"}
 {"assignmentId":"3JRJSWSMQIF357BY811B2ZIX4J13EG","phrase":"Click on the log in button","version":"v3","webpage":"facebook.com","xid":51,"prediction":"427"}
 {"assignmentId":"3U4J9857OF5NZN010M2BE8OS6OB7BQ","phrase":"get my data stolen","version":"v3","webpage":"facebook.com","xid":51,"prediction":"326"}
@@ -449,8 +449,8 @@
 {"assignmentId":"378XPAWRUD7F5XC5DZ6CAMUV2LWIAU","phrase":"Check the help page","version":"v3","webpage":"flickr.com","xid":415,"prediction":"415"}
 {"assignmentId":"33PPUNGG39ZTZ4NWFEGK57MVY2OZRI","phrase":"\"Change language\"","version":"v3","webpage":"flickr.com","xid":417,"prediction":"417"}
 {"assignmentId":"3G0WWMR1UWEZ6EUDZBGQ5U5HS3FQNU","phrase":"In the search field type stocks","version":"v3","webpage":"forbes.com2","xid":410,"prediction":"562"}
-{"assignmentId":"3R0T90IZ1T6P2L387P20V573NCSGC7","phrase":"Search for articles about business.","version":"v3","webpage":"forbes.com2","xid":410,"prediction":"829"}
-{"assignmentId":"3R0T90IZ1T6P2L387P20V573NCSGC7","phrase":"Click on videos.","version":"v3","webpage":"forbes.com2","xid":425,"prediction":"562"}
+{"assignmentId":"3R0T90IZ1T6P2L387P20V573NCSGC7","phrase":"Search for articles about business.","version":"v3","webpage":"forbes.com2","xid":410,"prediction":"25"}
+{"assignmentId":"3R0T90IZ1T6P2L387P20V573NCSGC7","phrase":"Click on videos.","version":"v3","webpage":"forbes.com2","xid":425,"prediction":"738"}
 {"assignmentId":"3R0T90IZ1T6P2L387P20V573NCSGC7","phrase":"Show the most popular articles.","version":"v3","webpage":"forbes.com2","xid":432,"prediction":"432"}
 {"assignmentId":"39DD6S19JQ54Q0IRT8WK60NCJEZZE8","phrase":"go to facebook","version":"v3","webpage":"forbes.com2","xid":476,"prediction":"179"}
 {"assignmentId":"3G0WWMR1UWEZ6EUDZBGQ5U5HS3FQNU","phrase":"Click on the Facebook social media link","version":"v3","webpage":"forbes.com2","xid":477,"prediction":"738"}
@@ -461,27 +461,27 @@
 {"assignmentId":"3R0T90IZ1T6P2L387P20V573NCSGC7","phrase":"Open the first article.","version":"v3","webpage":"forbes.com2","xid":518,"prediction":"678"}
 {"assignmentId":"3R0T90IZ1T6P2L387P20V573NCSGC7","phrase":"Visit featured author profile.","version":"v3","webpage":"forbes.com2","xid":524,"prediction":"713"}
 {"assignmentId":"3G0WWMR1UWEZ6EUDZBGQ5U5HS3FQNU","phrase":"click on the first article","version":"v3","webpage":"forbes.com2","xid":535,"prediction":"562"}
-{"assignmentId":"3G0WWMR1UWEZ6EUDZBGQ5U5HS3FQNU","phrase":"Find the first video and click it","version":"v3","webpage":"forbes.com2","xid":648,"prediction":"807"}
+{"assignmentId":"3G0WWMR1UWEZ6EUDZBGQ5U5HS3FQNU","phrase":"Find the first video and click it","version":"v3","webpage":"forbes.com2","xid":648,"prediction":"685"}
 {"assignmentId":"3G0WWMR1UWEZ6EUDZBGQ5U5HS3FQNU","phrase":"Find the Career section and click on it","version":"v3","webpage":"forbes.com2","xid":1016,"prediction":"807"}
 {"assignmentId":"3N4BPTXIO9MQQ1GRJ78FN3L21THKUP","phrase":"see what I can do on the site","version":"v3","webpage":"github.com","xid":19,"prediction":"139"}
 {"assignmentId":"3N4BPTXIO9MQQ1GRJ78FN3L21THKUP","phrase":"see what other things are being sold","version":"v3","webpage":"github.com","xid":25}
 {"assignmentId":"3N4BPTXIO9MQQ1GRJ78FN3L21THKUP","phrase":"check how much it costs","version":"v3","webpage":"github.com","xid":27}
 {"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R8V8WO","phrase":"select search field","version":"v3","webpage":"github.com","xid":34,"prediction":"35"}
 {"assignmentId":"3N4BPTXIO9MQQ1GRJ78FN3L21THKUP","phrase":"get on the account I already have","version":"v3","webpage":"github.com","xid":38,"prediction":"139"}
-{"assignmentId":"3NGI5ARFTUZBSVM9UB338I24K5LP1P","phrase":"Okay sign in","version":"v3","webpage":"github.com","xid":38,"prediction":"38"}
+{"assignmentId":"3NGI5ARFTUZBSVM9UB338I24K5LP1P","phrase":"Okay sign in","version":"v3","webpage":"github.com","xid":38,"prediction":"437"}
 {"assignmentId":"3N4BPTXIO9MQQ1GRJ78FN3L21THKUP","phrase":"start a new account","version":"v3","webpage":"github.com","xid":62,"prediction":"149"}
 {"assignmentId":"3NGI5ARFTUZBSVM9UB338I24K5LP1P","phrase":"Type in Mike","version":"v3","webpage":"github.com","xid":62,"prediction":"38"}
-{"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R8V8WO","phrase":"select username field","version":"v3","webpage":"github.com","xid":62,"prediction":"35"}
-{"assignmentId":"3NGI5ARFTUZBSVM9UB338I24K5LP1P","phrase":"Load my email name","version":"v3","webpage":"github.com","xid":68,"prediction":"103"}
-{"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R8V8WO","phrase":"select email field","version":"v3","webpage":"github.com","xid":68,"prediction":"35"}
+{"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R8V8WO","phrase":"select username field","version":"v3","webpage":"github.com","xid":62,"prediction":"19"}
+{"assignmentId":"3NGI5ARFTUZBSVM9UB338I24K5LP1P","phrase":"Load my email name","version":"v3","webpage":"github.com","xid":68,"prediction":"347"}
+{"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R8V8WO","phrase":"select email field","version":"v3","webpage":"github.com","xid":68,"prediction":"84"}
 {"assignmentId":"3NGI5ARFTUZBSVM9UB338I24K5LP1P","phrase":"Input my password","version":"v3","webpage":"github.com","xid":74,"prediction":"337"}
-{"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R8V8WO","phrase":"select password field","version":"v3","webpage":"github.com","xid":74,"prediction":"35"}
+{"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R8V8WO","phrase":"select password field","version":"v3","webpage":"github.com","xid":74,"prediction":"19"}
 {"assignmentId":"3NGI5ARFTUZBSVM9UB338I24K5LP1P","phrase":"Agree to the terms","version":"v3","webpage":"github.com","xid":80,"prediction":"421"}
 {"assignmentId":"3TMFV4NEP98JN43V5IQDFMX8R8V8WO","phrase":"submit","version":"v3","webpage":"github.com","xid":80,"prediction":"80"}
 {"assignmentId":"382M9COHEI9N41OHNLXCP88XHVJEUV","phrase":"enter download in the search field","version":"v3","webpage":"gnu.org","xid":10,"prediction":"174"}
 {"assignmentId":"39GHHAVOMGLWYJGUMGHL9KNVNRV4JP","phrase":"Type education into the search bar.","version":"v3","webpage":"gnu.org","xid":10,"prediction":"174"}
 {"assignmentId":"39GHHAVOMGLWYJGUMGHL9KNVNRV4JP","phrase":"Open the Italian version of the website.","version":"v3","webpage":"gnu.org","xid":29,"prediction":"152"}
-{"assignmentId":"382M9COHEI9N41OHNLXCP88XHVJEUV","phrase":"Click the Join button","version":"v3","webpage":"gnu.org","xid":55,"prediction":"174"}
+{"assignmentId":"382M9COHEI9N41OHNLXCP88XHVJEUV","phrase":"Click the Join button","version":"v3","webpage":"gnu.org","xid":55,"prediction":"258"}
 {"assignmentId":"382M9COHEI9N41OHNLXCP88XHVJEUV","phrase":"Find the sign up button and enter email","version":"v3","webpage":"gnu.org","xid":66,"prediction":"152"}
 {"assignmentId":"3HMIGG0U4M0NC9YVKJ810JIO2GU8YM","phrase":"select email address field","version":"v3","webpage":"gnu.org","xid":66,"prediction":"66"}
 {"assignmentId":"382M9COHEI9N41OHNLXCP88XHVJEUV","phrase":"Go to the About section","version":"v3","webpage":"gnu.org","xid":78,"prediction":"261"}
@@ -495,33 +495,33 @@
 {"assignmentId":"39GHHAVOMGLWYJGUMGHL9KNVNRV4JP","phrase":"Click on the first featured article.","version":"v3","webpage":"gnu.org","xid":152,"prediction":"174"}
 {"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAJTFTR","phrase":"Go to the homepage","version":"v3","webpage":"go.com","xid":196,"prediction":"978"}
 {"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47K6TMD","phrase":"go to the store","version":"v3","webpage":"go.com","xid":211,"prediction":"978"}
-{"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAJTFTR","phrase":"Find the link that goes to the shop","version":"v3","webpage":"go.com","xid":211,"prediction":"558"}
+{"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAJTFTR","phrase":"Find the link that goes to the shop","version":"v3","webpage":"go.com","xid":211,"prediction":"642"}
 {"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47K6TMD","phrase":"get vacation info","version":"v3","webpage":"go.com","xid":214,"prediction":"417"}
-{"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47K6TMD","phrase":"select search field","version":"v3","webpage":"go.com","xid":314,"prediction":"9"}
+{"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47K6TMD","phrase":"select search field","version":"v3","webpage":"go.com","xid":314,"prediction":"665"}
 {"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAJTFTR","phrase":"In the search box type Princess","version":"v3","webpage":"go.com","xid":314,"prediction":"576"}
 {"assignmentId":"31QNSG6A5SN4XP2UXAI1N6YRYHL78K","phrase":"Click hamburger menu","version":"v3","webpage":"go.com","xid":321,"prediction":"12"}
 {"assignmentId":"31QNSG6A5SN4XP2UXAI1N6YRYHL78K","phrase":"Click disney logo","version":"v3","webpage":"go.com","xid":322,"prediction":"30"}
 {"assignmentId":"31QNSG6A5SN4XP2UXAI1N6YRYHL78K","phrase":"Click search","version":"v3","webpage":"go.com","xid":326,"prediction":"9"}
 {"assignmentId":"31QNSG6A5SN4XP2UXAI1N6YRYHL78K","phrase":"Click The Little Mermiad VHS Cover video","version":"v3","webpage":"go.com","xid":412,"prediction":"408"}
-{"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAJTFTR","phrase":"click on the next video","version":"v3","webpage":"go.com","xid":412,"prediction":"564"}
+{"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAJTFTR","phrase":"click on the next video","version":"v3","webpage":"go.com","xid":412,"prediction":"606"}
 {"assignmentId":"31QNSG6A5SN4XP2UXAI1N6YRYHL78K","phrase":"Click the Lion King video","version":"v3","webpage":"go.com","xid":418,"prediction":"414"}
 {"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAJTFTR","phrase":"Look for the about section","version":"v3","webpage":"go.com","xid":1213,"prediction":"540"}
-{"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47K6TMD","phrase":"look at job openings","version":"v3","webpage":"go.com","xid":1217,"prediction":"154"}
+{"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47K6TMD","phrase":"look at job openings","version":"v3","webpage":"go.com","xid":1217,"prediction":"570"}
 {"assignmentId":"3GM6G9ZBKOR6GC154EVLXKR47K6TMD","phrase":"get contact info","version":"v3","webpage":"go.com","xid":1219,"prediction":"417"}
-{"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJ6ROKC","phrase":"language options","version":"v3","webpage":"godaddy.com","xid":16}
+{"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJ6ROKC","phrase":"language options","version":"v3","webpage":"godaddy.com","xid":16,"prediction":"1628"}
 {"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJ6ROKC","phrase":"call on the phone","version":"v3","webpage":"godaddy.com","xid":258,"prediction":"869"}
 {"assignmentId":"3SKEMFQBZ4ZSS49EG47ARB3D42PK89","phrase":"call them on the phone","version":"v3","webpage":"godaddy.com","xid":258,"prediction":"869"}
-{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"click on help","version":"v3","webpage":"godaddy.com","xid":298,"prediction":"294"}
+{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"click on help","version":"v3","webpage":"godaddy.com","xid":298,"prediction":"395"}
 {"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJ6ROKC","phrase":"read the blog","version":"v3","webpage":"godaddy.com","xid":300,"prediction":"572"}
-{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"click on sign in","version":"v3","webpage":"godaddy.com","xid":306,"prediction":"304"}
-{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"click on shopping cart","version":"v3","webpage":"godaddy.com","xid":368,"prediction":"712"}
+{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"click on sign in","version":"v3","webpage":"godaddy.com","xid":306,"prediction":"322"}
+{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"click on shopping cart","version":"v3","webpage":"godaddy.com","xid":368,"prediction":"711"}
 {"assignmentId":"3SKEMFQBZ4ZSS49EG47ARB3D42PK89","phrase":"check my cart","version":"v3","webpage":"godaddy.com","xid":369,"prediction":"333"}
 {"assignmentId":"3SKEMFQBZ4ZSS49EG47ARB3D42PK89","phrase":"see what else I can do","version":"v3","webpage":"godaddy.com","xid":905,"prediction":"879"}
 {"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJ6ROKC","phrase":"select search field","version":"v3","webpage":"godaddy.com","xid":919,"prediction":"405"}
-{"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJ6ROKC","phrase":"search for domain","version":"v3","webpage":"godaddy.com","xid":921,"prediction":"408"}
-{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"in the search box, type websites","version":"v3","webpage":"godaddy.com","xid":957,"prediction":"405"}
-{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"click on search","version":"v3","webpage":"godaddy.com","xid":961,"prediction":"408"}
-{"assignmentId":"3SKEMFQBZ4ZSS49EG47ARB3D42PK89","phrase":"create a website","version":"v3","webpage":"godaddy.com","xid":1012,"prediction":"395"}
+{"assignmentId":"3KIBXJ1WD6OVDWWUNLW6OXTDJ6ROKC","phrase":"search for domain","version":"v3","webpage":"godaddy.com","xid":921,"prediction":"1670"}
+{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"in the search box, type websites","version":"v3","webpage":"godaddy.com","xid":957,"prediction":"572"}
+{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2F86ZP","phrase":"click on search","version":"v3","webpage":"godaddy.com","xid":961,"prediction":"405"}
+{"assignmentId":"3SKEMFQBZ4ZSS49EG47ARB3D42PK89","phrase":"create a website","version":"v3","webpage":"godaddy.com","xid":1012,"prediction":"572"}
 {"assignmentId":"3SKEMFQBZ4ZSS49EG47ARB3D42PK89","phrase":"search for a website name","version":"v3","webpage":"godaddy.com","xid":1050,"prediction":"1337"}
 {"assignmentId":"3KAKFY4PGVWFLCDK4KR2NEGPWCF3IW","phrase":"Open About","version":"v3","webpage":"google.com","xid":14,"prediction":"14"}
 {"assignmentId":"33L7PJKHCHSRVNZ1ADL2S2Q9NEBT8H","phrase":"click on store","version":"v3","webpage":"google.com","xid":15,"prediction":"15"}
@@ -538,16 +538,16 @@
 {"assignmentId":"3KAKFY4PGVWFLCDK4KR2NEGPWCF3IW","phrase":"Search","version":"v3","webpage":"google.com","xid":270,"prediction":"42"}
 {"assignmentId":"3X1FV8S5JYLL1U98Y6X5LXVS8I7GV3","phrase":"go directly to first search result","version":"v3","webpage":"google.com","xid":271,"prediction":"262"}
 {"assignmentId":"3X1FV8S5JYLL1U98Y6X5LXVS8I7GV3","phrase":"find out what google doodle is about","version":"v3","webpage":"google.com","xid":334,"prediction":"262"}
-{"assignmentId":"35H6S234SBU2675NG26658O41H565P","phrase":"see who google partners with","version":"v3","webpage":"googletagmanager.com","xid":11,"prediction":"221"}
+{"assignmentId":"35H6S234SBU2675NG26658O41H565P","phrase":"see who google partners with","version":"v3","webpage":"googletagmanager.com","xid":11,"prediction":"488"}
 {"assignmentId":"3FIJLY1B6VY2IAGH1AIOXK6YLG9PFX","phrase":"go to partners page","version":"v3","webpage":"googletagmanager.com","xid":11,"prediction":"10"}
-{"assignmentId":"3FIJLY1B6VY2IAGH1AIOXK6YLG9PFX","phrase":"get help","version":"v3","webpage":"googletagmanager.com","xid":13,"prediction":"446"}
-{"assignmentId":"35H6S234SBU2675NG26658O41H565P","phrase":"ask for help","version":"v3","webpage":"googletagmanager.com","xid":15,"prediction":"221"}
+{"assignmentId":"3FIJLY1B6VY2IAGH1AIOXK6YLG9PFX","phrase":"get help","version":"v3","webpage":"googletagmanager.com","xid":13,"prediction":"360"}
+{"assignmentId":"35H6S234SBU2675NG26658O41H565P","phrase":"ask for help","version":"v3","webpage":"googletagmanager.com","xid":15,"prediction":"128"}
 {"assignmentId":"3FIJLY1B6VY2IAGH1AIOXK6YLG9PFX","phrase":"click sign up","version":"v3","webpage":"googletagmanager.com","xid":50,"prediction":"291"}
 {"assignmentId":"35H6S234SBU2675NG26658O41H565P","phrase":"check my website traffic","version":"v3","webpage":"googletagmanager.com","xid":55,"prediction":"208"}
 {"assignmentId":"3LYA37P8IRHBU27LJGRKIDTEC76BKT","phrase":"visit Analytics","version":"v3","webpage":"googletagmanager.com","xid":55,"prediction":"112"}
 {"assignmentId":"3FIJLY1B6VY2IAGH1AIOXK6YLG9PFX","phrase":"check out features of the tag manager","version":"v3","webpage":"googletagmanager.com","xid":63,"prediction":"360"}
 {"assignmentId":"35H6S234SBU2675NG26658O41H565P","phrase":"check user input","version":"v3","webpage":"googletagmanager.com","xid":76,"prediction":"448"}
-{"assignmentId":"35H6S234SBU2675NG26658O41H565P","phrase":"figure out best way to use tags","version":"v3","webpage":"googletagmanager.com","xid":142,"prediction":"401"}
+{"assignmentId":"35H6S234SBU2675NG26658O41H565P","phrase":"figure out best way to use tags","version":"v3","webpage":"googletagmanager.com","xid":142,"prediction":"221"}
 {"assignmentId":"3LYA37P8IRHBU27LJGRKIDTEC76BKT","phrase":"sign up for free","version":"v3","webpage":"googletagmanager.com","xid":142,"prediction":"291"}
 {"assignmentId":"3LYA37P8IRHBU27LJGRKIDTEC76BKT","phrase":"click more","version":"v3","webpage":"googletagmanager.com","xid":147,"prediction":"292"}
 {"assignmentId":"3LYA37P8IRHBU27LJGRKIDTEC76BKT","phrase":"sign up to google tag manager","version":"v3","webpage":"googletagmanager.com","xid":216,"prediction":"208"}
@@ -568,12 +568,12 @@
 {"assignmentId":"340UGXU9DZV46CA3IBMMPCWJHRNVUL","phrase":"Located available plugins","version":"v3","webpage":"gravatar.com","xid":84,"prediction":"84"}
 {"assignmentId":"3QBD8R3Z22DAZU7R2T9QHG4HMLA4OD","phrase":"Go to technical support","version":"v3","webpage":"gravatar.com","xid":109,"prediction":"105"}
 {"assignmentId":"340UGXU9DZV46CA3IBMMPCWJHRNVUL","phrase":"View the privacy policy","version":"v3","webpage":"gravatar.com","xid":114,"prediction":"114"}
-{"assignmentId":"30X31N5D64K4ZBF1IB0QEO0IBSESAU","phrase":"Click about to learn more about the school","version":"v3","webpage":"harvard.edu","xid":23,"prediction":"9"}
+{"assignmentId":"30X31N5D64K4ZBF1IB0QEO0IBSESAU","phrase":"Click about to learn more about the school","version":"v3","webpage":"harvard.edu","xid":23,"prediction":"712"}
 {"assignmentId":"3CFJTT4SXUKXMVE76WUS0VS51M3I7Y","phrase":"Find the about section","version":"v3","webpage":"harvard.edu","xid":23,"prediction":"414"}
-{"assignmentId":"3K2755HG5TXTTDDRW1RTXQP975EFDX","phrase":"see costs","version":"v3","webpage":"harvard.edu","xid":43,"prediction":"303"}
+{"assignmentId":"3K2755HG5TXTTDDRW1RTXQP975EFDX","phrase":"see costs","version":"v3","webpage":"harvard.edu","xid":43,"prediction":"244"}
 {"assignmentId":"3K2755HG5TXTTDDRW1RTXQP975EFDX","phrase":"learn more","version":"v3","webpage":"harvard.edu","xid":117,"prediction":"662"}
-{"assignmentId":"3K2755HG5TXTTDDRW1RTXQP975EFDX","phrase":"see what I can go to","version":"v3","webpage":"harvard.edu","xid":119,"prediction":"5"}
-{"assignmentId":"30X31N5D64K4ZBF1IB0QEO0IBSESAU","phrase":"Select give to make a donation","version":"v3","webpage":"harvard.edu","xid":125,"prediction":"5"}
+{"assignmentId":"3K2755HG5TXTTDDRW1RTXQP975EFDX","phrase":"see what I can go to","version":"v3","webpage":"harvard.edu","xid":119,"prediction":"244"}
+{"assignmentId":"30X31N5D64K4ZBF1IB0QEO0IBSESAU","phrase":"Select give to make a donation","version":"v3","webpage":"harvard.edu","xid":125,"prediction":"212"}
 {"assignmentId":"3K2755HG5TXTTDDRW1RTXQP975EFDX","phrase":"give them money","version":"v3","webpage":"harvard.edu","xid":125,"prediction":"125"}
 {"assignmentId":"30X31N5D64K4ZBF1IB0QEO0IBSESAU","phrase":"Click the Faculty button to see a list of staff","version":"v3","webpage":"harvard.edu","xid":129,"prediction":"712"}
 {"assignmentId":"3K2755HG5TXTTDDRW1RTXQP975EFDX","phrase":"learn who teaches there","version":"v3","webpage":"harvard.edu","xid":129}
@@ -581,12 +581,12 @@
 {"assignmentId":"3CFJTT4SXUKXMVE76WUS0VS51M3I7Y","phrase":"In the search field type school","version":"v3","webpage":"harvard.edu","xid":145,"prediction":"394"}
 {"assignmentId":"3CFJTT4SXUKXMVE76WUS0VS51M3I7Y","phrase":"Click on the first story","version":"v3","webpage":"harvard.edu","xid":158,"prediction":"352"}
 {"assignmentId":"30X31N5D64K4ZBF1IB0QEO0IBSESAU","phrase":"Click Read Story","version":"v3","webpage":"harvard.edu","xid":164,"prediction":"190"}
-{"assignmentId":"3CFJTT4SXUKXMVE76WUS0VS51M3I7Y","phrase":"Find a listing of events","version":"v3","webpage":"harvard.edu","xid":303,"prediction":"101"}
+{"assignmentId":"3CFJTT4SXUKXMVE76WUS0VS51M3I7Y","phrase":"Find a listing of events","version":"v3","webpage":"harvard.edu","xid":303,"prediction":"712"}
 {"assignmentId":"3CFJTT4SXUKXMVE76WUS0VS51M3I7Y","phrase":"Click on the first news article","version":"v3","webpage":"harvard.edu","xid":639,"prediction":"352"}
-{"assignmentId":"35DR22AR5EECB72F36R3QO34KXM3XF","phrase":"select laptops & tablets","version":"v3","webpage":"hp.com","xid":22,"prediction":"21"}
-{"assignmentId":"3ERMJ6L4DZMJIE4YRBSKSOZMIVN7M3","phrase":"see new laptops","version":"v3","webpage":"hp.com","xid":22,"prediction":"159"}
+{"assignmentId":"35DR22AR5EECB72F36R3QO34KXM3XF","phrase":"select laptops & tablets","version":"v3","webpage":"hp.com","xid":22,"prediction":"288"}
+{"assignmentId":"3ERMJ6L4DZMJIE4YRBSKSOZMIVN7M3","phrase":"see new laptops","version":"v3","webpage":"hp.com","xid":22,"prediction":"288"}
 {"assignmentId":"3H0W84IWBLWVO9W0JR27KXLDA5QREX","phrase":"go to the laptops section","version":"v3","webpage":"hp.com","xid":22,"prediction":"12"}
-{"assignmentId":"3ERMJ6L4DZMJIE4YRBSKSOZMIVN7M3","phrase":"get some printer supplies","version":"v3","webpage":"hp.com","xid":92}
+{"assignmentId":"3ERMJ6L4DZMJIE4YRBSKSOZMIVN7M3","phrase":"get some printer supplies","version":"v3","webpage":"hp.com","xid":92,"prediction":"12"}
 {"assignmentId":"35DR22AR5EECB72F36R3QO34KXM3XF","phrase":"go to the support page","version":"v3","webpage":"hp.com","xid":124,"prediction":"674"}
 {"assignmentId":"3ERMJ6L4DZMJIE4YRBSKSOZMIVN7M3","phrase":"get help","version":"v3","webpage":"hp.com","xid":124}
 {"assignmentId":"35DR22AR5EECB72F36R3QO34KXM3XF","phrase":"bring up the search box and enter gaming","version":"v3","webpage":"hp.com","xid":261,"prediction":"251"}
@@ -594,13 +594,13 @@
 {"assignmentId":"35DR22AR5EECB72F36R3QO34KXM3XF","phrase":"open the shopping cart","version":"v3","webpage":"hp.com","xid":264,"prediction":"264"}
 {"assignmentId":"3H0W84IWBLWVO9W0JR27KXLDA5QREX","phrase":"go to my shopping cart","version":"v3","webpage":"hp.com","xid":264,"prediction":"264"}
 {"assignmentId":"3ERMJ6L4DZMJIE4YRBSKSOZMIVN7M3","phrase":"get more info","version":"v3","webpage":"hp.com","xid":458,"prediction":"12"}
-{"assignmentId":"3H0W84IWBLWVO9W0JR27KXLDA5QREX","phrase":"click on the learn more link","version":"v3","webpage":"hp.com","xid":458,"prediction":"485"}
+{"assignmentId":"3H0W84IWBLWVO9W0JR27KXLDA5QREX","phrase":"click on the learn more link","version":"v3","webpage":"hp.com","xid":458,"prediction":"512"}
 {"assignmentId":"35DR22AR5EECB72F36R3QO34KXM3XF","phrase":"click buy now","version":"v3","webpage":"hp.com","xid":459,"prediction":"529"}
-{"assignmentId":"3ERMJ6L4DZMJIE4YRBSKSOZMIVN7M3","phrase":"purchase","version":"v3","webpage":"hp.com","xid":460}
+{"assignmentId":"3ERMJ6L4DZMJIE4YRBSKSOZMIVN7M3","phrase":"purchase","version":"v3","webpage":"hp.com","xid":460,"prediction":"120"}
 {"assignmentId":"3H0W84IWBLWVO9W0JR27KXLDA5QREX","phrase":"go to the buy now page","version":"v3","webpage":"hp.com","xid":460,"prediction":"595"}
 {"assignmentId":"3C2NJ6JBKBBIEVSSX0QP9C7EC5C2NJ","phrase":"see what products there are","version":"v3","webpage":"ibm.com","xid":14,"prediction":"789"}
 {"assignmentId":"3C2NJ6JBKBBIEVSSX0QP9C7EC5C2NJ","phrase":"see what services I can get","version":"v3","webpage":"ibm.com","xid":16,"prediction":"1010"}
-{"assignmentId":"34MAJL3QP5HLD5E5JVPYTD66R2H431","phrase":"view career opportunities","version":"v3","webpage":"ibm.com","xid":24}
+{"assignmentId":"34MAJL3QP5HLD5E5JVPYTD66R2H431","phrase":"view career opportunities","version":"v3","webpage":"ibm.com","xid":24,"prediction":"24"}
 {"assignmentId":"3C2NJ6JBKBBIEVSSX0QP9C7EC5C2NJ","phrase":"get a job","version":"v3","webpage":"ibm.com","xid":24,"prediction":"767"}
 {"assignmentId":"34MAJL3QP5HLD5E5JVPYTD66R2H431","phrase":"view marketplace","version":"v3","webpage":"ibm.com","xid":30,"prediction":"30"}
 {"assignmentId":"3C2NJ6JBKBBIEVSSX0QP9C7EC5C2NJ","phrase":"check what's for sale","version":"v3","webpage":"ibm.com","xid":30,"prediction":"122"}
@@ -608,7 +608,7 @@
 {"assignmentId":"3C2NJ6JBKBBIEVSSX0QP9C7EC5C2NJ","phrase":"look for something","version":"v3","webpage":"ibm.com","xid":38,"prediction":"608"}
 {"assignmentId":"34MAJL3QP5HLD5E5JVPYTD66R2H431","phrase":"log in","version":"v3","webpage":"ibm.com","xid":55,"prediction":"44"}
 {"assignmentId":"34MAJL3QP5HLD5E5JVPYTD66R2H431","phrase":"view menu","version":"v3","webpage":"ibm.com","xid":64,"prediction":"64"}
-{"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB9284WDC","phrase":"select a country/region","version":"v3","webpage":"ibm.com","xid":1246,"prediction":"778"}
+{"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB9284WDC","phrase":"select a country/region","version":"v3","webpage":"ibm.com","xid":1246,"prediction":"554"}
 {"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB9284WDC","phrase":"click on the contact link","version":"v3","webpage":"ibm.com","xid":1260,"prediction":"820"}
 {"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB9284WDC","phrase":"read about the privacy statement","version":"v3","webpage":"ibm.com","xid":1262,"prediction":"789"}
 {"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB9284WDC","phrase":"click on the terms of use statement link","version":"v3","webpage":"ibm.com","xid":1264,"prediction":"1264"}
@@ -626,7 +626,7 @@
 {"assignmentId":"3AAPLD8UCDBKOY0UDHF85FJ8QY8HTT","phrase":"see what tv shows are hot in april","version":"v3","webpage":"imdb.com","xid":353,"prediction":"442"}
 {"assignmentId":"3AAPLD8UCDBKOY0UDHF85FJ8QY8HTT","phrase":"learn about the new season of stranger things","version":"v3","webpage":"imdb.com","xid":378,"prediction":"356"}
 {"assignmentId":"3AAPLD8UCDBKOY0UDHF85FJ8QY8HTT","phrase":"see what's new","version":"v3","webpage":"imdb.com","xid":1040,"prediction":"326"}
-{"assignmentId":"3AAPLD8UCDBKOY0UDHF85FJ8QY8HTT","phrase":"get tickets to the hottest movie","version":"v3","webpage":"imdb.com","xid":1078,"prediction":"981"}
+{"assignmentId":"3AAPLD8UCDBKOY0UDHF85FJ8QY8HTT","phrase":"get tickets to the hottest movie","version":"v3","webpage":"imdb.com","xid":1078,"prediction":"442"}
 {"assignmentId":"3AAPLD8UCDBKOY0UDHF85FJ8QY8HTT","phrase":"find out date tully is coming out","version":"v3","webpage":"imdb.com","xid":1135,"prediction":"442"}
 {"assignmentId":"30BXRYBRP5RCGF4O8MKJSZQ7U0XHW6","phrase":"go to home","version":"v3","webpage":"imgur.com","xid":6,"prediction":"40"}
 {"assignmentId":"3E1QT0TDFQ31M9JQG1MYEVO0C6A8IC","phrase":"Go to the homepage","version":"v3","webpage":"imgur.com","xid":6,"prediction":"1123"}
@@ -639,8 +639,8 @@
 {"assignmentId":"3E1QT0TDFQ31M9JQG1MYEVO0C6A8IC","phrase":"Look for the login button","version":"v3","webpage":"imgur.com","xid":56,"prediction":"1157"}
 {"assignmentId":"30BXRYBRP5RCGF4O8MKJSZQ7U0XHW6","phrase":"get an account","version":"v3","webpage":"imgur.com","xid":59}
 {"assignmentId":"31N2WW6R9SKVBLBU3CLHKH3XGSQ3FO","phrase":"view most popular","version":"v3","webpage":"imgur.com","xid":133,"prediction":"83"}
-{"assignmentId":"31N2WW6R9SKVBLBU3CLHKH3XGSQ3FO","phrase":"sort randomly","version":"v3","webpage":"imgur.com","xid":149,"prediction":"129"}
-{"assignmentId":"30BXRYBRP5RCGF4O8MKJSZQ7U0XHW6","phrase":"sort","version":"v3","webpage":"imgur.com","xid":152,"prediction":"129"}
+{"assignmentId":"31N2WW6R9SKVBLBU3CLHKH3XGSQ3FO","phrase":"sort randomly","version":"v3","webpage":"imgur.com","xid":149,"prediction":"131"}
+{"assignmentId":"30BXRYBRP5RCGF4O8MKJSZQ7U0XHW6","phrase":"sort","version":"v3","webpage":"imgur.com","xid":152,"prediction":"131"}
 {"assignmentId":"31N2WW6R9SKVBLBU3CLHKH3XGSQ3FO","phrase":"sort by posted time","version":"v3","webpage":"imgur.com","xid":152,"prediction":"131"}
 {"assignmentId":"3E1QT0TDFQ31M9JQG1MYEVO0C6A8IC","phrase":"Click on the first post","version":"v3","webpage":"imgur.com","xid":161,"prediction":"131"}
 {"assignmentId":"3WYGZ5XF3X9ABOONU2DF823EGWXKSA","phrase":"use facebook to log in","version":"v3","webpage":"instagram.com","xid":19,"prediction":"1"}
@@ -661,14 +661,14 @@
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9BBHUE","phrase":"Enter recipes in the search field","version":"v3","webpage":"issuu.com","xid":68,"prediction":"1009"}
 {"assignmentId":"3IXEICO793D4R9GDHYO48OUIHJMT6W","phrase":"select search field","version":"v3","webpage":"issuu.com","xid":68,"prediction":"57"}
 {"assignmentId":"3IXEICO793D4R9GDHYO48OUIHJMT6W","phrase":"publish work","version":"v3","webpage":"issuu.com","xid":83,"prediction":"82"}
-{"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9CFHUK","phrase":"read a magazine","version":"v3","webpage":"issuu.com","xid":87,"prediction":"590"}
-{"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9CFHUK","phrase":"see what magazines there are","version":"v3","webpage":"issuu.com","xid":91,"prediction":"1744"}
+{"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9CFHUK","phrase":"read a magazine","version":"v3","webpage":"issuu.com","xid":87,"prediction":"294"}
+{"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9CFHUK","phrase":"see what magazines there are","version":"v3","webpage":"issuu.com","xid":91,"prediction":"565"}
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9BBHUE","phrase":"Find the sign up button","version":"v3","webpage":"issuu.com","xid":93,"prediction":"93"}
 {"assignmentId":"3IXEICO793D4R9GDHYO48OUIHJMT6W","phrase":"create an account","version":"v3","webpage":"issuu.com","xid":93,"prediction":"269"}
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9BBHUE","phrase":"Click on the log in button","version":"v3","webpage":"issuu.com","xid":94,"prediction":"1320"}
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9CFHUK","phrase":"get to my account","version":"v3","webpage":"issuu.com","xid":94,"prediction":"1192"}
 {"assignmentId":"3IXEICO793D4R9GDHYO48OUIHJMT6W","phrase":"sign in to account","version":"v3","webpage":"issuu.com","xid":94,"prediction":"466"}
-{"assignmentId":"3IXEICO793D4R9GDHYO48OUIHJMT6W","phrase":"see trending publications","version":"v3","webpage":"issuu.com","xid":112,"prediction":"223"}
+{"assignmentId":"3IXEICO793D4R9GDHYO48OUIHJMT6W","phrase":"see trending publications","version":"v3","webpage":"issuu.com","xid":112,"prediction":"211"}
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9CFHUK","phrase":"publish a zine","version":"v3","webpage":"issuu.com","xid":137,"prediction":"82"}
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9BBHUE","phrase":"Find the app for google and click on it","version":"v3","webpage":"issuu.com","xid":239,"prediction":"294"}
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9CFHUK","phrase":"get the app","version":"v3","webpage":"issuu.com","xid":239,"prediction":"466"}
@@ -678,7 +678,7 @@
 {"assignmentId":"3D3VGR7TA19SEBG3U7LB16HGJ8RR3H","phrase":"Search for pop music.","version":"v3","webpage":"itunes.com","xid":57,"prediction":"102"}
 {"assignmentId":"3TXWC2NHN0KQUS5WQ5MQITPY52J9S3","phrase":"Enter pop in the search field","version":"v3","webpage":"itunes.com","xid":57,"prediction":"57"}
 {"assignmentId":"3TXWC2NHN0KQUS5WQ5MQITPY52J9S3","phrase":"click on the Music tab","version":"v3","webpage":"itunes.com","xid":102,"prediction":"51"}
-{"assignmentId":"3D3VGR7TA19SEBG3U7LB16HGJ8RR3H","phrase":"Click on my videos.","version":"v3","webpage":"itunes.com","xid":104,"prediction":"144"}
+{"assignmentId":"3D3VGR7TA19SEBG3U7LB16HGJ8RR3H","phrase":"Click on my videos.","version":"v3","webpage":"itunes.com","xid":104,"prediction":"104"}
 {"assignmentId":"3KRVW3HTZOF51COQFEQVNFVI51QMSF","phrase":"check out music charts","version":"v3","webpage":"itunes.com","xid":106,"prediction":"51"}
 {"assignmentId":"3D3VGR7TA19SEBG3U7LB16HGJ8RR3H","phrase":"Download the app.","version":"v3","webpage":"itunes.com","xid":112,"prediction":"112"}
 {"assignmentId":"3KRVW3HTZOF51COQFEQVNFVI51QMSF","phrase":"download itunes","version":"v3","webpage":"itunes.com","xid":112,"prediction":"112"}
@@ -696,7 +696,7 @@
 {"assignmentId":"31Z0PCVWUL9NV9UI08TWE2UEC3JT7Q","phrase":"find the log in button","version":"v3","webpage":"jimdo.com","xid":31,"prediction":"31"}
 {"assignmentId":"3HSYG7LRBKSCN5BFPT4DHGC4ZASKKH","phrase":"get in my account","version":"v3","webpage":"jimdo.com","xid":31,"prediction":"31"}
 {"assignmentId":"3YZ8UPK3VUG87343RURHZK8UWSHUCB","phrase":"\"Click on the navigation menu\"","version":"v3","webpage":"jimdo.com","xid":33,"prediction":"32"}
-{"assignmentId":"3YZ8UPK3VUG87343RURHZK8UWSHUCB","phrase":"'Start creating my website\"","version":"v3","webpage":"jimdo.com","xid":47,"prediction":"208"}
+{"assignmentId":"3YZ8UPK3VUG87343RURHZK8UWSHUCB","phrase":"'Start creating my website\"","version":"v3","webpage":"jimdo.com","xid":47,"prediction":"205"}
 {"assignmentId":"31Z0PCVWUL9NV9UI08TWE2UEC3JT7Q","phrase":"Find the about section","version":"v3","webpage":"jimdo.com","xid":223,"prediction":"223"}
 {"assignmentId":"31Z0PCVWUL9NV9UI08TWE2UEC3JT7Q","phrase":"Look for the contact information","version":"v3","webpage":"jimdo.com","xid":250,"prediction":"250"}
 {"assignmentId":"3YZ8UPK3VUG87343RURHZK8UWSHUCB","phrase":"\"change the website language to Spanish\"","version":"v3","webpage":"jimdo.com","xid":298,"prediction":"326"}
@@ -719,7 +719,7 @@
 {"assignmentId":"3HMIGG0U4M0NC9YVKJ810JIO2JCY80","phrase":"go to help center","version":"v3","webpage":"linkedin.com","xid":121,"prediction":"121"}
 {"assignmentId":"3HMIGG0U4M0NC9YVKJ810JIO2JCY80","phrase":"explore careers","version":"v3","webpage":"linkedin.com","xid":129,"prediction":"129"}
 {"assignmentId":"33L7PJKHCHSRVNZ1ADL2S2Q9NFGT8O","phrase":"highlight the word majestic","version":"v3","webpage":"majestic.com","xid":16,"prediction":"67"}
-{"assignmentId":"3X1FV8S5JYLL1U98Y6X5LXVS8J9GV7","phrase":"Look for the help link","version":"v3","webpage":"majestic.com","xid":139,"prediction":"121"}
+{"assignmentId":"3X1FV8S5JYLL1U98Y6X5LXVS8J9GV7","phrase":"Look for the help link","version":"v3","webpage":"majestic.com","xid":139,"prediction":"125"}
 {"assignmentId":"3X1FV8S5JYLL1U98Y6X5LXVS8J9GV7","phrase":"Check out the pricing options","version":"v3","webpage":"majestic.com","xid":183,"prediction":"258"}
 {"assignmentId":"3X1FV8S5JYLL1U98Y6X5LXVS8J9GV7","phrase":"go to the login section","version":"v3","webpage":"majestic.com","xid":187,"prediction":"1045"}
 {"assignmentId":"3X1FV8S5JYLL1U98Y6X5LXVS8J9GV7","phrase":"In the search box type Amazon","version":"v3","webpage":"majestic.com","xid":266,"prediction":"119"}
@@ -749,7 +749,7 @@
 {"assignmentId":"3R08VXYT7DPFNQYCVDY71M1DGPT7W6","phrase":"Select Create an account","version":"v3","webpage":"mcc.godaddy.com","xid":357,"prediction":"357"}
 {"assignmentId":"3RXPCZQMQQ55FITARSDGE9OCJEZ1GY","phrase":"go to create account","version":"v3","webpage":"mcc.godaddy.com","xid":357,"prediction":"357"}
 {"assignmentId":"3TXD01ZLD5B5CZROYFLZGMW64F0U4Y","phrase":"\"close the box at the top of the page\"","version":"v3","webpage":"medium.com","xid":10,"prediction":"803"}
-{"assignmentId":"3TXD01ZLD5B5CZROYFLZGMW64F0U4Y","phrase":"\"click on the Unlruly Bodies topic\"","version":"v3","webpage":"medium.com","xid":64,"prediction":"803"}
+{"assignmentId":"3TXD01ZLD5B5CZROYFLZGMW64F0U4Y","phrase":"\"click on the Unlruly Bodies topic\"","version":"v3","webpage":"medium.com","xid":64,"prediction":"170"}
 {"assignmentId":"36PW28KO40Q3PSAJHGGLP7W3A12AE8","phrase":"read about computers","version":"v3","webpage":"medium.com","xid":67,"prediction":"1227"}
 {"assignmentId":"36PW28KO40Q3PSAJHGGLP7W3A12AE8","phrase":"read about culture","version":"v3","webpage":"medium.com","xid":70,"prediction":"1227"}
 {"assignmentId":"36PW28KO40Q3PSAJHGGLP7W3A12AE8","phrase":"read about selves","version":"v3","webpage":"medium.com","xid":79,"prediction":"1227"}
@@ -759,15 +759,15 @@
 {"assignmentId":"36TFCYNS454R5F9EIRG5UI4E323HXZ","phrase":"Click on the first article","version":"v3","webpage":"medium.com","xid":116,"prediction":"803"}
 {"assignmentId":"3TXD01ZLD5B5CZROYFLZGMW64F0U4Y","phrase":"Go to the body that ages article\"","version":"v3","webpage":"medium.com","xid":171,"prediction":"392"}
 {"assignmentId":"3TXD01ZLD5B5CZROYFLZGMW64F0U4Y","phrase":"\"show all featured articles\"","version":"v3","webpage":"medium.com","xid":228,"prediction":"228"}
-{"assignmentId":"36TFCYNS454R5F9EIRG5UI4E323HXZ","phrase":"Click on the feature that allows me to learn more","version":"v3","webpage":"medium.com","xid":255,"prediction":"187"}
+{"assignmentId":"36TFCYNS454R5F9EIRG5UI4E323HXZ","phrase":"Click on the feature that allows me to learn more","version":"v3","webpage":"medium.com","xid":255,"prediction":"117"}
 {"assignmentId":"3TXD01ZLD5B5CZROYFLZGMW64F0U4Y","phrase":"\"show all technology articles\"","version":"v3","webpage":"medium.com","xid":435,"prediction":"607"}
 {"assignmentId":"36TFCYNS454R5F9EIRG5UI4E323HXZ","phrase":"Find the popular articles","version":"v3","webpage":"medium.com","xid":1140,"prediction":"557"}
 {"assignmentId":"36TFCYNS454R5F9EIRG5UI4E323HXZ","phrase":"Go to the help section","version":"v3","webpage":"medium.com","xid":1221,"prediction":"187"}
-{"assignmentId":"30LB5CDZND45ZA3XL1X5LBL8PLZZ0C","phrase":"click on the home button","version":"v3","webpage":"microsoft.html","xid":56,"prediction":"175"}
+{"assignmentId":"30LB5CDZND45ZA3XL1X5LBL8PLZZ0C","phrase":"click on the home button","version":"v3","webpage":"microsoft.html","xid":56,"prediction":"87"}
 {"assignmentId":"3II4UPYCOK1QK230AH2N9PTNEZEQDD","phrase":"look for xbox stuff","version":"v3","webpage":"microsoft.html","xid":72,"prediction":"494"}
 {"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAR2FTG","phrase":"get the next xbox","version":"v3","webpage":"microsoft.html","xid":72,"prediction":"458"}
 {"assignmentId":"3II4UPYCOK1QK230AH2N9PTNEZEQDD","phrase":"find a bargain","version":"v3","webpage":"microsoft.html","xid":74,"prediction":"508"}
-{"assignmentId":"3RJSC4XJ11O7SWJ8EDQPW7EDOEK05J","phrase":"see what is on sale","version":"v3","webpage":"microsoft.html","xid":74,"prediction":"175"}
+{"assignmentId":"3RJSC4XJ11O7SWJ8EDQPW7EDOEK05J","phrase":"see what is on sale","version":"v3","webpage":"microsoft.html","xid":74,"prediction":"456"}
 {"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAR2FTG","phrase":"find bargains","version":"v3","webpage":"microsoft.html","xid":74,"prediction":"508"}
 {"assignmentId":"3JMSRU9HQJONHGDHSB7HLUAGV3TVE4","phrase":"Look for the help section","version":"v3","webpage":"microsoft.html","xid":76,"prediction":"494"}
 {"assignmentId":"3JMSRU9HQJONHGDHSB7HLUAGV3TVE4","phrase":"Go to the section about laptops","version":"v3","webpage":"microsoft.html","xid":79,"prediction":"49"}
@@ -786,11 +786,11 @@
 {"assignmentId":"3RJSC4XJ11O7SWJ8EDQPW7EDOEK05J","phrase":"log in","version":"v3","webpage":"microsoft.html","xid":171,"prediction":"483"}
 {"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAR2FTG","phrase":"get into my account","version":"v3","webpage":"microsoft.html","xid":171,"prediction":"48"}
 {"assignmentId":"30LB5CDZND45ZA3XL1X5LBL8PLZZ0C","phrase":"go to the shop now page","version":"v3","webpage":"microsoft.html","xid":206,"prediction":"49"}
-{"assignmentId":"3A1COHJ8NKP1QE86AJ4DEJNLCTV8HJ","phrase":"Click on the shop option","version":"v3","webpage":"microsoft.html","xid":207,"prediction":"175"}
+{"assignmentId":"3A1COHJ8NKP1QE86AJ4DEJNLCTV8HJ","phrase":"Click on the shop option","version":"v3","webpage":"microsoft.html","xid":207,"prediction":"458"}
 {"assignmentId":"3II4UPYCOK1QK230AH2N9PTNEZEQDD","phrase":"look for a laptop","version":"v3","webpage":"microsoft.html","xid":207,"prediction":"45"}
 {"assignmentId":"3VNL7UK1XGD0A29OIRR82U7VAR2FTG","phrase":"buy a computer","version":"v3","webpage":"microsoft.html","xid":207,"prediction":"483"}
 {"assignmentId":"3RJSC4XJ11O7SWJ8EDQPW7EDOEK05J","phrase":"look at the surface pro","version":"v3","webpage":"microsoft.html","xid":245,"prediction":"454"}
-{"assignmentId":"3RJSC4XJ11O7SWJ8EDQPW7EDOEK05J","phrase":"check out free game","version":"v3","webpage":"microsoft.html","xid":287,"prediction":"150"}
+{"assignmentId":"3RJSC4XJ11O7SWJ8EDQPW7EDOEK05J","phrase":"check out free game","version":"v3","webpage":"microsoft.html","xid":287,"prediction":"109"}
 {"assignmentId":"3A1COHJ8NKP1QE86AJ4DEJNLCTV8HJ","phrase":"Find the social media account for Twitter","version":"v3","webpage":"microsoft.html","xid":432,"prediction":"508"}
 {"assignmentId":"3A1COHJ8NKP1QE86AJ4DEJNLCTV8HJ","phrase":"Look for contact information","version":"v3","webpage":"microsoft.html","xid":561,"prediction":"561"}
 {"assignmentId":"3KRVW3HTZOF51COQFEQVNFVI590SMB","phrase":"In the search field type baseball","version":"v3","webpage":"mit.edu","xid":25,"prediction":"114"}
@@ -824,18 +824,18 @@
 {"assignmentId":"3GA6AFUKOPIFPH20Y29HN2FAWZU3HX","phrase":"go to twitter","version":"v3","webpage":"mozilla.org","xid":811,"prediction":"243"}
 {"assignmentId":"3GA6AFUKOPIFPH20Y29HN2FAWZU3HX","phrase":"go to facebook","version":"v3","webpage":"mozilla.org","xid":814,"prediction":"243"}
 {"assignmentId":"3B837J3LDPQWYS1IKMMC9EPSBNNSR5","phrase":"In the search box type Trump","version":"v3","webpage":"msn.com","xid":13,"prediction":"551"}
-{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2GC6ZV","phrase":"Search for popular news articles today.","version":"v3","webpage":"msn.com","xid":13,"prediction":"610"}
+{"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2GC6ZV","phrase":"Search for popular news articles today.","version":"v3","webpage":"msn.com","xid":13,"prediction":"2254"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2IRQJYJ","phrase":"select search field","version":"v3","webpage":"msn.com","xid":13,"prediction":"16"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2IRQJYJ","phrase":"submit search","version":"v3","webpage":"msn.com","xid":16,"prediction":"396"}
 {"assignmentId":"3B837J3LDPQWYS1IKMMC9EPSBNNSR5","phrase":"Go to the sign in option","version":"v3","webpage":"msn.com","xid":31,"prediction":"2022"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2IRQJYJ","phrase":"check email","version":"v3","webpage":"msn.com","xid":143,"prediction":"332"}
 {"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2GC6ZV","phrase":"Open Skype.","version":"v3","webpage":"msn.com","xid":150,"prediction":"150"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2IRQJYJ","phrase":"check microsoft rewards","version":"v3","webpage":"msn.com","xid":155,"prediction":"2353"}
-{"assignmentId":"3B837J3LDPQWYS1IKMMC9EPSBNNSR5","phrase":"Click on the weather","version":"v3","webpage":"msn.com","xid":383,"prediction":"2189"}
+{"assignmentId":"3B837J3LDPQWYS1IKMMC9EPSBNNSR5","phrase":"Click on the weather","version":"v3","webpage":"msn.com","xid":383,"prediction":"850"}
 {"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2GC6ZV","phrase":"Tell me what the weather is like.","version":"v3","webpage":"msn.com","xid":383,"prediction":"1920"}
 {"assignmentId":"3SPJ033422XCWQUEBN5SP9R2IRQJYJ","phrase":"read entertainment news","version":"v3","webpage":"msn.com","xid":424,"prediction":"1255"}
 {"assignmentId":"3B837J3LDPQWYS1IKMMC9EPSBNNSR5","phrase":"Find the first article and click on it","version":"v3","webpage":"msn.com","xid":455,"prediction":"850"}
-{"assignmentId":"3B837J3LDPQWYS1IKMMC9EPSBNNSR5","phrase":"Click on the entertainment section","version":"v3","webpage":"msn.com","xid":1224,"prediction":"2304"}
+{"assignmentId":"3B837J3LDPQWYS1IKMMC9EPSBNNSR5","phrase":"Click on the entertainment section","version":"v3","webpage":"msn.com","xid":1224,"prediction":"1308"}
 {"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2GC6ZV","phrase":"Bring up entertainment articles.","version":"v3","webpage":"msn.com","xid":1224,"prediction":"2073"}
 {"assignmentId":"3EJPLAJKENA0DLPCNQDMUCVZ2GC6ZV","phrase":"Click on the help screen.","version":"v3","webpage":"msn.com","xid":2457,"prediction":"2304"}
 {"assignmentId":"3A0EX8ZRN9I6E7W2NVSBRL8PAVSBYJ","phrase":"Go to the homepage","version":"v3","webpage":"mysql.com","xid":3,"prediction":"186"}
@@ -843,14 +843,14 @@
 {"assignmentId":"3AQF3RZ559CU84YCMEJFRKFHQJRF65","phrase":"login","version":"v3","webpage":"mysql.com","xid":12,"prediction":"12"}
 {"assignmentId":"3AQF3RZ559CU84YCMEJFRKFHQJRF65","phrase":"search","version":"v3","webpage":"mysql.com","xid":20,"prediction":"20"}
 {"assignmentId":"3EG49X351V6B8QPXM8P1XRFOUOO6XO","phrase":"check twitter page","version":"v3","webpage":"mysql.com","xid":26,"prediction":"25"}
-{"assignmentId":"3A0EX8ZRN9I6E7W2NVSBRL8PAVSBYJ","phrase":"Find the download button","version":"v3","webpage":"mysql.com","xid":37,"prediction":"46"}
+{"assignmentId":"3A0EX8ZRN9I6E7W2NVSBRL8PAVSBYJ","phrase":"Find the download button","version":"v3","webpage":"mysql.com","xid":37,"prediction":"50"}
 {"assignmentId":"3EG49X351V6B8QPXM8P1XRFOUOO6XO","phrase":"create software","version":"v3","webpage":"mysql.com","xid":41}
-{"assignmentId":"3EG49X351V6B8QPXM8P1XRFOUOO6XO","phrase":"look at cloud services","version":"v3","webpage":"mysql.com","xid":64,"prediction":"133"}
+{"assignmentId":"3EG49X351V6B8QPXM8P1XRFOUOO6XO","phrase":"look at cloud services","version":"v3","webpage":"mysql.com","xid":64,"prediction":"166"}
 {"assignmentId":"3EG49X351V6B8QPXM8P1XRFOUOO6XO","phrase":"find out why I need this","version":"v3","webpage":"mysql.com","xid":72,"prediction":"72"}
 {"assignmentId":"3EG49X351V6B8QPXM8P1XRFOUOO6XO","phrase":"find out how much it costs","version":"v3","webpage":"mysql.com","xid":76,"prediction":"76"}
 {"assignmentId":"3A0EX8ZRN9I6E7W2NVSBRL8PAVSBYJ","phrase":"Go to the link to find out more","version":"v3","webpage":"mysql.com","xid":91,"prediction":"186"}
 {"assignmentId":"3AQF3RZ559CU84YCMEJFRKFHQJRF65","phrase":"click on a button","version":"v3","webpage":"mysql.com","xid":91,"prediction":"166"}
-{"assignmentId":"3AQF3RZ559CU84YCMEJFRKFHQJRF65","phrase":"find out about a product","version":"v3","webpage":"mysql.com","xid":121,"prediction":"169"}
+{"assignmentId":"3AQF3RZ559CU84YCMEJFRKFHQJRF65","phrase":"find out about a product","version":"v3","webpage":"mysql.com","xid":121,"prediction":"62"}
 {"assignmentId":"3A0EX8ZRN9I6E7W2NVSBRL8PAVSBYJ","phrase":"Click on the contact button","version":"v3","webpage":"mysql.com","xid":225,"prediction":"7"}
 {"assignmentId":"3A0EX8ZRN9I6E7W2NVSBRL8PAVSBYJ","phrase":"Look for the about section","version":"v3","webpage":"mysql.com","xid":304,"prediction":"85"}
 {"assignmentId":"3EJJQNKU9SZ78JN29SAD50IQ2D8RHN","phrase":"log in","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":392,"prediction":"174"}
@@ -858,13 +858,13 @@
 {"assignmentId":"3R6BYFZZP867RJI8N1S5RXS1NEEFX5","phrase":"Go to the homepage","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":397,"prediction":"13"}
 {"assignmentId":"3KJYX6QCMA5VSWZ96CI8IAN80D4JVW","phrase":"select all databases","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":403,"prediction":"20"}
 {"assignmentId":"3EJJQNKU9SZ78JN29SAD50IQ2D8RHN","phrase":"select search field","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":454,"prediction":"31"}
-{"assignmentId":"3KJYX6QCMA5VSWZ96CI8IAN80D4JVW","phrase":"search for database abc","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":454,"prediction":"226"}
+{"assignmentId":"3KJYX6QCMA5VSWZ96CI8IAN80D4JVW","phrase":"search for database abc","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":454,"prediction":"276"}
 {"assignmentId":"3EJJQNKU9SZ78JN29SAD50IQ2D8RHN","phrase":"submit search","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":457,"prediction":"457"}
 {"assignmentId":"3KJYX6QCMA5VSWZ96CI8IAN80D4JVW","phrase":"click on about the ncbi","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":468,"prediction":"468"}
 {"assignmentId":"3R6BYFZZP867RJI8N1S5RXS1NEEFX5","phrase":"Find the download icon","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":484,"prediction":"482"}
 {"assignmentId":"3EJJQNKU9SZ78JN29SAD50IQ2D8RHN","phrase":"go to A to Z resource list","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":518,"prediction":"518"}
 {"assignmentId":"3EJJQNKU9SZ78JN29SAD50IQ2D8RHN","phrase":"check out pubmed","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":558,"prediction":"393"}
-{"assignmentId":"3KJYX6QCMA5VSWZ96CI8IAN80D4JVW","phrase":"click the popular resource pubmed","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":559,"prediction":"468"}
+{"assignmentId":"3KJYX6QCMA5VSWZ96CI8IAN80D4JVW","phrase":"click the popular resource pubmed","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":559,"prediction":"17"}
 {"assignmentId":"3R6BYFZZP867RJI8N1S5RXS1NEEFX5","phrase":"Click on the first article","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":590,"prediction":"738"}
 {"assignmentId":"3KJYX6QCMA5VSWZ96CI8IAN80D4JVW","phrase":"go to support center","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":626,"prediction":"626"}
 {"assignmentId":"3R6BYFZZP867RJI8N1S5RXS1NEEFX5","phrase":"Go to the About section","version":"v3","webpage":"ncbi.nlm.nih.gov","xid":726,"prediction":"468"}
@@ -897,7 +897,7 @@
 {"assignmentId":"3V26SBZTBE821V9NPVAXRAOU7K8ZZE","phrase":"read about france and jews","version":"v3","webpage":"nytimes.com","xid":727,"prediction":"727"}
 {"assignmentId":"3V26SBZTBE821V9NPVAXRAOU7K8ZZE","phrase":"read about what congress should ask zuckerberg","version":"v3","webpage":"nytimes.com","xid":759,"prediction":"761"}
 {"assignmentId":"3V26SBZTBE821V9NPVAXRAOU7K8ZZE","phrase":"read about assad","version":"v3","webpage":"nytimes.com","xid":771,"prediction":"771"}
-{"assignmentId":"3V26SBZTBE821V9NPVAXRAOU7K8ZZE","phrase":"go to the crossword","version":"v3","webpage":"nytimes.com","xid":827,"prediction":"899"}
+{"assignmentId":"3V26SBZTBE821V9NPVAXRAOU7K8ZZE","phrase":"go to the crossword","version":"v3","webpage":"nytimes.com","xid":827,"prediction":"905"}
 {"assignmentId":"39GHHAVOMGLWYJGUMGHL9KNVNZ24JC","phrase":"Click the homepage button","version":"v3","webpage":"opera.com","xid":7,"prediction":"28"}
 {"assignmentId":"3QILPRALQ6PT0AUHDHZQJ3KHY53N86","phrase":"go to home page","version":"v3","webpage":"opera.com","xid":7,"prediction":"29"}
 {"assignmentId":"3QILPRALQ6PT0AUHDHZQJ3KHY53N86","phrase":"see browsers","version":"v3","webpage":"opera.com","xid":15,"prediction":"15"}
@@ -906,8 +906,8 @@
 {"assignmentId":"3QILPRALQ6PT0AUHDHZQJ3KHY53N86","phrase":"read blogs","version":"v3","webpage":"opera.com","xid":19,"prediction":"19"}
 {"assignmentId":"39GHHAVOMGLWYJGUMGHL9KNVNZ24JC","phrase":"Find the download button","version":"v3","webpage":"opera.com","xid":29,"prediction":"28"}
 {"assignmentId":"3JZQSN0I3R4W5XNIYRS13BS6KXUFG7","phrase":"Download a copy of Opera","version":"v3","webpage":"opera.com","xid":29,"prediction":"29"}
-{"assignmentId":"3QILPRALQ6PT0AUHDHZQJ3KHY53N86","phrase":"get the browser","version":"v3","webpage":"opera.com","xid":29,"prediction":"29"}
-{"assignmentId":"3JZQSN0I3R4W5XNIYRS13BS6KXUFG7","phrase":"Tell me more about add-on services","version":"v3","webpage":"opera.com","xid":108,"prediction":"132"}
+{"assignmentId":"3QILPRALQ6PT0AUHDHZQJ3KHY53N86","phrase":"get the browser","version":"v3","webpage":"opera.com","xid":29,"prediction":"15"}
+{"assignmentId":"3JZQSN0I3R4W5XNIYRS13BS6KXUFG7","phrase":"Tell me more about add-on services","version":"v3","webpage":"opera.com","xid":108,"prediction":"108"}
 {"assignmentId":"3JZQSN0I3R4W5XNIYRS13BS6KXUFG7","phrase":"Go to my opera account","version":"v3","webpage":"opera.com","xid":110,"prediction":"110"}
 {"assignmentId":"39GHHAVOMGLWYJGUMGHL9KNVNZ24JC","phrase":"Go to the support section","version":"v3","webpage":"opera.com","xid":115,"prediction":"115"}
 {"assignmentId":"3JZQSN0I3R4W5XNIYRS13BS6KXUFG7","phrase":"Please get me over to the help desk","version":"v3","webpage":"opera.com","xid":115,"prediction":"115"}
@@ -936,7 +936,7 @@
 {"assignmentId":"3NQL1CS15S2LNLU8SCJBSX2WDEXVYG","phrase":"sign in","version":"v3","webpage":"paypal.com","xid":77,"prediction":"75"}
 {"assignmentId":"3U5NZHP4LSWMW67NW06O05IB1VLPHU","phrase":"Login to the website.","version":"v3","webpage":"paypal.com","xid":77,"prediction":"52"}
 {"assignmentId":"3NQL1CS15S2LNLU8SCJBSX2WDEXVYG","phrase":"create an account","version":"v3","webpage":"paypal.com","xid":78,"prediction":"75"}
-{"assignmentId":"3NQL1CS15S2LNLU8SCJBSX2WDEXVYG","phrase":"read about business accounts","version":"v3","webpage":"paypal.com","xid":117,"prediction":"49"}
+{"assignmentId":"3NQL1CS15S2LNLU8SCJBSX2WDEXVYG","phrase":"read about business accounts","version":"v3","webpage":"paypal.com","xid":117,"prediction":"184"}
 {"assignmentId":"3U5NZHP4LSWMW67NW06O05IB1VLPHU","phrase":"Send money to Mom.","version":"v3","webpage":"paypal.com","xid":141,"prediction":"141"}
 {"assignmentId":"3U5NZHP4LSWMW67NW06O05IB1VLPHU","phrase":"Sign up for the website.","version":"v3","webpage":"paypal.com","xid":143,"prediction":"163"}
 {"assignmentId":"3LKC68YZ3BXM8WQBCZF9C8N86DYOW6","phrase":"click on help","version":"v3","webpage":"paypal.com","xid":168,"prediction":"168"}
@@ -949,8 +949,8 @@
 {"assignmentId":"3U5NZHP4LSWMW67NW06O05IB1VNHPO","phrase":"get the program","version":"v3","webpage":"php.net","xid":223,"prediction":"13"}
 {"assignmentId":"3U5NZHP4LSWMW67NW06O05IB1VNHPO","phrase":"get the previous version","version":"v3","webpage":"php.net","xid":242,"prediction":"13"}
 {"assignmentId":"33LKR6A5KFE9KNFGBSCNDS3199CT16","phrase":"Click on the most recent article.","version":"v3","webpage":"php.net","xid":254,"prediction":"445"}
-{"assignmentId":"3VNXK88KKDC6MKM0K0RVTG9545BV9Q","phrase":"download php","version":"v3","webpage":"php.net","xid":259,"prediction":"334"}
-{"assignmentId":"3U5NZHP4LSWMW67NW06O05IB1VNHPO","phrase":"see what changed","version":"v3","webpage":"php.net","xid":261}
+{"assignmentId":"3VNXK88KKDC6MKM0K0RVTG9545BV9Q","phrase":"download php","version":"v3","webpage":"php.net","xid":259,"prediction":"309"}
+{"assignmentId":"3U5NZHP4LSWMW67NW06O05IB1VNHPO","phrase":"see what changed","version":"v3","webpage":"php.net","xid":261,"prediction":"273"}
 {"assignmentId":"3VNXK88KKDC6MKM0K0RVTG9545BV9Q","phrase":"recent changelog","version":"v3","webpage":"php.net","xid":261}
 {"assignmentId":"33LKR6A5KFE9KNFGBSCNDS3199CT16","phrase":"Click on the article from March 29th 2018.","version":"v3","webpage":"php.net","xid":266,"prediction":"451"}
 {"assignmentId":"33LKR6A5KFE9KNFGBSCNDS3199CT16","phrase":"Find information about upcoming events.","version":"v3","webpage":"php.net","xid":441,"prediction":"441"}
@@ -962,7 +962,7 @@
 {"assignmentId":"34J10VATJGS7SDJM2V3Y0M9064LQIE","phrase":"Search for Justin Bieber.","version":"v3","webpage":"play.google.com","xid":256,"prediction":"4996"}
 {"assignmentId":"3FQ5JJ512MIDVBWIM6WT98T8TXOKNX","phrase":"Search Play store","version":"v3","webpage":"play.google.com","xid":256,"prediction":"379"}
 {"assignmentId":"34J10VATJGS7SDJM2V3Y0M9064LQIE","phrase":"Go to my books.","version":"v3","webpage":"play.google.com","xid":330,"prediction":"333"}
-{"assignmentId":"3FQ5JJ512MIDVBWIM6WT98T8TXOKNX","phrase":"See my Devices","version":"v3","webpage":"play.google.com","xid":361,"prediction":"1251"}
+{"assignmentId":"3FQ5JJ512MIDVBWIM6WT98T8TXOKNX","phrase":"See my Devices","version":"v3","webpage":"play.google.com","xid":361,"prediction":"1767"}
 {"assignmentId":"3FQ5JJ512MIDVBWIM6WT98T8TXOKNX","phrase":"View Account","version":"v3","webpage":"play.google.com","xid":369,"prediction":"368"}
 {"assignmentId":"3FQ5JJ512MIDVBWIM6WT98T8TXOKNX","phrase":"See My subscriptions","version":"v3","webpage":"play.google.com","xid":371,"prediction":"371"}
 {"assignmentId":"3WETL7AQWU239OI5X088Y5CKRQ135E","phrase":"look at subscriptions","version":"v3","webpage":"play.google.com","xid":371,"prediction":"371"}
@@ -972,12 +972,12 @@
 {"assignmentId":"3WETL7AQWU239OI5X088Y5CKRQ135E","phrase":"check settings","version":"v3","webpage":"play.google.com","xid":410,"prediction":"2603"}
 {"assignmentId":"3FQ5JJ512MIDVBWIM6WT98T8TXOKNX","phrase":"View Settings","version":"v3","webpage":"play.google.com","xid":411,"prediction":"409"}
 {"assignmentId":"34J10VATJGS7SDJM2V3Y0M9064LQIE","phrase":"Show me new music releases.","version":"v3","webpage":"play.google.com","xid":1765,"prediction":"1765"}
-{"assignmentId":"34J10VATJGS7SDJM2V3Y0M9064LQIE","phrase":"Click on the first item in my recommended list.","version":"v3","webpage":"play.google.com","xid":3531,"prediction":"5043"}
+{"assignmentId":"34J10VATJGS7SDJM2V3Y0M9064LQIE","phrase":"Click on the first item in my recommended list.","version":"v3","webpage":"play.google.com","xid":3531,"prediction":"1180"}
 {"assignmentId":"35LDD5557BY7DTBIA5HTWT48O7DKMW","phrase":"In the search field type Rhianna","version":"v3","webpage":"player.vimeo.com","xid":7,"prediction":"18"}
-{"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP17Q1H","phrase":"Search for videos","version":"v3","webpage":"player.vimeo.com","xid":7,"prediction":"368"}
+{"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP17Q1H","phrase":"Search for videos","version":"v3","webpage":"player.vimeo.com","xid":7,"prediction":"33"}
 {"assignmentId":"35LDD5557BY7DTBIA5HTWT48O7DKMW","phrase":"Click on the sign in button","version":"v3","webpage":"player.vimeo.com","xid":18,"prediction":"18"}
 {"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP17Q1H","phrase":"Click on Log in","version":"v3","webpage":"player.vimeo.com","xid":18,"prediction":"18"}
-{"assignmentId":"3H0W84IWBLWVO9W0JR27KXLDAXGERU","phrase":"hosting options","version":"v3","webpage":"player.vimeo.com","xid":20,"prediction":"25"}
+{"assignmentId":"3H0W84IWBLWVO9W0JR27KXLDAXGERU","phrase":"hosting options","version":"v3","webpage":"player.vimeo.com","xid":20,"prediction":"20"}
 {"assignmentId":"3H0W84IWBLWVO9W0JR27KXLDAXGERU","phrase":"sell content","version":"v3","webpage":"player.vimeo.com","xid":35,"prediction":"38"}
 {"assignmentId":"3TUI152ZZCHWS7NOUOIS8NSEP17Q1H","phrase":"Click on Sell","version":"v3","webpage":"player.vimeo.com","xid":35,"prediction":"38"}
 {"assignmentId":"35LDD5557BY7DTBIA5HTWT48O7DKMW","phrase":"Look for the tab that says Watch","version":"v3","webpage":"player.vimeo.com","xid":42,"prediction":"42"}
@@ -990,17 +990,17 @@
 {"assignmentId":"3H0W84IWBLWVO9W0JR27KXLDAXGERU","phrase":"change language","version":"v3","webpage":"player.vimeo.com","xid":478,"prediction":"477"}
 {"assignmentId":"35DR22AR5EECB72F36R3QO34KO9X3E","phrase":"sign up","version":"v3","webpage":"plus.google.com","xid":23,"prediction":"249"}
 {"assignmentId":"3YJ6NA41JCAINC2DK099CIYQENOJPS","phrase":"Find the join link and click it","version":"v3","webpage":"plus.google.com","xid":23,"prediction":"389"}
-{"assignmentId":"3570Y55XZQD25O4D3HKPSWZMQZ7GYA","phrase":"click on help","version":"v3","webpage":"plus.google.com","xid":30,"prediction":"28"}
+{"assignmentId":"3570Y55XZQD25O4D3HKPSWZMQZ7GYA","phrase":"click on help","version":"v3","webpage":"plus.google.com","xid":30,"prediction":"845"}
 {"assignmentId":"35DR22AR5EECB72F36R3QO34KO9X3E","phrase":"get help with Google Plus","version":"v3","webpage":"plus.google.com","xid":30,"prediction":"148"}
-{"assignmentId":"3YJ6NA41JCAINC2DK099CIYQENOJPS","phrase":"find the help button and click it","version":"v3","webpage":"plus.google.com","xid":30,"prediction":"306"}
-{"assignmentId":"3570Y55XZQD25O4D3HKPSWZMQZ7GYA","phrase":"click on search","version":"v3","webpage":"plus.google.com","xid":50,"prediction":"600"}
+{"assignmentId":"3YJ6NA41JCAINC2DK099CIYQENOJPS","phrase":"find the help button and click it","version":"v3","webpage":"plus.google.com","xid":30,"prediction":"389"}
+{"assignmentId":"3570Y55XZQD25O4D3HKPSWZMQZ7GYA","phrase":"click on search","version":"v3","webpage":"plus.google.com","xid":50,"prediction":"845"}
 {"assignmentId":"3570Y55XZQD25O4D3HKPSWZMQZ7GYA","phrase":"in the search box, type videos","version":"v3","webpage":"plus.google.com","xid":54,"prediction":"939"}
 {"assignmentId":"35DR22AR5EECB72F36R3QO34KO9X3E","phrase":"select search field","version":"v3","webpage":"plus.google.com","xid":54,"prediction":"84"}
 {"assignmentId":"3YJ6NA41JCAINC2DK099CIYQENOJPS","phrase":"Enter news in the search field","version":"v3","webpage":"plus.google.com","xid":54,"prediction":"116"}
 {"assignmentId":"3570Y55XZQD25O4D3HKPSWZMQZ7GYA","phrase":"click on google apps","version":"v3","webpage":"plus.google.com","xid":70,"prediction":"600"}
 {"assignmentId":"3570Y55XZQD25O4D3HKPSWZMQZ7GYA","phrase":"click on sign in","version":"v3","webpage":"plus.google.com","xid":249,"prediction":"249"}
 {"assignmentId":"35DR22AR5EECB72F36R3QO34KO9X3E","phrase":"log in","version":"v3","webpage":"plus.google.com","xid":249,"prediction":"939"}
-{"assignmentId":"3YJ6NA41JCAINC2DK099CIYQENOJPS","phrase":"Click the sign in option","version":"v3","webpage":"plus.google.com","xid":249,"prediction":"249"}
+{"assignmentId":"3YJ6NA41JCAINC2DK099CIYQENOJPS","phrase":"Click the sign in option","version":"v3","webpage":"plus.google.com","xid":249,"prediction":"257"}
 {"assignmentId":"3YJ6NA41JCAINC2DK099CIYQENOJPS","phrase":"Go under the third tab at the top","version":"v3","webpage":"plus.google.com","xid":282,"prediction":"304"}
 {"assignmentId":"35DR22AR5EECB72F36R3QO34KO9X3E","phrase":"select car","version":"v3","webpage":"plus.google.com","xid":334}
 {"assignmentId":"36TFCYNS454R5F9EIRG5UI4E3TQHX4","phrase":"go to my subreddits","version":"v3","webpage":"reddit.com","xid":17,"prediction":"644"}
@@ -1037,13 +1037,13 @@
 {"assignmentId":"3WETL7AQWU239OI5X088Y5CKRQ435H","phrase":"post some graphics","version":"v3","webpage":"slideshare.net","xid":32}
 {"assignmentId":"373ERPL3YP2XDSEX9MR2JJLED74TR0","phrase":"sign in","version":"v3","webpage":"slideshare.net","xid":34,"prediction":"692"}
 {"assignmentId":"3RGU30DZTB2C2950SKHHVE4V9IEMJ0","phrase":"Find the login button","version":"v3","webpage":"slideshare.net","xid":34,"prediction":"231"}
-{"assignmentId":"3WETL7AQWU239OI5X088Y5CKRQ435H","phrase":"get access to my account","version":"v3","webpage":"slideshare.net","xid":34,"prediction":"396"}
+{"assignmentId":"3WETL7AQWU239OI5X088Y5CKRQ435H","phrase":"get access to my account","version":"v3","webpage":"slideshare.net","xid":34,"prediction":"401"}
 {"assignmentId":"373ERPL3YP2XDSEX9MR2JJLED74TR0","phrase":"create an account","version":"v3","webpage":"slideshare.net","xid":36,"prediction":"247"}
 {"assignmentId":"3WETL7AQWU239OI5X088Y5CKRQ435H","phrase":"get a new account","version":"v3","webpage":"slideshare.net","xid":36,"prediction":"455"}
-{"assignmentId":"3RGU30DZTB2C2950SKHHVE4V9IEMJ0","phrase":"In the search field type presentation","version":"v3","webpage":"slideshare.net","xid":43,"prediction":"231"}
+{"assignmentId":"3RGU30DZTB2C2950SKHHVE4V9IEMJ0","phrase":"In the search field type presentation","version":"v3","webpage":"slideshare.net","xid":43,"prediction":"692"}
 {"assignmentId":"3RGU30DZTB2C2950SKHHVE4V9IEMJ0","phrase":"Click on the home page","version":"v3","webpage":"slideshare.net","xid":54,"prediction":"54"}
-{"assignmentId":"3WETL7AQWU239OI5X088Y5CKRQ435H","phrase":"return to the home page","version":"v3","webpage":"slideshare.net","xid":54,"prediction":"247"}
-{"assignmentId":"373ERPL3YP2XDSEX9MR2JJLED74TR0","phrase":"look at presentations","version":"v3","webpage":"slideshare.net","xid":61,"prediction":"177"}
+{"assignmentId":"3WETL7AQWU239OI5X088Y5CKRQ435H","phrase":"return to the home page","version":"v3","webpage":"slideshare.net","xid":54,"prediction":"234"}
+{"assignmentId":"373ERPL3YP2XDSEX9MR2JJLED74TR0","phrase":"look at presentations","version":"v3","webpage":"slideshare.net","xid":61,"prediction":"61"}
 {"assignmentId":"3WETL7AQWU239OI5X088Y5CKRQ435H","phrase":"take a class","version":"v3","webpage":"slideshare.net","xid":61,"prediction":"122"}
 {"assignmentId":"373ERPL3YP2XDSEX9MR2JJLED74TR0","phrase":"look at powerpoints","version":"v3","webpage":"slideshare.net","xid":64,"prediction":"106"}
 {"assignmentId":"3RGU30DZTB2C2950SKHHVE4V9IEMJ0","phrase":"Look for the most recent article","version":"v3","webpage":"slideshare.net","xid":177,"prediction":"679"}
@@ -1052,12 +1052,12 @@
 {"assignmentId":"3Z4AIRP3C77G14O0G2DK2VO7M5YX1R","phrase":"start go plus trial","version":"v3","webpage":"soundcloud.com","xid":46,"prediction":"51"}
 {"assignmentId":"39ZSFO5CA9QVFHA91M83MOLPM4IUJ1","phrase":"see the other slide","version":"v3","webpage":"soundcloud.com","xid":60,"prediction":"95"}
 {"assignmentId":"39ZSFO5CA9QVFHA91M83MOLPM4IUJ1","phrase":"check my account","version":"v3","webpage":"soundcloud.com","xid":63,"prediction":"19"}
-{"assignmentId":"3OS4RQUCRA90EGF7I50N20194CSFB0","phrase":"Search for the sign in option","version":"v3","webpage":"soundcloud.com","xid":63,"prediction":"295"}
+{"assignmentId":"3OS4RQUCRA90EGF7I50N20194CSFB0","phrase":"Search for the sign in option","version":"v3","webpage":"soundcloud.com","xid":63,"prediction":"63"}
 {"assignmentId":"3Z4AIRP3C77G14O0G2DK2VO7M5YX1R","phrase":"log in","version":"v3","webpage":"soundcloud.com","xid":63,"prediction":"18"}
 {"assignmentId":"3Z4AIRP3C77G14O0G2DK2VO7M5YX1R","phrase":"sign up","version":"v3","webpage":"soundcloud.com","xid":64,"prediction":"18"}
 {"assignmentId":"39ZSFO5CA9QVFHA91M83MOLPM4IUJ1","phrase":"look for my favorite band","version":"v3","webpage":"soundcloud.com","xid":70,"prediction":"46"}
 {"assignmentId":"3OS4RQUCRA90EGF7I50N20194CSFB0","phrase":"In the search box type Justin Timberlake","version":"v3","webpage":"soundcloud.com","xid":70,"prediction":"264"}
-{"assignmentId":"3Z4AIRP3C77G14O0G2DK2VO7M5YX1R","phrase":"select search field","version":"v3","webpage":"soundcloud.com","xid":70,"prediction":"15"}
+{"assignmentId":"3Z4AIRP3C77G14O0G2DK2VO7M5YX1R","phrase":"select search field","version":"v3","webpage":"soundcloud.com","xid":70,"prediction":"298"}
 {"assignmentId":"39ZSFO5CA9QVFHA91M83MOLPM4IUJ1","phrase":"post some music","version":"v3","webpage":"soundcloud.com","xid":72}
 {"assignmentId":"3Z4AIRP3C77G14O0G2DK2VO7M5YX1R","phrase":"upload content","version":"v3","webpage":"soundcloud.com","xid":72,"prediction":"21"}
 {"assignmentId":"3OS4RQUCRA90EGF7I50N20194CSFB0","phrase":"Click the first title of a band","version":"v3","webpage":"soundcloud.com","xid":93,"prediction":"95"}
@@ -1073,10 +1073,10 @@
 {"assignmentId":"3DHE4R9OCX5C43B6AWDUJSYHBLHG20","phrase":"Search for the topic business.","version":"v3","webpage":"sourceforge.net","xid":307,"prediction":"1014"}
 {"assignmentId":"3DHE4R9OCX5C43B6AWDUJSYHBLHG20","phrase":"Sign up for the website.","version":"v3","webpage":"sourceforge.net","xid":314,"prediction":"1014"}
 {"assignmentId":"3DHE4R9OCX5C43B6AWDUJSYHBLHG20","phrase":"View the first project of the month.","version":"v3","webpage":"sourceforge.net","xid":370,"prediction":"652"}
-{"assignmentId":"3EFVCAY5L43XHK3WYJ7YQW30PCL8JS","phrase":"see staff choice project","version":"v3","webpage":"sourceforge.net","xid":370,"prediction":"447"}
+{"assignmentId":"3EFVCAY5L43XHK3WYJ7YQW30PCL8JS","phrase":"see staff choice project","version":"v3","webpage":"sourceforge.net","xid":370,"prediction":"510"}
 {"assignmentId":"3EFVCAY5L43XHK3WYJ7YQW30PCL8JS","phrase":"check community choice reviews","version":"v3","webpage":"sourceforge.net","xid":399,"prediction":"376"}
 {"assignmentId":"3DHE4R9OCX5C43B6AWDUJSYHBLHG20","phrase":"View the website's most popular projects.","version":"v3","webpage":"sourceforge.net","xid":412,"prediction":"505"}
-{"assignmentId":"3EFVCAY5L43XHK3WYJ7YQW30PCL8JS","phrase":"see displaycal project","version":"v3","webpage":"sourceforge.net","xid":425,"prediction":"481"}
+{"assignmentId":"3EFVCAY5L43XHK3WYJ7YQW30PCL8JS","phrase":"see displaycal project","version":"v3","webpage":"sourceforge.net","xid":425,"prediction":"499"}
 {"assignmentId":"3EFVCAY5L43XHK3WYJ7YQW30PCL8JS","phrase":"see sourceforge link","version":"v3","webpage":"sourceforge.net","xid":543,"prediction":"370"}
 {"assignmentId":"39PAAFCODNUP6ZVEI6WCKGAHYLQVTK","phrase":"go to the homepage","version":"v3","webpage":"stanford.edu","xid":4,"prediction":"82"}
 {"assignmentId":"39PAAFCODNUP6ZVEI6WCKGAHYLQVTK","phrase":"click on the students link","version":"v3","webpage":"stanford.edu","xid":8,"prediction":"104"}
@@ -1087,20 +1087,20 @@
 {"assignmentId":"39PAAFCODNUP6ZVEI6WCKGAHYLQVTK","phrase":"In the search field type History","version":"v3","webpage":"stanford.edu","xid":15,"prediction":"15"}
 {"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M89BT","phrase":"search the stanford site","version":"v3","webpage":"stanford.edu","xid":15,"prediction":"82"}
 {"assignmentId":"3U5NZHP4LSWMW67NW06O05IB13UHPB","phrase":"learn about things going on","version":"v3","webpage":"stanford.edu","xid":24,"prediction":"36"}
-{"assignmentId":"3U5NZHP4LSWMW67NW06O05IB13UHPB","phrase":"check out the classes","version":"v3","webpage":"stanford.edu","xid":26,"prediction":"82"}
+{"assignmentId":"3U5NZHP4LSWMW67NW06O05IB13UHPB","phrase":"check out the classes","version":"v3","webpage":"stanford.edu","xid":26,"prediction":"126"}
 {"assignmentId":"3U5NZHP4LSWMW67NW06O05IB13UHPB","phrase":"learn about health","version":"v3","webpage":"stanford.edu","xid":30,"prediction":"362"}
 {"assignmentId":"39PAAFCODNUP6ZVEI6WCKGAHYLQVTK","phrase":"Find the Admission section","version":"v3","webpage":"stanford.edu","xid":34,"prediction":"34"}
 {"assignmentId":"39PAAFCODNUP6ZVEI6WCKGAHYLQVTK","phrase":"Look for the about section","version":"v3","webpage":"stanford.edu","xid":36,"prediction":"36"}
 {"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M89BT","phrase":"get the latest news","version":"v3","webpage":"stanford.edu","xid":69,"prediction":"22"}
-{"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M89BT","phrase":"copy an image by right clicking","version":"v3","webpage":"stanford.edu","xid":77,"prediction":"317"}
-{"assignmentId":"3OLF68YTNAVVV6AFCR0R7PH3M2HAFQ","phrase":"see videos","version":"v3","webpage":"ted.com","xid":28,"prediction":"43"}
+{"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M89BT","phrase":"copy an image by right clicking","version":"v3","webpage":"stanford.edu","xid":77,"prediction":"306"}
+{"assignmentId":"3OLF68YTNAVVV6AFCR0R7PH3M2HAFQ","phrase":"see videos","version":"v3","webpage":"ted.com","xid":28,"prediction":"39"}
 {"assignmentId":"3OLF68YTNAVVV6AFCR0R7PH3M2HAFQ","phrase":"go to a lecture","version":"v3","webpage":"ted.com","xid":74,"prediction":"543"}
 {"assignmentId":"3VD82FOHKRIDUYK6V8F80EG5E64OC3","phrase":"Search for how to attend a TED talk.","version":"v3","webpage":"ted.com","xid":74,"prediction":"209"}
 {"assignmentId":"3VD82FOHKRIDUYK6V8F80EG5E64OC3","phrase":"Search for how to volunteer for a TED talk.","version":"v3","webpage":"ted.com","xid":89,"prediction":"209"}
 {"assignmentId":"3OLF68YTNAVVV6AFCR0R7PH3M2HAFQ","phrase":"learn about the site","version":"v3","webpage":"ted.com","xid":112,"prediction":"858"}
 {"assignmentId":"3LEIZ60CDKTNV4RALXGYEMM1SPTZ9O","phrase":"find the login button","version":"v3","webpage":"ted.com","xid":155,"prediction":"197"}
 {"assignmentId":"3OLF68YTNAVVV6AFCR0R7PH3M2HAFQ","phrase":"search for something","version":"v3","webpage":"ted.com","xid":159,"prediction":"158"}
-{"assignmentId":"3VD82FOHKRIDUYK6V8F80EG5E64OC3","phrase":"Search for most popular talk in last week.","version":"v3","webpage":"ted.com","xid":159,"prediction":"209"}
+{"assignmentId":"3VD82FOHKRIDUYK6V8F80EG5E64OC3","phrase":"Search for most popular talk in last week.","version":"v3","webpage":"ted.com","xid":159,"prediction":"513"}
 {"assignmentId":"3LEIZ60CDKTNV4RALXGYEMM1SPTZ9O","phrase":"Click on the search button","version":"v3","webpage":"ted.com","xid":161,"prediction":"1066"}
 {"assignmentId":"3LEIZ60CDKTNV4RALXGYEMM1SPTZ9O","phrase":"click on the first article","version":"v3","webpage":"ted.com","xid":188,"prediction":"1066"}
 {"assignmentId":"3OLF68YTNAVVV6AFCR0R7PH3M2HAFQ","phrase":"watch the audacious project","version":"v3","webpage":"ted.com","xid":202,"prediction":"197"}
@@ -1112,17 +1112,17 @@
 {"assignmentId":"3IAS3U3I0GAGDM3VUALGIH7KVGX2BT","phrase":"watch something","version":"v3","webpage":"telegraph.co.uk","xid":105,"prediction":"2231"}
 {"assignmentId":"32UTUBMZ7HQPAD1XIK5RKM4VSEQBVA","phrase":"Subscribe","version":"v3","webpage":"telegraph.co.uk","xid":115,"prediction":"112"}
 {"assignmentId":"3IAS3U3I0GAGDM3VUALGIH7KVGX2BT","phrase":"start getting the newspaper","version":"v3","webpage":"telegraph.co.uk","xid":115,"prediction":"1375"}
-{"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9KMUHK","phrase":"Find the login button","version":"v3","webpage":"telegraph.co.uk","xid":123,"prediction":"927"}
+{"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9KMUHK","phrase":"Find the login button","version":"v3","webpage":"telegraph.co.uk","xid":123,"prediction":"3396"}
 {"assignmentId":"32UTUBMZ7HQPAD1XIK5RKM4VSEQBVA","phrase":"Login","version":"v3","webpage":"telegraph.co.uk","xid":124,"prediction":"120"}
 {"assignmentId":"32UTUBMZ7HQPAD1XIK5RKM4VSEQBVA","phrase":"Register","version":"v3","webpage":"telegraph.co.uk","xid":126,"prediction":"126"}
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9KMUHK","phrase":"Look for the button to register","version":"v3","webpage":"telegraph.co.uk","xid":126,"prediction":"704"}
 {"assignmentId":"3IAS3U3I0GAGDM3VUALGIH7KVGX2BT","phrase":"read about computers","version":"v3","webpage":"telegraph.co.uk","xid":150,"prediction":"3487"}
-{"assignmentId":"3IAS3U3I0GAGDM3VUALGIH7KVGX2BT","phrase":"read human interest stories","version":"v3","webpage":"telegraph.co.uk","xid":158,"prediction":"730"}
+{"assignmentId":"3IAS3U3I0GAGDM3VUALGIH7KVGX2BT","phrase":"read human interest stories","version":"v3","webpage":"telegraph.co.uk","xid":158,"prediction":"3449"}
 {"assignmentId":"32UTUBMZ7HQPAD1XIK5RKM4VSEQBVA","phrase":"Select Top Story","version":"v3","webpage":"telegraph.co.uk","xid":188,"prediction":"3449"}
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9KMUHK","phrase":"Click on the first news article","version":"v3","webpage":"telegraph.co.uk","xid":188,"prediction":"1099"}
 {"assignmentId":"32UTUBMZ7HQPAD1XIK5RKM4VSEQBVA","phrase":"Select Live Story","version":"v3","webpage":"telegraph.co.uk","xid":223,"prediction":"222"}
 {"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9KMUHK","phrase":"go to the social media link for twitter","version":"v3","webpage":"telegraph.co.uk","xid":522,"prediction":"704"}
-{"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9KMUHK","phrase":"Find the about section","version":"v3","webpage":"telegraph.co.uk","xid":3815,"prediction":"2154"}
+{"assignmentId":"35L9RVQFCPCZOBFJDM5IAB5A9KMUHK","phrase":"Find the about section","version":"v3","webpage":"telegraph.co.uk","xid":3815,"prediction":"3396"}
 {"assignmentId":"384PI804XTV8YYHJQ93XPIO52YR0SK","phrase":"Go to the homepage","version":"v3","webpage":"theguardian.com","xid":42,"prediction":"1142"}
 {"assignmentId":"384PI804XTV8YYHJQ93XPIO52YR0SK","phrase":"Click on the subscribe button","version":"v3","webpage":"theguardian.com","xid":48,"prediction":"1231"}
 {"assignmentId":"3BV8HQ2ZZXVZCDH4BYXNDJ4QTU16AO","phrase":"Subscribe to the page","version":"v3","webpage":"theguardian.com","xid":48,"prediction":"1744"}
@@ -1130,29 +1130,29 @@
 {"assignmentId":"384PI804XTV8YYHJQ93XPIO52YR0SK","phrase":"Go to the sign in option","version":"v3","webpage":"theguardian.com","xid":53,"prediction":"820"}
 {"assignmentId":"3BV8HQ2ZZXVZCDH4BYXNDJ4QTU16AO","phrase":"Click to search for something","version":"v3","webpage":"theguardian.com","xid":67,"prediction":"1142"}
 {"assignmentId":"3BV8HQ2ZZXVZCDH4BYXNDJ4QTU16AO","phrase":"Click on the news section","version":"v3","webpage":"theguardian.com","xid":72,"prediction":"1231"}
-{"assignmentId":"3S3AMIZX3VZMQ1TH5Z1SPK46AKECDV","phrase":"soccer news","version":"v3","webpage":"theguardian.com","xid":275,"prediction":"275"}
+{"assignmentId":"3S3AMIZX3VZMQ1TH5Z1SPK46AKECDV","phrase":"soccer news","version":"v3","webpage":"theguardian.com","xid":275,"prediction":"805"}
 {"assignmentId":"3S3AMIZX3VZMQ1TH5Z1SPK46AKECDV","phrase":"read tech news","version":"v3","webpage":"theguardian.com","xid":281,"prediction":"884"}
-{"assignmentId":"3S3AMIZX3VZMQ1TH5Z1SPK46AKECDV","phrase":"read science news","version":"v3","webpage":"theguardian.com","xid":283,"prediction":"72"}
-{"assignmentId":"3S3AMIZX3VZMQ1TH5Z1SPK46AKECDV","phrase":"read about homelessness","version":"v3","webpage":"theguardian.com","xid":285,"prediction":"1534"}
+{"assignmentId":"3S3AMIZX3VZMQ1TH5Z1SPK46AKECDV","phrase":"read science news","version":"v3","webpage":"theguardian.com","xid":283,"prediction":"1142"}
+{"assignmentId":"3S3AMIZX3VZMQ1TH5Z1SPK46AKECDV","phrase":"read about homelessness","version":"v3","webpage":"theguardian.com","xid":285,"prediction":"113"}
 {"assignmentId":"384PI804XTV8YYHJQ93XPIO52YR0SK","phrase":"Click the first article on the page","version":"v3","webpage":"theguardian.com","xid":410,"prediction":"1231"}
 {"assignmentId":"3BV8HQ2ZZXVZCDH4BYXNDJ4QTU16AO","phrase":"Play the featured video on the page","version":"v3","webpage":"theguardian.com","xid":1198,"prediction":"1231"}
 {"assignmentId":"3BV8HQ2ZZXVZCDH4BYXNDJ4QTU16AO","phrase":"Go back to the top of the page","version":"v3","webpage":"theguardian.com","xid":2058,"prediction":"1129"}
 {"assignmentId":"384PI804XTV8YYHJQ93XPIO52YR0SK","phrase":"Look for the about section","version":"v3","webpage":"theguardian.com","xid":2075,"prediction":"1705"}
 {"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8JVW0J","phrase":"view menu","version":"v3","webpage":"time.com","xid":14,"prediction":"495"}
 {"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M8B9V","phrase":"find the homepage","version":"v3","webpage":"time.com","xid":17,"prediction":"443"}
-{"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M8B9V","phrase":"Look for a login button","version":"v3","webpage":"time.com","xid":128,"prediction":"646"}
+{"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M8B9V","phrase":"Look for a login button","version":"v3","webpage":"time.com","xid":128,"prediction":"408"}
 {"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8JVW0J","phrase":"log in","version":"v3","webpage":"time.com","xid":128,"prediction":"717"}
 {"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8JVW0J","phrase":"subscribe to newsletter","version":"v3","webpage":"time.com","xid":130,"prediction":"1009"}
 {"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEVYPJO","phrase":"get the mag","version":"v3","webpage":"time.com","xid":130,"prediction":"80"}
 {"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M8B9V","phrase":"Click on the search button","version":"v3","webpage":"time.com","xid":162,"prediction":"733"}
-{"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M8B9V","phrase":"Click on the most recent article","version":"v3","webpage":"time.com","xid":173,"prediction":"187"}
+{"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M8B9V","phrase":"Click on the most recent article","version":"v3","webpage":"time.com","xid":173,"prediction":"290"}
 {"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEVYPJO","phrase":"read about trump","version":"v3","webpage":"time.com","xid":202,"prediction":"296"}
-{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8JVW0J","phrase":"view top story","version":"v3","webpage":"time.com","xid":438,"prediction":"260"}
+{"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8JVW0J","phrase":"view top story","version":"v3","webpage":"time.com","xid":438,"prediction":"493"}
 {"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEVYPJO","phrase":"read about facebook","version":"v3","webpage":"time.com","xid":438,"prediction":"640"}
 {"assignmentId":"3U088ZLJVLN15FYSAEDYM7RQ8JVW0J","phrase":"Top world story","version":"v3","webpage":"time.com","xid":603,"prediction":"97"}
 {"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEVYPJO","phrase":"read about coffee","version":"v3","webpage":"time.com","xid":604,"prediction":"605"}
-{"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEVYPJO","phrase":"read about syria","version":"v3","webpage":"time.com","xid":628,"prediction":"468"}
-{"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M8B9V","phrase":"Look for contact information","version":"v3","webpage":"time.com","xid":1021,"prediction":"345"}
+{"assignmentId":"3YJ6NA41JCAINC2DK099CIYQEVYPJO","phrase":"read about syria","version":"v3","webpage":"time.com","xid":628,"prediction":"531"}
+{"assignmentId":"3IXQG4FA2USRD6OUFJ0VS4FY1M8B9V","phrase":"Look for contact information","version":"v3","webpage":"time.com","xid":1021,"prediction":"94"}
 {"assignmentId":"3P4RDNWND60Q6QF975JP3LXES8RIJB","phrase":"Click TinyURL","version":"v3","webpage":"tinyurl.com","xid":3,"prediction":"64"}
 {"assignmentId":"3P4RDNWND60Q6QF975JP3LXES8RIJB","phrase":"Click Home","version":"v3","webpage":"tinyurl.com","xid":9,"prediction":"10"}
 {"assignmentId":"3DY4FPOOA2ICQKIMEHRHK19ZARHVRD","phrase":"Click on homepage","version":"v3","webpage":"tinyurl.com","xid":10,"prediction":"64"}
@@ -1184,7 +1184,7 @@
 {"assignmentId":"3TPWUS5F8AVLZ7T8MU6IH8TRH0LWCP","phrase":"Go to the home page","version":"v3","webpage":"tumblr.com","xid":575,"prediction":"70"}
 {"assignmentId":"3PDJHANYK6AEM0PIH47FU5RU6PSH6B","phrase":"select search field","version":"v3","webpage":"tumblr.com","xid":585,"prediction":"585"}
 {"assignmentId":"39O5D9O87UMO89RKCAVGCBIUJ7OC3W","phrase":"type in my user name","version":"v3","webpage":"twitter.com","xid":9,"prediction":"198"}
-{"assignmentId":"3G5W44VEU8C7LJFWZ2JYJOKBSKZGKG","phrase":"select login username field","version":"v3","webpage":"twitter.com","xid":9,"prediction":"232"}
+{"assignmentId":"3G5W44VEU8C7LJFWZ2JYJOKBSKZGKG","phrase":"select login username field","version":"v3","webpage":"twitter.com","xid":9,"prediction":"628"}
 {"assignmentId":"39O5D9O87UMO89RKCAVGCBIUJ7OC3W","phrase":"enter my password","version":"v3","webpage":"twitter.com","xid":11,"prediction":"13"}
 {"assignmentId":"3G5W44VEU8C7LJFWZ2JYJOKBSKZGKG","phrase":"select login password field","version":"v3","webpage":"twitter.com","xid":11,"prediction":"13"}
 {"assignmentId":"39O5D9O87UMO89RKCAVGCBIUJ7OC3W","phrase":"ask for a password hint","version":"v3","webpage":"twitter.com","xid":13,"prediction":"530"}
@@ -1219,15 +1219,15 @@
 {"assignmentId":"3PEIJLRY6UN92543DQ25VLE1IH2XWJ","phrase":"select validate by URI","version":"v3","webpage":"validator.w3.org","xid":21,"prediction":"11"}
 {"assignmentId":"3IGI0VL648EWL2HXKYOMGPAHD2XNOJ","phrase":"Backspace","version":"v3","webpage":"validator.w3.org","xid":24}
 {"assignmentId":"3GS6S824SRR4QBQZBKFWXJN3G3SWNY","phrase":"enter address abc","version":"v3","webpage":"validator.w3.org","xid":26}
-{"assignmentId":"3PEIJLRY6UN92543DQ25VLE1IH2XWJ","phrase":"Select address field","version":"v3","webpage":"validator.w3.org","xid":27}
+{"assignmentId":"3PEIJLRY6UN92543DQ25VLE1IH2XWJ","phrase":"Select address field","version":"v3","webpage":"validator.w3.org","xid":27,"prediction":"118"}
 {"assignmentId":"3IGI0VL648EWL2HXKYOMGPAHD2XNOJ","phrase":"Type","version":"v3","webpage":"validator.w3.org","xid":28,"prediction":"118"}
-{"assignmentId":"3GS6S824SRR4QBQZBKFWXJN3G3SWNY","phrase":"check address","version":"v3","webpage":"validator.w3.org","xid":144,"prediction":"144"}
-{"assignmentId":"3PEIJLRY6UN92543DQ25VLE1IH2XWJ","phrase":"click check","version":"v3","webpage":"validator.w3.org","xid":144,"prediction":"144"}
+{"assignmentId":"3GS6S824SRR4QBQZBKFWXJN3G3SWNY","phrase":"check address","version":"v3","webpage":"validator.w3.org","xid":144,"prediction":"269"}
+{"assignmentId":"3PEIJLRY6UN92543DQ25VLE1IH2XWJ","phrase":"click check","version":"v3","webpage":"validator.w3.org","xid":144,"prediction":"269"}
 {"assignmentId":"3IGI0VL648EWL2HXKYOMGPAHD2XNOJ","phrase":"Search","version":"v3","webpage":"validator.w3.org","xid":364}
 {"assignmentId":"3IGI0VL648EWL2HXKYOMGPAHD2XNOJ","phrase":"Click","version":"v3","webpage":"validator.w3.org","xid":379}
 {"assignmentId":"3GS6S824SRR4QBQZBKFWXJN3G3SWNY","phrase":"click on about","version":"v3","webpage":"validator.w3.org","xid":388,"prediction":"388"}
 {"assignmentId":"3GS6S824SRR4QBQZBKFWXJN3G3SWNY","phrase":"click on contribute","version":"v3","webpage":"validator.w3.org","xid":403,"prediction":"403"}
-{"assignmentId":"3GS6S824SRR4QBQZBKFWXJN3G3SWNY","phrase":"click on I love validator","version":"v3","webpage":"validator.w3.org","xid":411,"prediction":"371"}
+{"assignmentId":"3GS6S824SRR4QBQZBKFWXJN3G3SWNY","phrase":"click on I love validator","version":"v3","webpage":"validator.w3.org","xid":411,"prediction":"11"}
 {"assignmentId":"3OF2M9AATHI7C0A1PU7N4V0H3ASZKN","phrase":"In the search bar type cats","version":"v3","webpage":"vimeo.com","xid":7,"prediction":"18"}
 {"assignmentId":"3XXU1SWE8NP4Y2VP99H64IUZGRHA0T","phrase":"select search field","version":"v3","webpage":"vimeo.com","xid":7,"prediction":"62"}
 {"assignmentId":"3XXU1SWE8NP4Y2VP99H64IUZGRHA0T","phrase":"submit search","version":"v3","webpage":"vimeo.com","xid":8,"prediction":"62"}
@@ -1235,28 +1235,28 @@
 {"assignmentId":"3XXU1SWE8NP4Y2VP99H64IUZGRHA0T","phrase":"sign in","version":"v3","webpage":"vimeo.com","xid":18,"prediction":"18"}
 {"assignmentId":"3OF2M9AATHI7C0A1PU7N4V0H3ASZKN","phrase":"Click Watch and then Staff Picks","version":"v3","webpage":"vimeo.com","xid":45,"prediction":"45"}
 {"assignmentId":"3OF2M9AATHI7C0A1PU7N4V0H3ASZKN","phrase":"Click Upload","version":"v3","webpage":"vimeo.com","xid":51,"prediction":"51"}
-{"assignmentId":"3XXU1SWE8NP4Y2VP99H64IUZGRHA0T","phrase":"upload a video","version":"v3","webpage":"vimeo.com","xid":52,"prediction":"586"}
+{"assignmentId":"3XXU1SWE8NP4Y2VP99H64IUZGRHA0T","phrase":"upload a video","version":"v3","webpage":"vimeo.com","xid":52,"prediction":"51"}
 {"assignmentId":"3C8HJ7UOP8O22OA4A6K3J8SLSGWZM3","phrase":"Discover plans that are offered","version":"v3","webpage":"vimeo.com","xid":293,"prediction":"23"}
 {"assignmentId":"3OF2M9AATHI7C0A1PU7N4V0H3ASZKN","phrase":"Click Find a Plan","version":"v3","webpage":"vimeo.com","xid":293,"prediction":"293"}
 {"assignmentId":"3OF2M9AATHI7C0A1PU7N4V0H3ASZKN","phrase":"Click Join Free","version":"v3","webpage":"vimeo.com","xid":294,"prediction":"294"}
-{"assignmentId":"3C8HJ7UOP8O22OA4A6K3J8SLSGWZM3","phrase":"Where would I go to upload my videos","version":"v3","webpage":"vimeo.com","xid":329,"prediction":"51"}
+{"assignmentId":"3C8HJ7UOP8O22OA4A6K3J8SLSGWZM3","phrase":"Where would I go to upload my videos","version":"v3","webpage":"vimeo.com","xid":329,"prediction":"33"}
 {"assignmentId":"3C8HJ7UOP8O22OA4A6K3J8SLSGWZM3","phrase":"Open video to learn more","version":"v3","webpage":"vimeo.com","xid":985,"prediction":"1135"}
 {"assignmentId":"3C8HJ7UOP8O22OA4A6K3J8SLSGWZM3","phrase":"Check out frequently asked questions plase","version":"v3","webpage":"vimeo.com","xid":1287}
 {"assignmentId":"3C8HJ7UOP8O22OA4A6K3J8SLSGWZM3","phrase":"Learn more about privacy policy","version":"v3","webpage":"vimeo.com","xid":1296,"prediction":"132"}
 {"assignmentId":"3A9AA95ATXGAGDNSVY5FB8FLWMTP5C","phrase":"Find the sign in button","version":"v3","webpage":"virginmedia.com","xid":37,"prediction":"43"}
-{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IIV4EY","phrase":"expand bundle menu","version":"v3","webpage":"virginmedia.com","xid":82,"prediction":"103"}
+{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IIV4EY","phrase":"expand bundle menu","version":"v3","webpage":"virginmedia.com","xid":82,"prediction":"107"}
 {"assignmentId":"3A9AA95ATXGAGDNSVY5FB8FLWMTP5C","phrase":"Look for the section that has a list of packages","version":"v3","webpage":"virginmedia.com","xid":83,"prediction":"598"}
 {"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNDPN7V","phrase":"check out packages","version":"v3","webpage":"virginmedia.com","xid":83,"prediction":"812"}
-{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IIV4EY","phrase":"expand broadband menu","version":"v3","webpage":"virginmedia.com","xid":123,"prediction":"152"}
-{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IIV4EY","phrase":"expand tv menu","version":"v3","webpage":"virginmedia.com","xid":172,"prediction":"225"}
+{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IIV4EY","phrase":"expand broadband menu","version":"v3","webpage":"virginmedia.com","xid":123,"prediction":"156"}
+{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IIV4EY","phrase":"expand tv menu","version":"v3","webpage":"virginmedia.com","xid":172,"prediction":"73"}
 {"assignmentId":"3A9AA95ATXGAGDNSVY5FB8FLWMTP5C","phrase":"Click the tab that says TV","version":"v3","webpage":"virginmedia.com","xid":173,"prediction":"598"}
-{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IIV4EY","phrase":"expand phone menu","version":"v3","webpage":"virginmedia.com","xid":221,"prediction":"234"}
+{"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IIV4EY","phrase":"expand phone menu","version":"v3","webpage":"virginmedia.com","xid":221,"prediction":"236"}
 {"assignmentId":"38JBBYETQP4ON3U28F6UC4A3IIV4EY","phrase":"expand mobile menu","version":"v3","webpage":"virginmedia.com","xid":252,"prediction":"309"}
 {"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNDPN7V","phrase":"see what's available on my android","version":"v3","webpage":"virginmedia.com","xid":252,"prediction":"794"}
 {"assignmentId":"3A9AA95ATXGAGDNSVY5FB8FLWMTP5C","phrase":"Enter zipcode in the search box","version":"v3","webpage":"virginmedia.com","xid":473,"prediction":"148"}
 {"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNDPN7V","phrase":"see what's in my area","version":"v3","webpage":"virginmedia.com","xid":473,"prediction":"794"}
 {"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNDPN7V","phrase":"call for help","version":"v3","webpage":"virginmedia.com","xid":495,"prediction":"168"}
-{"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNDPN7V","phrase":"find a local place","version":"v3","webpage":"virginmedia.com","xid":514,"prediction":"31"}
+{"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNDPN7V","phrase":"find a local place","version":"v3","webpage":"virginmedia.com","xid":514,"prediction":"384"}
 {"assignmentId":"3A9AA95ATXGAGDNSVY5FB8FLWMTP5C","phrase":"Go to the locations part of the site","version":"v3","webpage":"virginmedia.com","xid":516,"prediction":"575"}
 {"assignmentId":"3XLBSAQ9Z56JHL3H60IE0QVVXZE7ZT","phrase":"search","version":"v3","webpage":"vk.com","xid":39,"prediction":"47"}
 {"assignmentId":"3OHYZ19UGDZP1JN8BUJHUJQHE38AOC","phrase":"Enter Email","version":"v3","webpage":"vk.com","xid":102,"prediction":"73"}
@@ -1269,9 +1269,9 @@
 {"assignmentId":"3WS1NTTKEZ6ZUTCXKP3YIJ5QDG5F04","phrase":"try to remember my login credentials","version":"v3","webpage":"vk.com","xid":107,"prediction":"51"}
 {"assignmentId":"3XLBSAQ9Z56JHL3H60IE0QVVXZE7ZT","phrase":"enter first name","version":"v3","webpage":"vk.com","xid":112,"prediction":"112"}
 {"assignmentId":"3WS1NTTKEZ6ZUTCXKP3YIJ5QDG5F04","phrase":"get app for android","version":"v3","webpage":"vk.com","xid":201,"prediction":"197"}
-{"assignmentId":"3WS1NTTKEZ6ZUTCXKP3YIJ5QDG5F04","phrase":"get app for windows","version":"v3","webpage":"vk.com","xid":207,"prediction":"209"}
+{"assignmentId":"3WS1NTTKEZ6ZUTCXKP3YIJ5QDG5F04","phrase":"get app for windows","version":"v3","webpage":"vk.com","xid":207,"prediction":"197"}
 {"assignmentId":"3OHYZ19UGDZP1JN8BUJHUJQHE38AOC","phrase":"For iPhone","version":"v3","webpage":"vk.com","xid":213,"prediction":"209"}
-{"assignmentId":"3WS1NTTKEZ6ZUTCXKP3YIJ5QDG5F04","phrase":"get app for iphone","version":"v3","webpage":"vk.com","xid":213,"prediction":"209"}
+{"assignmentId":"3WS1NTTKEZ6ZUTCXKP3YIJ5QDG5F04","phrase":"get app for iphone","version":"v3","webpage":"vk.com","xid":213,"prediction":"197"}
 {"assignmentId":"3OHYZ19UGDZP1JN8BUJHUJQHE38AOC","phrase":"View All Products","version":"v3","webpage":"vk.com","xid":215,"prediction":"215"}
 {"assignmentId":"351SEKWQS1BZZN58IOV6SG9I4YHDMD","phrase":"Enter the Southwest region into the search bar.","version":"v3","webpage":"w3.org","xid":10,"prediction":"316"}
 {"assignmentId":"351SEKWQS1BZZN58IOV6SG9I4YHDMD","phrase":"Open the mobile version of the website.","version":"v3","webpage":"w3.org","xid":50,"prediction":"178"}
@@ -1284,13 +1284,13 @@
 {"assignmentId":"3U4J9857OF5NZN010M2BE8OS6OA7BP","phrase":"Click the search button","version":"v3","webpage":"w3.org","xid":66,"prediction":"316"}
 {"assignmentId":"351SEKWQS1BZZN58IOV6SG9I4YHDMD","phrase":"Sign up for the website.","version":"v3","webpage":"w3.org","xid":149,"prediction":"549"}
 {"assignmentId":"3U4J9857OF5NZN010M2BE8OS6OA7BP","phrase":"Find the most current article","version":"v3","webpage":"w3.org","xid":184,"prediction":"316"}
-{"assignmentId":"351SEKWQS1BZZN58IOV6SG9I4YHDMD","phrase":"Open the site's list of events.","version":"v3","webpage":"w3.org","xid":356,"prediction":"178"}
-{"assignmentId":"3U4J9857OF5NZN010M2BE8OS6OA7BP","phrase":"Look for any upcoming event","version":"v3","webpage":"w3.org","xid":356,"prediction":"523"}
+{"assignmentId":"351SEKWQS1BZZN58IOV6SG9I4YHDMD","phrase":"Open the site's list of events.","version":"v3","webpage":"w3.org","xid":356,"prediction":"248"}
+{"assignmentId":"3U4J9857OF5NZN010M2BE8OS6OA7BP","phrase":"Look for any upcoming event","version":"v3","webpage":"w3.org","xid":356,"prediction":"316"}
 {"assignmentId":"3R2UR8A0IBA1XWV1M4BVER1FFG9OX6","phrase":"read blog","version":"v3","webpage":"w3.org","xid":506,"prediction":"506"}
 {"assignmentId":"3U4J9857OF5NZN010M2BE8OS6OA7BP","phrase":"Click the social media link","version":"v3","webpage":"w3.org","xid":605,"prediction":"316"}
 {"assignmentId":"3RRCEFRB7N6QG0IIYO44BW4IFUT4BR","phrase":"Look for the search button","version":"v3","webpage":"washingtonpost.com","xid":62,"prediction":"1171"}
 {"assignmentId":"3I33IC7ZWGWBUCY3OWLKN6NEDYCA26","phrase":"Show me the sections that the paper offers","version":"v3","webpage":"washingtonpost.com","xid":64,"prediction":"817"}
-{"assignmentId":"3F6KKYWMNCV5H5Q8UPA65VYI9W0NDC","phrase":"check on the redskins","version":"v3","webpage":"washingtonpost.com","xid":77,"prediction":"1174"}
+{"assignmentId":"3F6KKYWMNCV5H5Q8UPA65VYI9W0NDC","phrase":"check on the redskins","version":"v3","webpage":"washingtonpost.com","xid":77,"prediction":"1026"}
 {"assignmentId":"3I33IC7ZWGWBUCY3OWLKN6NEDYCA26","phrase":"Go to the local section","version":"v3","webpage":"washingtonpost.com","xid":79,"prediction":"1202"}
 {"assignmentId":"3F6KKYWMNCV5H5Q8UPA65VYI9W0NDC","phrase":"see what's going on in technology","version":"v3","webpage":"washingtonpost.com","xid":87,"prediction":"1174"}
 {"assignmentId":"3F6KKYWMNCV5H5Q8UPA65VYI9W0NDC","phrase":"get the paper","version":"v3","webpage":"washingtonpost.com","xid":107,"prediction":"1364"}
@@ -1299,10 +1299,10 @@
 {"assignmentId":"3I33IC7ZWGWBUCY3OWLKN6NEDYCA26","phrase":"Sign into my user profile","version":"v3","webpage":"washingtonpost.com","xid":115,"prediction":"276"}
 {"assignmentId":"3RRCEFRB7N6QG0IIYO44BW4IFUT4BR","phrase":"Find the log in button","version":"v3","webpage":"washingtonpost.com","xid":116,"prediction":"1368"}
 {"assignmentId":"3RRCEFRB7N6QG0IIYO44BW4IFUT4BR","phrase":"Go to the homepage","version":"v3","webpage":"washingtonpost.com","xid":202,"prediction":"1368"}
-{"assignmentId":"3F6KKYWMNCV5H5Q8UPA65VYI9W0NDC","phrase":"read my local version","version":"v3","webpage":"washingtonpost.com","xid":219,"prediction":"1241"}
+{"assignmentId":"3F6KKYWMNCV5H5Q8UPA65VYI9W0NDC","phrase":"read my local version","version":"v3","webpage":"washingtonpost.com","xid":219,"prediction":"1200"}
 {"assignmentId":"3F6KKYWMNCV5H5Q8UPA65VYI9W0NDC","phrase":"see what's news","version":"v3","webpage":"washingtonpost.com","xid":229,"prediction":"1395"}
-{"assignmentId":"3RRCEFRB7N6QG0IIYO44BW4IFUT4BR","phrase":"Click on the first article","version":"v3","webpage":"washingtonpost.com","xid":276,"prediction":"1368"}
-{"assignmentId":"3I33IC7ZWGWBUCY3OWLKN6NEDYCA26","phrase":"Tell me about the story labeled developing","version":"v3","webpage":"washingtonpost.com","xid":362,"prediction":"941"}
+{"assignmentId":"3RRCEFRB7N6QG0IIYO44BW4IFUT4BR","phrase":"Click on the first article","version":"v3","webpage":"washingtonpost.com","xid":276,"prediction":"817"}
+{"assignmentId":"3I33IC7ZWGWBUCY3OWLKN6NEDYCA26","phrase":"Tell me about the story labeled developing","version":"v3","webpage":"washingtonpost.com","xid":362,"prediction":"1017"}
 {"assignmentId":"3M1CVSFP61ZSMV0OQ7BLJOLHT4QQA0","phrase":"In the search field type subscribe","version":"v3","webpage":"web.archive.org","xid":290,"prediction":"26"}
 {"assignmentId":"3M1CVSFP61ZSMV0OQ7BLJOLHT4QQA0","phrase":"Find the upload button","version":"v3","webpage":"web.archive.org","xid":309,"prediction":"308"}
 {"assignmentId":"3R5F3LQFV3EQ2RVGNMZGBCHQNOFOZR","phrase":"upload","version":"v3","webpage":"web.archive.org","xid":309,"prediction":"308"}
@@ -1318,10 +1318,10 @@
 {"assignmentId":"3R5F3LQFV3EQ2RVGNMZGBCHQNOFOZR","phrase":"donate money","version":"v3","webpage":"web.archive.org","xid":362,"prediction":"277"}
 {"assignmentId":"3R5F3LQFV3EQ2RVGNMZGBCHQNOFOZR","phrase":"save the page","version":"v3","webpage":"web.archive.org","xid":560,"prediction":"556"}
 {"assignmentId":"3M1CVSFP61ZSMV0OQ7BLJOLHT4QQA0","phrase":"Find contact information","version":"v3","webpage":"web.archive.org","xid":565,"prediction":"565"}
-{"assignmentId":"3QEMNNSB2YTGEKYLEITH9YCS9HW7DM","phrase":"go to home page","version":"v3","webpage":"weebly.html","xid":70,"prediction":"352"}
-{"assignmentId":"3R2PKQ87NX2G7YLUA2WHJDPVW3RMIQ","phrase":"go to the home page","version":"v3","webpage":"weebly.html","xid":70,"prediction":"352"}
+{"assignmentId":"3QEMNNSB2YTGEKYLEITH9YCS9HW7DM","phrase":"go to home page","version":"v3","webpage":"weebly.html","xid":70,"prediction":"469"}
+{"assignmentId":"3R2PKQ87NX2G7YLUA2WHJDPVW3RMIQ","phrase":"go to the home page","version":"v3","webpage":"weebly.html","xid":70,"prediction":"469"}
 {"assignmentId":"31QTRG6Q2U78I1XC60ACM5DERZ7YPR","phrase":"Go to the homepage","version":"v3","webpage":"weebly.html","xid":71,"prediction":"243"}
-{"assignmentId":"3QEMNNSB2YTGEKYLEITH9YCS9HW7DM","phrase":"start a site","version":"v3","webpage":"weebly.html","xid":75,"prediction":"151"}
+{"assignmentId":"3QEMNNSB2YTGEKYLEITH9YCS9HW7DM","phrase":"start a site","version":"v3","webpage":"weebly.html","xid":75,"prediction":"395"}
 {"assignmentId":"3R2PKQ87NX2G7YLUA2WHJDPVW3RMIQ","phrase":"see what's there already","version":"v3","webpage":"weebly.html","xid":75,"prediction":"98"}
 {"assignmentId":"3QEMNNSB2YTGEKYLEITH9YCS9HW7DM","phrase":"get a store","version":"v3","webpage":"weebly.html","xid":76,"prediction":"395"}
 {"assignmentId":"34T446B1C18SRHSNTNDXADKNGV40CP","phrase":"Click on the option that says Pricing","version":"v3","webpage":"weebly.html","xid":77,"prediction":"77"}
@@ -1329,10 +1329,10 @@
 {"assignmentId":"3QEMNNSB2YTGEKYLEITH9YCS9HW7DM","phrase":"find out costs","version":"v3","webpage":"weebly.html","xid":77}
 {"assignmentId":"3R2PKQ87NX2G7YLUA2WHJDPVW3RMIQ","phrase":"find out what it'll cost me","version":"v3","webpage":"weebly.html","xid":77,"prediction":"671"}
 {"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9T9R41F","phrase":"read about pricing plans","version":"v3","webpage":"weebly.html","xid":77,"prediction":"77"}
-{"assignmentId":"3QEMNNSB2YTGEKYLEITH9YCS9HW7DM","phrase":"get a domain name","version":"v3","webpage":"weebly.html","xid":78,"prediction":"417"}
+{"assignmentId":"3QEMNNSB2YTGEKYLEITH9YCS9HW7DM","phrase":"get a domain name","version":"v3","webpage":"weebly.html","xid":78,"prediction":"395"}
 {"assignmentId":"31QTRG6Q2U78I1XC60ACM5DERZ7YPR","phrase":"find the login button","version":"v3","webpage":"weebly.html","xid":83,"prediction":"83"}
 {"assignmentId":"34T446B1C18SRHSNTNDXADKNGV40CP","phrase":"Press the log in button","version":"v3","webpage":"weebly.html","xid":83,"prediction":"83"}
-{"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNLX7N3","phrase":"Log In to the website","version":"v3","webpage":"weebly.html","xid":83,"prediction":"83"}
+{"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNLX7N3","phrase":"Log In to the website","version":"v3","webpage":"weebly.html","xid":83,"prediction":"102"}
 {"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9T9R41F","phrase":"sign in","version":"v3","webpage":"weebly.html","xid":83,"prediction":"84"}
 {"assignmentId":"31QTRG6Q2U78I1XC60ACM5DERZ7YPR","phrase":"Look for the sign up button","version":"v3","webpage":"weebly.html","xid":84,"prediction":"84"}
 {"assignmentId":"34T446B1C18SRHSNTNDXADKNGV40CP","phrase":"Find the sign up option","version":"v3","webpage":"weebly.html","xid":84,"prediction":"84"}
@@ -1340,11 +1340,11 @@
 {"assignmentId":"3R2PKQ87NX2G7YLUA2WHJDPVW3RMIQ","phrase":"get into my account","version":"v3","webpage":"weebly.html","xid":84,"prediction":"395"}
 {"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9T9R41F","phrase":"create account","version":"v3","webpage":"weebly.html","xid":84,"prediction":"151"}
 {"assignmentId":"34T446B1C18SRHSNTNDXADKNGV40CP","phrase":"go to the get started link for websites","version":"v3","webpage":"weebly.html","xid":155,"prediction":"417"}
-{"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNLX7N3","phrase":"Get started building website","version":"v3","webpage":"weebly.html","xid":155,"prediction":"395"}
-{"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9T9R41F","phrase":"start a website","version":"v3","webpage":"weebly.html","xid":155,"prediction":"151"}
-{"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNLX7N3","phrase":"Create an Online Store","version":"v3","webpage":"weebly.html","xid":162,"prediction":"158"}
+{"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNLX7N3","phrase":"Get started building website","version":"v3","webpage":"weebly.html","xid":155,"prediction":"417"}
+{"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9T9R41F","phrase":"start a website","version":"v3","webpage":"weebly.html","xid":155,"prediction":"395"}
+{"assignmentId":"3OWEPKL08A6P0WPY3C7K53OMNLX7N3","phrase":"Create an Online Store","version":"v3","webpage":"weebly.html","xid":162,"prediction":"76"}
 {"assignmentId":"3R2PKQ87NX2G7YLUA2WHJDPVW3RMIQ","phrase":"get my store started","version":"v3","webpage":"weebly.html","xid":162,"prediction":"395"}
-{"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9T9R41F","phrase":"start an online store","version":"v3","webpage":"weebly.html","xid":162,"prediction":"180"}
+{"assignmentId":"3YDTZAI2WYAP320QWRBF5KR9T9R41F","phrase":"start an online store","version":"v3","webpage":"weebly.html","xid":162,"prediction":"76"}
 {"assignmentId":"34T446B1C18SRHSNTNDXADKNGV40CP","phrase":"Look for the get help button","version":"v3","webpage":"weebly.html","xid":612,"prediction":"99"}
 {"assignmentId":"31QTRG6Q2U78I1XC60ACM5DERZ7YPR","phrase":"Find the contact information","version":"v3","webpage":"weebly.html","xid":632,"prediction":"632"}
 {"assignmentId":"31QTRG6Q2U78I1XC60ACM5DERZ7YPR","phrase":"Click on the social media link for Facebook","version":"v3","webpage":"weebly.html","xid":645,"prediction":"643"}
@@ -1380,7 +1380,7 @@
 {"assignmentId":"3VE8AYVF8NRHCIH0FTGDBYB8WEI8FL","phrase":"Find the contact information","version":"v3","webpage":"wikipedia.org2","xid":890,"prediction":"132"}
 {"assignmentId":"3QECW5O0KIV885GZCFEZGIGILXOT5B","phrase":"Go to the homepage","version":"v3","webpage":"wired.com2","xid":13,"prediction":"800"}
 {"assignmentId":"37Q970SNZF285N21MS7X3N7F7Y61SD","phrase":"sign in to the site","version":"v3","webpage":"wired.com2","xid":17,"prediction":"17"}
-{"assignmentId":"3QECW5O0KIV885GZCFEZGIGILXOT5B","phrase":"Look for the login button","version":"v3","webpage":"wired.com2","xid":17,"prediction":"283"}
+{"assignmentId":"3QECW5O0KIV885GZCFEZGIGILXOT5B","phrase":"Look for the login button","version":"v3","webpage":"wired.com2","xid":17,"prediction":"800"}
 {"assignmentId":"3IX2EGZR7CD3ZPISXSDYHDY5FDMRJI","phrase":"get the magazine","version":"v3","webpage":"wired.com2","xid":21,"prediction":"107"}
 {"assignmentId":"37Q970SNZF285N21MS7X3N7F7Y61SD","phrase":"in the search box, look up tesla","version":"v3","webpage":"wired.com2","xid":23,"prediction":"444"}
 {"assignmentId":"3IX2EGZR7CD3ZPISXSDYHDY5FDMRJI","phrase":"look for interesting articles","version":"v3","webpage":"wired.com2","xid":23,"prediction":"260"}
@@ -1388,7 +1388,7 @@
 {"assignmentId":"3IX2EGZR7CD3ZPISXSDYHDY5FDMRJI","phrase":"see neat stuff","version":"v3","webpage":"wired.com2","xid":31}
 {"assignmentId":"3IX2EGZR7CD3ZPISXSDYHDY5FDMRJI","phrase":"read about facebook privacy","version":"v3","webpage":"wired.com2","xid":173,"prediction":"480"}
 {"assignmentId":"3QECW5O0KIV885GZCFEZGIGILXOT5B","phrase":"Click on the first article on the page","version":"v3","webpage":"wired.com2","xid":173,"prediction":"644"}
-{"assignmentId":"3IX2EGZR7CD3ZPISXSDYHDY5FDMRJI","phrase":"read about smartphones","version":"v3","webpage":"wired.com2","xid":308,"prediction":"834"}
+{"assignmentId":"3IX2EGZR7CD3ZPISXSDYHDY5FDMRJI","phrase":"read about smartphones","version":"v3","webpage":"wired.com2","xid":308,"prediction":"699"}
 {"assignmentId":"37Q970SNZF285N21MS7X3N7F7Y61SD","phrase":"click on the twitter link","version":"v3","webpage":"wired.com2","xid":1077,"prediction":"456"}
 {"assignmentId":"3QECW5O0KIV885GZCFEZGIGILXOT5B","phrase":"Click on the social media link for Instagram","version":"v3","webpage":"wired.com2","xid":1086,"prediction":"644"}
 {"assignmentId":"37Q970SNZF285N21MS7X3N7F7Y61SD","phrase":"go to the site's customer service","version":"v3","webpage":"wired.com2","xid":1101,"prediction":"800"}
@@ -1436,7 +1436,7 @@
 {"assignmentId":"3CP1TO84PUVEO6MMT0U3FV7SLBY25X","phrase":"check financial news","version":"v3","webpage":"yahoo.com","xid":144,"prediction":"141"}
 {"assignmentId":"37WLF8U1WQK5OQQQNPAC7X7MY71K6P","phrase":"Go to the first article and click on it","version":"v3","webpage":"yahoo.com","xid":244,"prediction":"84"}
 {"assignmentId":"3K772S5NP95IZFIXNMQD6TJ7NPSEH9","phrase":"click on the second article","version":"v3","webpage":"yahoo.com","xid":261,"prediction":"84"}
-{"assignmentId":"3K772S5NP95IZFIXNMQD6TJ7NPSEH9","phrase":"select the third article","version":"v3","webpage":"yahoo.com","xid":265,"prediction":"87"}
+{"assignmentId":"3K772S5NP95IZFIXNMQD6TJ7NPSEH9","phrase":"select the third article","version":"v3","webpage":"yahoo.com","xid":265,"prediction":"84"}
 {"assignmentId":"3K772S5NP95IZFIXNMQD6TJ7NPSEH9","phrase":"under trending now, click on WWE Wrestlemania","version":"v3","webpage":"yahoo.com","xid":563,"prediction":"561"}
 {"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB920WDW5","phrase":"select search field","version":"v3","webpage":"youtube.com","xid":59,"prediction":"66"}
 {"assignmentId":"3Y4W8Q93L0EIPAZHWGWXFCSVVT8DVD","phrase":"search for magic tricks","version":"v3","webpage":"youtube.com","xid":59,"prediction":"66"}
@@ -1449,7 +1449,7 @@
 {"assignmentId":"3Y4W8Q93L0EIPAZHWGWXFCSVVT8DVD","phrase":"subscribe to cat tuber channel","version":"v3","webpage":"youtube.com","xid":464,"prediction":"451"}
 {"assignmentId":"39L1G8WVWRL4L6HMWD6WVFZ3F9T31R","phrase":"Go Home","version":"v3","webpage":"youtube.com","xid":1585,"prediction":"724"}
 {"assignmentId":"39L1G8WVWRL4L6HMWD6WVFZ3F9T31R","phrase":"Tell me what is trending","version":"v3","webpage":"youtube.com","xid":1595,"prediction":"145"}
-{"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB920WDW5","phrase":"watch trending videos","version":"v3","webpage":"youtube.com","xid":1595,"prediction":"145"}
+{"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB920WDW5","phrase":"watch trending videos","version":"v3","webpage":"youtube.com","xid":1595,"prediction":"1678"}
 {"assignmentId":"3Y4W8Q93L0EIPAZHWGWXFCSVVT8DVD","phrase":"browse history","version":"v3","webpage":"youtube.com","xid":1605,"prediction":"1599"}
 {"assignmentId":"3IAEQB9FMFEV4ZZMMQ1T1EB920WDW5","phrase":"find gaming content","version":"v3","webpage":"youtube.com","xid":1634,"prediction":"1630"}
 {"assignmentId":"3Y4W8Q93L0EIPAZHWGWXFCSVVT8DVD","phrase":"click on youtube red","version":"v3","webpage":"youtube.com","xid":1716,"prediction":"850"}

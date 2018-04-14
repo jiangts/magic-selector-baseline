@@ -21,7 +21,7 @@ var baseline = function(text, html) {
   var tokenize = s => s.replace(/([A-Z])/g, ' $1').trim()
     .toLowerCase().split(/[^\wA-Z]/g).reduce((o,e) => {
       if (e === '') return o
-      // e = stemmer(e)
+      e = stemmer(e)
       if (e in o) { o[e]+=1 }
       else { o[e]=1 }
       return o
