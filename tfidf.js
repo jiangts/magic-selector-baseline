@@ -1,6 +1,6 @@
 const natural = require('natural');
 const fs = require('fs')
-const stemmer = require('porter-stemmer').stemmer
+const tokenize = require('./utils').tokenize
 
 
 const DATA_FILE = 'dataset/data/v3.jsonl'
@@ -18,11 +18,9 @@ var dataset = fs.readFileSync(DATA_FILE).toString().split('\n')
       return null
     }
   })
+  .filter(s=>!!s)
+//.filter(s=>s.webpage === 'about.com')
 
-
-var tokenize = s => s.replace(/([A-Z])/g, ' $1').trim()
-  .toLowerCase().split(/[^\wA-Z]/g).filter(e => e.length > 1)
-  .map(s=>stemmer(s))
 
 
 var TfIdf = natural.TfIdf;
@@ -35,8 +33,8 @@ var counter = 0
 for(var i = 0; i < documents.length; i++) {
   var doc = documents[i];
   doc.map(d => {
-    // var words = tokenize(d.attrs + ',' + d.text)
-    var words = tokenize(d.text)
+    //var words = d.attrs + ',' + d.text
+    var words = d.text
     tfidf.addDocument(words)
     tfidfMap[counter] = {
       xid: d.xid,
@@ -46,10 +44,13 @@ for(var i = 0; i < documents.length; i++) {
   })
 }
 
+
+
+
 for(var i = 0; i < dataset.length; i++) {
   var data = dataset[i];
   if(data) {
-    var words = tokenize(data.phrase)
+    var words = tokenize((data.phrase+' ').repeat(3) + data.attrs)
     tfidf.addDocument(words)
   }
 }

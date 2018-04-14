@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const fs = require('fs');
-const stemmer = require('porter-stemmer').stemmer
+const Tokenizer = require('tokenize-text');
+const tokenize = require('./utils').tokenize
+
 
 
 
@@ -20,6 +22,8 @@ var dataset = fs.readFileSync(DATA_FILE).toString().split('\n')
       return null
     }
   })
+  .filter(s=>!!s)
+// .filter(s=>s.webpage === 'about.com')
 
 
 var files = Object.keys(dataset.reduce((o, d) => {
@@ -42,6 +46,7 @@ var renderMap = function(visibility) {
 }
 
 
+
 var documents =
   files.map(f => {
     return [f, fs.readFileSync(PAGE_PATH(f)).toString()]
@@ -57,17 +62,25 @@ var documents =
     return $('body :not(script)')
       .filter((i, elem) => {
         var tag = elem.tagName.toLowerCase();
-        var render = renderInfo[$(elem).attr('data-xid')]
-        var rendered = (render && 'hidden' in render && 'topLevel' in render) &&
+        var xid = $(elem).attr('data-xid')
+        var render = renderInfo[xid]
+        var rendered = (render && 'hidden' in render // && 'topLevel' in render
+        && 'width' in render && 'height' in render) ?
           // render.width fails if width is 0. same for height
           (render.width && render.height) &&
-          (render.hidden === false && render.topLevel === true)
-        return rendered && (blacklistElements.indexOf(tag) < 0) && (whitelistElements.indexOf(tag) >= 0 || elem.children.length === 0)
+          (render.hidden === false /*&& render.topLevel === true*/) :
+          true;
+
+        var keep = rendered && (blacklistElements.indexOf(tag) < 0) && (whitelistElements.indexOf(tag) >= 0 || $(elem).children().length === 0)
+
+        return keep
       })
       .map((i, el) => {
         var attrs = []
         for (var nm in el.attribs) {
-          if(nm && nm.includes('class') ||
+          if(nm &&
+            nm==='class' ||
+            nm==='id' ||
             nm.includes('label') ||
             nm.includes('tooltip') ||
             nm.includes('src') ||
@@ -77,9 +90,9 @@ var documents =
         }
         el = $(el)
         return {
-          attrs: attrs.join(','),
+          attrs: tokenize(attrs.join(',')),
           // text: (',' +el.text().trim()).repeat(3),
-          text: el.text().trim(),
+          text: tokenize(el.text().trim()),
           xid: el.attr('data-xid'),
           file: file
         }

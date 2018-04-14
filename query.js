@@ -1,6 +1,6 @@
 const natural = require('natural');
 const fs = require('fs')
-const stemmer = require('porter-stemmer').stemmer
+var tokenize = require('./utils').tokenize
 
 
 const DATA_FILE = 'dataset/data/v3.jsonl'
@@ -21,11 +21,6 @@ function argMax(array) {
 const mapIdx = (array) => array.map((x, i) => [x, i])
 
 
-var tokenize = s => s.replace(/([A-Z])/g, ' $1').trim()
-  .toLowerCase().split(/[^\wA-Z]/g).filter(e => e.length > 1)
-  .map(s=>stemmer(s))
-
-
 var baseline = (o) => {
   var query = tokenize(o.phrase)
   var scores = mapIdx(tfidf.tfidfs(query)).sort((a,b)=>b[0]-a[0])
@@ -35,14 +30,24 @@ var baseline = (o) => {
   //   var [score, best] = res
   //   console.log(best, score, tfidfMap[''+best])
   // })
-  var ranking = scores.map(s=>tfidfMap[''+s[1]])
+  var results = [];
+  var ranking = scores.map(s=>[s[0], s[1], tfidfMap[''+s[1]]])
   var rl = ranking.length
   for (var i = 0; i < rl; i++) {
-    var rank = ranking[i]
+    var [score, idx, rank] = ranking[i]
     if(rank && rank.file === o.webpage) {
-      return rank.xid
+      // results.push(rank)
+      results.push([rank.xid, score, Object.keys(tfidf.documents[idx]).join(' ')])
+      if (results.length >= 5) {
+        break
+      }
+      // return rank.xid
     }
   }
+  console.log('query', query)
+  console.log(results)
+  // return results[0].xid
+  return results[0][0]
 }
 
 
@@ -57,6 +62,7 @@ var dataset = fs.readFileSync(DATA_FILE).toString().split('\n')
     }
   })
   .filter(s=>!!s)
+// .filter(s=>s.webpage === 'about.com')
 
 
 var results = dataset
