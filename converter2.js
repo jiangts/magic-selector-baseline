@@ -14,26 +14,22 @@ var dataset = fs.readFileSync(INPUT_FILE).toString().split('\n')
 
 
 var currentSite = null;
+var currArr = []
 for(var i = 0; i < dataset.length; i++) {
   var datum = dataset[i]
   if (currentSite == null) {
-    currentSite = {
-      webpage: datum.webpage,
-      answers: [],
-      special: []
-    }
+    currentSite = datum.webpage
+    currArr = []
   }
-  if (currentSite.webpage == datum.webpage) {
-    currentSite.answers.push(datum)
-    currentSite.special.push({type:'prediction',xid:datum.prediction})
+  if (currentSite == datum.webpage) {
+    currArr.push({xid: datum.xid, answers: [
+      {phrase: datum.phrase},
+      {type:'prediction',xid:datum.prediction}
+    ]})
   } else {
-    var page = currentSite.webpage
-    fs.writeFileSync('answers/ans-'+page+'.json', JSON.stringify(currentSite))
-    currentSite = {
-      webpage: datum.webpage,
-      answers: [],
-      special: []
-    }
+    fs.writeFileSync('answers/ans-'+currentSite+'.json', JSON.stringify(currArr))
+    currentSite = datum.webpage
+    currArr = []
   }
 }
 
