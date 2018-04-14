@@ -21,17 +21,11 @@ const mapIdx = (array) => array.map((x, i) => [x, i])
 
 
 var tokenize = s => s.replace(/([A-Z])/g, ' $1').trim()
-  .toLowerCase().split(/[^\wA-Z]/g).reduce((o,e) => {
-    if (e === '') return o
-    // e = stemmer(e)
-    if (e in o) { o[e]+=1 }
-    else { o[e]=1 }
-    return o
-  }, {})
+  .toLowerCase().split(/[^\wA-Z]/g).filter(e => e.length > 1)
 
 
 var baseline = (o) => {
-  var query = Object.keys(tokenize(o.phrase))
+  var query = tokenize(o.phrase)
   var scores = mapIdx(tfidf.tfidfs(query)).sort((a,b)=>b[0]-a[0])
   // console.log(scores)
   // var best = scores[0]

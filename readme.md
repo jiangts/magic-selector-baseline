@@ -22,3 +22,9 @@ tfidf.js computes tfidf scores from all the documents output by preprocess.js.
 It outputs 2 files: one of the tfidf object, the other of each document's
 membership in each page, since queries will need to be scoped to a particular
 page...
+
+
+query.js runs the tfidf baseline
+
+
+converter2.js converts it to results...
