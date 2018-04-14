@@ -22,6 +22,7 @@ var dataset = fs.readFileSync(DATA_FILE).toString().split('\n')
 
 var tokenize = s => s.replace(/([A-Z])/g, ' $1').trim()
   .toLowerCase().split(/[^\wA-Z]/g).filter(e => e.length > 1)
+  .map(s=>stemmer(s))
 
 
 var TfIdf = natural.TfIdf;
@@ -36,7 +37,6 @@ for(var i = 0; i < documents.length; i++) {
   doc.map(d => {
     // var words = tokenize(d.attrs + ',' + d.text)
     var words = tokenize(d.text)
-    console.log(words);
     tfidf.addDocument(words)
     tfidfMap[counter] = {
       xid: d.xid,

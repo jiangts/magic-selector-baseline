@@ -28,6 +28,20 @@ var files = Object.keys(dataset.reduce((o, d) => {
 }, {}))
 
 
+var renderMap = function(visibility) {
+  visibility = visibility.info
+  return visibility.reduce((o, m) => {
+    if (m.attributes) {
+      var xid = m.attributes['data-xid']
+      if(xid) {
+        o[xid] = m
+      }
+    }
+    return o
+  }, {})
+}
+
+
 var documents =
   files.map(f => {
     return [f, fs.readFileSync(PAGE_PATH(f)).toString()]
@@ -35,14 +49,20 @@ var documents =
   .map(result => {
     var [file, html] = result
     var $ = cheerio.load(html)
+    var visibility = JSON.parse(fs.readFileSync('phrase-node-render-test2/info-'+file+'.html').toString())
+    var renderInfo = renderMap(visibility)
 
     var whitelistElements = ['a', 'span', 'button']
     var blacklistElements = ['p']
     return $('body :not(script)')
       .filter((i, elem) => {
         var tag = elem.tagName.toLowerCase();
-        console.log($(elem).attr('data-xid'))
-        return (blacklistElements.indexOf(tag) < 0) && (whitelistElements.indexOf(tag) >= 0 || elem.children.length === 0)
+        var render = renderInfo[$(elem).attr('data-xid')]
+        var rendered = (render && 'hidden' in render && 'topLevel' in render) &&
+          // render.width fails if width is 0. same for height
+          (render.width && render.height) &&
+          (render.hidden === false && render.topLevel === true)
+        return rendered && (blacklistElements.indexOf(tag) < 0) && (whitelistElements.indexOf(tag) >= 0 || elem.children.length === 0)
       })
       .map((i, el) => {
         var attrs = []

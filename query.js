@@ -1,5 +1,6 @@
 const natural = require('natural');
 const fs = require('fs')
+const stemmer = require('porter-stemmer').stemmer
 
 
 const DATA_FILE = 'dataset/data/v3.jsonl'
@@ -22,6 +23,7 @@ const mapIdx = (array) => array.map((x, i) => [x, i])
 
 var tokenize = s => s.replace(/([A-Z])/g, ' $1').trim()
   .toLowerCase().split(/[^\wA-Z]/g).filter(e => e.length > 1)
+  .map(s=>stemmer(s))
 
 
 var baseline = (o) => {
