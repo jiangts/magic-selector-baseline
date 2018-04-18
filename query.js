@@ -37,17 +37,26 @@ var baseline = (o) => {
     var [score, idx, rank] = ranking[i]
     if(rank && rank.file === o.webpage) {
       // results.push(rank)
-      results.push([rank.xid, score, Object.keys(tfidf.documents[idx]).join(' ')])
+
+      results.push({
+        xid: rank.xid,
+        score
+        // doc: Object.keys(tfidf.documents[idx]).join(' ')
+      })
       if (results.length >= 5) {
         break
       }
-      // return rank.xid
+
+      return rank.xid
     }
   }
-  console.log('query', query)
-  console.log(results)
+  //console.log('query', query)
+  //console.log(results)
+
   // return results[0].xid
-  return results[0][0]
+
+  // return results[0][0]
+  return results
 }
 
 
@@ -68,7 +77,7 @@ var dataset = fs.readFileSync(DATA_FILE).toString().split('\n')
 var results = dataset
   .map(o=>{
     var prediction = baseline(o)
-    var match = prediction === (''+o.xid)
+    var match = prediction.xid === (''+o.xid)
     console.log(`${match}\t${prediction}\t${o.xid}`)
     o.prediction = prediction
     return o
@@ -79,7 +88,7 @@ var check = (actual, predicted) => {
   // return (predicted >= actual-2 && predicted <= actual+2)
 }
 
-var correct = results.reduce((s, n) => s+=check(n.xid, parseInt(n.prediction)), 0)
+var correct = results.reduce((s, n) => s+=check(n.xid, parseInt(n.prediction.xid)), 0)
 var total = results.length
 
 console.log('correct:', correct, '\ntotal:',total, '\naccuracy', correct/total);

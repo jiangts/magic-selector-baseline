@@ -58,7 +58,7 @@ var documents =
     var renderInfo = renderMap(visibility)
 
     var whitelistElements = ['a', 'span', 'button']
-    var blacklistElements = ['p']
+    var blacklistElements = ['p', 'style', 'script', 'code', 'pre', 'small', 'center']
     return $('body :not(script)')
       .filter((i, elem) => {
         var tag = elem.tagName.toLowerCase();
@@ -81,6 +81,10 @@ var documents =
           if(nm &&
             nm==='class' ||
             nm==='id' ||
+            nm==='value' ||
+            nm==='placeholder' ||
+            nm==='name' ||
+            nm.includes('aria') ||
             nm.includes('label') ||
             nm.includes('tooltip') ||
             nm.includes('src') ||
