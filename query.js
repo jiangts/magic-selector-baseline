@@ -3,15 +3,19 @@ const fs = require('fs')
 var tokenize = require('./utils').tokenize
 
 
-const DATA_FILE = 'dataset/data/v3.jsonl'
-const OUTPUT_FILE = 'dataset/tfidf-results.jsonl'
+// const DATA_FILE = 'dataset/data/v3.jsonl'
+// const OUTPUT_FILE = 'dataset/tfidf-results.jsonl'
+
+const DIR = '../webrep/data/phrase-node-dataset/'
+const DATA_FILE = DIR+'data/v3.jsonl'
+const OUTPUT_FILE = DIR+'tfidf-results.jsonl'
 
 
 var TfIdf = natural.TfIdf;
-var s = fs.readFileSync('tfidf.json').toString()
+var s = fs.readFileSync(DIR+'tfidf.json').toString()
 var tfidf = new TfIdf(JSON.parse(s));
 
-var tfidfMap = JSON.parse(fs.readFileSync('tfidf-map.json').toString())
+var tfidfMap = JSON.parse(fs.readFileSync(DIR+'tfidf-map.json').toString())
 
 
 function argMax(array) {
@@ -47,11 +51,11 @@ var baseline = (o) => {
         break
       }
 
-      return rank.xid
+      // return rank.xid
     }
   }
-  //console.log('query', query)
-  //console.log(results)
+  console.log(query)
+  console.log(results)
 
   // return results[0].xid
 
@@ -76,10 +80,10 @@ var dataset = fs.readFileSync(DATA_FILE).toString().split('\n')
 
 var results = dataset
   .map(o=>{
-    var prediction = baseline(o)
-    var match = prediction.xid === (''+o.xid)
-    console.log(`${match}\t${prediction}\t${o.xid}`)
-    o.prediction = prediction
+    var predictions = baseline(o)
+    var match = predictions[0].xid === (''+o.xid)
+    console.log(`${match}\t${predictions[0].xid}\t${o.xid}`)
+    o.predictions = predictions
     return o
   })
 
@@ -88,7 +92,7 @@ var check = (actual, predicted) => {
   // return (predicted >= actual-2 && predicted <= actual+2)
 }
 
-var correct = results.reduce((s, n) => s+=check(n.xid, parseInt(n.prediction.xid)), 0)
+var correct = results.reduce((s, n) => s+=check(n.xid, parseInt(n.predictions[0].xid)), 0)
 var total = results.length
 
 console.log('correct:', correct, '\ntotal:',total, '\naccuracy', correct/total);

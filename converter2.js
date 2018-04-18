@@ -1,6 +1,8 @@
 const fs = require('fs');
 
-const INPUT_FILE = 'dataset/tfidf-results.jsonl'
+// const DIR='dataset/'
+const DIR = '../webrep/data/phrase-node-dataset/'
+const INPUT_FILE = DIR+'tfidf-results.jsonl'
 
 
 var dataset = fs.readFileSync(INPUT_FILE).toString().split('\n')

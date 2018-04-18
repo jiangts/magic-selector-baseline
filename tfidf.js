@@ -3,7 +3,9 @@ const fs = require('fs')
 const tokenize = require('./utils').tokenize
 
 
-const DATA_FILE = 'dataset/data/v3.jsonl'
+// const DATA_FILE = 'dataset/data/v3.jsonl'
+const DIR = '../webrep/data/phrase-node-dataset/'
+const DATA_FILE = DIR+'data/v3.jsonl'
 
 
 var documents = fs.readFileSync('all-nodes.jsonl')
@@ -56,6 +58,6 @@ for(var i = 0; i < dataset.length; i++) {
 }
 
 
-fs.writeFileSync('tfidf.json', JSON.stringify(tfidf))
-fs.writeFileSync('tfidf-map.json', JSON.stringify(tfidfMap))
+fs.writeFileSync(DIR+'tfidf.json', JSON.stringify(tfidf))
+fs.writeFileSync(DIR+'tfidf-map.json', JSON.stringify(tfidfMap))
 

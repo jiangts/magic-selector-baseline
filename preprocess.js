@@ -10,8 +10,13 @@ const tokenize = require('./utils').tokenize
 // const OUTPUT_FILE = 'dataset-v3/results.jsonl'
 // const PAGE_PATH = p => 'dataset-v3/pages/v3/'+p+'.html'
 
-const DATA_FILE = 'dataset/data/v3.jsonl'
-const PAGE_PATH = p => 'dataset/pages/v3/'+p+'.html'
+// const DATA_FILE = 'dataset/data/v3.jsonl'
+// const PAGE_PATH = p => 'dataset/pages/v3/'+p+'.html'
+
+const DIR = '../webrep/data/phrase-node-dataset/'
+const DATA_FILE = DIR+'data/v3.jsonl'
+const PAGE_PATH = p => DIR+'pages/v3/'+p+'.html'
+const OUTPUT_FILE = DIR+'all-nodes.jsonl'
 
 
 var dataset = fs.readFileSync(DATA_FILE).toString().split('\n')
@@ -106,7 +111,7 @@ var documents =
 
 
 
-fs.writeFileSync('all-nodes.jsonl',
+fs.writeFileSync(OUTPUT_FILE,
   documents.map(d=>JSON.stringify(d)).join('\n'))
 
 
