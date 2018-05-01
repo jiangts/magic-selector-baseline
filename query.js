@@ -1,14 +1,8 @@
 const natural = require('natural');
 const fs = require('fs')
 var tokenize = require('./utils').tokenize
+const { DIR, DATA_FILE, QUERY_OUTPUT } = require('./files')
 
-
-// const DATA_FILE = 'dataset/data/v3.jsonl'
-// const OUTPUT_FILE = 'dataset/tfidf-results.jsonl'
-
-const DIR = '../webrep/data/phrase-node-dataset/'
-const DATA_FILE = DIR+'data/v3.jsonl'
-const OUTPUT_FILE = DIR+'tfidf-results.jsonl'
 
 
 var TfIdf = natural.TfIdf;
@@ -97,6 +91,6 @@ var total = results.length
 
 console.log('correct:', correct, '\ntotal:',total, '\naccuracy', correct/total);
 
-fs.writeFileSync(OUTPUT_FILE, results.map(o=>JSON.stringify(o)).join('\n'))
+fs.writeFileSync(QUERY_OUTPUT, results.map(o=>JSON.stringify(o)).join('\n'))
 
 
