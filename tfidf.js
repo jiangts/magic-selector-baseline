@@ -40,7 +40,7 @@ var stopwords = [
     '2', '3', '4', '5', '6', '7', '8', '9', '0', '_'];
 
 var TfIdf = natural.TfIdf;
-TfIdf.setStopwords(stopwords)
+// TfIdf.setStopwords(stopwords)
 var tfidf = new TfIdf();
 
 

@@ -14,7 +14,9 @@
 const DIR = '../webrep/data/phrase-node-dataset/'
 const DATA_FILE = DIR+'data/combined.jsonl'
 // const DATA_FILE = DIR+'data/v3.jsonl'
-const PAGE_PATH = p => DIR+'pages/v3/'+p+'.html'
+const PAGE_PATH = (version, p) => DIR+'pages/'+version+'/'+p+'.html'
 
 const PREPROCESS_OUTPUT = DIR+'all-nodes.jsonl'
 const QUERY_OUTPUT = DIR+'tfidf-results.jsonl'
+
+module.exports = {DIR, DATA_FILE, PAGE_PATH, PREPROCESS_OUTPUT, QUERY_OUTPUT}

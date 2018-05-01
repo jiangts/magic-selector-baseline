@@ -75,8 +75,10 @@ var dataset = fs.readFileSync(DATA_FILE).toString().split('\n')
 var results = dataset
   .map(o=>{
     var predictions = baseline(o)
-    var match = predictions[0].xid === (''+o.xid)
-    console.log(`${match}\t${predictions[0].xid}\t${o.xid}`)
+    if(predictions[0]) {
+      var match = predictions[0].xid === (''+o.xid)
+      console.log(`${match}\t${predictions[0].xid}\t${o.xid}`)
+    }
     o.predictions = predictions
     return o
   })
