@@ -21,33 +21,21 @@ const mapIdx = (array) => array.map((x, i) => [x, i])
 
 var baseline = (o) => {
   var query = tokenize(o.phrase)
-  var scores = mapIdx(tfidf.tfidfs(query)).sort((a,b)=>b[0]-a[0])
-  // console.log(scores)
-  // var best = scores[0]
-  // scores.splice(0,30).map(res => {
-  //   var [score, best] = res
-  //   console.log(best, score, tfidfMap[''+best])
-  // })
-  var results = [];
-  var ranking = scores.map(s=>[s[0], s[1], tfidfMap[''+s[1]]])
-  var rl = ranking.length
-  for (var i = 0; i < rl; i++) {
-    var [score, idx, rank] = ranking[i]
-    if(rank && rank.file === o.webpage) {
-      // results.push(rank)
 
-      results.push({
-        xid: rank.xid,
-        score
-        // doc: Object.keys(tfidf.documents[idx]).join(' ')
-      })
-      if (results.length >= 5) {
-        break
-      }
+  var scores = mapIdx(tfidf.tfidfs(query))
 
-      // return rank.xid
-    }
-  }
+  var results = scores
+    .map(s=>[s[0], s[1], tfidfMap[''+s[1]]])
+    .filter(arr=>{
+      var [score, idx, rank] = arr
+      return (rank && rank.file===o.webpage)
+    })
+    .sort((a,b)=>b[0]-a[0])
+    .splice(0,5)
+    .map(arr=>{
+      var [score, idx, rank] = arr
+      return { xid: rank.xid, score }
+    })
   console.log(query)
   console.log(results)
 
